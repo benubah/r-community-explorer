@@ -1,7 +1,7 @@
-Package: rconsortiumprojects
+Package: rcommunityexplorer
 Type: Package
 Title: A way to run R scripts automatically
-Version: 0.2.5
+Version: 0.1.0
 Author: Ben C. Ubah [aut, cre]
 Maintainer: Ben C. Ubah <ubah.ben22@gmail.com>
 Imports: curl, jsonlite, meetupr 
