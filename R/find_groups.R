@@ -1,3 +1,10 @@
+# This function was initially created by R-Ladies for meetupr package.
+# I added `fields` to find_groups() arguments to retrieve optional fields
+# from Meetup API that are not retrieved by default.
+# I also updated the tibble to return past_event_counts and upcoming_event_counts which are the optional
+# fields I plan to retrieve for each group.
+
+
 find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields = NULL, api_key = NULL) {
   api_method <- "find/groups"
   res <- .fetch_results(api_method = api_method,
