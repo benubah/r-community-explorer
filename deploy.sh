@@ -14,7 +14,7 @@ commit_files() {
   # Current month and year, e.g: May 2019
   dateAndMonth=`date "+%b %Y"`
   # Stage the modified files in dist/output
-  git add -f data/rladies.csv
+  git add -f docs/data/rladies.csv
   # Create a new commit with a custom build message
   # with "[skip ci]" to avoid a build loop
   # and Travis build number for reference
