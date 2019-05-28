@@ -1,7 +1,7 @@
 library(meetupr)
 
-source("internals.R")
-source("find_groups.R")
+#source("internals.R")
+#source("find_groups.R")
 
 get_rladies <- function() {
  
