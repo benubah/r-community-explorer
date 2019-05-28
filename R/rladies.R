@@ -1,5 +1,8 @@
 library(meetupr)
 
+source("internals.R")
+source("find_groups.R")
+
 get_rladies <- function() {
  
 meetup_api_key <- Sys.getenv("MEETUP_KEY")
