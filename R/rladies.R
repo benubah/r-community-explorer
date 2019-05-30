@@ -3,7 +3,9 @@ library(meetupr)
 get_rladies <- function() {
  
 meetup_api_key <- Sys.getenv("MEETUP_KEY")
-all_rladies_groups <- find_groups(text = "r-ladies", api_key = meetup_api_key)
+ 
+# retrieve both past and upcoming event counts while finding groups
+  all_rladies_groups <- find_groups(text = "r-ladies", fields = "past_event_count, upcoming_event_count", api_key = meetup_api_key)
 
 # Cleanup
 rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",  x = all_rladies_groups$name, ignore.case = TRUE), ]  
@@ -16,7 +18,7 @@ rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",
  rladies_groups$past_events <- past_event_counts
  rladies_groups$upcoming_events <- upcoming_event_counts
  
-  col_to_keep <- c("name", "city", "country", "fullurl", "timezone", "members", "created", "past_events", "upcoming_events")
+  col_to_keep <- c("name", "city", "country",  "timezone", "members", "created", "fullurl", "past_events", "upcoming_events")
   rladies_groups <- rladies_groups[col_to_keep]
   
 write.csv(rladies_groups, "docs/data/rladies.csv")   
