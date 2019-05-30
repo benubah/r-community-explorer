@@ -2,14 +2,13 @@
 # I added `fields` to find_groups() arguments to retrieve optional fields
 # from Meetup API that are not retrieved by default.
 
-## Example usage for this `find_groups()`:
+## Example usage for this `find_groups()` to get past and upcoming event counts for all groups:
 ## all_rladies_groups <- find_groups(text = "r-ladies", fields = "past_event_count, upcoming_event_count", api_key = meetup_api_key)
 
-# I also updated the tibble to return `link`, `past_event_counts` and `upcoming_event_counts` which are the optional
-# fields I plan to retrieve for each group.
+# The values for optional fields `past_event_counts` and `upcoming_event_counts` will be retrieved in the following manner: 
+# past_events <- purrr::map_dbl(rladies_groups$resource, "past_event_count", .default = 0)
+# upcoming_events <- purrr::map_dbl(rladies_groups$resource, "upcoming_event_count", .default = 0)
 
-# One issue: `past_event_counts` and `upcoming_event_counts` return 0 in the tibble if they are not requested for as part of the query
-# in `fields` argument since they are optional fields.
 
 find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields = NULL, api_key = NULL) {
   api_method <- "find/groups"
@@ -23,7 +22,6 @@ find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields 
     id = purrr::map_int(res, "id"),
     name = purrr::map_chr(res, "name"),
     urlname = purrr::map_chr(res, "urlname"),
-    link = purrr::map_chr(res, "link"),
     created = .date_helper(purrr::map_dbl(res, "created")),
     members = purrr::map_int(res, "members"),
     status = purrr::map_chr(res, "status"),
@@ -41,8 +39,6 @@ find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields 
     organizer_name = purrr::map_chr(res, c("organizer", "name")),
     category_id = purrr::map_int(res, c("category", "id"), .null = NA),
     category_name = purrr::map_chr(res, c("category", "name"), .null = NA),
-    past_events = purrr::map_dbl(res, "past_event_count", .default = 0),
-    upcoming_events = purrr::map_dbl(res, "upcoming_event_count", .default = 0),
     resource = res
   )
 }
