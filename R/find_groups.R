@@ -9,7 +9,7 @@
 # past_events <- purrr::map_dbl(rladies_groups$resource, "past_event_count", .default = 0)
 # upcoming_events <- purrr::map_dbl(rladies_groups$resource, "upcoming_event_count", .default = 0)
 
-
+#' @export
 find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields = NULL, api_key = NULL) {
   api_method <- "find/groups"
   res <- .fetch_results(api_method = api_method,
