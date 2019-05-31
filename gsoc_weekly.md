@@ -17,7 +17,7 @@ Store resulting data in CSV/JSON files.
    3. Update `find_groups()` in `meetupr` to retrieve optional fields like `past_event_counts` and `upcoming_event_counts`
            and use it within [R/rladies.R](https://github.com/benubah/r-community-explorer/blob/master/R/rladies.R) script)
         
-   4. Submit a passing pull request to rladies/meetupr repo with the changes above
+   4. Submitted a [pull request](https://github.com/rladies/meetupr/pull/48) to rladies/meetupr repo with the changes above
    
    
 
