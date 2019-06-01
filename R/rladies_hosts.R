@@ -227,7 +227,7 @@ uniqhosts = hostsdf[!duplicated(hostsdf$hostnames), ]
 # order the records in descending order to see top hosts
 uniqhosts <- uniqhosts[order(-uniqhosts$hostcount), ]
 
-write.csv(rladies_groups, "docs/data/rladies_hosts.csv")   
+write.csv(uniqhosts, "docs/data/rladies_hosts.csv")   
 }
 
 get_rladies_hosts()
