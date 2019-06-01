@@ -1,5 +1,7 @@
 language: r
 warnings_are_errors: false
+cache: packages
+sudo: false
 
 r_packages:
    - curl
