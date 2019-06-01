@@ -19,6 +19,10 @@ Store resulting data in CSV/JSON files.
         
    4. Submitted a [pull request](https://github.com/rladies/meetupr/pull/48) to rladies/meetupr repo with the changes above
    
+   5. Created a new function `get_hosts()` in [R/rladies_hosts.R](https://github.com/benubah/r-community-explorer/blob/master/R/rladies_hosts.R) which depends on the new `find_groups()` and `get_events()` I created. `get_hosts()`
+   retrieve `event_hosts` data from all R-Ladies events, and extracts the organizer's names (host names) and host count
+   and with the help of Travis, stores them automatically in [docs/data/rladies_hosts.csv](https://github.com/benubah/r-community-explorer/blob/master/docs/data/rladies_hosts.csv) directory in descending order.
+   
    
 
 ### Week 2. 
