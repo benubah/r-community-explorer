@@ -200,7 +200,7 @@ rladies_groups <- rladies_groups[!(rladies_groups$past_events==0 | rladies_group
 urlnames <- rladies_groups$urlname 
 
 #use lapply to call the get_hosts() function for all urlnames
-all_past_events <- lapply(urlnames, get_hosts, event_status = "past", fields = "event_hosts", api_key = meetup_api_key)
+all_past_events <- lapply(urlnames[1:30], get_hosts, event_status = "past", fields = "event_hosts", api_key = meetup_api_key)
 
 hostnames  <- c()
 for (i in 1:length(all_past_events)) {
