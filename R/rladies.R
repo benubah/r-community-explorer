@@ -1,4 +1,5 @@
 library(meetupr)
+library(jsonlite)
 
 #internals.R from rladies/meetupr package
 # This helper function makes a single call, given the full API endpoint URL
