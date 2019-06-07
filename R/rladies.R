@@ -187,6 +187,7 @@ days <- function(actindex,daycount){
  alldaycount <- array(days(actindex,count_date))   # construct vector with number of new chapters per day
  names(alldaycount) <- names(count_newdate) # name entries by consecutive dates.
  cumsum_rladies <- data.frame(newdate,cumsum(alldaycount))
+ rownames(cumsum_rladies) <- c()
  colnames(cumsum_rladies) <- c("datecreated", "Freq")
  cumulative_rladies <- toJSON(cumsum_rladies, pretty = TRUE)
   writeLines(cumulative_rladies, "docs/data/rladies_cumulative.json")
