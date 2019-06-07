@@ -160,7 +160,37 @@ rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",
  rladies_groups$past_events <- past_event_counts
  rladies_groups$upcoming_events <- upcoming_event_counts
  
-  col_to_keep <- c("name", "city", "country",  "timezone", "members", "created", "fullurl", "past_events", "upcoming_events")
+  # obtain cumulative count of chapters over the years and save in JSON
+  datecreated <- as.Date(rladies_groups$created)
+  rladies_groups$created <-  datecreated
+  datefreq <- as.data.frame(table(datecreated))
+  datefreq$datecreated <- as.Date(datefreq$datecreated)
+  cumulativeCounts <- cumsum(datefreq$Freq)
+  datefreq$Freq <- cumulativeCounts
+  cumulative_rladies <- toJSON(datefreq)
+  writeLines(cumulative_rladies, "docs/data/rladies_cumulative.json")
+  
+  
+  # otain summaries around rladies groups and save in JSON
+  rladies_chapters <- dim(rladies_groups)[1]
+  rladies_countries <- length(unique(rladies_groups$country))
+  rladies_city <- length(unique(rladies_groups$city))
+  rladies_members <- sum(rladies_groups$members)
+  rladies_past_events <- sum(rladies_groups$past_events)
+  rladies_upcoming_events <- sum(rladies_groups$upcoming_events)
+  average_member_chapter <- floor(rladies_members / rladies_chapters)
+  average_chapter_country <- floor(rladies_chapters / rladies_countries)
+  average_event_chapter <- floor(rladies_past_events / rladies_chapters)
+
+  rladies_df <- data.frame(chapters = rladies_chapters, countries = rladies_countries,
+                         city = rladies_city, members = rladies_members, past_events = rladies_past_events,
+                         upcoming_events = rladies_upcoming_events, avgchapter = average_chapter_country,
+                         avgevent = average_event_chapter, avgmember = average_member_chapter)
+  rladies_json <- toJSON(rladies_df, pretty = TRUE)
+  writeLines(rladies_json, "docs/data/rladies_summary.json")
+  
+  # specify columns to retain
+  col_to_keep <- c("name", "city", "country",  "timezone", "members", "fullurl", "created", "past_events", "upcoming_events")
   rladies_groups <- rladies_groups[col_to_keep]
   
 write.csv(rladies_groups, "docs/data/rladies.csv")   
