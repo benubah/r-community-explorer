@@ -164,11 +164,31 @@ rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",
   # obtain cumulative count of chapters over the years and save in JSON
   datecreated <- as.Date(rladies_groups$created)
   rladies_groups$created <-  datecreated
-  datefreq <- as.data.frame(table(datecreated))
-  datefreq$datecreated <- as.Date(datefreq$datecreated)
-  cumulativeCounts <- cumsum(datefreq$Freq)
-  datefreq$Freq <- cumulativeCounts
-  cumulative_rladies <- toJSON(datefreq)
+  count_date <- table(datecreated)
+  # generate new vector of all days in the time frame
+newdate <- seq(datecreated[1], datecreated[length(datecreated)], by = "days") 
+
+count_newdate <- table(newdate)
+actindex <- match(names(count_newdate),names(count_date),nomatch = 0)
+days <- function(actindex,daycount){
+  n <- length(actindex)
+  x <- rep(NA,times=n)
+  zero <- 0
+  for (i in 1:n){
+    if (actindex[i]==0) {
+      zero <- zero +1
+      x[i] <- 0
+    } else {
+      x[i] <- daycount[i-zero]
+    }			
+  }
+  return(x)
+}
+ alldaycount <- array(days(actindex,count_date))   # construct vector with number of new chapters per day
+ names(alldaycount) <- names(count_newdate) # name entries by consecutive dates.
+ cumsum_rladies <- data.frame(newdate,cumsum(alldaycount))
+ colnames(cumsum_rladies) <- c("datecreated", "Freq")
+ cumulative_rladies <- toJSON(cumsum_rladies, pretty = TRUE)
   writeLines(cumulative_rladies, "docs/data/rladies_cumulative.json")
   
   
