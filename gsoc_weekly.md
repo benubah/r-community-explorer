@@ -29,6 +29,23 @@ Store resulting data in CSV/JSON files.
 
 Layout Dashboard Page for R-Ladies using HTML based template
 
+ #### Deliverables
+ 
+ 1. Improved R/rladies.R to analyze R-ladies group data and persist analyzed data in docs/data/rladies_summary.json and 
+    docs/data/rladies_cumulative.json.
+    The first JSON file holds summaries of numbers around R-Ladies chapters including countries, cities, number of chapters, 
+    past and upcoming events, etc.
+    The second JSON file holds data for a cumulative count of chapters over time till date. There were no chapter creations on
+    meetup.com between 2012 - 2016, so, data was created for this period with zero values to make the visualization resembe reality.
+    
+ 2. Provided a layout for the R-Ladies dashboard, with data widgets, a world map, list of the global leadership team, and a cumulative
+    chart showing chapter growth. This is work for next week that has been front-loaded
+    
+ 3. A dataTable enabling the searching and sorting of all R-Ladies chapters has been added to the dashboard to make locating a R-ladies
+    chapter even more easier. A user can search by country, or city, or chapter name, and also sort based on member count, or past event     and upcoming event counts. This is also work for next week front-loaded.
+    
+ 4. The web page has been deployed usng Github pages and is now available here: [R-Ladies dashboard](https://benubah.github.io/r-community-explorer/rladies.html)
+
 ### Week 3. 
 
 Use Javascript to connect CSV/JSON data to dashboard and produce visualizations
