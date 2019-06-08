@@ -46,6 +46,9 @@ Layout Dashboard Page for R-Ladies using HTML based template
     
  4. The web page has been deployed usng Github pages and is now available here: [R-Ladies dashboard](https://benubah.github.io/r-community-explorer/rladies.html)
 
+ 5. Added some more code to my pull request to rladies/meetupr package based on request from the authors.
+ 
+ 
 ### Week 3. 
 
 Use Javascript to connect CSV/JSON data to dashboard and produce visualizations
