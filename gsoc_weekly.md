@@ -36,7 +36,7 @@ Layout Dashboard Page for R-Ladies using HTML based template
     The first JSON file holds summaries of numbers around R-Ladies chapters including countries, cities, number of chapters, 
     past and upcoming events, etc.
     The second JSON file holds data for a cumulative count of chapters over time till date. There were no chapter creations on
-    meetup.com between 2012 - 2016, so, data was created for this period with zero values to make the visualization resembe reality.
+    meetup.com between 2012 - 2016, so, data was created for this period with zero values to make the visualization resemble reality.
     
  2. Provided a layout for the R-Ladies dashboard, with data widgets, a world map, list of the global leadership team, and a cumulative
     chart showing chapter growth. This is work for next week that has been front-loaded
