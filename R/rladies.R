@@ -158,6 +158,7 @@ rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",
  
   # add a full urlname, past_events and upcoming_events as another column
  rladies_groups$fullurl <- paste0("https://www.meetup.com/", rladies_groups$urlname, "/")
+ rladies_groups$url <- paste0("<a href='", rladies_groups$fullurl, "'>", rladies_groups$name, "</a>") 
  rladies_groups$past_events <- past_event_counts
  rladies_groups$upcoming_events <- upcoming_event_counts
  
@@ -213,9 +214,14 @@ days <- function(actindex,daycount){
   
   # specify columns to retain
   col_to_keep <- c("name", "city", "country",  "timezone", "members", "fullurl", "created", "past_events", "upcoming_events")
-  rladies_groups <- rladies_groups[col_to_keep]
+  rladies_groups2 <- rladies_groups[col_to_keep]
+  write.csv(rladies_groups2, "docs/data/rladies.csv")   
   
-write.csv(rladies_groups, "docs/data/rladies.csv")   
+   #for leaflet map save to geoJSON
+  col_to_keep <- c("name", "url", "lat","lon")
+  rladies_map_data <- rladies_groups[col_to_keep]
+  leafletR::toGeoJSON(data = rladies_map_data, dest = "docs/data/")
+  
 }
 
 get_rladies()
