@@ -1,0 +1,1765 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Barcelona",
+        "url": "<a href='https://www.meetup.com/rladies-barcelona/'>R-Ladies Barcelona</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.17,41.4]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Bilbao",
+        "url": "<a href='https://www.meetup.com/rladies-bilbao/'>R-Ladies Bilbao</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.93,43.25]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Ushuaia",
+        "url": "<a href='https://www.meetup.com/rladies-ushuaia/'>R-Ladies Ushuaia</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.31,-54.79]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Melbourne",
+        "url": "<a href='https://www.meetup.com/rladies-melbourne/'>R-Ladies Melbourne</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.96,-37.81]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Bariloche",
+        "url": "<a href='https://www.meetup.com/rladies-bariloche/'>R-Ladies Bariloche</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.32,-41.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Porto Alegre",
+        "url": "<a href='https://www.meetup.com/rladies-porto-alegre/'>R-Ladies Porto Alegre</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.22,-30.04]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Novi Sad",
+        "url": "<a href='https://www.meetup.com/rladies-novi-sad/'>R-Ladies Novi Sad</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.85,45.25]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Highland Park",
+        "url": "<a href='https://www.meetup.com/rladies-highland-park/'>R-Ladies Highland Park</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.43,40.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Canberra",
+        "url": "<a href='https://www.meetup.com/rladies-canberra/'>R-Ladies Canberra</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.13,-35.31]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Exeter",
+        "url": "<a href='https://www.meetup.com/rladies-exeter/'>R-Ladies Exeter</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.54,50.73]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Tiruchirappalli",
+        "url": "<a href='https://www.meetup.com/rladies-tiruchirappalli/'>R-Ladies Tiruchirappalli</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.69,10.81]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Waterloo",
+        "url": "<a href='https://www.meetup.com/rladies-waterloo/'>R-Ladies Waterloo</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.51,43.47]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Newcastle",
+        "url": "<a href='https://www.meetup.com/rladies-newcastle/'>R-Ladies Newcastle</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.6,55]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Seattle",
+        "url": "<a href='https://www.meetup.com/rladies-seattle/'>R-Ladies Seattle</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.33,47.61]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Valencia",
+        "url": "<a href='https://www.meetup.com/rladies-valencia/'>R-Ladies Valencia</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.39,39.48]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Quito",
+        "url": "<a href='https://www.meetup.com/rladies-quito/'>R-Ladies Quito</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5,-0.19]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Guayaquil",
+        "url": "<a href='https://www.meetup.com/rladies-guayaquil/'>R-Ladies Guayaquil</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.9,-2.21]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Madrid",
+        "url": "<a href='https://www.meetup.com/rladies-madrid/'>R-Ladies Madrid</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.71,40.42]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Johannesburg",
+        "url": "<a href='https://www.meetup.com/rladies-johannesburg/'>R-Ladies Johannesburg</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.04,-26.19]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Nijmegen",
+        "url": "<a href='https://www.meetup.com/rladies-nijmegen/'>R-Ladies Nijmegen</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.85,51.84]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Xalapa",
+        "url": "<a href='https://www.meetup.com/rladies-xalapa/'>R-Ladies Xalapa</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.92,19.53]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Frankfurt",
+        "url": "<a href='https://www.meetup.com/rladies-frankfurt/'>R-Ladies Frankfurt</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.68,50.12]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Copenhagen",
+        "url": "<a href='https://www.meetup.com/rladies-copenhagen/'>R-Ladies Copenhagen</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.57,55.68]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Vienna",
+        "url": "<a href='https://www.meetup.com/rladies-vienna/'>R-Ladies Vienna</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37,48.22]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Freiburg",
+        "url": "<a href='https://www.meetup.com/rladies-freiburg/'>R-Ladies Freiburg</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.85,47.99]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lyon",
+        "url": "<a href='https://www.meetup.com/rladies-lyon/'>R-Ladies Lyon</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.83,45.76]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lausanne",
+        "url": "<a href='https://www.meetup.com/rladies-lausanne/'>R-Ladies Lausanne</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.62,46.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Linz",
+        "url": "<a href='https://www.meetup.com/rladies-linz/'>R-Ladies Linz</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.29,48.31]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Kyiv",
+        "url": "<a href='https://www.meetup.com/rladies-kyiv/'>R-Ladies Kyiv</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.52,50.44]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Stockholm",
+        "url": "<a href='https://www.meetup.com/rladies-stockholm/'>R-Ladies Stockholm</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.07,59.33]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Iowa City",
+        "url": "<a href='https://www.meetup.com/rladies-iowa-city/'>R-Ladies Iowa City</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.53,41.66]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Houston",
+        "url": "<a href='https://www.meetup.com/rladies-houston/'>R-Ladies Houston</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.22,29.72]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Beijing",
+        "url": "<a href='https://www.meetup.com/rladies-beijing/'>R-Ladies Beijing</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4,39.93]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Victoria",
+        "url": "<a href='https://www.meetup.com/rladies-victoria/'>R-Ladies Victoria</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.29,48.46]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Pasadena",
+        "url": "<a href='https://www.meetup.com/rladies-pasadena/'>R-Ladies Pasadena</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.14,34.15]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Perth",
+        "url": "<a href='https://www.meetup.com/rladies-perth/'>R-Ladies Perth</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.84,-31.96]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies London",
+        "url": "<a href='https://www.meetup.com/rladies-london/'>R-Ladies London</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1,51.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Berlin",
+        "url": "<a href='https://www.meetup.com/rladies-berlin/'>R-Ladies Berlin</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.38,52.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Rotterdam",
+        "url": "<a href='https://www.meetup.com/rladies-rotterdam/'>R-Ladies Rotterdam</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.48,51.93]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Auckland",
+        "url": "<a href='https://www.meetup.com/rladies-auckland/'>R-Ladies Auckland</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.76,-36.85]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Niterói",
+        "url": "<a href='https://www.meetup.com/rladies-niteroi/'>R-Ladies Niterói</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.13,-22.9]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Edinburgh",
+        "url": "<a href='https://www.meetup.com/rladies-edinburgh/'>R-Ladies Edinburgh</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.22,55.95]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lavras",
+        "url": "<a href='https://www.meetup.com/rladies-lavras/'>R-Ladies Lavras</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-45.01,-21.25]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Rabat",
+        "url": "<a href='https://www.meetup.com/rladies-rabat/'>R-Ladies Rabat</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.83,34.02]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Belgrade",
+        "url": "<a href='https://www.meetup.com/rladies-belgrade/'>R-Ladies Belgrade</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.5,44.83]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Bucharest",
+        "url": "<a href='https://www.meetup.com/rladies-bucharest/'>R-Ladies Bucharest</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.1,44.44]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Utrecht",
+        "url": "<a href='https://www.meetup.com/rladies-utrecht/'>R-Ladies Utrecht</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.11,52.1]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Salvador",
+        "url": "<a href='https://www.meetup.com/rladies-salvador/'>R-Ladies Salvador</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5,-12.97]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lima",
+        "url": "<a href='https://www.meetup.com/rladies-lima/'>R-Ladies Lima</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.05,-12.07]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies East Lansing",
+        "url": "<a href='https://www.meetup.com/rladies-eastlansing/'>R-Ladies East Lansing</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49,42.65]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Cincinnati",
+        "url": "<a href='https://www.meetup.com/rladies-cincinnati/'>R-Ladies Cincinnati</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.5,39.11]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Tallahassee",
+        "url": "<a href='https://www.meetup.com/rladies-tallahassee/'>R-Ladies Tallahassee</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.26,30.43]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Louisville",
+        "url": "<a href='https://www.meetup.com/rladies-louisville/'>R-Ladies Louisville</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.75,38.26]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Montgomery",
+        "url": "<a href='https://www.meetup.com/rladies-montgomery/'>R-Ladies Montgomery</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.33,32.4]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Hong Kong",
+        "url": "<a href='https://www.meetup.com/rladies-hong-kong/'>R-Ladies Hong Kong</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.14,22.27]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Toronto",
+        "url": "<a href='https://www.meetup.com/rladies-toronto/'>R-Ladies Toronto</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.36,43.74]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lancaster",
+        "url": "<a href='https://www.meetup.com/rladies-lancaster/'>R-Ladies Lancaster</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.8,54.05]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Montpellier",
+        "url": "<a href='https://www.meetup.com/rladies-montpellier/'>R-Ladies Montpellier</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.87,43.61]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Baltimore",
+        "url": "<a href='https://www.meetup.com/rladies-baltimore/'>R-Ladies Baltimore</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.62,39.29]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Brisbane",
+        "url": "<a href='https://www.meetup.com/rladies-brisbane/'>R-Ladies Brisbane</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.02,-27.46]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Kathmandu",
+        "url": "<a href='https://www.meetup.com/rladies-kathmandu/'>R-Ladies Kathmandu</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.31,27.71]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Santa Barbara",
+        "url": "<a href='https://www.meetup.com/rladies-santa-barbara/'>R-Ladies Santa Barbara</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.71,34.42]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Des Moines",
+        "url": "<a href='https://www.meetup.com/rladies-des-moines/'>R-Ladies Des Moines</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.63,41.6]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Natal",
+        "url": "<a href='https://www.meetup.com/rladies-natal/'>R-Ladies Natal</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-35.22,-5.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Wageningen",
+        "url": "<a href='https://www.meetup.com/rladies-wageningen/'>R-Ladies Wageningen</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.67,51.98]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Oslo",
+        "url": "<a href='https://www.meetup.com/rladies-oslo/'>R-Ladies Oslo</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.75,59.91]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Goiânia",
+        "url": "<a href='https://www.meetup.com/rladies-goiania/'>R-Ladies Goiânia</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.26,-16.72]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Boulder",
+        "url": "<a href='https://www.meetup.com/rladies-boulder/'>R-Ladies Boulder</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.21,40.05]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Christchurch",
+        "url": "<a href='https://www.meetup.com/rladies-christchurch/'>R-Ladies Christchurch</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.64,-43.53]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Columbus",
+        "url": "<a href='https://www.meetup.com/rladies-columbus/'>R-Ladies Columbus</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.02,40.01]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Amsterdam",
+        "url": "<a href='https://www.meetup.com/rladies-amsterdam/'>R-Ladies Amsterdam</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.89,52.37]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Mendoza",
+        "url": "<a href='https://www.meetup.com/rladies-mendoza/'>R-Ladies Mendoza</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.83,-32.89]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Sydney",
+        "url": "<a href='https://www.meetup.com/rladies-sydney/'>R-Ladies Sydney</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.21,-33.87]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Helsinki",
+        "url": "<a href='https://www.meetup.com/rladies-helsinki/'>R-Ladies Helsinki</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.94,60.17]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Gainesville",
+        "url": "<a href='https://www.meetup.com/rladies-gainesville/'>R-Ladies Gainesville</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.3,29.65]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Addis Ababa",
+        "url": "<a href='https://www.meetup.com/rladies-addis-ababa/'>R-Ladies Addis Ababa</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.74,9.03]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Tampa",
+        "url": "<a href='https://www.meetup.com/rladies-tampa/'>R-Ladies Tampa</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.34,27.98]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Cotonou",
+        "url": "<a href='https://www.meetup.com/rladies-cotonou/'>R-Ladies Cotonou</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.44,6.36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Munich",
+        "url": "<a href='https://www.meetup.com/rladies-munich/'>R-Ladies Munich</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.58,48.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Atlanta",
+        "url": "<a href='https://www.meetup.com/rladies-atlanta/'>R-Ladies Atlanta</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4,33.86]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Memphis",
+        "url": "<a href='https://www.meetup.com/rladies-memphis/'>R-Ladies Memphis</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.96,35.07]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Springfield",
+        "url": "<a href='https://www.meetup.com/rladies-springfield/'>R-Ladies Springfield</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.29,37.13]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Dallas",
+        "url": "<a href='https://www.meetup.com/rladies-dallas/'>R-Ladies Dallas</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.8,32.79]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies El Paso",
+        "url": "<a href='https://www.meetup.com/rladies-el-paso/'>R-Ladies El Paso</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.49,31.76]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Remote",
+        "url": "<a href='https://www.meetup.com/rladies-remote/'>R-Ladies Remote</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.42,37.78]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Chicago",
+        "url": "<a href='https://www.meetup.com/rladies-chicago/'>R-Ladies Chicago</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.62,41.88]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Leuven",
+        "url": "<a href='https://www.meetup.com/rladies-leuven/'>R-Ladies Leuven</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.7,50.88]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Liverpool",
+        "url": "<a href='https://www.meetup.com/rladies-liverpool/'>R-Ladies Liverpool</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.99,53.42]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Córdoba",
+        "url": "<a href='https://www.meetup.com/rladies-cordoba/'>R-Ladies Córdoba</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-64.19,-31.4]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Los Angeles",
+        "url": "<a href='https://www.meetup.com/rladies-la/'>R-Ladies Los Angeles</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.45,34.07]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Philly",
+        "url": "<a href='https://www.meetup.com/rladies-philly/'>R-Ladies Philly</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.01,40.12]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Manchester",
+        "url": "<a href='https://www.meetup.com/rladies-manchester/'>R-Ladies Manchester</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.23,53.47]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Resistencia-Corrientes",
+        "url": "<a href='https://www.meetup.com/rladies-resistencia-corrientes/'>R-Ladies Resistencia-Corrientes</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.81,-27.49]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Loughborough",
+        "url": "<a href='https://www.meetup.com/rladies-loughborough/'>R-Ladies Loughborough</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.22,52.77]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies La Plata",
+        "url": "<a href='https://www.meetup.com/rladies-la-plata/'>R-Ladies La Plata</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.96,-34.92]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Boston",
+        "url": "<a href='https://www.meetup.com/rladies-boston/'>R-Ladies Boston</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.07,42.36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Ames",
+        "url": "<a href='https://www.meetup.com/rladies-ames/'>R-Ladies Ames</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.64,42.03]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Montevideo",
+        "url": "<a href='https://www.meetup.com/rladies-montevideo/'>R-Ladies Montevideo</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-56.17,-34.87]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies London, Ontario",
+        "url": "<a href='https://www.meetup.com/rladies-ldnont/'>R-Ladies London, Ontario</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.18,43.01]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Santa Rosa",
+        "url": "<a href='https://www.meetup.com/rladies-santa-rosa/'>R-Ladies Santa Rosa</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-64.3,-36.62]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Vancouver",
+        "url": "<a href='https://www.meetup.com/rladies-vancouver/'>R-Ladies Vancouver</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.04,49.28]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Cambridge",
+        "url": "<a href='https://www.meetup.com/rladies-cambridge/'>R-Ladies Cambridge</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.11,52.2]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Paris",
+        "url": "<a href='https://www.meetup.com/rladies-paris/'>R-Ladies Paris</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34,48.86]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies San Jose",
+        "url": "<a href='https://www.meetup.com/rladies-san-jose/'>R-Ladies San Jose</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.08,9.93]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Tbilisi",
+        "url": "<a href='https://www.meetup.com/rladies-tbilisi/'>R-Ladies Tbilisi</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.79,41.72]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Santa Fe",
+        "url": "<a href='https://www.meetup.com/rladies-santa-fe/'>R-Ladies Santa Fe</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-60.69,-31.6]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Buenos Aires",
+        "url": "<a href='https://www.meetup.com/rladies-buenos-aires/'>R-Ladies Buenos Aires</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.37,-34.61]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Montreal",
+        "url": "<a href='https://www.meetup.com/rladies-montreal/'>R-Ladies Montreal</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.6,45.53]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Nashville",
+        "url": "<a href='https://www.meetup.com/rladies-nashville/'>R-Ladies Nashville</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.78,36.17]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Irvine",
+        "url": "<a href='https://www.meetup.com/rladies-irvine/'>R-Ladies Irvine</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.84,33.65]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies La Paz",
+        "url": "<a href='https://www.meetup.com/rladies-la-paz/'>R-Ladies La Paz</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.15,-16.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Sarasota",
+        "url": "<a href='https://www.meetup.com/rladies-sarasota/'>R-Ladies Sarasota</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.52,27.41]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Santiago",
+        "url": "<a href='https://www.meetup.com/rladies-scl/'>R-Ladies Santiago</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.64,-33.46]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies São Paulo",
+        "url": "<a href='https://www.meetup.com/rladies-sao-paulo/'>R-Ladies São Paulo</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.63,-23.53]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Dublin",
+        "url": "<a href='https://www.meetup.com/rladies-dublin/'>R-Ladies Dublin</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.25,53.33]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Rio de Janeiro",
+        "url": "<a href='https://www.meetup.com/rladies-rio/'>R-Ladies Rio de Janeiro</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.2,-22.91]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Miami",
+        "url": "<a href='https://www.meetup.com/rladies-miami/'>R-Ladies Miami</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2,25.78]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies San Diego",
+        "url": "<a href='https://www.meetup.com/rladies-san-diego/'>R-Ladies San Diego</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.17,32.75]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Brussels",
+        "url": "<a href='https://www.meetup.com/rladies-brussels/'>R-Ladies Brussels</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.33,50.83]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Chennai",
+        "url": "<a href='https://www.meetup.com/rladies-chennai/'>R-Ladies Chennai</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.27,13.09]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Charlottesville",
+        "url": "<a href='https://www.meetup.com/rladies-charlottesville/'>R-Ladies Charlottesville</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.46,38]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Cape Town",
+        "url": "<a href='https://www.meetup.com/rladies-cape-town/'>R-Ladies Cape Town</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.46,-33.93]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Orlando",
+        "url": "<a href='https://www.meetup.com/rladies-orlando/'>R-Ladies Orlando</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.37,28.54]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Strasbourg",
+        "url": "<a href='https://www.meetup.com/rladies-strasbourg/'>R-Ladies Strasbourg</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.75,48.58]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Curitiba",
+        "url": "<a href='https://www.meetup.com/rladies-curitiba/'>R-Ladies Curitiba</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.29,-25.42]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies San Francisco",
+        "url": "<a href='https://www.meetup.com/rladies-san-francisco/'>R-Ladies San Francisco</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4,37.79]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies RTP",
+        "url": "<a href='https://www.meetup.com/rladies-rtp/'>R-Ladies RTP</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.9,36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Montenegro",
+        "url": "<a href='https://www.meetup.com/rladies-montenegro/'>R-Ladies Montenegro</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.53,42.46]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Portland, Maine",
+        "url": "<a href='https://www.meetup.com/rladies-portland-maine/'>R-Ladies Portland, Maine</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.26,43.66]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Tucson AZ",
+        "url": "<a href='https://www.meetup.com/rladies-tucson-az/'>R-Ladies Tucson AZ</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.97,32.22]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Washington D.C.",
+        "url": "<a href='https://www.meetup.com/rladies-dc/'>R-Ladies Washington D.C.</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.02,38.91]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Valparaíso",
+        "url": "<a href='https://www.meetup.com/rladies-valparaiso/'>R-Ladies Valparaíso</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.64,-33.04]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Belo Horizonte",
+        "url": "<a href='https://www.meetup.com/rladiesbh/'>R-Ladies Belo Horizonte</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.94,-19.92]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Bari",
+        "url": "<a href='https://www.meetup.com/rladies-bari/'>R-Ladies Bari</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.87,41.13]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Milan",
+        "url": "<a href='https://www.meetup.com/rladies-milan/'>R-Ladies Milan</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.19,45.46]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies New York",
+        "url": "<a href='https://www.meetup.com/rladies-newyork/'>R-Ladies New York</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99,40.75]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Ottawa",
+        "url": "<a href='https://www.meetup.com/rladies-ottawa/'>R-Ladies Ottawa</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.69,45.45]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Buffalo",
+        "url": "<a href='https://www.meetup.com/rladies-buffalo/'>R-Ladies Buffalo</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.88,42.9]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies CDMX",
+        "url": "<a href='https://www.meetup.com/rladies-cdmx/'>R-Ladies CDMX</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.14,19.43]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lisboa",
+        "url": "<a href='https://www.meetup.com/rladies-lisboa/'>R-Ladies Lisboa</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14,38.72]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Taipei",
+        "url": "<a href='https://www.meetup.com/rladies-taipei/'>R-Ladies Taipei</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.45,25.02]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies St. Louis",
+        "url": "<a href='https://www.meetup.com/rladies-st-louis/'>R-Ladies St. Louis</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.19,38.63]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Americana",
+        "url": "<a href='https://www.meetup.com/rladies-americana/'>R-Ladies Americana</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.33,-22.75]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies PDX",
+        "url": "<a href='https://www.meetup.com/rladies-pdx/'>R-Ladies PDX</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.69,45.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spotkania Entuzjastów R-Warsaw RUG Meetup & R-Ladies Warsaw",
+        "url": "<a href='https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/'>Spotkania Entuzjastów R-Warsaw RUG Meetup & R-Ladies Warsaw</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.02,52.26]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Twin Cities",
+        "url": "<a href='https://www.meetup.com/rladies-tc/'>R-Ladies Twin Cities</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.22,44.94]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Madison",
+        "url": "<a href='https://www.meetup.com/R-Ladies-Madison/'>R-Ladies Madison</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.38,43.07]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Istanbul",
+        "url": "<a href='https://www.meetup.com/rladies-istanbul/'>R-Ladies Istanbul</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.96,41.01]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Connecticut",
+        "url": "<a href='https://www.meetup.com/rladies-connecticut/'>R-Ladies Connecticut</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.67,41.79]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Budapest",
+        "url": "<a href='https://www.meetup.com/rladies-budapest/'>R-Ladies Budapest</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.08,47.51]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Austin",
+        "url": "<a href='https://www.meetup.com/rladies-austin/'>R-Ladies Austin</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.75,30.22]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Floripa",
+        "url": "<a href='https://www.meetup.com/rladies-florianopolis/'>R-Ladies Floripa</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.54,-27.6]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Den Bosch",
+        "url": "<a href='https://www.meetup.com/rladies-den-bosch/'>R-Ladies Den Bosch</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.3,51.7]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Bogor",
+        "url": "<a href='https://www.meetup.com/rladies-bogor/'>R-Ladies Bogor</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.79,-6.58]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Nelson",
+        "url": "<a href='https://www.meetup.com/rladies-nelson/'>R-Ladies Nelson</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [173.24,-41.29]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Queretaro",
+        "url": "<a href='https://www.meetup.com/rladies-queretaro/'>R-Ladies Queretaro</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.4,20.59]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Concepción",
+        "url": "<a href='https://www.meetup.com/rladies-concepcion/'>R-Ladies Concepción</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.05,-36.83]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Adelaide",
+        "url": "<a href='https://www.meetup.com/rladies-adelaide/'>R-Ladies Adelaide</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.6,-34.93]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies İzmiR",
+        "url": "<a href='https://www.meetup.com/rladies-izmir/'>R-Ladies İzmiR</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.15,38.43]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Bogotá",
+        "url": "<a href='https://www.meetup.com/rladies-bogota/'>R-Ladies Bogotá</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.09,4.63]
+      }
+    }
+  ]
+}
