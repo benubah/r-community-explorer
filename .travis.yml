@@ -6,6 +6,7 @@ sudo: false
 r_packages:
    - curl
    - jsonlite
+   - leafletR
 
 r_github_packages: rladies/meetupr
 
