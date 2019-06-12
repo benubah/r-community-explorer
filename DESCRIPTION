@@ -4,6 +4,6 @@ Title: A way to run R scripts automatically
 Version: 0.1.0
 Author: Ben C. Ubah [aut, cre]
 Maintainer: Ben C. Ubah <ubah.ben22@gmail.com>
-Imports: curl, jsonlite, meetupr 
+Imports: curl, jsonlite, meetupr, leafletR 
 Description: Run R scripts.
 License: GPL-2
