@@ -218,10 +218,8 @@ days <- function(actindex,daycount){
   write.csv(rladies_groups2, "docs/data/rladies.csv")   
   
    #for leaflet map save to geoJSON
-  col_to_keep <- c("name", "url", "lat","lon")
+  col_to_keep <- c("url", "created", "members", "past_events", "upcoming_events", "lat","lon")
   rladies_map_data <- rladies_groups[col_to_keep]
-  leafletR::toGeoJSON(data = rladies_map_data, dest = "docs/data/")
-  
+  leafletR::toGeoJSON(data = rladies_map_data, dest = "docs/data/") 
 }
-
 get_rladies()
