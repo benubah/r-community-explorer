@@ -21,6 +21,7 @@ commit_files() {
   git add -f docs/data/rladies_hosts.csv
   git add -f docs/data/rladies_summary.json
   git add -f docs/data/rladies_cumulative.json
+  git add -f docs/data/rladies_map_data.geojson
   # Create a new commit with a custom build message
   # with "[skip ci]" to avoid a build loop
   # and Travis build number for reference
