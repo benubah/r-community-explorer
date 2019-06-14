@@ -53,6 +53,33 @@ Layout Dashboard Page for R-Ladies using HTML based template
 
 Use Javascript to connect CSV/JSON data to dashboard and produce visualizations
 
+1. Reviewed feedback from mentors. 
+
+   - Adjusted sidebar to move away from toggle icon. 
+   
+   - Added a scrollable 'Global Team' list just below 'Global Leadership Team'
+
+   - Removed echarts.js map - as it did not turn out very suitable. Recoded it into a binary map (it is yet to be decided where it would be placed or if it would be needed).
+
+2. Explored and learnt about the `leaflet.js` Javascript charting library. Explored and learnt about GeoJSON data format. Explored the `leafletR` R package (especially the `toGeoJSON()` function that turns a data.frame with `lat` and `lon` data to GeoJSON.   Tried out a few examples of `leafletR` and the `leaflet.js` library. Found a way using Travis to drop a `.geojson` file (from `leafletR`) of the R-Ladies groups in the `docs/data/` directory of the project's repository. It gets interesting thence!
+
+Create leaflet map using this `.geoson` file. Find a map that looks quite different from the default from carto.com
+
+3. Explore leaflet awesome markers javascript package for custom markers - marker color and icons. Add it to the project. Include custom markers on the leaflet map.
+
+
+4. Update rladies_summary.json file to contain a summary of member data for each region. Create a rose chart of this data and display on the dashboard.
+
+Prettify the Cumulative growth charts for better visual appeal.
+
+
+5. Update my `find_groups()` call in rladies.R to get `last_event` date for each group. Update rladies.R to process this variable into a date. Use this variable in the `.geoson` `feature.properties` to determine marker colors for those chapters that are inactive, unbegun and active.
+
+Bind more information in each leaflet marker. Include calls in the marker to R-ladies community members to 'Become an organizer' for those chapters that are unbegun or inactive.
+
+Find the new dashboard here: https://benubah.github.io/r-community-explorer/rladies.html
+
+
 ### Week 4. 
 
 Mentors review, evaluate, and feedback.
