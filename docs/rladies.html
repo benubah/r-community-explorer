@@ -15,6 +15,9 @@
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="leaflet-1.5.1/leaflet.css"/>
+<link rel="stylesheet" href="leaflet-awesome-markers/dist/leaflet.awesome-markers.css">
+
     
     <!-- Custom Theme Style -->
     <link href="css/custom.min.css" rel="stylesheet">
@@ -26,6 +29,8 @@
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/dataTables.bootstrap.js"></script>
     <script src="js/csv_to_html_table.js"></script>
+<script src="leaflet-1.5.1/leaflet.js"></script>
+    <script src="leaflet-awesome-markers/dist/leaflet.awesome-markers.js"></script>
 
 <style>  
 
@@ -35,6 +40,18 @@
         box-sizing: border-box;
     }
 .nav.side-menu>li.active>a{text-shadow:rgba(0,0,0,.25) 0 -1px 0;background:linear-gradient(white,white),#424040;color:purple; box-shadow:rgba(0,0,0,.25) 0 1px 0,inset rgba(255,255,255,.20) 0 1px 0}
+
+ .awesome-marker i {
+        font-size: 10px;
+        margin-top: 13px;
+        
+    }
+
+.col-md-9-5 { width: 79.96667%; }
+.col-md-2-5 { width: 22.83333%; }
+.col-sm-9-5 { width: 79.96667%; }
+.col-sm-2-5 { width: 22.83333%; }
+
   </style>   
 
   </head>
@@ -183,17 +200,17 @@
 
  window.onload = function(){
 d3.json("data/rladies_summary.json").then(function(data) {
-//console.log(data[0].chapters);
+//console.log(data[0][0].chapters);
 
-document.getElementById('chapters').innerHTML = data[0].chapters; 
-document.getElementById('members').innerHTML = data[0].members;
-document.getElementById('countries').innerHTML = data[0].countries;
-document.getElementById('city').innerHTML = data[0].city;
-document.getElementById('pastevents').innerHTML = data[0].past_events;
-document.getElementById('upcomingevents').innerHTML = data[0].upcoming_events;
-document.getElementById('avgchapter').innerHTML = data[0].avgchapter;
-document.getElementById('avgevent').innerHTML = data[0].avgevent;
-document.getElementById('avgmember').innerHTML = data[0].avgmember;
+document.getElementById('chapters').innerHTML = data[0][0].chapters; 
+document.getElementById('members').innerHTML = data[0][0].members;
+document.getElementById('countries').innerHTML = data[0][0].countries;
+document.getElementById('city').innerHTML = data[0][0].city;
+document.getElementById('pastevents').innerHTML = data[0][0].past_events;
+document.getElementById('upcomingevents').innerHTML = data[0][0].upcoming_events;
+document.getElementById('avgchapter').innerHTML = data[0][0].avgchapter;
+document.getElementById('avgevent').innerHTML = data[0][0].avgevent;
+document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
 
 });
 };
@@ -251,12 +268,14 @@ document.getElementById('avgmember').innerHTML = data[0].avgmember;
 
                   </div>
                   <div class="x_content" >
-                    <div class="col-md-9 col-sm-9 col-xs-12" style="margin:0px 20px 0px -20px;">
+                    <div class="col-md-9-5 col-sm-9-5 col-xs-12" style="margin:0px -5px 0px -30px;">
                       
 <!-- map goes here -->
                  <div class="x_content" >
-<div id = "rladies_world_map" style="height:490px; width:100%;" ></div>
-                    
+<!-- <div id = "rladies_world_map" style="height:490px; width:100%;" ></div> -->
+<div id="lfmap" style="height:680px; width:100%;" ></div>
+
+
                   </div>
                 
 <!-- map ends here -->
@@ -283,7 +302,7 @@ document.getElementById('avgmember').innerHTML = data[0].avgmember;
 
                     </div>
 
-                    <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="col-md-2-5 col-sm-2-5 col-xs-12">
                       <div>
                         <div class="x_title">
                           <h2>Global Leadership Team</h2>
@@ -346,10 +365,9 @@ document.getElementById('avgmember').innerHTML = data[0].avgmember;
                       </div>
                     </div>
 
-
-<div class="col-md-3 col-sm-12 col-xs-12">
+<div class="col-md-2-5 col-sm-2-5 col-xs-12">
 <div class="x_title">
-                          <h2>Global Team</h2>
+                          <h2><br/>Global Team</h2>
                                <div class="clearfix"></div>
                         </div>
                       <div style="height: 250px;overflow-y:scroll;"
@@ -513,9 +531,9 @@ document.getElementById('avgmember').innerHTML = data[0].avgmember;
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-<!--
-              <div id="rcon_chart2" style="height:400px; position: relative; overflow: hidden;"></div>
--->
+
+              <div id="region_chart" style="height:400px;"></div>
+
                   </div>
                 </div>
               </div>
@@ -583,6 +601,26 @@ document.getElementById('avgmember').innerHTML = data[0].avgmember;
                   </div>
                 </div>
               </div>
+
+<div class="col-md-8 col-sm-8 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Member Count Across Regions</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+       <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+              <div id="member_pie" style="height:400px;"></div>
+
+                  </div>
+                </div>
+              </div>
+
+
 <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
@@ -698,7 +736,7 @@ document.getElementById('avgmember').innerHTML = data[0].avgmember;
 <script src="js/d3/d3.min.js"></script>
 <script src="js/lodash-4.17.10/package/lodash.min.js"></script>
 <script src="js/echarts/echarts.js"></script>
-
+   
 
  <!-- Custom Theme Scripts -->
     <script src="js/echarts/custom.min.js"></script>
