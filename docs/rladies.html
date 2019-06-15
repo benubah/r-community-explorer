@@ -264,6 +264,13 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
                 <div class="x_panel">
                   <div class="x_title">
                     <h2>R-Ladies Chapters<small>Worldwide</small></h2>
+<div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                   
+   <i class="glyphicon glyphicon-calendar fa fa-globe"></i>
+   
+ <span><a href="rladies-large-map.html">View Larger Map</a></span>
+                    </div>
+
       <div class="clearfix"></div>
 
                   </div>
@@ -282,21 +289,34 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
          <div class="clearfix"></div>
                       <div class="tiles">
                         <div class="col-md-4 tile">
+<div class="icon" style="color:orange"><i class="fa fa-map-marker" style="font-size:48px"></i> Unbegun
+                          </div>
+<br/>
                           <span>Average Member Per Chapter</span>
                           <h2 id="avgmember"></h2>
-                          <span class="sparkline11 graph" style="height: 160px;"><canvas style="display: inline-block; width: 198px; height: 40px; vertical-align: top;" width="198" height="40"></canvas></span>
+                          
+
                         </div>
                         <div class="col-md-4 tile">
+<div class="icon" style="color:#593869"><i class="fa fa-map-marker" style="font-size:48px"></i> Inactive
+                          </div>
+<br/>
                           <span>Average Chapters per Country</span>
                           <h2 id="avgchapter"></h2>
 
-                          <span class="sparkline22 graph" style="height: 160px;"><canvas style="display: inline-block; width: 200px; height: 40px; vertical-align: top;" width="200" height="40"></canvas></span>
+                          
+
                         </div>
                         <div class="col-md-4 tile">
+
+<div class="icon" style="color:#d252b9"><i class="fa fa-map-marker" style="font-size:48px"></i> Active
+                          </div>
+<br/>
                           <span>Average Event Per Chapter</span>
                           <h2 id="avgevent"></h2>
 
-                          <span class="sparkline11 graph" style="height: 160px;"><canvas style="display: inline-block; width: 198px; height: 40px; vertical-align: top;" width="198" height="40"></canvas></span>
+                          
+
                         </div>
                       </div>
 
@@ -370,7 +390,7 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
                           <h2><br/>Global Team</h2>
                                <div class="clearfix"></div>
                         </div>
-                      <div style="height: 250px;overflow-y:scroll;"
+                      <div style="height: 370px;overflow-y:scroll;"
 >
                         
                         <ul class="list-unstyled top_profiles scroll-view">
