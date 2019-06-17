@@ -197,8 +197,7 @@
             <div class="clearfix"></div>
 
 <script>
-
- window.onload = function(){
+ $(document).ready(function() {
 d3.json("data/rladies_summary.json").then(function(data) {
 //console.log(data[0][0].chapters);
 
@@ -213,7 +212,7 @@ document.getElementById('avgevent').innerHTML = data[0][0].avgevent;
 document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
 
 });
-};
+});
 
 
  
@@ -576,10 +575,133 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
                    <!-- <div id="echart_pie_q" style="height:400px;"></div> -->
 <div id="myTabContent2" class="tab-content">
                         <div role="tabpanel" class="tab-pane fade active in" id="tab_content11" aria-labelledby="home-tab">
-                          <p>Contents goes here</p>
+
+<table id="top-members" class="display table-hover" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th>Name of Chapter</th>
+          <th>Members</th>
+         </tr>
+      </thead>
+    </table>
+
+
+<script>
+
+         $(document).ready(function() {
+
+d3.csv('data/rladies.csv').then(function(data) {
+ var cleandata = data.map(function(d) {
+    var cleanD = {};
+    d3.keys(d).forEach(function(k) {
+      cleanD[_.trim(k)] = _.trim(d[k]);
+    });
+    return cleanD;
+  });
+// convert member attribute to integer
+ cleandata.forEach(function(d) {
+    d.members  = +d.members;
+      });
+//console.log(cleandata);
+
+var sorteddata = cleandata.sort(function(x, y){
+   return d3.descending(x.members, y.members) });
+
+
+
+group_name  = [];
+members  = [];
+var length = (sorteddata ).length;
+for (var i = 0; i < length; i++) {
+    group_name.push(sorteddata [i].name);
+    members.push(sorteddata [i].members);
+
+}
+//console.log(ddd);
+
+$('#top-members').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
+  [group_name[0], members[0]],[group_name[1], members[1]],
+  [group_name[2], members[2]],[group_name[3], members[3]],
+[group_name[4], members[4]],[group_name[5], members[5]],
+[group_name[6], members[6]],[group_name[7], members[7]],
+[group_name[8], members[8]],[group_name[9], members[9]], [group_name[10], members[10]],[group_name[11], members[11]],
+  [group_name[12], members[12]],[group_name[13], members[13]],
+[group_name[14], members[14]],[group_name[15], members[15]],
+[group_name[16], members[16]],[group_name[17], members[17]],
+[group_name[18], members[18]],[group_name[19], members[19]]
+
+]);
+
+});
+});
+</script>
+
+
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab_content22" aria-labelledby="profile-tab">
-                          <p>Content goes here</p>
+
+<table id="top-events" class="display table-striped table-hover" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th>Name of Chapter</th>
+          <th>Number of Events</th>
+         </tr>
+      </thead>
+    </table>
+
+<script>
+
+         $(document).ready(function() {
+
+d3.csv('data/rladies.csv').then(function(data) {
+ var cleandata = data.map(function(d) {
+    var cleanD = {};
+    d3.keys(d).forEach(function(k) {
+      cleanD[_.trim(k)] = _.trim(d[k]);
+    });
+    return cleanD;
+  });
+
+ cleandata.forEach(function(d) {
+    d.past_events  = +d.past_events;
+      });
+//console.log(cleandata);
+
+var sorteddata = cleandata.sort(function(x, y){
+   return d3.descending(x.past_events, y.past_events) });
+
+
+
+group_name  = [];
+events  = [];
+var length = (sorteddata ).length;
+for (var i = 0; i < length; i++) {
+    group_name.push(sorteddata [i].name);
+    events.push(sorteddata [i].past_events);
+
+}
+//console.log(ddd);
+
+$('#top-events').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
+  [group_name[0], events[0]],[group_name[1], events[1]],
+  [group_name[2], events[2]],[group_name[3], events[3]],
+[group_name[4], events[4]],[group_name[5], events[5]],
+[group_name[6], events[6]],[group_name[7], events[7]],
+[group_name[8], events[8]],[group_name[9], events[9]], [group_name[10], events[10]],[group_name[11], events[11]],
+  [group_name[12], events[12]],[group_name[13], events[13]],
+[group_name[14], events[14]],[group_name[15], events[15]],
+[group_name[16], events[16]],[group_name[17], events[17]],
+[group_name[18], events[18]],[group_name[19], events[19]]
+
+]);
+
+});
+});
+</script>
+
+
+
+
                         </div>
                       </div>
 
@@ -615,9 +737,54 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
                     </ul>
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content">
+                  <div class="x_content" style="height:400px;">
 <!-- content goes here
               -->
+<table id="hosts" class="display table-hover" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th>Name of Organizer</th>
+          <th>Events</th>
+         </tr>
+      </thead>
+    </table>
+
+<script>
+         $(document).ready(function() {
+
+d3.csv('data/rladies_hosts.csv').then(function(data) {
+ var cleandata = data.map(function(d) {
+    var cleanD = {};
+    d3.keys(d).forEach(function(k) {
+      cleanD[_.trim(k)] = _.trim(d[k]);
+    });
+    return cleanD;
+  });
+//console.log(cleandata);
+organizers = [];
+events = [];
+var length = (cleandata).length;
+for (var i = 0; i < length-150; i++) {
+    organizers.push(cleandata[i].hostnames);
+    events.push(cleandata[i].hostcount);
+
+}
+
+$('#hosts').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
+  [organizers[0], events[0]],[organizers[1], events[1]],
+  [organizers[2], events[2]],[organizers[3], events[3]],
+[organizers[4], events[4]],[organizers[5], events[5]],
+[organizers[6], events[6]],[organizers[7], events[7]],
+[organizers[8], events[8]],[organizers[9], events[9]], [organizers[11], events[11]],
+  [organizers[12], events[12]],[organizers[13], events[13]],
+[organizers[14], events[14]],[organizers[15], events[15]],
+[organizers[16], events[16]],[organizers[17], events[17]],
+[organizers[18], events[18]],[organizers[19], events[19]]
+]);
+
+});
+});
+</script>
                   </div>
                 </div>
               </div>
@@ -769,4 +936,3 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
 	
   </body>
 </html>
-
