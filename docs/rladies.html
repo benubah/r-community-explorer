@@ -91,7 +91,7 @@
 <li><a><i class="fa fa-line-chart"></i> R User Groups <span class="fa fa-chevron-right"></span></a>
                                       </li>
 
-                                           <li><a><i class="fa fa-area-chart"></i> R-Ladies Chapters<span class="fa fa-chevron-right"></span></a>
+                                           <li><a href="rladies.html"><i class="fa fa-area-chart"></i> R-Ladies Chapters<span class="fa fa-chevron-right"></span></a>
                                       </li>
 
                                   </ul>
@@ -577,11 +577,10 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
                                       </div>
                   <div class="x_content">
 
-                   <!-- <div id="echart_pie_q" style="height:400px;"></div> -->
 <div id="myTabContent2" class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content11" aria-labelledby="home-tab">
+                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content11" aria-labelledby="home-tab" style="height:100%;">
 
-<table id="top-members" class="display table-hover" cellspacing="0" width="100%">
+<table id="top-members" class="display table-hover" cellspacing="0" width="100%" >
       <thead>
         <tr>
           <th>Name of Chapter</th>
@@ -624,7 +623,7 @@ for (var i = 0; i < length; i++) {
 }
 //console.log(ddd);
 
-$('#top-members').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
+$('#top-members').dataTable({ "order": [[1, 'desc']], "searching": false }).fnAddData( [
   [group_name[0], members[0]],[group_name[1], members[1]],
   [group_name[2], members[2]],[group_name[3], members[3]],
 [group_name[4], members[4]],[group_name[5], members[5]],
@@ -645,7 +644,7 @@ $('#top-members').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab_content22" aria-labelledby="profile-tab">
 
-<table id="top-events" class="display table-striped table-hover" cellspacing="0" width="100%">
+<table id="top-events" class="display table-hover" cellspacing="0" width="100%">
       <thead>
         <tr>
           <th>Name of Chapter</th>
@@ -687,7 +686,7 @@ for (var i = 0; i < length; i++) {
 }
 //console.log(ddd);
 
-$('#top-events').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
+$('#top-events').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( [
   [group_name[0], events[0]],[group_name[1], events[1]],
   [group_name[2], events[2]],[group_name[3], events[3]],
 [group_name[4], events[4]],[group_name[5], events[5]],
@@ -742,7 +741,8 @@ $('#top-events').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
                     </ul>
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content" style="height:400px;">
+                  <div class="x_content" style="min-height:400px; ">
+
 <!-- content goes here
               -->
 <table id="hosts" class="display table-hover" cellspacing="0" width="100%">
@@ -775,12 +775,12 @@ for (var i = 0; i < length-150; i++) {
 
 }
 
-$('#hosts').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
+$('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( [
   [organizers[0], events[0]],[organizers[1], events[1]],
   [organizers[2], events[2]],[organizers[3], events[3]],
 [organizers[4], events[4]],[organizers[5], events[5]],
 [organizers[6], events[6]],[organizers[7], events[7]],
-[organizers[8], events[8]],[organizers[9], events[9]], [organizers[11], events[11]],
+[organizers[8], events[8]],[organizers[9], events[9]], [organizers[10], events[10]], [organizers[11], events[11]],
   [organizers[12], events[12]],[organizers[13], events[13]],
 [organizers[14], events[14]],[organizers[15], events[15]],
 [organizers[16], events[16]],[organizers[17], events[17]],
@@ -831,6 +831,21 @@ $('#hosts').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
                   </div>
                 </div>
               </div>
+<div class="col-md-12 col-sm-12 col-xs-12" >
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Chapters Across Countries</h2>
+                   <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content" style="margin:0px 0px 0px -60px;">
+
+
+              <div id="rladies_country_chart" style="height:400px; width:100%">
+</div>
+
+                  </div>
+                </div>
+              </div>
 
 
               <div class="col-md-12 col-sm-12 col-xs-12">
@@ -858,7 +873,7 @@ $('#hosts').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
   }
       
       init_table({
-        csv_path: 'https://raw.githubusercontent.com/benubah/r-community-explorer/master/docs/data/rladies.csv', 
+        csv_path: 'data/rladies.csv', 
         element: 'table-container', 
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
