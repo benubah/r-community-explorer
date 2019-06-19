@@ -288,7 +288,8 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
          <div class="clearfix"></div>
                       <div class="tiles">
                         <div class="col-md-4 tile">
-<div class="icon" style="color:orange"><i class="fa fa-map-marker" style="font-size:48px"></i> Unbegun
+<div class="icon" style="color:orange"><i class="fa fa-map-marker" style="font-size:48px"></i> 
+<div id="unbegun" class="col-md-3" style="display:inline-block"></div>
                           </div>
 <br/>
                           <span>Average Member Per Chapter</span>
@@ -297,7 +298,8 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
 
                         </div>
                         <div class="col-md-4 tile">
-<div class="icon" style="color:#593869"><i class="fa fa-map-marker" style="font-size:48px"></i> Inactive
+<div class="icon" style="color:#593869"><i class="fa fa-map-marker" style="font-size:48px">
+</i> <div id="inactive" class="col-md-3 " style="display:inline-block"></div>
                           </div>
 <br/>
                           <span>Average Chapters per Country</span>
@@ -308,7 +310,9 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
                         </div>
                         <div class="col-md-4 tile">
 
-<div class="icon" style="color:#d252b9"><i class="fa fa-map-marker" style="font-size:48px"></i> Active
+<div class="icon" style="color:#d252b9"><i class="fa fa-map-marker" style="font-size:48px"></i> 
+
+<div id="active" class="col-md-3" style="display:inline-block"></div>
                           </div>
 <br/>
                           <span>Average Event Per Chapter</span>
@@ -894,7 +898,7 @@ $('#hosts').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-		  <a href="https://github.com/benubah/r-community-explorer"><b> R Community Explorer</b></a>
+            R Community Explorer <a href="#"></a>
           </div>
           <div class="clearfix"></div>
         </footer>
@@ -930,9 +934,6 @@ $('#hosts').dataTable({ "order": [[1, 'desc']] }).fnAddData( [
 <script src="js/echarts/map/js/world.js"></script>
 
 <script src="js/jquery.csv.min.js"></script>
-    
-
-
-	
+   	
   </body>
 </html>
