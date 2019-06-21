@@ -84,6 +84,14 @@ Find the new dashboard here: https://benubah.github.io/r-community-explorer/rlad
 
 Mentors review, evaluate, and feedback.
 
+1. Make correction of assigning co-founder to all global leadership team members
+
+2. Update code to count inactive, active and unbegun groups and display same below the map.
+
+3. Update map code to calculate 'Months Inactive' for Inactive groups based on their last date of event. Also, for Unbegun groups based on their creation date (since they have had no event).
+
+4. Add a country chart - visualizing the number of chapters across all 47 countries.
+
 
 ## Weekly plan for Second Coding Month of GSoC 2019 (R User Groups Dashboard)
 
