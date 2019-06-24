@@ -9,6 +9,7 @@ Primary data source for this work is the API of meetup.com; other sources are pl
 
 This project uses the `meetupr` package basically to query the Meetup API. It renders the dashboards using Genetelella Admin Bootstrap Dashboard template.
 
+It is completely data-driven and is updated daily by the use of Travis' Cron jobs.
 
 ## R-Ladies Dashboard
 
