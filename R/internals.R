@@ -1,14 +1,17 @@
+# internals.R from rladies/meetupr package
 # This helper function makes a single call, given the full API endpoint URL
 # Used as the workhorse function inside .fetch_results() below
 .quick_fetch <- function(api_url,
                          api_key = NULL,
                          event_status = NULL,
+                         offset = 0,
                          ...) {
   
   # list of parameters
   parameters <- list(key = api_key,         # your api_key
                      status = event_status, # you need to add the status
                      # otherwise it will get only the upcoming event
+                     offset = offset,
                      ...                    # other parameters
   )
   
@@ -44,6 +47,7 @@
   res <- .quick_fetch(api_url = api_url,
                       api_key = api_key,
                       event_status = event_status,
+                      offset = 0,
                       ...)
   
   # Total number of records matching the query
@@ -52,23 +56,23 @@
   records <- res$result
   cat(paste("Downloading", total_records, "record(s)..."))
   
-  # If you have not yet retrieved all records, calculate the # of remaining calls required
-  extra_calls <- ifelse(
-    (length(records) < total_records) & !is.null(res$headers$link),
-    floor(total_records/length(records)),
-    0)
-  if (extra_calls > 0) {
-    all_records <- list(records)
-    for (i in seq(extra_calls)) {
-      # Keep making API requests with an increasing offset value until you get all the records
-      # TO DO: clean this strsplit up or replace with regex
+    if((length(records) < total_records) & !is.null(res$headers$link)){
       
-      next_url <- strsplit(strsplit(res$headers$link, split = "<")[[1]][2], split = ">")[[1]][1]
-      res <- .quick_fetch(next_url, api_key, event_status)
-      all_records[[i + 1]] <- res$result
+      # calculate number of offsets for records above 200
+      offsetn <- ceiling(total_records/length(records))
+      all_records <- list(records)
+      
+      for(i in 1:(offsetn - 1)) {
+        res <- .quick_fetch(api_url = api_url,
+                            api_key = api_key,
+                            event_status = event_status,
+                            offset = i,
+                            ...)
+        all_records[[i + 1]] <- res$result
+      }
+      records <- unlist(all_records, recursive = FALSE)
+      
     }
-    records <- unlist(all_records, recursive = FALSE)
-  }
   
   return(records)
 }
