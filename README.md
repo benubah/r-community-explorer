@@ -14,3 +14,5 @@ It is completely data-driven and is updated daily by the use of Travis' Cron job
 ## R-Ladies Dashboard
 
 https://benubah.github.io/r-community-explorer/rladies.html
+
+![image](rladies.png)
