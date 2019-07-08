@@ -239,6 +239,66 @@ days <- function(actindex,daycount){
   rugs_map_data <- r_groups[col_to_keep]
   leafletR::toGeoJSON(data = rugs_map_data, dest = "docs/data/")
   
+  # obtain summaries around R groups and save in JSON
+  rugs_chapters <- dim(r_groups)[1]
+  rugs_countries <- length(unique(r_groups$country))
+  rugs_city <- length(unique(r_groups$city))
+  rugs_members <- sum(r_groups$members)
+  rugs_past_events <- sum(r_groups$past_events)
+  rugs_upcoming_events <- sum(r_groups$upcoming_events)
+  average_member_chapter <- floor(rugs_members / rugs_chapters)
+  average_chapter_country <- floor(rugs_chapters / rugs_countries)
+  average_event_chapter <- floor(rugs_past_events / rugs_chapters)
+
+  rugs_df <- data.frame(chapters = rugs_chapters, countries = rugs_countries,
+                         city = rugs_city, members = rugs_members, past_events = rugs_past_events,
+                         upcoming_events = rugs_upcoming_events, avgchapter = average_chapter_country,
+                         avgevent = average_event_chapter, avgmember = average_member_chapter)
+  
+  # select latin american groups
+  latam <- sort(unique(r_groups[grep("America", r_groups$timezone),]$country))
+  latam_groups <- r_groups[r_groups$country %in% latam,]
+  lt <- dim(latam_groups)[1]
+  lt_members <- sum(latam_groups$members)
+  
+  # Europe
+  europe <- sort(unique(r_groups[grep("Europe", r_groups$timezone),]$country))
+  eu_groups <- r_groups[r_groups$country %in% europe,]
+  eu <- dim(eu_groups)[1]
+  eu_members <- sum(eu_groups$members)
+  
+  # USA and Canada
+  canada <- sort(unique(r_groups[grep("Canada", r_groups$timezone),]$country))
+  canada_groups <- r_groups[r_groups$country %in% canada,]
+  usa_groups <- r_groups[r_groups$country %in% "USA",]
+  us_canada <- dim(canada_groups)[1] + dim(usa_groups)[1]
+  us_can_members <- sum(usa_groups$members) + sum(canada_groups$members)
+  
+  
+  # Africa
+  africa <- sort(unique(r_groups[grep("Africa", r_groups$timezone),]$country))
+  africa_groups <- r_groups[r_groups$country %in% africa,]
+  af <- dim(africa_groups)[1]
+  af_members <- sum(africa_groups$members)
+  
+  # Asia
+  asia <- sort(unique(r_groups[grep("Asia", r_groups$timezone),]$country))
+  asia_groups <- r_groups[r_groups$country %in% asia,]
+  as <- dim(asia_groups)[1]
+  as_members <- sum(asia_groups$members)
+  
+  #  Australia/Oceania
+  australia <- sort(unique(r_groups[grep("Australia|Pacific/Auckland", r_groups$timezone),]$country))
+  australia_groups <- r_groups[r_groups$country %in% australia,]
+  au <- dim(australia_groups)[1]
+  au_members <- sum(australia_groups$members)
+  
+  continent_df <- data.frame(latinAm = lt, us_can = us_canada, eur = eu, afr = af, asia = as, aus = au,
+                             latinAm_m = lt_members, us_can_m = us_can_members, eur_m = eu_members, afr_m = af_members, asia_m = as_members, aus_m = au_members)
+  
+  rugs_json <- jsonlite::toJSON(list(rugs_df,continent_df), auto_unbox = FALSE, pretty = TRUE)
+  writeLines(rugs_json, "docs/data/rugs_summary.json")
+  
 }
 
 get_rugs()
