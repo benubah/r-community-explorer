@@ -184,15 +184,43 @@ total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_r
 #(note that these are other data-science user group names that end with r, they produce a combination of 'r-user' in urlnames)
 r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biomarker-labs|strugglers", tolower(total_ruser_groups$urlname)),]
 
-  
-  datecreated <- as.Date(r_groups$created)
-  r_groups$created <-  datecreated
+  r_groups$created <-  as.Date(r_groups$created)
   past_event_counts <- purrr::map_dbl(r_groups$resource, "past_event_count", .default = 0)
   upcoming_event_counts <- purrr::map_dbl(r_groups$resource, "upcoming_event_count", .default = 0)
   last <- lapply(r_groups$resource, "[[", "last_event")
   last_event <- .date_helper(purrr::map_dbl(last, "time", .default = 0))
   last_event <- as.Date(last_event)
   days_since_last_event  <- as.integer(Sys.Date() - last_event)
+  
+   # obtain cumulative count of chapters over the years and save in JSON
+ datecreated <- sort(as.Date(r_groups$created))
+  count_date <- table(datecreated)
+  # generate new vector of all days in the time frame
+newdate <- seq(datecreated[1], datecreated[length(datecreated)], by = "days") 
+
+count_newdate <- table(newdate)
+actindex <- match(names(count_newdate),names(count_date),nomatch = 0)
+days <- function(actindex,daycount){
+  n <- length(actindex)
+  x <- rep(NA,times=n)
+  zero <- 0
+  for (i in 1:n){
+    if (actindex[i]==0) {
+      zero <- zero +1
+      x[i] <- 0
+    } else {
+      x[i] <- daycount[i-zero]
+    }			
+  }
+  return(x)
+}
+ alldaycount <- array(days(actindex,count_date))   # construct vector with number of new chapters per day
+ names(alldaycount) <- names(count_newdate) # name entries by consecutive dates.
+ cumsum_rgroups <- data.frame(newdate,cumsum(alldaycount))
+ rownames(cumsum_rgroups) <- c()
+ colnames(cumsum_rgroups) <- c("datecreated", "Freq")
+ cumulative_rgroups <- toJSON(cumsum_rgroups, pretty = TRUE)
+  writeLines(cumulative_rgroups, "docs/data/rugs_cumulative.json")
   
   # add a full urlname, past_events and upcoming_events as another column
    r_groups$fullurl <- paste0("https://www.meetup.com/", r_groups$urlname, "/")
@@ -208,8 +236,8 @@ r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biom
   
   #for leaflet map save to geoJSON
   col_to_keep <- c("name", "url", "created", "members","past_events","upcoming_events", "last_event", "days_since_last_event", "lat","lon")
-  rgroups_map_data <- r_groups[col_to_keep]
-  leafletR::toGeoJSON(data = rgroups_map_data, dest = "docs/data/")
+  rugs_map_data <- r_groups[col_to_keep]
+  leafletR::toGeoJSON(data = rugs_map_data, dest = "docs/data/")
   
 }
 
