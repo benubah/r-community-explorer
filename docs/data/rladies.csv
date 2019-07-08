@@ -9,13 +9,13 @@
 "8","R-Ladies Highland Park","Highland Park","USA","US/Eastern",33,"https://www.meetup.com/rladies-highland-park/",2016-09-02,1,0
 "9","R-Ladies Canberra","Canberra","Australia","Australia/Canberra",109,"https://www.meetup.com/rladies-canberra/",2016-09-02,5,0
 "10","R-Ladies Tiruchirappalli","Tiruchchirappalli","India","Asia/Calcutta",151,"https://www.meetup.com/rladies-tiruchirappalli/",2016-09-06,1,0
-"11","R-Ladies Waterloo","Waterloo","Canada","Canada/Eastern",47,"https://www.meetup.com/rladies-waterloo/",2016-09-16,0,0
-"12","R-Ladies Quito","Quito","Ecuador","America/Guayaquil",689,"https://www.meetup.com/rladies-quito/",2016-09-19,8,0
-"13","R-Ladies Seattle","Seattle","USA","US/Pacific",533,"https://www.meetup.com/rladies-seattle/",2016-09-28,21,1
-"14","R-Ladies Newcastle","Newcastle Upon Tyne","United Kingdom","Europe/London",132,"https://www.meetup.com/rladies-newcastle/",2016-10-04,3,1
-"15","R-Ladies Valencia","Valencia","Spain","Europe/Madrid",34,"https://www.meetup.com/rladies-valencia/",2016-10-09,0,0
-"16","R-Ladies Exeter","Exeter","United Kingdom","Europe/London",9,"https://www.meetup.com/rladies-exeter/",2016-10-22,0,0
-"17","R-Ladies Guayaquil","Guayaquil","Ecuador","America/Guayaquil",302,"https://www.meetup.com/rladies-guayaquil/",2016-10-23,3,0
+"11","R-Ladies Seattle","Seattle","USA","US/Pacific",533,"https://www.meetup.com/rladies-seattle/",2016-09-16,21,1
+"12","R-Ladies Newcastle","Newcastle Upon Tyne","United Kingdom","Europe/London",132,"https://www.meetup.com/rladies-newcastle/",2016-09-19,3,1
+"13","R-Ladies Valencia","Valencia","Spain","Europe/Madrid",34,"https://www.meetup.com/rladies-valencia/",2016-09-28,0,0
+"14","R-Ladies Exeter","Exeter","United Kingdom","Europe/London",9,"https://www.meetup.com/rladies-exeter/",2016-10-04,0,0
+"15","R-Ladies Waterloo","Waterloo","Canada","Canada/Eastern",47,"https://www.meetup.com/rladies-waterloo/",2016-10-09,0,0
+"16","R-Ladies Guayaquil","Guayaquil","Ecuador","America/Guayaquil",302,"https://www.meetup.com/rladies-guayaquil/",2016-10-22,3,0
+"17","R-Ladies Quito","Quito","Ecuador","America/Guayaquil",689,"https://www.meetup.com/rladies-quito/",2016-10-23,8,0
 "18","R-Ladies Madrid","Madrid","Spain","Europe/Madrid",1227,"https://www.meetup.com/rladies-madrid/",2016-10-26,30,0
 "19","R-Ladies Johannesburg","Johannesburg","South Africa","Africa/Johannesburg",358,"https://www.meetup.com/rladies-johannesburg/",2016-10-31,11,0
 "20","R-Ladies Frankfurt","Frankfurt","Germany","Europe/Berlin",62,"https://www.meetup.com/rladies-frankfurt/",2016-11-09,3,1
@@ -50,7 +50,7 @@
 "49","R-Ladies Montgomery","Montgomery","USA","US/Central",11,"https://www.meetup.com/rladies-montgomery/",2017-08-28,0,0
 "50","R-Ladies Iowa City","Iowa City","USA","US/Central",68,"https://www.meetup.com/rladies-iowa-city/",2017-09-14,3,0
 "51","R-Ladies Xalapa","Xalapa","Mexico","America/Mexico_City",151,"https://www.meetup.com/rladies-xalapa/",2017-09-15,8,0
-"52","R-Ladies Denver","Denver","USA","US/Mountain",27,"https://www.meetup.com/rladies-denver/",2017-09-15,0,0
+"52","R-Ladies Denver","Denver","USA","US/Mountain",28,"https://www.meetup.com/rladies-denver/",2017-09-15,0,0
 "53","R-Ladies Beijing","Beijing","China","Asia/Shanghai",29,"https://www.meetup.com/rladies-beijing/",2017-09-21,0,0
 "54","R-Ladies Jakarta","Jakarta","Indonesia","Asia/Jakarta",17,"https://www.meetup.com/rladies-jakarta/",2017-09-22,0,0
 "55","R-Ladies Hong Kong","Hong Kong","Hong Kong","Asia/Shanghai",30,"https://www.meetup.com/rladies-hong-kong/",2017-09-25,0,0
@@ -75,7 +75,7 @@
 "74","R-Ladies Helsinki","Helsinki","Finland","Europe/Helsinki",206,"https://www.meetup.com/rladies-helsinki/",2017-12-14,7,0
 "75","R-Ladies Columbus","Columbus","USA","US/Eastern",646,"https://www.meetup.com/rladies-columbus/",2018-01-25,26,0
 "76","R-Ladies Gainesville","Gainesville","USA","US/Eastern",174,"https://www.meetup.com/rladies-gainesville/",2018-01-26,10,1
-"77","R-Ladies Tampa","Tampa","USA","US/Eastern",176,"https://www.meetup.com/rladies-tampa/",2018-02-10,13,1
+"77","R-Ladies Tampa","Tampa","USA","US/Eastern",177,"https://www.meetup.com/rladies-tampa/",2018-02-10,13,1
 "78","R-Ladies Cotonou","Cotonou","Benin","Africa/Porto-Novo",88,"https://www.meetup.com/rladies-cotonou/",2018-02-10,0,0
 "79","R-Ladies Addis Ababa","Addis Abeba","Ethiopia","Africa/Addis_Ababa",367,"https://www.meetup.com/rladies-addis-ababa/",2018-02-10,13,0
 "80","R-Ladies Munich","München","Germany","Europe/Berlin",255,"https://www.meetup.com/rladies-munich/",2018-02-23,7,0
@@ -118,7 +118,7 @@
 "117","R-Ladies Santiago","Santiago","Chile","America/Santiago",1310,"https://www.meetup.com/rladies-scl/",2018-06-19,21,0
 "118","R-Ladies São Paulo","São Paulo","Brazil","America/Sao_Paulo",434,"https://www.meetup.com/rladies-sao-paulo/",2018-07-04,10,0
 "119","R-Ladies San Diego","San Diego","USA","US/Pacific",399,"https://www.meetup.com/rladies-san-diego/",2018-07-20,23,2
-"120","R-Ladies Rio de Janeiro","Rio de Janeiro","Brazil","America/Sao_Paulo",408,"https://www.meetup.com/rladies-rio/",2018-07-23,4,0
+"120","R-Ladies Rio de Janeiro","Rio de Janeiro","Brazil","America/Sao_Paulo",407,"https://www.meetup.com/rladies-rio/",2018-07-23,4,0
 "121","R-Ladies Chennai","Chennai","India","Asia/Calcutta",311,"https://www.meetup.com/rladies-chennai/",2018-07-27,5,0
 "122","R-Ladies Charlottesville","Charlottesville","USA","US/Eastern",144,"https://www.meetup.com/rladies-charlottesville/",2018-07-30,13,0
 "123","R-Ladies Cape Town","Cape Town","South Africa","Africa/Johannesburg",503,"https://www.meetup.com/rladies-cape-town/",2018-08-03,18,0
@@ -129,10 +129,10 @@
 "128","R-Ladies Curitiba","Curitiba","Brazil","America/Sao_Paulo",167,"https://www.meetup.com/rladies-curitiba/",2018-09-17,1,0
 "129","R-Ladies San Francisco","San Francisco","USA","US/Pacific",1405,"https://www.meetup.com/rladies-san-francisco/",2018-09-18,52,2
 "130","R-Ladies RTP","Durham","USA","US/Eastern",591,"https://www.meetup.com/rladies-rtp/",2018-09-18,37,1
-"131","R-Ladies Montenegro","HN","Montenegro","Europe/Podgorica",84,"https://www.meetup.com/rladies-montenegro/",2018-09-23,1,0
-"132","R-Ladies Portland, Maine","Portland","USA","US/Eastern",22,"https://www.meetup.com/rladies-portland-maine/",2018-10-01,0,0
-"133","R-Ladies Tucson AZ","Tucson","USA","US/Arizona",188,"https://www.meetup.com/rladies-tucson-az/",2018-10-17,7,0
-"134","R-Ladies Washington D.C.","Washington","USA","US/Eastern",1390,"https://www.meetup.com/rladies-dc/",2018-10-23,37,1
+"131","R-Ladies Tucson AZ","Tucson","USA","US/Arizona",188,"https://www.meetup.com/rladies-tucson-az/",2018-09-23,7,0
+"132","R-Ladies Washington D.C.","Washington","USA","US/Eastern",1390,"https://www.meetup.com/rladies-dc/",2018-10-01,37,1
+"133","R-Ladies Montenegro","HN","Montenegro","Europe/Podgorica",84,"https://www.meetup.com/rladies-montenegro/",2018-10-17,1,0
+"134","R-Ladies Portland, Maine","Portland","USA","US/Eastern",22,"https://www.meetup.com/rladies-portland-maine/",2018-10-23,0,0
 "135","R-Ladies Valparaíso","Valparaíso","Chile","America/Santiago",87,"https://www.meetup.com/rladies-valparaiso/",2018-10-23,1,0
 "136","R-Ladies Belo Horizonte","Belo Horizonte","Brazil","America/Sao_Paulo",587,"https://www.meetup.com/rladiesbh/",2018-10-29,6,0
 "137","R-Ladies Bari","Bari","Italy","Europe/Rome",34,"https://www.meetup.com/rladies-bari/",2018-12-05,6,0
