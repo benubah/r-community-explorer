@@ -206,6 +206,11 @@ r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biom
   r_groups2 <- r_groups[col_to_keep]
   write.csv(r_groups2, "docs/data/rugs.csv")   
   
+  #for leaflet map save to geoJSON
+  col_to_keep <- c("name", "url", "created", "members","past_events","upcoming_events", "last_event", "days_since_last_event", "lat","lon")
+  rgroups_map_data <- r_groups[col_to_keep]
+  leafletR::toGeoJSON(data = rgroups_map_data, dest = "docs/data/")
+  
 }
 
 get_rugs()
