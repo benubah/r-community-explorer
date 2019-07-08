@@ -172,7 +172,7 @@ rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",
  
   # obtain cumulative count of chapters over the years and save in JSON
  datecreated <- sort(as.Date(rladies_groups$created))
-  rladies_groups$created <-  datecreated
+  rladies_groups$created <-  as.Date(datecreated)
   count_date <- table(datecreated)
   # generate new vector of all days in the time frame
 newdate <- seq(datecreated[1], datecreated[length(datecreated)], by = "days") 
