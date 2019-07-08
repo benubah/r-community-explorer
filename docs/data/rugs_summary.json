@@ -1,1 +1,31 @@
-
+[
+  [
+    {
+      "chapters": 577,
+      "countries": 71,
+      "city": 327,
+      "members": 476223,
+      "past_events": 12657,
+      "upcoming_events": 270,
+      "avgchapter": 8,
+      "avgevent": 21,
+      "avgmember": 825
+    }
+  ],
+  [
+    {
+      "latinAm": 63,
+      "us_can": 223,
+      "eur": 183,
+      "afr": 19,
+      "asia": 64,
+      "aus": 25,
+      "latinAm_m": 30110,
+      "us_can_m": 233719,
+      "eur_m": 130650,
+      "afr_m": 9860,
+      "asia_m": 53897,
+      "aus_m": 17987
+    }
+  ]
+]
