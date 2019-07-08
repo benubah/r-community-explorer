@@ -153,11 +153,60 @@ find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields 
 
 
 get_rugs <- function() {
-meetup_api_key <- Sys.getenv("MEETUP_KEY")
- 
-# retrieve both past and upcoming event counts while finding groups
-all_ruser_groups <- find_groups(text = "r-project-for-statistical-computing", fields = "past_event_count, upcoming_event_count, last_event, topics", api_key = meetup_api_key)
+  meetup_api_key <- Sys.getenv("MEETUP_KEY")
+  # retrieve both past and upcoming event counts, last_event and topics while finding groups that mention 'r-project-for-statisctical-computing'
+  all_ruser_groups <- find_groups(text = "r-project-for-statistical-computing", fields = "past_event_count, upcoming_event_count, last_event, topics", api_key = meetup_api_key)
 
+  # retrieve all data science groups
+  all_ds_groups <- find_groups(text = "data-science", fields = "past_event_count, upcoming_event_count, last_event, topics", api_key = meetup_api_key)
+ 
+  # Just check if groups are listed multiple times with different leading or trailing spaces
+  trim.strings <- function(x, side = "both") { 
+    if (is.na(match(side, c("both", "leading", "trailing")))) { 
+      side <- "both" 
+   } 
+   if (side == "leading") { 
+      sub("^\\s+", "", x)
+   } else {
+     if (side == "trailing") {
+       sub("\\s+$", "", x)
+     } else gsub("^\\s+|\\s+$", "", x)
+   } 
+  } 
+  
+  r_user_groups1 <- all_ds_groups[grepl("-user-|-r-|phillyr|boston-user|r-users-sydney|rug|scotland-data|bioconductor|r-data|data-mining|satrday", tolower(all_ds_groups$urlname)),]
+r_user_groups2 <- all_ds_groups[grepl("r user|r-user|r-ladies|r ladies|rladies|r-lab|phillyr|rug|bioconductor|r-data|rug", tolower(all_ds_groups$urlname)),]
+combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2)
+filtered_group1 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$resource)),]
+combined_ruser_groups2 <-  rbind(filtered_group1, all_ruser_groups)
+total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_ruser_groups2$urlname)),]
+
+#Groups to filter out: Rapidminer user group, Looker user group, Jupyter user group, SQL Server User group, Biomarker Labs, 
+#(note that these are other data-science user group names that end with r, they produce a combination of 'r-user' in urlnames)
+r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biomarker-labs|strugglers", tolower(total_ruser_groups$urlname)),]
+
+  
+  datecreated <- sort(as.Date(r_groups$created))
+  r_groups$created <-  datecreated
+  past_event_counts <- purrr::map_dbl(r_groups$resource, "past_event_count", .default = 0)
+  upcoming_event_counts <- purrr::map_dbl(r_groups$resource, "upcoming_event_count", .default = 0)
+  last <- lapply(r_groups$resource, "[[", "last_event")
+  last_event <- .date_helper(purrr::map_dbl(last, "time", .default = 0))
+  last_event <- as.Date(last_event)
+  days_since_last_event  <- as.integer(Sys.Date() - last_event)
+  
+  # add a full urlname, past_events and upcoming_events as another column
+   r_groups$fullurl <- paste0("https://www.meetup.com/", r_groups$urlname, "/")
+   r_groups$url <- paste0("<a href='", r_groups$fullurl, "'>", r_groups$name, "</a>") 
+   r_groups$past_events <- past_event_counts
+   r_groups$upcoming_events <- upcoming_event_counts
+  r_groups$last_event <- last_event
+  r_groups$days_since_last_event <- days_since_last_event
+  # specify columns to retain
+  col_to_keep <- c("name", "city", "country",  "timezone", "members", "fullurl", "created", "past_events", "upcoming_events")
+  r_groups2 <- r_groups[col_to_keep]
+  write.csv(r_groups2, "docs/data/rugs.csv")   
+  
 }
 
 get_rugs()
