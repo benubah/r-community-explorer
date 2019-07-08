@@ -185,7 +185,7 @@ total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_r
 r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biomarker-labs|strugglers", tolower(total_ruser_groups$urlname)),]
 
   
-  datecreated <- sort(as.Date(r_groups$created))
+  datecreated <- as.Date(r_groups$created)
   r_groups$created <-  datecreated
   past_event_counts <- purrr::map_dbl(r_groups$resource, "past_event_count", .default = 0)
   upcoming_event_counts <- purrr::map_dbl(r_groups$resource, "upcoming_event_count", .default = 0)
