@@ -155,6 +155,14 @@ get_rugs <- function() {
   meetup_api_key <- Sys.getenv("MEETUP_KEY")
   # retrieve both past and upcoming event counts, last_event and topics while finding groups that mention 'r-project-for-statisctical-computing'
   all_ruser_groups <- find_groups(text = "r-project-for-statistical-computing", fields = "past_event_count, upcoming_event_count, last_event, topics", api_key = meetup_api_key)
+ 
+  # all rladies groups
+  all_rladies_groups <- find_groups(text = "r-ladies", fields = "past_event_count, upcoming_event_count, last_event, topics", api_key = meetup_api_key)
+
+  # filtered rladies groups
+  rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies", 
+                                          x = all_rladies_groups$name,
+                                          ignore.case = TRUE), ]
 
   # retrieve all data science groups
   all_ds_groups <- find_groups(text = "data-science", fields = "past_event_count, upcoming_event_count, last_event, topics", api_key = meetup_api_key)
@@ -174,15 +182,15 @@ get_rugs <- function() {
   } 
   
   r_user_groups1 <- all_ds_groups[grepl("-user-|-r-|phillyr|boston-user|r-users-sydney|rug|scotland-data|bioconductor|r-data|data-mining|satrday", tolower(all_ds_groups$urlname)),]
-r_user_groups2 <- all_ds_groups[grepl("r user|r-user|r-ladies|r ladies|rladies|r-lab|phillyr|rug|bioconductor|r-data|rug", tolower(all_ds_groups$urlname)),]
-combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2)
-filtered_group1 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$resource)),]
-combined_ruser_groups2 <-  rbind(filtered_group1, all_ruser_groups)
-total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_ruser_groups2$urlname)),]
+  r_user_groups2 <- all_ds_groups[grepl("r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug", tolower(all_ds_groups$urlname)),]
+  combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2)
+  filtered_group1 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$resource)),]
+  combined_ruser_groups2 <-  rbind(filtered_group1, all_ruser_groups, rladies_groups)
+  total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_ruser_groups2$urlname)),]
 
-#Groups to filter out: Rapidminer user group, Looker user group, Jupyter user group, SQL Server User group, Biomarker Labs, 
-#(note that these are other data-science user group names that end with r, they produce a combination of 'r-user' in urlnames)
-r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biomarker-labs|strugglers", tolower(total_ruser_groups$urlname)),]
+  #Groups to filter out: Rapidminer user group, Looker user group, Jupyter user group, SQL Server User group, Biomarker Labs, 
+  #(note that these are other data-science user group names that end with r, they produce a combination of 'r-user' in urlnames)
+  r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biomarker-labs|strugglers", tolower(total_ruser_groups$urlname)),]
 
   r_groups$created <-  as.Date(r_groups$created)
   past_event_counts <- purrr::map_dbl(r_groups$resource, "past_event_count", .default = 0)
