@@ -245,6 +245,8 @@ days <- function(actindex,daycount){
   #for leaflet map save to geoJSON
   col_to_keep <- c("name", "url", "created", "members","past_events","upcoming_events", "last_event", "days_since_last_event", "lat","lon")
   rugs_map_data <- r_groups[col_to_keep]
+  rugs_map_data$name <- gsub('\"R\"','R', rugs_map_data$name)
+  rugs_map_data$url <- gsub('\"R\"','R', rugs_map_data$url)
   leafletR::toGeoJSON(data = rugs_map_data, dest = "docs/data/")
   
   # obtain summaries around R groups and save in JSON
