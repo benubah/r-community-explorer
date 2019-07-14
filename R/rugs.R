@@ -261,9 +261,10 @@ days <- function(actindex,daycount){
   average_event_chapter <- floor(rugs_past_events / rugs_chapters)
 
   rugs_df <- data.frame(chapters = rugs_chapters, countries = rugs_countries,
-                         city = rugs_city, members = rugs_members, past_events = rugs_past_events,
-                         upcoming_events = rugs_upcoming_events, avgchapter = average_chapter_country,
-                         avgevent = average_event_chapter, avgmember = average_member_chapter)
+                      city = rugs_city, members = rugs_members, past_events = rugs_past_events,
+                      upcoming_events = rugs_upcoming_events, avgchapter = average_chapter_country,
+                      avgevent = average_event_chapter, avgmember = average_member_chapter, last_update = date() )
+
   
   # select latin american groups
   latam <- sort(unique(r_groups[grep("America", r_groups$timezone),]$country))
