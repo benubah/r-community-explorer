@@ -95,13 +95,27 @@ Mentors review, evaluate, and feedback.
 
 ## Weekly plan for Second Coding Month of GSoC 2019 (R User Groups Dashboard)
 
-Week 1:
+Week 1 and 2:
 
-Week 2:
+1. Improved `.quick_fetch()` and `.fetch_results()` functions in `rladies/meetupr` packages by adding `offset` argument to each API call
+   so as to completely retrieve all extra `fields` data for records larger than 200
 
-Week 3: 
+2. Used these improved functions to create `rugs.R` script to retrieve R User Groups from meetup.com and persist the resulting data in
+   CSV/JSON files
 
-Week 4:
+3. Update deploy.sh to commit these CSV/JSON files to `docs/data` directory after every Travis build
+
+4. Layout RUGS dashboard and add data-widget with data from CSV/JSON files
+
+5. Add Leaflet map with markers and pop-ups
+
+6. Add country chart, chart of groups across regions and pie chart of member counts across regions
+
+7. Cumulative chart, Top groups and datatable of groups
+
+
+Week 3 and 4: 
+
 
 
 ## Weekly plan for Third Coding Month of GSoC 2019 (R-GsoC Dashboard)
