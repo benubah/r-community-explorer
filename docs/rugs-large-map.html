@@ -1,6 +1,12 @@
 
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>R User Groups Map!</title>
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -76,7 +82,7 @@ if (feature.properties.days_since_last_event > 180 & past_events != 0 & feature.
       var marker = new L.marker(latlng, {icon: darkpurpleMarker});
 marker.bindPopup("<b>" + feature.properties.url + '</b>' + '<br/>' + 'Created: '+ feature.properties.created + '<br/>' +
  'Members: ' + feature.properties.members  + '<br/>' + 'Past Events: '+ feature.properties.past_events 
-  + '<br/>' + 'Upcoming Events: '+ feature.properties.upcoming_events + '<br/>' + 'Last Event Date: '+ feature.properties.last_event + '<br/>'  + 'Months Inactive: '+ Math.round(feature.properties.days_since_last_event/30) + ' months' + '<br/>' + 'Inactive: <a href="https://rladies.org/about-us/help/"><b>Become an Organizer!</b></a>');
+  + '<br/>' + 'Upcoming Events: '+ feature.properties.upcoming_events + '<br/>' + 'Last Event Date: '+ feature.properties.last_event + '<br/>'  + 'Months Inactive: '+ Math.round(feature.properties.days_since_last_event/30) + ' months' + '<br/>' + 'Inactive: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
       return marker;
 }
 
@@ -85,7 +91,7 @@ if ( past_events == 0 & feature.properties.upcoming_events == 0) {
 
 marker.bindPopup("<b>" + feature.properties.url + '</b>' + '<br/>' + 'Created: '+ feature.properties.created + '<br/>' +
  'Members: ' + feature.properties.members  + '<br/>' + 'Past Events: '+ feature.properties.past_events
-  + '<br/>' + 'Upcoming Events: '+ feature.properties.upcoming_events + '<br/>' + 'Months Inactive: '+ Math.round((new Date() - new Date(feature.properties.created) ) /(30*60*60*24*1000)) + ' months' + '<br/>' + 'Unbegun: <a href="https://rladies.org/about-us/help/"><b>Become an Organizer!</b></a>');
+  + '<br/>' + 'Upcoming Events: '+ feature.properties.upcoming_events + '<br/>' + 'Months Inactive: '+ Math.round((new Date() - new Date(feature.properties.created) ) /(30*60*60*24*1000)) + ' months' + '<br/>' + 'Unbegun: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
       return marker;
 }
 
