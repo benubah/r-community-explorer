@@ -238,7 +238,7 @@ days <- function(actindex,daycount){
   r_groups$last_event <- last_event
   r_groups$days_since_last_event <- days_since_last_event
   # specify columns to retain
-  col_to_keep <- c("name", "city", "country",  "timezone", "members", "fullurl", "created", "past_events", "upcoming_events")
+  col_to_keep <- c("name", "city", "country",  "timezone", "members", "fullurl", "created", "past_events", "upcoming_events", "visibility")
   r_groups2 <- r_groups[col_to_keep]
   write.csv(r_groups2, "docs/data/rugs.csv")   
   
