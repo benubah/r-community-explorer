@@ -53,7 +53,6 @@
 .col-sm-2-5 { width: 22.83333%; }
 
   </style>   
-
   </head>
 
   <body class="nav-sm" >
@@ -130,11 +129,11 @@
         </div>
 
         <!-- top navigation -->
-        <div class="top_nav style="height:10px; ">
-          <div class="nav_menu style="height:10px; ">
+        <div class="top_nav" >
+          <div class="nav_menu" style="height:45px; ">
             <nav>
               <div class="nav toggle">
-                <a id="menu_toggle"><i class="fa fa-bars style="color:purple"></i></a>
+                <a id="menu_toggle"><i class="fa fa-bars" style="color:purple"></i></a>
               </div>
 
               <ul class="nav navbar-nav navbar-right">
@@ -165,21 +164,16 @@
                                       </ul>
                 </li>
 <li class="">
-                  <a href="https://rladies.org/events/" target="_blank" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  <a href="https://rladies.org/events/" target="_blank" class="user-profile dropdown-toggle" aria-expanded="false">
                     <i class="fa fa-calendar"></i> Events
                                       </a>
                                   </li>
-			
-			<li class="">
+<li class="">
 <a class="user-profile dropdown-toggle" href="https://github.com/benubah/r-community-explorer" data-size="large" aria-label="Star benubah/r-community-explorer on GitHub"><i class="fa fa-github"></i> Star</a>
 </li>
 
-
-                                                          </li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
+                                                                            </ul>
+                            </nav>
           </div>
         </div>
         <!-- /top navigation -->
@@ -215,8 +209,12 @@ document.getElementById('upcomingevents').innerHTML = data[0][0].upcoming_events
 document.getElementById('avgchapter').innerHTML = data[0][0].avgchapter;
 document.getElementById('avgevent').innerHTML = data[0][0].avgevent;
 document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
-
 });
+	 
+d3.json("data/rugs_summary.json").then(function(data) {
+document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].last_update;
+});
+
 });
 
 
@@ -568,8 +566,8 @@ document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
               </div>
 
 
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="x_panel">
+              <div class="col-md-4 col-sm-4 col-xs-12" >
+                <div class="x_panel" >
                   <div class="x_title">
                     <h2>Top Chapters</h2>
                   
@@ -898,7 +896,7 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
 </div>
 
                   </div>
-                </div>
+                </div><p id="lastupdate"></p>
               </div>
 
               
@@ -906,14 +904,9 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
 <button type="button" class="btn btn-info btn-lg btn-block bg-purple" onclick="window.location.href='https://www.rladies.org'"> JOIN OR START-UP AN R-LADIES CHAPTER HERE!</button>
 </div>
 
-            </div>
-
- 
-
-          </div>
-
-
-        </div>
+           </div>
+         </div>
+       </div>
         <!-- /page content -->
 
         <!-- footer content -->
@@ -926,25 +919,11 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
         <!-- /footer content -->
       </div>
     </div>
-
    
     <script src="js/echarts/map/js/world.js"></script>
 
     <!-- Custom Theme Scripts -->
     <script src="js/custom.min.js"></script>
-<script>
-//$('.count').each(function () {
-  //      $(this).prop('Counter',0).animate({
-    //        Counter: $(this).text()
-      //  }, {
-        //    duration: 5000,
-          //  easing: 'swing',
-            //step: function (now) {
-              //  $(this).text(Math.ceil(now));
-           // }
-       // });
-    // });
-</script>
 <script src="js/d3/d3.min.js"></script>
 <script src="js/lodash-4.17.10/package/lodash.min.js"></script>
 <script src="js/echarts/echarts.js"></script>
