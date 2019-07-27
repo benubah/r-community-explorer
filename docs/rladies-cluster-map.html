@@ -1,0 +1,113 @@
+
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Cluster Map R Ladies Groups</title>
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="leaflet-1.5.1/leaflet.css"/>
+<link rel="stylesheet" href="leaflet-awesome-markers/dist/leaflet.awesome-markers.css">
+<link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.css" />
+	<link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <script src="js/jquery.min.js"></script> 
+   <script src="leaflet-1.5.1/leaflet.js"></script>
+    <script src="leaflet-awesome-markers/dist/leaflet.awesome-markers.js"></script>
+<script src="leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+  <style>
+    #map{ height: 100%; width:100%; }
+  </style>
+</head>
+<body>
+
+  <div id="map"></div>
+
+	<script type="text/javascript">// initialize the map
+  var map = L.map('map', { zoom: 2}).setView([10, 10],2);
+  // load a tile layer
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 18,
+      minZoom: 1
+    }).addTo(map);
+
+setTimeout(function () { map.invalidateSize() }, 1200);
+
+  // load GeoJSON from an external file
+  $.getJSON("data/rladies_map_data.geojson",function(data){
+	//console.log(data.features[0])
+
+L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
+     var blueMarker = L.AwesomeMarkers.icon({
+icon: 'check-circle',
+    markerColor: 'blue'
+  });
+
+var darkblueMarker = L.AwesomeMarkers.icon({
+icon: 'user-times',
+markerColor: 'darkblue'
+  });
+
+var orangeMarker = L.AwesomeMarkers.icon({
+icon: 'user-times',
+    markerColor: 'orange'
+  });
+	
+     var markers = L.markerClusterGroup({
+maxClusterRadius: function (zoom) {
+        return (zoom <= 10) ? 70 : 1; // radius in pixels
+    }
+});
+		
+		for (var i = 0; i < data.features.length; i++) {
+			var a = data.features[i].geometry.coordinates;
+past_events = data.features[i].properties.past_events;
+if ( past_events >= 0 & data.features[i].properties.days_since_last_event <= 180 | data.features[i].properties.upcoming_events > 0) {
+
+			var marker = L.marker(new L.LatLng(a[1], a[0]), {icon: blueMarker});
+			marker.bindPopup("<b>" + data.features[i].properties.url + '</b>' + '<br/>' + 'Created: '+ data.features[i].properties.created + '<br/>' +
+ 'Members: ' + data.features[i].properties.members  + '<br/>' + 'Past Events: '+ data.features[i].properties.past_events
+  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event+ '<br/>' + 'Active');
+			markers.addLayer(marker);
+		}
+
+if (data.features[i].properties.days_since_last_event > 180 & past_events != 0 & data.features[i].properties.upcoming_events == 0 ){
+
+var marker = L.marker(new L.LatLng(a[1], a[0]), {icon: darkblueMarker});
+
+
+marker.bindPopup("<b>" + data.features[i].properties.url + '</b>' + '<br/>' + 'Created: '+ data.features[i].properties.created + '<br/>' +
+ 'Members: ' + data.features[i].properties.members  + '<br/>' + 'Past Events: '+ data.features[i].properties.past_events
+  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round(data.features[i].properties.days_since_last_event/30) + ' months' + '<br/>' + 'Inactive: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
+
+			markers.addLayer(marker);
+
+}
+
+if ( past_events == 0 & data.features[i].properties.upcoming_events == 0) {
+var marker = L.marker(new L.LatLng(a[1], a[0]), {icon: orangeMarker});
+
+marker.bindPopup("<b>" + data.features[i].properties.url + '</b>' + '<br/>' + 'Created: '+ data.features[i].properties.created + '<br/>' +
+ 'Members: ' + data.features[i].properties.members  + '<br/>' + 'Past Events: '+ data.features[i].properties.past_events
+  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round((new Date() - new Date(data.features[i].properties.created) ) /(30*60*60*24*1000)) + ' months' + '<br/>' + 'Inactive: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
+
+			markers.addLayer(marker);
+
+
+}
+
+}
+
+		map.addLayer(markers);
+ });
+  
+  </script>
+</body>
+</html>
+	
