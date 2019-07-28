@@ -901,7 +901,7 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
         element: 'table-container', 
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"order": [[0, "asc" ]], "paging": true, 
+        datatables_options: {"order": [[6, "desc" ]], "paging": true, 
     "bScrollCollapse": true,
     "bPaginate": false,
     "bJQueryUI": true,
@@ -951,19 +951,7 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
 
     <!-- Custom Theme Scripts -->
     <script src="js/custom.min.js"></script>
-<script>
-//$('.count').each(function () {
-  //      $(this).prop('Counter',0).animate({
-    //        Counter: $(this).text()
-      //  }, {
-        //    duration: 5000,
-          //  easing: 'swing',
-            //step: function (now) {
-              //  $(this).text(Math.ceil(now));
-           // }
-       // });
-    // });
-</script>
+
 <script src="js/d3/d3.min.js"></script>
 <script src="js/lodash-4.17.10/package/lodash.min.js"></script>
 <script src="js/echarts/echarts.js"></script>
