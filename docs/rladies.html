@@ -87,7 +87,7 @@
                   <li><a><i class="fa fa-home" ></i> Home <span class="fa fa-chevron-right"></span></a>                  </li>
 
 
-<li><a href="rugs.html"><i class="fa fa-line-chart"></i> R User Groups <span class="fa fa-chevron-right"></span></a>
+<li><a href="#"><i class="fa fa-line-chart"></i> R User Groups <span class="fa fa-chevron-right"></span></a>
                                       </li>
 
                                            <li><a href="rladies.html"><i class="fa fa-area-chart"></i> R-Ladies Chapters<span class="fa fa-chevron-right"></span></a>
@@ -185,7 +185,7 @@
               <div class="title">
 <div class="col-md-12 col-sm-12 col-xs-12">
 
-                <h3>R-Ladies Community<small> From Meetup.com</small></h3>
+                <h3>R-Ladies Community | <small> Meetup.com</small></h3>
 </div>
               </div>
 
@@ -209,8 +209,10 @@ document.getElementById('upcomingevents').innerHTML = data[0][0].upcoming_events
 document.getElementById('avgchapter').innerHTML = data[0][0].avgchapter;
 document.getElementById('avgevent').innerHTML = data[0][0].avgevent;
 document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
+document.getElementById('years').innerHTML = new Date().getFullYear() - 2012 + 1;
+
 });
-	 
+
 d3.json("data/rugs_summary.json").then(function(data) {
 document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].last_update;
 });
@@ -226,7 +228,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                 
                   <div class="x_content">
                     <div class="row">
-                      <div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="tile-stats" style="background-color:white">
                           <div class="icon" style="color:purple"><i class="fa fa-users"></i>
                           </div>
@@ -236,7 +238,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                           <br/>
                         </div>
                       </div>
-                      <div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="tile-stats" style="background-color:purple">
 
                           <div class="icon" style="color:white"><i class="fa fa-user"></i>
@@ -249,7 +251,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                         </div>
                       </div>
                       
-<div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="tile-stats" style="background-color:white">
                           <div class="icon" style="color:purple"><i class="fa fa-globe"></i>
                           </div>
@@ -259,7 +261,24 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
 
                         </div>
                       </div>
+
+<div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats" style="background-color:purple">
+
+                          <div class="icon" style="color:white"><i class="fa fa-map-marker"></i>
+                          </div>
+                          <div id="city" class="count" style="color:white"></div>
+
+                          <h3>Cities</h3>
+                          <p></p><br/>
+
+                        </div>
+                      </div>
+
+
                              </div></div></div>
+
+
 
 
 <div class="col-md-12" >
@@ -506,17 +525,6 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                 
                   <div class="x_content">
                     
-<div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="tile-stats" >
-                          <div class="icon" style="color:purple"><i class="fa fa-map-marker"></i>
-                          </div>
-                          <div id="city" class="count purple"></div>
-
-                          <h3>Cities</h3>
-                          <p></p><br/>
-
-                        </div>
-                      </div>
                       
 <div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="tile-stats" style="background-color:purple">
@@ -536,6 +544,19 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                           <div id="upcomingevents" class="count purple"></div>
 
                           <h3>Upcoming Events</h3>
+                          <p></p><br/>
+
+                        </div>
+                      </div>
+
+<div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="tile-stats" style="background-color:purple">
+
+                          <div class="icon" style="color:white"><i class="fa fa-calendar"></i>
+                          </div>
+                          <div id="years" class="count" style="color:white"></div>
+
+                          <h3>Years</h3>
                           <p></p><br/>
 
                         </div>
@@ -884,9 +905,9 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
     "bScrollCollapse": true,
     "bPaginate": false,
     "bJQueryUI": true,
-    "aoColumnDefs": [
-        { "sWidth": "10%", "aTargets": [-1] }
-    ]
+    "columnDefs": [
+    { "visible": false, "targets": 0 }
+  ]
 },
         custom_formatting: [[7, format_link]] //execute the function on the 7th column of every row
       });
@@ -896,7 +917,7 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
 </div>
 
                   </div>
-                </div><p id="lastupdate"></p>
+</div><p id="lastupdate"></p>
               </div>
 
               
@@ -904,9 +925,14 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
 <button type="button" class="btn btn-info btn-lg btn-block bg-purple" onclick="window.location.href='https://www.rladies.org'"> JOIN OR START-UP AN R-LADIES CHAPTER HERE!</button>
 </div>
 
-           </div>
-         </div>
-       </div>
+            </div>
+
+ 
+
+          </div>
+
+
+        </div>
         <!-- /page content -->
 
         <!-- footer content -->
@@ -919,11 +945,25 @@ $('#hosts').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddData( 
         <!-- /footer content -->
       </div>
     </div>
+
    
     <script src="js/echarts/map/js/world.js"></script>
 
     <!-- Custom Theme Scripts -->
     <script src="js/custom.min.js"></script>
+<script>
+//$('.count').each(function () {
+  //      $(this).prop('Counter',0).animate({
+    //        Counter: $(this).text()
+      //  }, {
+        //    duration: 5000,
+          //  easing: 'swing',
+            //step: function (now) {
+              //  $(this).text(Math.ceil(now));
+           // }
+       // });
+    // });
+</script>
 <script src="js/d3/d3.min.js"></script>
 <script src="js/lodash-4.17.10/package/lodash.min.js"></script>
 <script src="js/echarts/echarts.js"></script>
