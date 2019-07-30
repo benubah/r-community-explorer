@@ -46,6 +46,15 @@
         margin-top: 13px;
         
     }
+table.display tbody tr:nth-child(even):hover td{
+    background-color: #435f9c !important;
+    font-weight: 700;
+}
+
+table.display tbody tr:nth-child(odd):hover td {
+    background-color: #435f9c !important;
+    font-weight: 700;
+}
 
   </style>   
 
@@ -132,7 +141,7 @@
 
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                  <a href="https://community.rstudio.com/c/irl" target="_blank" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  <a href="https://community.rstudio.com/c/irl" target="_blank" class="user-profile dropdown-toggle" aria-expanded="false">
                     <i class="fa fa-calendar"></i> Events
                                       </a>
                                   </li>
@@ -177,8 +186,20 @@ document.getElementById('upcomingevents').innerHTML = data[0][0].upcoming_events
 document.getElementById('avgchapter').innerHTML = data[0][0].avgchapter;
 document.getElementById('avgevent').innerHTML = data[0][0].avgevent;
 document.getElementById('avgmember').innerHTML = data[0][0].avgmember;
+document.getElementById('years').innerHTML = new Date().getFullYear() - 2008 + 1;
 document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].last_update;
 
+$('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+     });
 
 });
 });
@@ -249,7 +270,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                    
    <i class="glyphicon glyphicon-calendar fa fa-globe"></i>
    
- <span><a href="rugs-large-map.html">View Larger Map</a></span>
+ <span><a href="rugs-cluster-map.html">View Cluster Map</a></span>
                     </div>
 
       <div class="clearfix"></div>
@@ -345,7 +366,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                         <div class="tile-stats" >
                           <div class="icon" style="color:#435f9c"><i class="fa fa-calendar"></i>
                           </div>
-                          <div id="years" class="count" style="color:#435f9c">11</div>
+                          <div id="years" class="count" style="color:#435f9c"></div>
 
                           <h3>Years</h3>
                           <p></p><br/>
@@ -378,8 +399,8 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
               </div>
 
 
-              <div class="col-md-4 col-sm-4 col-xs-12" >
-                <div class="x_panel" >
+              <div class="col-md-4 col-sm-4 col-xs-12" style="">
+                <div class="x_panel" style="background:#08aefe; color:white; font-weight:500;">
                   <div class="x_title">
                     <h2>Top Groups</h2>
                   
@@ -398,7 +419,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
 <table id="top-members" class="display table-hover" cellspacing="0" width="100%" >
       <thead>
         <tr>
-          <th>Name of Group</th>
+          <th>Name of User Group</th>
           <th>Members</th>
          </tr>
       </thead>
@@ -459,11 +480,11 @@ $('#top-members').dataTable({ "order": [[1, 'desc']], "searching": false }).fnAd
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab_content22" aria-labelledby="profile-tab">
 
-<table id="top-events" class="display table-hover" cellspacing="0" width="100%">
+<table id="top-events" class="display table-hover" cellspacing="0" width="100%" >
       <thead>
         <tr>
-          <th>Name of Group</th>
-          <th>Events Count</th>
+          <th> Name of User Group </th>
+          <th>Events</th>
          </tr>
       </thead>
     </table>
@@ -541,7 +562,7 @@ $('#top-events').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddD
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-              <div id="rugs_cumulative_chart" style="height:400px; position: relative; overflow: hidden;"></div>
+              <div id="rugs_cumulative_chart" style="height:450px; position: relative; overflow: hidden;"></div>
 
                   </div>
                 </div>
@@ -675,16 +696,17 @@ for (var i = 0; i < length-150; i++) {
       init_table({
         csv_path: 'data/rugs.csv', 
         element: 'table-container', 
-        allow_download: false,
+        allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"order": [[0, "asc" ]], "paging": true, 
+        datatables_options: {"order": [[7, "desc" ]], "paging": true, 
     "bScrollCollapse": true,
     "bPaginate": false,
     "bJQueryUI": true,
-    "aoColumnDefs": [
-        { "sWidth": "10%", "aTargets": [-1] }
-    ]
-},
+	"columnDefs": [
+    { "visible": false, "targets": 0 }
+  ],
+
+    },
         custom_formatting: [[7, format_link]] //execute the function on the 7th column of every row
       });
 
@@ -699,7 +721,7 @@ for (var i = 0; i < length-150; i++) {
 
               
 <div class="buttons">
-<button type="button" class="btn btn-info btn-lg btn-block bg-purple" onclick="window.location.href='https://www.rladies.org'"> JOIN OR START-UP AN R USER GROUP!</button>
+<button type="button" class="btn btn-info btn-lg btn-block" style="background:#eef5f9; color:#435f9c" onclick="window.location.href='https://www.meetup.com/topics/r-project-for-statistical-computing/'"> JOIN OR START-UP AN R USER GROUP!</button>
 </div>
 
             </div>
@@ -728,19 +750,6 @@ for (var i = 0; i < length-150; i++) {
 
     <!-- Custom Theme Scripts -->
     <script src="js/custom.min.js"></script>
-<script>
-//$('.count').each(function () {
-  //      $(this).prop('Counter',0).animate({
-    //        Counter: $(this).text()
-      //  }, {
-        //    duration: 5000,
-          //  easing: 'swing',
-            //step: function (now) {
-              //  $(this).text(Math.ceil(now));
-           // }
-       // });
-    // });
-</script>
 <script src="js/d3/d3.min.js"></script>
 <script src="js/lodash-4.17.10/package/lodash.min.js"></script>
 <script src="js/echarts/echarts.js"></script>
