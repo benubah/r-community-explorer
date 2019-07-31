@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Cluster Map R User Groups</title>
+  <title>R-User Groups Cluster Map </title>
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
@@ -14,21 +14,27 @@
 <link rel="stylesheet" href="leaflet-awesome-markers/dist/leaflet.awesome-markers.css">
 <link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.css" />
 	<link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.Default.css" />
+<link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.min.css" rel="stylesheet">
+
     <script src="js/jquery.min.js"></script> 
    <script src="leaflet-1.5.1/leaflet.js"></script>
     <script src="leaflet-awesome-markers/dist/leaflet.awesome-markers.js"></script>
 <script src="leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
   <style>
-    #map{ height: 100%; width:100%; }
+    #map{ height: 91%; width:100%; }
   </style>
 </head>
-<body>
+<body style="background:#ffffff;" >
+<div class="buttons" >
+<button type="button" class="btn btn-info btn-lg btn-block" style="background:#eef5f9; color:#435f9c" onclick="window.location.href='https://benubah.github.io/r-community-explorer/rugs.html'"> BACK TO R-USER GROUPS DASHBOARD </button>
+</div>
 
   <div id="map"></div>
 
 	<script type="text/javascript">// initialize the map
-  var map = L.map('map', { zoom: 2}).setView([10, 10],2);
+  var map = L.map('map', { maxZoom: 7}).setView([10, 10],2);
   // load a tile layer
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
     {
