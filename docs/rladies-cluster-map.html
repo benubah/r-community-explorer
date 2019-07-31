@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Cluster Map R Ladies Groups</title>
+  <title> R-Ladies Cluster Map </title>
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
@@ -14,21 +14,28 @@
 <link rel="stylesheet" href="leaflet-awesome-markers/dist/leaflet.awesome-markers.css">
 <link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.css" />
 	<link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.Default.css" />
+<link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.min.css" rel="stylesheet">
+
     <script src="js/jquery.min.js"></script> 
    <script src="leaflet-1.5.1/leaflet.js"></script>
     <script src="leaflet-awesome-markers/dist/leaflet.awesome-markers.js"></script>
 <script src="leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
   <style>
-    #map{ height: 100%; width:100%; }
+    #map{ height: 91%; width:100%; }
   </style>
 </head>
-<body>
+<body style="background:#ffffff;">
+<div class="buttons">
+<button type="button" class="btn btn-info btn-lg btn-block bg-purple" onclick="window.location.href='https://benubah.github.io/r-community-explorer/rladies.html'"> BACK TO R-LADIES DASHBOARD </button>
+</div>
 
   <div id="map"></div>
 
 	<script type="text/javascript">// initialize the map
-  var map = L.map('map', { zoom: 2}).setView([10, 10],2);
+// maxZoom reduces the zoom level when you click on the cluster. Markers are closer at a smaller zoom level
+  var map = L.map('map', { maxZoom: 5}).setView([10, 10],2);
   // load a tile layer
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
     {
@@ -84,7 +91,7 @@ var marker = L.marker(new L.LatLng(a[1], a[0]), {icon: darkblueMarker});
 
 marker.bindPopup("<b>" + data.features[i].properties.url + '</b>' + '<br/>' + 'Created: '+ data.features[i].properties.created + '<br/>' +
  'Members: ' + data.features[i].properties.members  + '<br/>' + 'Past Events: '+ data.features[i].properties.past_events
-  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round(data.features[i].properties.days_since_last_event/30) + ' months' + '<br/>' + 'Inactive: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
+  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round(data.features[i].properties.days_since_last_event/30) + ' months' + '<br/>' + 'Inactive: <a href="https://rladies.org/about-us/help/"><b>Become an Organizer!</b></a>');
 
 			markers.addLayer(marker);
 
@@ -95,7 +102,7 @@ var marker = L.marker(new L.LatLng(a[1], a[0]), {icon: orangeMarker});
 
 marker.bindPopup("<b>" + data.features[i].properties.url + '</b>' + '<br/>' + 'Created: '+ data.features[i].properties.created + '<br/>' +
  'Members: ' + data.features[i].properties.members  + '<br/>' + 'Past Events: '+ data.features[i].properties.past_events
-  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round((new Date() - new Date(data.features[i].properties.created) ) /(30*60*60*24*1000)) + ' months' + '<br/>' + 'Inactive: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
+  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round((new Date() - new Date(data.features[i].properties.created) ) /(30*60*60*24*1000)) + ' months' + '<br/>' + 'Inactive: <a href="https://rladies.org/about-us/help/"><b>Become an Organizer!</b></a>');
 
 			markers.addLayer(marker);
 
@@ -108,6 +115,8 @@ marker.bindPopup("<b>" + data.features[i].properties.url + '</b>' + '<br/>' + 'C
  });
   
   </script>
+
+
 </body>
 </html>
 	
