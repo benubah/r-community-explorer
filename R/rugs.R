@@ -237,8 +237,17 @@ days <- function(actindex,daycount){
    r_groups$upcoming_events <- upcoming_event_counts
   r_groups$last_event <- last_event
   r_groups$days_since_last_event <- days_since_last_event
+  r_groups[grepl("America",r_groups$timezone),]$timezone <- "Latin America"
+  r_groups[grepl("US|Canada",r_groups$timezone),]$timezone <- "US/Canada"
+  r_groups[grepl("Europe",r_groups$timezone),]$timezone <- "Europe"
+  r_groups[grepl("Africa",r_groups$timezone),]$timezone <- "Africa"
+  r_groups[grepl("Asia",r_groups$timezone),]$timezone <- "Asia"
+  r_groups[grepl("Australia|Pacific/Auckland",r_groups$timezone),]$timezone <- "Australia"
+
+  colnames(r_groups)[colnames(r_groups) == 'timezone'] <- 'region'
+
   # specify columns to retain
-  col_to_keep <- c("name", "city", "country",  "timezone", "members", "fullurl", "created", "past_events", "upcoming_events", "visibility")
+  col_to_keep <- c("name", "city", "country",  "region", "members", "fullurl", "created", "past_events", "upcoming_events", "visibility")
   r_groups2 <- r_groups[col_to_keep]
   write.csv(r_groups2, "docs/data/rugs.csv")   
   
@@ -267,42 +276,42 @@ days <- function(actindex,daycount){
 
   
   # select latin american groups
-  latam <- sort(unique(r_groups[grep("America", r_groups$timezone),]$country))
-  latam_groups <- r_groups[r_groups$country %in% latam,]
-  lt <- dim(latam_groups)[1]
-  lt_members <- sum(latam_groups$members)
-  
-  # Europe
-  europe <- sort(unique(r_groups[grep("Europe", r_groups$timezone),]$country))
-  eu_groups <- r_groups[r_groups$country %in% europe,]
-  eu <- dim(eu_groups)[1]
-  eu_members <- sum(eu_groups$members)
+  latam <- sort(unique(r_groups[grep("Latin America", r_groups$region),]$country))
+latam_groups <- r_groups[r_groups$country %in% latam,]
+lt <- dim(latam_groups)[1]
+lt_members <- sum(latam_groups$members)
+
+# Europe
+europe <- sort(unique(r_groups[grep("Europe", r_groups$region),]$country))
+eu_groups <- r_groups[r_groups$country %in% europe,]
+eu <- dim(eu_groups)[1]
+eu_members <- sum(eu_groups$members)
+
   
   # USA and Canada
-  canada <- sort(unique(r_groups[grep("Canada", r_groups$timezone),]$country))
-  canada_groups <- r_groups[r_groups$country %in% canada,]
-  usa_groups <- r_groups[r_groups$country %in% "USA",]
-  us_canada <- dim(canada_groups)[1] + dim(usa_groups)[1]
-  us_can_members <- sum(usa_groups$members) + sum(canada_groups$members)
+  uscan <- sort(unique(r_groups[grep("US/Canada", r_groups$region),]$country))
+uscangroups <- r_groups[r_groups$country %in% uscan,]
+us_canada <- dim(uscangroups)[1]
+us_can_members <- sum(uscangroups$members)
   
   
   # Africa
-  africa <- sort(unique(r_groups[grep("Africa", r_groups$timezone),]$country))
-  africa_groups <- r_groups[r_groups$country %in% africa,]
-  af <- dim(africa_groups)[1]
-  af_members <- sum(africa_groups$members)
-  
-  # Asia
-  asia <- sort(unique(r_groups[grep("Asia", r_groups$timezone),]$country))
-  asia_groups <- r_groups[r_groups$country %in% asia,]
-  as <- dim(asia_groups)[1]
-  as_members <- sum(asia_groups$members)
-  
-  #  Australia/Oceania
-  australia <- sort(unique(r_groups[grep("Australia|Pacific/Auckland", r_groups$timezone),]$country))
-  australia_groups <- r_groups[r_groups$country %in% australia,]
-  au <- dim(australia_groups)[1]
-  au_members <- sum(australia_groups$members)
+  africa <- sort(unique(r_groups[grep("Africa", r_groups$region),]$country))
+africa_groups <- r_groups[r_groups$country %in% africa,]
+af <- dim(africa_groups)[1]
+af_members <- sum(africa_groups$members)
+
+# Asia
+asia <- sort(unique(r_groups[grep("Asia", r_groups$region),]$country))
+asia_groups <- r_groups[r_groups$country %in% asia,]
+as <- dim(asia_groups)[1]
+as_members <- sum(asia_groups$members)
+
+#  Australia/Oceania
+australia <- sort(unique(r_groups[grep("Australia", r_groups$region),]$country))
+australia_groups <- r_groups[r_groups$country %in% australia,]
+au <- dim(australia_groups)[1]
+au_members <- sum(australia_groups$members)
   
   continent_df <- data.frame(latinAm = lt, us_can = us_canada, eur = eu, afr = af, asia = as, aus = au,
                              latinAm_m = lt_members, us_can_m = us_can_members, eur_m = eu_members, afr_m = af_members, asia_m = as_members, aus_m = au_members)
