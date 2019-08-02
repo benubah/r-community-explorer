@@ -168,6 +168,15 @@ rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",
  rladies_groups$upcoming_events <- upcoming_event_counts
   rladies_groups$last_event <- last_event
   rladies_groups$days_since_last_event <- days_since_last_event
+  rladies_groups[grepl("America",rladies_groups$timezone),]$timezone <- "Latin America"
+  rladies_groups[grepl("US|Canada",rladies_groups$timezone),]$timezone <- "US/Canada"
+  rladies_groups[grepl("Europe",rladies_groups$timezone),]$timezone <- "Europe"
+  rladies_groups[grepl("Africa",rladies_groups$timezone),]$timezone <- "Africa"
+  rladies_groups[grepl("Asia",rladies_groups$timezone),]$timezone <- "Asia"
+  rladies_groups[grepl("Australia|Pacific/Auckland",rladies_groups$timezone),]$timezone <- "Australia"
+
+  colnames(rladies_groups)[colnames(rladies_groups) == 'timezone'] <- 'region'
+
  
   # obtain cumulative count of chapters over the years and save in JSON
  datecreated <- sort(as.Date(rladies_groups$created))
@@ -218,7 +227,7 @@ days <- function(actindex,daycount){
                          avgevent = average_event_chapter, avgmember = average_member_chapter)
    
   # specify columns to retain
-  col_to_keep <- c("name", "city", "country",  "timezone", "members", "fullurl", "created", "past_events", "upcoming_events")
+  col_to_keep <- c("name", "city", "country",  "region", "members", "fullurl", "created", "past_events", "upcoming_events")
   rladies_groups2 <- rladies_groups[col_to_keep]
   write.csv(rladies_groups2, "docs/data/rladies.csv")   
   
@@ -227,43 +236,43 @@ days <- function(actindex,daycount){
   rladies_map_data <- rladies_groups[col_to_keep]
   leafletR::toGeoJSON(data = rladies_map_data, dest = "docs/data/")
   
-  # select latin american groups
-  latam <- sort(unique(rladies_groups[grep("America", rladies_groups$timezone),]$country))
-  latam_groups <- rladies_groups[rladies_groups$country %in% latam,]
-  lt <- dim(latam_groups)[1]
-  lt_members <- sum(latam_groups$members)
-  
-  # Europe
-  europe <- sort(unique(rladies_groups[grep("Europe", rladies_groups$timezone),]$country))
-  eu_groups <- rladies_groups[rladies_groups$country %in% europe,]
-  eu <- dim(eu_groups)[1]
-  eu_members <- sum(eu_groups$members)
+ # select latin american groups
+  latam <- sort(unique(rladies_groups[grep("Latin America", rladies_groups$region),]$country))
+latam_groups <- rladies_groups[rladies_groups$country %in% latam,]
+lt <- dim(latam_groups)[1]
+lt_members <- sum(latam_groups$members)
+
+# Europe
+europe <- sort(unique(rladies_groups[grep("Europe", rladies_groups$region),]$country))
+eu_groups <- rladies_groups[rladies_groups$country %in% europe,]
+eu <- dim(eu_groups)[1]
+eu_members <- sum(eu_groups$members)
+
   
   # USA and Canada
-  canada <- sort(unique(rladies_groups[grep("Canada", rladies_groups$timezone),]$country))
-  canada_groups <- rladies_groups[rladies_groups$country %in% canada,]
-  usa_groups <- rladies_groups[rladies_groups$country %in% "USA",]
-  us_canada <- dim(canada_groups)[1] + dim(usa_groups)[1]
-  us_can_members <- sum(usa_groups$members) + sum(canada_groups$members)
+  uscan <- sort(unique(rladies_groups[grep("US/Canada", rladies_groups$region),]$country))
+uscangroups <- rladies_groups[rladies_groups$country %in% uscan,]
+us_canada <- dim(uscangroups)[1]
+us_can_members <- sum(uscangroups$members)
   
   
   # Africa
-  africa <- sort(unique(rladies_groups[grep("Africa", rladies_groups$timezone),]$country))
-  africa_groups <- rladies_groups[rladies_groups$country %in% africa,]
-  af <- dim(africa_groups)[1]
-  af_members <- sum(africa_groups$members)
-  
-  # Asia
-  asia <- sort(unique(rladies_groups[grep("Asia", rladies_groups$timezone),]$country))
-  asia_groups <- rladies_groups[rladies_groups$country %in% asia,]
-  as <- dim(asia_groups)[1]
-  as_members <- sum(asia_groups$members)
-  
-  #  Australia/Oceania
-  australia <- sort(unique(rladies_groups[grep("Australia|Pacific/Auckland", rladies_groups$timezone),]$country))
-  australia_groups <- rladies_groups[rladies_groups$country %in% australia,]
-  au <- dim(australia_groups)[1]
-  au_members <- sum(australia_groups$members)
+  africa <- sort(unique(rladies_groups[grep("Africa", rladies_groups$region),]$country))
+africa_groups <- rladies_groups[rladies_groups$country %in% africa,]
+af <- dim(africa_groups)[1]
+af_members <- sum(africa_groups$members)
+
+# Asia
+asia <- sort(unique(rladies_groups[grep("Asia", rladies_groups$region),]$country))
+asia_groups <- rladies_groups[rladies_groups$country %in% asia,]
+as <- dim(asia_groups)[1]
+as_members <- sum(asia_groups$members)
+
+#  Australia/Oceania
+australia <- sort(unique(rladies_groups[grep("Australia", rladies_groups$region),]$country))
+australia_groups <- rladies_groups[rladies_groups$country %in% australia,]
+au <- dim(australia_groups)[1]
+au_members <- sum(australia_groups$members)
   
   continent_df <- data.frame(latinAm = lt, us_can = us_canada, eur = eu, afr = af, asia = as, aus = au,
                              latinAm_m = lt_members, us_can_m = us_can_members, eur_m = eu_members, afr_m = af_members, asia_m = as_members, aus_m = au_members)
