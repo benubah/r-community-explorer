@@ -392,7 +392,7 @@ $('.count').each(function () {
                   </div>
                   <div class="x_content">
 
-              <div id="rugs_region_chart" style="height:450px;"></div>
+              <div id="rugs_region_chart" style="height:500px;"></div>
 
                   </div>
                 </div>
@@ -550,7 +550,7 @@ $('#top-events').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddD
                 </div>
               </div>
 
-<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
                     <h2>Growth of User Groups</h2>
@@ -567,60 +567,70 @@ $('#top-events').dataTable({ "order": [[1, 'desc']], "searching":false }).fnAddD
                   </div>
                 </div>
               </div>
-<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Top Destinations for R Users</h2>
+                    <h2>Top 40 Destinations for R Users | <small>Users Per Country</small></h2>
+
                     <ul class="nav navbar-right panel_toolbox">
                                                                   <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
                     </ul>
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content" style="min-height:400px; ">
+                  <div class="x_content" style="min-height:460px; margin:-50px 0px -50px 0px;">
 
-<!-- content goes here
-              -->
-<table id="hosts" class="display table-hover" cellspacing="0" width="100%">
-      <thead>
-        <tr>
-          <th>Destination</th>
-          <th>Groups</th>
-         </tr>
-      </thead>
-    </table>
+<div id="rugs_top_dest" style="height:555px;"></div>
 
-<script>
-         $(document).ready(function() {
-
-d3.csv('data/rladies_hosts.csv').then(function(data) {
- var cleandata = data.map(function(d) {
-    var cleanD = {};
-    d3.keys(d).forEach(function(k) {
-      cleanD[_.trim(k)] = _.trim(d[k]);
-    });
-    return cleanD;
-  });
-//console.log(cleandata);
-organizers = [];
-events = [];
-var length = (cleandata).length;
-for (var i = 0; i < length-150; i++) {
-    organizers.push(cleandata[i].hostnames);
-    events.push(cleandata[i].hostcount);
-
-}
-
-});
-</script>
                   </div>
                 </div>
               </div>
 
+<div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Top Destinations for R Users <small>Users  Per City Per Region</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                                                                  <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content" style="min-height:460px; margin: 0px 0px -50px 0px;">
+
+<div class="col-md-4 col-sm-4 col-xs-6">
+<div id="rugs_top_us_dest" style="height:400px;"></div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-6">
+<div id="rugs_top_eu_dest" style="height:400px;"></div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-6">
+<div id="rugs_top_latam_dest" style="height:400px;"></div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-6">
+<div id="rugs_top_asia_dest" style="height:400px;"></div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-6">
+<div id="rugs_top_aus_dest" style="height:400px;"></div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-6">
+<div id="rugs_top_afr_dest" style="height:400px;"></div>
+</div>
+
+                  </div>
+                </div>
+              </div>
+
+
 <div class="col-md-8 col-sm-8 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Member Count Across Regions</h2>
+                    <h2>R Users Across Regions</h2>
                     <ul class="nav navbar-right panel_toolbox">
        <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
