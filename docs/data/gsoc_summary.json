@@ -1,0 +1,284 @@
+[
+  [
+    {
+      "total_projects": 215,
+      "total_mentors": 202,
+      "total_students": 189,
+      "student_mentors": 25,
+      "numberOfMentoredProjectsByPastStudents": 72,
+      "numberOfReturningStudents": 21
+    }
+  ],
+  [
+    {
+      "mentor_name": "Vijay Barve",
+      "Freq": 13
+    },
+    {
+      "mentor_name": "Michael Weylandt",
+      "Freq": 8
+    },
+    {
+      "mentor_name": "Tuo Zhao",
+      "Freq": 7
+    },
+    {
+      "mentor_name": "Narayani Barve",
+      "Freq": 5
+    },
+    {
+      "mentor_name": "Xingguo Li",
+      "Freq": 5
+    },
+    {
+      "mentor_name": "Carson Sievert",
+      "Freq": 4
+    },
+    {
+      "mentor_name": "Susan VanderPlas",
+      "Freq": 3
+    },
+    {
+      "mentor_name": "Anuj Khare",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Faizan Khan",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Jonathan Cornelissen",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Keven Bluteau",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Qiang Kou",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Robin Kohze",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Ross Bennett",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Simon Fuller",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Thiloshon Nagarajah",
+      "Freq": 2
+    },
+    {
+      "mentor_name": "Akash Tandon",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Haley Jeppson",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Ian Fellows",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Jason Ge",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Johan Larsson",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Luis Osorio",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Samuel Borms",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Xin Chen",
+      "Freq": 1
+    },
+    {
+      "mentor_name": "Yixuan Qiu",
+      "Freq": 1
+    }
+  ],
+  [
+    {
+      "mentor_name": "Vijay Barve",
+      "Freq": 13
+    },
+    {
+      "mentor_name": "Michael Weylandt",
+      "Freq": 8
+    },
+    {
+      "mentor_name": "Tuo Zhao",
+      "Freq": 7
+    },
+    {
+      "mentor_name": "Narayani Barve",
+      "Freq": 5
+    },
+    {
+      "mentor_name": "Xingguo Li",
+      "Freq": 5
+    }
+  ],
+  [
+    {
+      "student_name": "Akash Tandon",
+      "Freq": 2
+    },
+    {
+      "student_name": "Apostolos Chalkis",
+      "Freq": 2
+    },
+    {
+      "student_name": "Ashwin Agrawal",
+      "Freq": 2
+    },
+    {
+      "student_name": "Balázs Dukai",
+      "Freq": 2
+    },
+    {
+      "student_name": "Ben Ubah",
+      "Freq": 2
+    },
+    {
+      "student_name": "Dries Cornilly",
+      "Freq": 2
+    },
+    {
+      "student_name": "Faizan Khan",
+      "Freq": 2
+    },
+    {
+      "student_name": "Leopoldo Catania",
+      "Freq": 2
+    },
+    {
+      "student_name": "Marlon E. Cobos",
+      "Freq": 2
+    },
+    {
+      "student_name": "Povilas Gibas",
+      "Freq": 2
+    },
+    {
+      "student_name": "Robin Kohze",
+      "Freq": 2
+    },
+    {
+      "student_name": "Roman Tsegelskyi",
+      "Freq": 2
+    },
+    {
+      "student_name": "Ross Bennett",
+      "Freq": 2
+    },
+    {
+      "student_name": "Sangeetha Srinivasan",
+      "Freq": 2
+    },
+    {
+      "student_name": "Thiloshon Nagarajah",
+      "Freq": 2
+    },
+    {
+      "student_name": "Tuo Zhao",
+      "Freq": 3
+    },
+    {
+      "student_name": "Vijay Barve",
+      "Freq": 4
+    },
+    {
+      "student_name": "Xiaolin Yang",
+      "Freq": 2
+    },
+    {
+      "student_name": "Xin Chen",
+      "Freq": 3
+    },
+    {
+      "student_name": "Xingguo Li",
+      "Freq": 3
+    },
+    {
+      "student_name": "Yi-An Chen",
+      "Freq": 2
+    }
+  ],
+  [
+    {
+      "mentor_name": "Brian Peterson",
+      "Freq": 25
+    },
+    {
+      "mentor_name": "Toby Hocking",
+      "Freq": 22
+    },
+    {
+      "mentor_name": "Peter Carl",
+      "Freq": 20
+    },
+    {
+      "mentor_name": "Doug Martin",
+      "Freq": 15
+    },
+    {
+      "mentor_name": "Vijay Barve",
+      "Freq": 13
+    },
+    {
+      "mentor_name": "Kris Boudt",
+      "Freq": 11
+    },
+    {
+      "mentor_name": "Dianne Cook",
+      "Freq": 9
+    },
+    {
+      "mentor_name": "Michael Weylandt",
+      "Freq": 8
+    },
+    {
+      "mentor_name": "David Ardia",
+      "Freq": 7
+    },
+    {
+      "mentor_name": "Dirk Eddelbuettel",
+      "Freq": 7
+    },
+    {
+      "mentor_name": "Joshua Ulrich",
+      "Freq": 7
+    },
+    {
+      "mentor_name": "Tomer Gueta",
+      "Freq": 7
+    },
+    {
+      "mentor_name": "Tuo Zhao",
+      "Freq": 7
+    },
+    {
+      "mentor_name": "Heike Hofmann",
+      "Freq": 6
+    },
+    {
+      "mentor_name": "John Nash",
+      "Freq": 6
+    }
+  ]
+]
