@@ -8,6 +8,7 @@ Rscript -e 'source("R/find_groups.R")'
 Rscript -e 'source("R/rladies.R")'
 Rscript -e 'source("R/rladies_hosts.R")'
 Rscript -e 'source("R/rugs.R")'
+Rscript -e 'source("R/rgsoc.R")'
 
   git config --global user.name "benubah"
   git config --global user.email "ben@rpowerlabs.org"
@@ -27,6 +28,7 @@ commit_files() {
    git add -f docs/data/rugs_summary.json
   git add -f docs/data/rugs_cumulative.json
   git add -f docs/data/rugs_map_data.geojson
+  git add -f docs/data/gsoc_summary.json
   # Create a new commit with a custom build message
   # with "[skip ci]" to avoid a build loop
   # and Travis build number for reference
