@@ -49,5 +49,13 @@ number_returning_students <- dim(returning_students)[[1]]
 gsocsummary <- data.frame(total_projects = number_of_projects , total_mentors = number_of_mentors, total_students = number_of_students, student_mentors = number_of_students_turned_mentors, numberOfMentoredProjectsByPastStudents = number_projects_mentored_by_paststudents, numberOfReturningStudents = number_returning_students)
 
 # write to json
-gsoc_json <- jsonlite::toJSON(list(gsocsummary, student_turned_mentor_project_count, top5_student_mentors, returning_students, most_active_mentors), auto_unbox = FALSE, pretty = TRUE)
+gsoc_json <- jsonlite::toJSON(list(summary = gsocsummary, student_now_mentor = student_turned_mentor_project_count, top5_student_mentors = top5_student_mentors, returning_students = returning_students, top15_active_mentors = most_active_mentors), auto_unbox = FALSE, pretty = TRUE)
 writeLines(gsoc_json, "docs/data/gsoc_summary.json")
+
+# write project titles to text document
+txt <- c()
+for (i in 1:number_of_projects) {
+  txt <- c(as.vector(projects$Project[i]), txt)
+}
+full_desc <- paste0(txt, collapse = " ")
+writeLines(full_desc, "docs/data/rgsoc_project_titles.txt")
