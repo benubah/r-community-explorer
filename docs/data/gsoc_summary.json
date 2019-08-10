@@ -1,5 +1,5 @@
-[
-  [
+{
+  "summary": [
     {
       "total_projects": 215,
       "total_mentors": 202,
@@ -9,7 +9,7 @@
       "numberOfReturningStudents": 21
     }
   ],
-  [
+  "student_now_mentor": [
     {
       "mentor_name": "Vijay Barve",
       "Freq": 13
@@ -111,7 +111,7 @@
       "Freq": 1
     }
   ],
-  [
+  "top5_student_mentors": [
     {
       "mentor_name": "Vijay Barve",
       "Freq": 13
@@ -133,7 +133,7 @@
       "Freq": 5
     }
   ],
-  [
+  "returning_students": [
     {
       "student_name": "Akash Tandon",
       "Freq": 2
@@ -219,7 +219,7 @@
       "Freq": 2
     }
   ],
-  [
+  "top15_active_mentors": [
     {
       "mentor_name": "Brian Peterson",
       "Freq": 25
@@ -281,4 +281,4 @@
       "Freq": 6
     }
   ]
-]
+}
