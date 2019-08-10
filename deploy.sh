@@ -29,6 +29,7 @@ commit_files() {
   git add -f docs/data/rugs_cumulative.json
   git add -f docs/data/rugs_map_data.geojson
   git add -f docs/data/gsoc_summary.json
+  git add -f docs/data/rgsoc_project_titles.txt
   # Create a new commit with a custom build message
   # with "[skip ci]" to avoid a build loop
   # and Travis build number for reference
