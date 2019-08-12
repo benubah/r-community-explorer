@@ -1,21 +1,46 @@
 ﻿Year	Project	WorkProduct	Student	Mentors
-2014	animint	Package	Carson Sievert	Toby Hocking, Susan VanderPlas
-2014	pbdPROF: Profiling Tools for High Performance Computing with R	Package	Christian Heckendorf	Wei-Chen Chen, Drew Schmidt
-2014	Generalized Linear Mixed Models via Monte Carlo Likelihood Approximation	Package	Christina Knudson	Charles Geyer, Galin Jones
-2014	Kernel Density Estimation and Nonparametric Discriminant Analysis for FD	Package	dapr12	Virgilio Gómez-Rubio, Peter Foster
-2014	Improving the R-interactive-Graphics-via-HTml (RIGHT) Package	Visualization	Jong Hyun Bae	Junghoon
-2014	rOptManifold: An R Package for Optimization over Matrix Manifolds	Package	Kejun He	Jianhua, Yihui Xie
-2014	Tools for composite index analysis	Package	Keshav Pratap	Valentin
-2014	PhyloVS: phylogeny-constrained regularization and variable selection	Package	lichenbiostat86	Jun Chen
-2014	Spot volatility estimation: Methods and applications	Application	Maarten Schermer	Jonathan Cornelissen, Kris Boudt, Daniele Signori
-2014	Tools for pre and post processing of data for Ecological niche models	Data	Narayani Barve	RobGur, Jorge Soberón
-2014	Extending mzR	Package	Qiang Kou	Steffen Neumann, Claudia Beleites, Laurent
-2014	Turning R objects into Pandoc's markdown	Package	Roman Tsegelskyi	Gergely Daróczi
-2014	PortfolioAnalytics_Ross_Bennett	Package	Ross Bennett	Doug Martin, Brian Peterson, Peter Carl
-2014	Proposal_FactorAnalytics_Sangeetha_Srinivasan	Package	Sangeetha Srinivasan	Eric Zivot, Doug Martin, Guy Yollin, Peter Carl
-2014	bdvis: Biodiversity data visualizations	Visualization	Vijay Barve	Virgilio Gómez-Rubio, Jorge Soberón
-2014	Dimension Reduction Methods for Multivariate Time Series	Package	wbnicholson	jbien, David S. Matteson
-2014	GenPCA: A Generalized PCA Toolkit for High-dimensional Data Analysis in R	Package	Xingguo Li	Tuo Zhao
+2008	Finite Mixture Models for Large Data Sets	Package	Arijit Das	Friedrich Leisch
+2008	Roxygen documentation system for R	Documentation	Peter Danenberg	Manuel Eugster
+2008	lme4: Adaptive Gauss-Hermite quadrature method for mixed-effects models	Package	Bin Dai	Douglas M. Bates
+2008	Connecting R and PostgreSQL using DBI	Database	Sameer Kumar Prayaga	Dirk Eddelbuettel
+2009	Development of crantastic.org	Infrastructure	Bjørn Arild Mæland	Hadley Wickham
+2009	Implementation of the GUIDE algorithm	Package	ESH	Torsten Hothorn
+2009	RQuantLib - Bridging R and QuantLib	Package	Khanh Nguyen	Dirk Eddelbuettel
+2009	You cant control what you can't measure	Package	mariane	Manuel Eugster
+2010	rdx - Automatic Differentiation in R	Package	Chidambaram Annamalai	John Nash
+2010	Social Relations Analyses in R	Package	Felix Schönbrodt	schmukle
+2010	A GUI for Graphics Using ggplot2 and Deducer	GUI	Ian Fellows	Hadley Wickham
+2010	rgeos - an R wrapper for GEOS	Package	rundel	Roger Bivand
+2011	optile Category order optimization for graphical displays of categorical data	Package	Alexander Pilhöfer	Rosuda93
+2011	Manipulating RStudio Graphics Towards Creating Intuitive Mathematical Comprehension	GUI	Andrew Rich	Daniel Kaplan, JJ Allaire
+2011	R-EM-Accelerator---Smarter Iterative Schemes Save Your Time	Package	Hui Zhao	Roger Peng, Ravi Varadhan
+2011	Convergence acceleration of the Expectation-Maximization (EM) algorithms in computational statistics: A suite of cutting-edge acceleration schemes	Package	Jennifer	Ravi Varadhan
+2011	SMART: Sparse Multivariate Adaptive Regression Toolkit	Package	Juemin	Han Liu
+2011	Exploratory visualization of dynamic stochastic processes	Visualization	Kåre Jacobsen	Niels Richard Hansen
+2011	OpenMP parallel framework for R	Package	Lei Jiang	f.jamitzky, prag, ostrouchovg
+2011	DClusterm: Model-based detection of disease clusters	Package	Paula Moraga	Barry Rowlingson, Virgilio Gómez-Rubio
+2011	Developing a hyperSpec GUI	GUI	Sebastian Mellor	Colin Gillespie, Claudia Beleites
+2011	Image Analysis in R	Package	Sunil Kumar	Ian Fellows
+2011	HUGE: High-dimensional Undirected Graph Estimation	Package	Tuo Zhao	Roeder, Han Liu
+2011	Cranvastime: Interactive longitudinal and temporal data plots	Package	Xiaoyue Cheng	Dianne Cook, Heike Hofmann
+2011	Proposal for Components in TradeAnalytics Toolchain enhancements	Package	Yi-An Chen	Brian Peterson
+2011	A GUI based package to assist optimization problems in R	GUI	yixuan	John Nash
+2012	Bayesian Spatial Econometrics with R	Package	Abhirup Mallik	Virgilio Gómez-Rubio
+2012	Portfolio Performance Measurement and Benchmarking	Package	Andrii Babii	Doug Martin
+2012	BigMatrix: Super Scalable Predictive Analytics for Big Matrices in R	Package	Fang	Rafa
+2012	Add additional closed form and global optimizer backends to PortfolioAnalytics	Package	Hezky Varon	Guy Yollin
+2012	xtend RTAQ for additional high frequency time series analysis	Package	Jonathan Cornelissen	Kris Boudt
+2012	Develop an R package interfacing the computer algebra system Maxima	Package	Kseniia Shumelchyk	Hans W Borchers
+2012	Inclusion of Attilio Meucci's implementations in ReturnAnalytics	Package	Manan Shah	Brian Peterson
+2012	Additional performance measures and attribution functionality to PerformanceAnalytics	Package	Matthieu	Peter Carl
+2012	Improvements to xts time series visualization and subsetting	Visualization	Michael Weylandt	Joshua Ulrich
+2012	HyperSpec: Parallelization and Optimization	Package	Simon Fuller	Claudia Beleites
+2012	Dynamic report generation in the web with R	Package	Taiyun Wei	Yihui Xie
+2012	Aggregate CRAN package download statistics across multiple mirrors	Infrastructure	Tim Jurka	Hadley Wickham
+2012	Interactive dendrogram	Visualization	Tomas Sieger	cbhurley
+2012	SAM: A General-purpose Classifier for Modern Predictive Data Analysis	Package	Tuo Zhao	Roeder
+2012	Access and visualization of biodiversity data in R	Visualization	Vijay Barve	Scott Chamberlain
+2012	Biganalysis: A robust, general-purpose R package for large scale classification	Package	Xiaolin Yang	Han Liu
 2013	R Interactive Graphics via HTml	Visualization	Chung Ha SUNG	Jae W. Lee, Junghoon Lee
 2013	Implement/Port Spectral Unmixing Methods to R	Package	Conor McManus	Claudia Beleites, Simon Fuller, Bryan Hanson
 2013	Improving rapport and pander packages	Package	Dániel Nagy	Gergely Daróczi, Aleksandar Blagotic
@@ -34,48 +59,23 @@
 2013	Collection of functionality ported from the MATLAB code of Attilio Meucci	Package	Xavi	David Ardia, Brian Peterson, Peter Carl
 2013	A package extension for Exponential Random Graph Model with block structure	Package	Xiaolin Yang	Michael Rosenblum, Han Liu
 2013	Linear factor model for asset returns	Package	Yi-An Chen	Brian Peterson, Peter Carl, Eric Zivot, Doug Martin
-2012	Bayesian Spatial Econometrics with R	Package	Abhirup Mallik	Virgilio Gómez-Rubio
-2012	Portfolio Performance Measurement and Benchmarking	Package	Andrii Babii	Doug Martin
-2012	BigMatrix: Super Scalable Predictive Analytics for Big Matrices in R	Package	Fang	Rafa
-2012	Add additional closed form and global optimizer backends to PortfolioAnalytics	Package	Hezky Varon	Guy Yollin
-2012	xtend RTAQ for additional high frequency time series analysis	Package	Jonathan Cornelissen	Kris Boudt
-2012	Develop an R package interfacing the computer algebra system Maxima	Package	Kseniia Shumelchyk	Hans W Borchers
-2012	Inclusion of Attilio Meucci's implementations in ReturnAnalytics	Package	Manan Shah	Brian Peterson
-2012	Additional performance measures and attribution functionality to PerformanceAnalytics	Package	Matthieu	Peter Carl
-2012	Improvements to xts time series visualization and subsetting	Visualization	Michael Weylandt	Joshua Ulrich
-2012	HyperSpec: Parallelization and Optimization	Package	Simon Fuller	Claudia Beleites
-2012	Dynamic report generation in the web with R	Package	Taiyun Wei	Yihui Xie
-2012	Aggregate CRAN package download statistics across multiple mirrors	Infrastructure	Tim Jurka	Hadley Wickham
-2012	Interactive dendrogram	Visualization	Tomas Sieger	cbhurley
-2012	SAM: A General-purpose Classifier for Modern Predictive Data Analysis	Package	Tuo Zhao	Roeder
-2012	Access and visualization of biodiversity data in R	Visualization	Vijay Barve	Scott Chamberlain
-2012	Biganalysis: A robust, general-purpose R package for large scale classification	Package	Xiaolin Yang	Han Liu
-2011	optile Category order optimization for graphical displays of categorical data	Package	Alexander Pilhöfer	Rosuda93
-2011	Manipulating RStudio Graphics Towards Creating Intuitive Mathematical Comprehension	GUI	Andrew Rich	Daniel Kaplan, JJ Allaire
-2011	R-EM-Accelerator---Smarter Iterative Schemes Save Your Time	Package	Hui Zhao	Roger Peng, Ravi Varadhan
-2011	Convergence acceleration of the Expectation-Maximization (EM) algorithms in computational statistics: A suite of cutting-edge acceleration schemes	Package	Jennifer	Ravi Varadhan
-2011	SMART: Sparse Multivariate Adaptive Regression Toolkit	Package	Juemin	Han Liu
-2011	Exploratory visualization of dynamic stochastic processes	Visualization	Kåre Jacobsen	Niels Richard Hansen
-2011	OpenMP parallel framework for R	Package	Lei Jiang	f.jamitzky, prag, ostrouchovg
-2011	DClusterm: Model-based detection of disease clusters	Package	Paula Moraga	Barry Rowlingson, Virgilio Gómez-Rubio
-2011	Developing a hyperSpec GUI	GUI	Sebastian Mellor	Colin Gillespie, Claudia Beleites
-2011	Image Analysis in R	Package	Sunil Kumar	Ian Fellows
-2011	HUGE: High-dimensional Undirected Graph Estimation	Package	Tuo Zhao	Roeder, Han Liu
-2011	Cranvastime: Interactive longitudinal and temporal data plots	Package	Xiaoyue Cheng	Dianne Cook, Heike Hofmann
-2011	Proposal for Components in TradeAnalytics Toolchain enhancements	Package	Yi-An Chen	Brian Peterson
-2011	A GUI based package to assist optimization problems in R	GUI	yixuan	John Nash
-2010	rdx - Automatic Differentiation in R	Package	Chidambaram Annamalai	John Nash
-2010	Social Relations Analyses in R	Package	Felix Schönbrodt	schmukle
-2010	A GUI for Graphics Using ggplot2 and Deducer	GUI	Ian Fellows	Hadley Wickham
-2010	rgeos - an R wrapper for GEOS	Package	rundel	Roger Bivand
-2009	Development of crantastic.org	Infrastructure	Bjørn Arild Mæland	Hadley Wickham
-2009	Implementation of the GUIDE algorithm	Package	ESH	Torsten Hothorn
-2009	RQuantLib - Bridging R and QuantLib	Package	Khanh Nguyen	Dirk Eddelbuettel
-2009	You cant control what you can't measure	Package	mariane	Manuel Eugster
-2008	Finite Mixture Models for Large Data Sets	Package	Arijit Das	Friedrich Leisch
-2008	Roxygen documentation system for R	Documentation	Peter Danenberg	Manuel Eugster
-2008	lme4: Adaptive Gauss-Hermite quadrature method for mixed-effects models	Package	Bin Dai	Douglas M. Bates
-2008	Connecting R and PostgreSQL using DBI	Database	Sameer Kumar Prayaga	Dirk Eddelbuettel
+2014	animint	Package	Carson Sievert	Toby Hocking, Susan VanderPlas
+2014	pbdPROF: Profiling Tools for High Performance Computing with R	Package	Christian Heckendorf	Wei-Chen Chen, Drew Schmidt
+2014	Generalized Linear Mixed Models via Monte Carlo Likelihood Approximation	Package	Christina Knudson	Charles Geyer, Galin Jones
+2014	Kernel Density Estimation and Nonparametric Discriminant Analysis for FD	Package	dapr12	Virgilio Gómez-Rubio, Peter Foster
+2014	Improving the R-interactive-Graphics-via-HTml (RIGHT) Package	Visualization	Jong Hyun Bae	Junghoon
+2014	rOptManifold: An R Package for Optimization over Matrix Manifolds	Package	Kejun He	Jianhua, Yihui Xie
+2014	Tools for composite index analysis	Package	Keshav Pratap	Valentin
+2014	PhyloVS: phylogeny-constrained regularization and variable selection	Package	lichenbiostat86	Jun Chen
+2014	Spot volatility estimation: Methods and applications	Application	Maarten Schermer	Jonathan Cornelissen, Kris Boudt, Daniele Signori
+2014	Tools for pre and post processing of data for Ecological niche models	Data	Narayani Barve	RobGur, Jorge Soberón
+2014	Extending mzR	Package	Qiang Kou	Steffen Neumann, Claudia Beleites, Laurent
+2014	Turning R objects into Pandoc's markdown	Package	Roman Tsegelskyi	Gergely Daróczi
+2014	PortfolioAnalytics_Ross_Bennett	Package	Ross Bennett	Doug Martin, Brian Peterson, Peter Carl
+2014	Proposal_FactorAnalytics_Sangeetha_Srinivasan	Package	Sangeetha Srinivasan	Eric Zivot, Doug Martin, Guy Yollin, Peter Carl
+2014	bdvis: Biodiversity data visualizations	Visualization	Vijay Barve	Virgilio Gómez-Rubio, Jorge Soberón
+2014	Dimension Reduction Methods for Multivariate Time Series	Package	wbnicholson	jbien, David S. Matteson
+2014	GenPCA: A Generalized PCA Toolkit for High-dimensional Data Analysis in R	Package	Xingguo Li	Tuo Zhao
 2015	Test timings on Travis	Package	Akash Tandon	Toby Hocking, Hadley Wickham
 2015	Convert Dowd's Code	Package	Dinesh	Brian Peterson, Peter Carl
 2015	Subsetted and parallel computations in matrixStats 	Package	Dongcan Jiang	Henrik Bengtsson, Héctor Corrada Bravo
