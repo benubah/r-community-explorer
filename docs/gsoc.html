@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>R Google Summer of Code Projects | R-Community-Explorer </title>
+
+    <!-- Bootstrap -->
+<link href="css/dataTables.bootstrap.css" rel="stylesheet">
+
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="leaflet-1.5.1/leaflet.css"/>
+<link rel="stylesheet" href="leaflet-awesome-markers/dist/leaflet.awesome-markers.css">
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    
+    <!-- Custom Theme Style -->
+    <link href="css/custom.min.css" rel="stylesheet">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.csv.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap.js"></script>
+    <script src="js/csv_to_html_table.js"></script>
+<script src="leaflet-1.5.1/leaflet.js"></script>
+    <script src="leaflet-awesome-markers/dist/leaflet.awesome-markers.js"></script>
+
+<style>  
+
+    tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+.nav.side-menu>li.active>a{text-shadow:rgba(0,0,0,.25) 0 -1px 0;background:linear-gradient(white,white),#424040;color:blue; box-shadow:rgba(0,0,0,.25) 0 1px 0,inset rgba(255,255,255,.20) 0 1px 0}
+
+ .awesome-marker i {
+        font-size: 10px;
+        margin-top: 13px;
+        
+    }
+table.display tbody tr:nth-child(even):hover td{
+    background-color: #71b7e6 !important;
+    font-weight: 700;
+}
+
+table.display tbody tr:nth-child(odd):hover td {
+    background-color: #71b7e6 !important;
+    font-weight: 700;
+}
+
+  </style>   
+
+  </head>
+
+  <body class="nav-sm" >
+    <div class="container body" >
+      <div class="main_container" >
+        <div class="col-md-3 left_col menu_fixed" style="background-color:#435f9c; ">
+          <div class="left_col scroll-view" style="background-color:#435f9c; font-size:14px">
+           
+		 <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="images/Rc.pn" width = "230px" alt="..." class="">
+              </div>
+              <div class="profile_info">
+                <span>.</span>
+                <h2></h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <div class="clearfix"></div>
+
+            
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section active">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home" ></i> Home <span class="fa fa-chevron-right"></span></a>                  </li>
+
+
+<li><a href="rugs.html"><i class="fa fa-line-chart"></i> R User Groups <span class="fa fa-chevron-right"></span></a>
+                                      </li>
+
+                                           <li><a href="rladies.html"><i class="fa fa-area-chart"></i> R-Ladies Chapters<span class="fa fa-chevron-right"></span></a>
+                                      </li>
+
+                                  </ul>
+              </div>
+              <div class="menu_section">
+                <h3>External</h3>
+                <ul class="nav side-menu">
+                  <li><a href="https://summerofcode.withgoogle.com" target="_blank"><i class="fa fa-building"></i> Google Summer of Code </a>
+                                      </li>
+                                                    
+               </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small" style="background-color:#1da1f2;">
+              <a data-toggle="tooltip" data-placement="top" title="" style="background-color:#ffffff;">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a> 
+              <a id="menu_toggle2" data-toggle="tooltip" data-placement="top" title="FullScreen" style="background-color:#ffffff;">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true" ></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="" style="background-color:#ffffff;">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Home" href="index.html" style="background-color:#ffffff;">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav" >
+          <div class="nav_menu" style="height:45px; background:white;">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars" style="color:#1da1f2"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="https://summerofcode.withgoogle.com/how-it-works/#timeline" target="_blank" class="user-profile dropdown-toggle" aria-expanded="false">
+                    <i class="fa fa-calendar"></i> Timeline
+                                      </a>
+                                  </li>
+<li class="">
+<a class="user-profile dropdown-toggle" href="https://github.com/benubah/r-community-explorer" data-size="large" aria-label="Star benubah/r-community-explorer on GitHub"><i class="fa fa-github"></i> Star</a>
+</li>
+
+                                                                            </ul>
+                            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main" style="background:#fffffffa; ">
+          <div class="">
+            <div class="page-title">
+              <div class="title">
+<div class="col-md-12 col-sm-12 col-xs-12">
+
+                <h3>R-Google Summer of Code | <small> Dashboard</small></h3>
+</div>
+              </div>
+
+              
+              </div>
+            </div>
+            
+            <div class="clearfix"></div>
+
+<script>
+ $(document).ready(function() {
+d3.json("data/gsoc_summary.json").then(function(data) {
+document.getElementById('projects').innerHTML = data.summary[0].total_projects;
+document.getElementById('students').innerHTML = data.summary[0].total_students;
+document.getElementById('mentors').innerHTML = data.summary[0].total_mentors;
+document.getElementById('years').innerHTML = new Date().getFullYear() - 2008 + 1;
+
+year = new Date().getFullYear() - 2008 + 1;
+
+document.getElementById('returningstudents').innerHTML = data.summary[0].numberOfReturningStudents;
+document.getElementById('studentmentors').innerHTML = data.summary[0].student_mentors;
+document.getElementById('projectsmentoredbystudents').innerHTML = data.summary[0].numberOfMentoredProjectsByPastStudents;
+
+document.getElementById('avgstudent').innerHTML = Math.round(data.summary[0].total_projects/year);
+document.getElementById('avgproject').innerHTML = Math.round(data.summary[0].total_projects/year);
+
+document.getElementById('pct_projects').innerHTML = Math.round(data.summary[0].numberOfMentoredProjectsByPastStudents/data.summary[0].total_projects *100) + "% of all projects";
+
+document.getElementById('pct_returning_std').innerHTML = Math.round(data.summary[0].numberOfReturningStudents/data.summary[0].total_students *100) + "% of all students";
+
+document.getElementById('pct_student').innerHTML = Math.round(data.summary[0].student_mentors/data.summary[0].total_students *100) + "% of all students";
+
+document.getElementById('funds').innerHTML = "$" + (data.summary[0].total_projects * 500).toLocaleString() + " raised for the R Project" ;
+
+//document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].last_update;
+
+$('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+     });
+
+});
+});
+
+
+ 
+</script>
+
+<div class="row">
+              <div class="col-md-12">
+                
+                  <div class="x_content">
+                    <div class="row">
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats" style="background-color:#71b7e6">
+                          <div class="icon" style="color:white"><i class="fa fa-tasks"></i>
+                          </div>
+                          <div id="projects" class="count" style="color:white"></div>
+                      <h3 style="color:white">Projects</h3>
+<p id="funds" style="color:white; font-size:13px;"></p>
+                        </div>
+                      </div>
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats" style="background-color:white">
+
+                          <div class="icon" style="color:#eeeeee"><i class="fa fa-user"></i>
+                          </div>
+                          <div id="students" class="count" style="color:#71b7e6"></div>
+
+                          <h3>Students</h3>
+                          <p></p><br/>
+
+                        </div>
+                      </div>
+                      
+<div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats" style="background-color:#71b7e6">
+                          <div class="icon" style="color:#ffffff"><i class="fa fa-user"></i>
+                          </div>
+                          <div id="mentors" class="count" style="color:white"></div>
+                          <h3 style="color:white">Mentors</h3>
+                          <p style="color:white"></p><br/>
+
+                        </div>
+                      </div>
+
+<div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats" >
+                          <div class="icon" style="color:#1da1f2"><i class="fa fa-calendar"></i>
+                          </div>
+                          <div id="years" class="count" style="color:#71b7e6"></div>
+
+                          <h3>Years</h3>
+                          <p></p><br/>
+
+                        </div>
+                      </div>
+
+                             </div></div></div>
+
+
+<div class=" col-md-12" >
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>R-GSoC Projects <small>All-Time</small></h2>
+
+      <div class="clearfix"></div>
+
+                  </div>
+                  <div class="x_content" >
+                    <div class="wow fadeInDown col-md-12 col-sm-12 col-xs-12" style="margin:0px 0px 0px 0px;">
+                      
+<!-- map goes here -->
+                 <div class="x_content" >
+ <div id = "gsoc_yearly_chart" style="height:400px; width:100%;" ></div> 
+
+
+                  </div>
+                
+<!-- map ends here -->
+         <div class="clearfix"></div>
+                      <div class="tiles">
+                        <div class="col-md-4 tile">
+<div class="icon" style="color:#cccccc"><i class="fa fa-user" style="font-size:48px"></i> 
+<div id="unbegun" class="col-md-3" style="display:inline-block"></div>
+                          </div>
+<br/>
+                          <span>Average Students Per Year</span>
+                          <h2 id="avgstudent"></h2>
+                          
+
+                        </div>
+                        <div class="col-md-4 tile">
+<div class="icon" style="color:#0065a0"><i class="fa fa-user" style="font-size:48px">
+</i> <div id="inactive" class="col-md-3 " style="display:inline-block"></div>
+                          </div>
+<br/>
+                          <span>Average Mentors per Year</span>
+                          <h2 id="avgmentor"></h2>
+
+                          
+
+                        </div>
+                        <div class="col-md-4 tile">
+
+<div class="icon" style="color:#35a0d0"><i class="fa fa-tasks" style="font-size:48px"></i> 
+
+<div id="active" class="col-md-3" style="display:inline-block"></div>
+                          </div>
+<br/>
+                          <span>Average Projects Per Year</span>
+                          <h2 id="avgproject"></h2>
+
+                          
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                    
+                  </div>
+                </div>
+              </div>
+            
+
+<div class="row">
+              <div class="wow fadeInDown col-md-12">
+                
+                  <div class="x_content">
+<div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="tile-stats" style="background-color:white">
+                          <div class="icon" style="color:#71b7e6"><i class="fa fa-user-plus"></i>
+                          </div>
+                          <div id="studentmentors" class="count" style="color:#71b7e6"></div>
+                          <h3>Students Returned</br> As Mentors</h3>
+                          <p id="pct_student"></p><br/>
+
+                        </div>
+                      </div>
+
+<div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="tile-stats" style="background-color:#71b7e6">
+                          <div class="icon" style="color:white"><i class="fa fa-user-plus"></i>
+                          </div>
+                          <div id="returningstudents" class="count" style="color:white"></div>
+
+                          <h3 style="color:white">Students Returned </br>For Another GSoC</h3>
+                          <p id="pct_returning_std" style="color:#ffffff"></p><br/>
+
+                        </div>
+                      </div>
+<div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="tile-stats" >
+                          <div class="icon" style="color:#71b7e6"><i class="fa fa-tasks"></i>
+                          </div>
+                          <div id="projectsmentoredbystudents" class="count" style="color:#71b7e6"></div>
+
+                          <h3>Projects Co-Mentored </br>by Past Students</h3>
+                          <p id="pct_projects"></p><br/>
+
+                        </div>
+                      </div>
+
+
+				  </div>
+				</div>
+                      </div>
+
+
+              <div class="wow fadeInDown col-md-7 col-sm-7 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Work-Product Distribution of Projects</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+       <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content" style="padding: 30px 0 0 0">
+
+              <div id="workproduct" style="height:500px;"></div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="wow fadeInDown col-md-5 col-sm-5 col-xs-12" style="">
+                <div class="x_panel" style="background:#435f9c; color:white; font-weight:500;">
+                  <div class="x_title">
+                    <h2>Leaderboard</h2>
+                  </br>
+  
+<ul id="myTab1" class="nav nav-tabs bar_tabs right" role="tablist">
+                        <li role="presentation" class="active"><a href="#tab_content11" id="home-tabb" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Most Active Mentors</a>
+                        </li>
+                        <li role="presentation" class=""><a href="#tab_content22" role="tab" id="profile-tabb" data-toggle="tab" aria-controls="profile" aria-expanded="false">Top Student-Mentors</a>
+                                              </ul>
+                                      </div>
+                  <div class="x_content">
+
+<div id="myTabContent2" class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content11" aria-labelledby="home-tab" style="height:100%; font-size:14px;">
+
+<table id="most-active" class="display table-hover" cellspacing="0" width="100%" >
+      <thead>
+        <tr>
+          <th>Name of Mentor</th>
+          <th>Projects</th>
+         </tr>
+      </thead>
+    </table>
+
+
+<script>
+
+         $(document).ready(function() {
+
+d3.json('data/gsoc_summary.json').then(function(data) {
+ //console.log(data.top15_active_mentors);
+
+mentor = [];
+projects  = [];
+for (var i = 0; i < data.top15_active_mentors.length; i++) {
+    mentor.push(data.top15_active_mentors[i].mentor_name);
+    projects.push(data.top15_active_mentors[i].Freq);
+}
+
+//console.log(ddd);
+
+$('#most-active').dataTable({ "order": [[1, 'desc']], "searching": false, "paging":false }).fnAddData( [
+  [mentor[0], projects[0]],[mentor[1], projects[1]],
+  [mentor[2], projects[2]],[mentor[3], projects[3]],
+    [mentor[4], projects[4]],[mentor[5], projects[5]],
+  [mentor[6], projects[6]],[mentor[7], projects[7]],
+  [mentor[8], projects[8]],[mentor[9], projects[9]],
+  [mentor[10], projects[10]],[mentor[11], projects[11]],
+  [mentor[12], projects[12]],[mentor[13], projects[13]],
+  [mentor[14], projects[14]]
+
+]);
+
+});
+});
+</script>
+
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tab_content22" aria-labelledby="profile-tab" style="font-size:14px;">
+
+<table id="top-student-mentors" class="display table-hover" cellspacing="0" width="100%" >
+      <thead>
+        <tr>
+          <th>Students Returning As Mentors (Top 5) </th>
+          <th>Projects Mentored </th>
+         </tr>
+      </thead>
+    </table>
+
+<script>
+
+         $(document).ready(function() {
+
+d3.json('data/gsoc_summary.json').then(function(data) {
+mentor = [];
+projects  = [];
+for (var i = 0; i < data.top5_student_mentors.length; i++) {
+    mentor.push(data.top5_student_mentors[i].mentor_name);
+    projects.push(data.top5_student_mentors[i].Freq);
+}
+
+$('#top-student-mentors').dataTable({ "order": [[1, 'desc']], "searching": false }).fnAddData( [
+  [mentor[0], projects[0]],[mentor[1], projects[1]],
+  [mentor[2], projects[2]],[mentor[3], projects[3]],
+    [mentor[4], projects[4]]
+
+]);
+
+});
+});
+</script>
+
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+
+<div class="wow fadeInDown col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>WordCloud of Project Titles</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                             <div class="wow fadeInDown col-md-7 col-sm-7 col-xs-12" >     
+<div id="wordchart" style="margin:0px 0px 0px -68px;"></div>
+</div>
+
+                                                          <div class="wow fadeInDown col-md-4 col-sm-4 col-xs-12" style="margin:0px 0px 0px 80px;">     
+<div id="word_bar" style="height:490px"></div></div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="wow fadeInDown  col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2 style="color:#1985b6; font-weight:bold">Find a Project </h2>
+                                        <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+
+<div class="container">
+<a name="dt"></a>
+  <div id="table-container" style="margin-left:-15px;background-color:white">
+    
+    <!-- /.container -->
+    <script type="text/javascript">
+      
+        //my custom function that creates a hyperlink
+  function format_link(link){
+    if (link)
+      return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+    else
+      return "";
+  }
+      
+      init_table({
+        csv_path: 'data/gsoc.csv', 
+        element: 'table-container', 
+        allow_download: true,
+        csv_options: {separator: '\t', delimiter: '"'},
+        datatables_options: {"order": [[0, "desc" ]], "paging": true, 
+    "bScrollCollapse": true,
+    "bPaginate": false,
+    "bJQueryUI": true
+	
+    }
+              });
+
+    </script>
+</div>
+</div>
+
+                  </div>
+                </div><p id="lastupdate"></p>
+
+              </div>
+
+              
+<div class="buttons">
+<button type="button" class="btn btn-info btn-lg btn-block" style="background:#eef5f9; color:#435f9c" onclick="window.location.href='https://github.com/rstats-gsoc'"> PARTICIPATE IN GOOGLE SUMMER OF CODE UNDER R-PROJECT! </button>
+</div>
+
+            </div>
+
+ 
+
+          </div>
+
+
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+           <a href="https://github.com/benubah/r-community-explorer/"><u> R Community Explorer</u> </a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+   
+    <script src="js/echarts/map/js/world.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="js/custom.min.js"></script>
+<script src="js/lodash-4.17.10/package/lodash.min.js"></script>
+<script src="js/echarts/echarts.js"></script>
+   
+
+    <script src="js/d3/d3-3.4.11.min.js"></script>
+<script src="js/d3/d3.min.js"></script>
+
+  <script src="js/d3/d3.layout.cloud.js"></script>  
+
+ <!-- Custom Theme Scripts -->
+    <script src="js/echarts/custom.min.js"></script>
+<script src="js/echarts/custom2.js"></script>
+<script src="js/jquery.csv.min.js"></script>
+      <script src="js/wow.min.js"></script>
+    <script>
+//Initiat WOW JS
+	new WOW().init();
+</script>
+
+  </body>
+</html>
