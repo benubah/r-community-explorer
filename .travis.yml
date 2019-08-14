@@ -14,6 +14,4 @@ after_success:
   deploy.sh
 before_install:
 - openssl aes-256-cbc -K $encrypted_03d543abc5e6_key -iv $encrypted_03d543abc5e6_iv
-  -in .httr-oauth.enc -out .httr-oauth -d
-- openssl aes-256-cbc -K $encrypted_ee910227700b_key -iv $encrypted_ee910227700b_iv
-  -in .httr-oauth.enc -out .httr-oauth -d
+  -in R/.httr-oauth.enc -out R/.httr-oauth -d
