@@ -1,24 +1,32 @@
-library(meetupr)
+library(httr)
+library(jsonlite)
 
+# Wrapper for messages, spotted in googlesheets3
+spf <- function(...) stop(sprintf(...), call. = FALSE)
 #internals.R from rladies/meetupr package
 # This helper function makes a single call, given the full API endpoint URL
 # Used as the workhorse function inside .fetch_results() below
 .quick_fetch <- function(api_url,
-                         api_key = NULL,
                          event_status = NULL,
                          offset = 0,
+                         api_key = NULL,
                          ...) {
   
   # list of parameters
-  parameters <- list(key = api_key,         # your api_key
-                     status = event_status, # you need to add the status
+  parameters <- list(status = event_status, # you need to add the status
                      # otherwise it will get only the upcoming event
                      offset = offset,
                      ...                    # other parameters
   )
+  # Only need API keys if OAuth is disabled...
+  if (!getOption("meetupr.use_oauth")) {
+    parameters <- append(parameters, list(key = get_api_key()))
+  }
   
   req <- httr::GET(url = api_url,          # the endpoint
-                   query = parameters)
+                   query = parameters,
+                   config = meetup_token()
+  )
   
   httr::stop_for_status(req)
   reslist <- httr::content(req, "parsed")
@@ -47,7 +55,6 @@ library(meetupr)
   
   # Fetch first set of results (limited to 200 records each call)
   res <- .quick_fetch(api_url = api_url,
-                      api_key = api_key,
                       event_status = event_status,
                       offset = 0,
                       ...)
@@ -58,23 +65,23 @@ library(meetupr)
   records <- res$result
   cat(paste("Downloading", total_records, "record(s)..."))
   
-    if((length(records) < total_records) & !is.null(res$headers$link)){
-      
-      # calculate number of offsets for records above 200
-      offsetn <- ceiling(total_records/length(records))
-      all_records <- list(records)
-      
-      for(i in 1:(offsetn - 1)) {
-        res <- .quick_fetch(api_url = api_url,
-                            api_key = api_key,
-                            event_status = event_status,
-                            offset = i,
-                            ...)
-        all_records[[i + 1]] <- res$result
-      }
-      records <- unlist(all_records, recursive = FALSE)
-      
+  if((length(records) < total_records) & !is.null(res$headers$link)){
+    
+    # calculate number of offsets for records above 200
+    offsetn <- ceiling(total_records/length(records))
+    all_records <- list(records)
+    
+    for(i in 1:(offsetn - 1)) {
+      res <- .quick_fetch(api_url = api_url,
+                          api_key = api_key,
+                          event_status = event_status,
+                          offset = i,
+                          ...)
+      all_records[[i + 1]] <- res$result
     }
+    records <- unlist(all_records, recursive = FALSE)
+    
+  }
   
   return(records)
 }
@@ -99,18 +106,7 @@ library(meetupr)
   return(out)
 }
 
-# function to return meetup.com API key stored in the MEETUP_KEY environment variable
-.get_api_key <- function() {
-  api_key <- Sys.getenv("MEETUP_KEY")
-  if (api_key == "") {
-    stop("You have not set a MEETUP_KEY environment variable.\nIf you do not yet have a meetup.com API key, you can retrieve one here:\n  * https://secure.meetup.com/meetup_api/key/",
-         call. = FALSE)
-  }
-  return(api_key)
-}
 
-
-#-------------------------------------------------
 #updated  find_groups() to retrieve optional fields from Meetup API
 find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields = NULL, api_key = NULL) {
   api_method <- "find/groups"
@@ -127,7 +123,6 @@ find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields 
     created = .date_helper(purrr::map_dbl(res, "created")),
     members = purrr::map_int(res, "members"),
     status = purrr::map_chr(res, "status"),
-    organizer = purrr::map_chr(res, c("organizer", "name")),
     lat = purrr::map_dbl(res, "lat"),
     lon = purrr::map_dbl(res, "lon"),
     city = purrr::map_chr(res, "city"),
@@ -137,13 +132,16 @@ find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields 
     join_mode = purrr::map_chr(res, "join_mode", .null = NA),
     visibility = purrr::map_chr(res, "visibility", .null = NA),
     who = purrr::map_chr(res, "who", .null = NA),
-    organizer_id = purrr::map_int(res, c("organizer", "id")),
-    organizer_name = purrr::map_chr(res, c("organizer", "name")),
+    organizer_id = purrr::map_int(res, c("organizer", "id"), .default = NA),
+    organizer_name = purrr::map_chr(res, c("organizer", "name"),.default = NA),
     category_id = purrr::map_int(res, c("category", "id"), .null = NA),
     category_name = purrr::map_chr(res, c("category", "name"), .null = NA),
     resource = res
   )
 }
+
+
+#-------------------------------------------------
 
 ##---------------------------------------
 # updated get_events() function to retrieve the optional field `event_hosts`
@@ -212,7 +210,7 @@ get_hosts <- function(urlname, event_status = "past", fields = NULL, api_key = N
 get_rladies_hosts <- function(){
 
 # To retrieve all R-Ladies groups urlname so that we can use their urlnames to get their events using lapply
-meetup_api_key <- Sys.getenv("MEETUP_KEY")
+meetup_api_key <- ""# Sys.getenv("MEETUP_KEY")
 
 # retrieve all groups
 all_rladies_groups <- find_groups(text = "r-ladies", fields = "past_event_count, upcoming_event_count", api_key = meetup_api_key)
