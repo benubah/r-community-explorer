@@ -143,7 +143,7 @@ find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields 
 
 # custom function that uses the updated find_groups() to retrieve rladies groups
 get_rladies <- function() {
-  meetup_api_key <- Sys.getenv("MEETUP_KEY")
+  meetup_api_key <- ""# Sys.getenv("MEETUP_KEY")
   
   # retrieve both past and upcoming event counts while finding groups
   all_rladies_groups <- find_groups(text = "r-ladies", fields = "past_event_count, upcoming_event_count, last_event", api_key = meetup_api_key)
