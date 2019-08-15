@@ -8,6 +8,7 @@ Rscript -e 'source("R/find_groups.R")'
 Rscript -e 'source("R/rladies.R")'
 Rscript -e 'source("R/rladies_hosts.R")'
 Rscript -e 'source("R/rugs.R")'
+Rscript -e 'source("R/rladies-oauth.R")'
 Rscript -e 'source("R/rgsoc.R")'
 
   git config --global user.name "benubah"
