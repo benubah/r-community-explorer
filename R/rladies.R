@@ -281,4 +281,4 @@ au_members <- sum(australia_groups$members)
   writeLines(rladies_json, "docs/data/rladies_summary.json")
     
 }
-get_rladies()
+#get_rladies()

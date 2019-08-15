@@ -321,4 +321,4 @@ au_members <- sum(australia_groups$members)
   
 }
 
-get_rugs()
+#get_rugs()
