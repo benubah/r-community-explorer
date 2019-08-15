@@ -266,4 +266,6 @@ uniqhosts <- uniqhosts[order(-uniqhosts$hostcount), ]
 write.csv(uniqhosts, "docs/data/rladies_hosts.csv")   
 }
 
+options(meetupr.httr_oauth_cache=TRUE)
+options(meetupr.use_oauth = TRUE)
 get_rladies_hosts()
