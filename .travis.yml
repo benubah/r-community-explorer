@@ -16,5 +16,5 @@ env:
   global:
     secure: AKHGXuztwUxK1qgFPTFNdOhU13uLIYNsMXGB40XaZjugBuXO006n7rKpGublZpbHostr4JOpDhxb3Nh9rZsycSb8JddYIvARv+MlSooyM2o051Hy9CB/GwqaSUFvB6zjM8rYNRJluY0yYKDv7S9QXJsKzdyl417HdPujETj8wbiFNKDQscz/u3ZFI39gjc+obO645fMR9ZdLrhH/zPy1dJQZFPKIPd+1TrMWkJKtkruFvrT4ijip+S5quXpk+EnBAGrPuu0qLOOlkzDh+g9K7vu9vGGc9sTXagg8AANIRipNlUSPgMQcZYVumzqzYXiOcsn5bb3KJDvgLGjRrwBv48A661Pl39bfSgJvQQZgqZeFDJ33LsEdCctCcEZy7VxlbHnaz6uk7aa4N1N4bgz9SlhUJbbKkhYp586l61V/MYsxLDH+k8QUHkE8SuGjqGP/lUnQPEPBn05vcUFMB/9vB+TooE5xMZJ/RcCHT1duqEkTlmNFF4F+3y7dmhN96pqx9UARFtM8VOxEdqAzQ8vJryPB181Trg7s4qs+bcH4WwQNosnowjhRjHoXgW7GAhvEofMOv3TcGyU6L8gWR8JQJmQnkWC9ecdZrtNexNdV2nxR6OY1IO1muO0kn85nVzhcothCrPJzJRcTkZDdsttNbuLXI8BAOj6Qzv40/Zj2slY=
 before_install:
-  - openssl aes-256-cbc -k "$super_secret_password" -in R/meetup_token.rds.enc -out R/meetup_token.rds -d
+  - openssl aes-256-cbc -k "$super_secret_password" -in R/meetup_token.rds.enc -out meetup_token.rds -d
   
