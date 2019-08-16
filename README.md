@@ -16,3 +16,10 @@ It is completely data-driven and is updated daily by the use of Travis' Cron job
 https://benubah.github.io/r-community-explorer/rladies.html
 
 ![image](rladies.png)
+
+
+## R User Groups Dashboard
+
+https://benubah.github.io/r-community-explorer/rugs.html
+
+![image](rugs_home.png)
