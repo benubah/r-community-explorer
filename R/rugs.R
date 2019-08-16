@@ -33,8 +33,9 @@ spf <- function(...) stop(sprintf(...), call. = FALSE)
   reslist <- httr::content(req, "parsed")
   
   if (length(reslist) == 0) {
-    stop("Zero records match your filter. Nothing to return.\n",
-         call. = FALSE)
+    ##stop("Zero records match your filter. Nothing to return.\n",
+     #    call. = FALSE)
+    return(list(result = list(), headers = req$headers))
   }
   
   return(list(result = reslist, headers = req$headers))

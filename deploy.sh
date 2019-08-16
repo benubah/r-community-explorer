@@ -3,8 +3,6 @@ set -o errexit -o nounset
 BASE_REPO=$PWD
 
 setup_git() {
-Rscript -e 'source("R/internals.R")'
-Rscript -e 'source("R/find_groups.R")'
 Rscript -e 'source("R/rladies.R")'
 Rscript -e 'source("R/rladies_hosts.R")'
 Rscript -e 'source("R/rugs.R")'
