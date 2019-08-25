@@ -27,6 +27,6 @@ https://benubah.github.io/r-community-explorer/rladies.html
 
 ## R-Google Summer of Code Dashboard
 
-https://benubah.github.io/r-community-explorer/rugs.html
+https://benubah.github.io/r-community-explorer/gsoc.html
 
 ![image](gsoc1.png)
