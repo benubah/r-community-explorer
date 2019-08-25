@@ -11,6 +11,13 @@ This project uses the `meetupr` package basically to query the Meetup API. It re
 
 It is completely data-driven and is updated daily by the use of Travis' Cron jobs.
 
+## R User Groups Dashboard
+
+https://benubah.github.io/r-community-explorer/rugs.html
+
+![image](rugs_home.png)
+
+
 ## R-Ladies Dashboard
 
 https://benubah.github.io/r-community-explorer/rladies.html
@@ -18,8 +25,8 @@ https://benubah.github.io/r-community-explorer/rladies.html
 ![image](rladies.png)
 
 
-## R User Groups Dashboard
+## R-Google Summer of Code Dashboard
 
 https://benubah.github.io/r-community-explorer/rugs.html
 
-![image](rugs_home.png)
+![image](gsoc1.png)
