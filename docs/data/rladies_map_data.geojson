@@ -242,6 +242,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Kyiv",
+        "url": "<a href='https://www.meetup.com/rladies-kyiv/'>R-Ladies Kyiv</a>",
+        "created": "2019-02-15",
+        "members": "138",
+        "past_events": "3",
+        "upcoming_events": "1",
+        "last_event": "2019-08-15",
+        "days_since_last_event": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.52,50.44]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Seattle",
         "url": "<a href='https://www.meetup.com/rladies-seattle/'>R-Ladies Seattle</a>",
         "created": "2017-11-08",
@@ -327,6 +344,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Freiburg",
+        "url": "<a href='https://www.meetup.com/rladies-freiburg/'>R-Ladies Freiburg</a>",
+        "created": "2019-01-23",
+        "members": "61",
+        "past_events": "7",
+        "upcoming_events": "0",
+        "last_event": "2019-08-07",
+        "days_since_last_event": "18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.85,47.99]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Valencia",
         "url": "<a href='https://www.meetup.com/rladies-valencia/'>R-Ladies Valencia</a>",
         "created": "2017-10-30",
@@ -361,6 +395,74 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Lyon",
+        "url": "<a href='https://www.meetup.com/rladies-lyon/'>R-Ladies Lyon</a>",
+        "created": "2018-10-29",
+        "members": "57",
+        "past_events": "2",
+        "upcoming_events": "0",
+        "last_event": "2019-04-15",
+        "days_since_last_event": "132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.83,45.76]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lausanne",
+        "url": "<a href='https://www.meetup.com/rladies-lausanne/'>R-Ladies Lausanne</a>",
+        "created": "2017-12-02",
+        "members": "282",
+        "past_events": "11",
+        "upcoming_events": "0",
+        "last_event": "2019-07-02",
+        "days_since_last_event": "54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.62,46.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Vienna",
+        "url": "<a href='https://www.meetup.com/rladies-vienna/'>R-Ladies Vienna</a>",
+        "created": "2018-09-17",
+        "members": "194",
+        "past_events": "9",
+        "upcoming_events": "0",
+        "last_event": "2019-07-02",
+        "days_since_last_event": "54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37,48.22]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Nijmegen",
+        "url": "<a href='https://www.meetup.com/rladies-nijmegen/'>R-Ladies Nijmegen</a>",
+        "created": "2018-05-05",
+        "members": "212",
+        "past_events": "5",
+        "upcoming_events": "0",
+        "last_event": "2019-06-06",
+        "days_since_last_event": "80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.85,51.84]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Quito",
         "url": "<a href='https://www.meetup.com/rladies-quito/'>R-Ladies Quito</a>",
         "created": "2017-07-18",
@@ -373,6 +475,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-78.5,-0.19]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Beijing",
+        "url": "<a href='https://www.meetup.com/rladies-beijing/'>R-Ladies Beijing</a>",
+        "created": "2018-05-30",
+        "members": "31",
+        "past_events": "0",
+        "upcoming_events": "0",
+        "last_event": "1970-01-01",
+        "days_since_last_event": "18133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4,39.93]
       }
     },
     {
@@ -395,18 +514,18 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Kyiv",
-        "url": "<a href='https://www.meetup.com/rladies-kyiv/'>R-Ladies Kyiv</a>",
-        "created": "2019-02-15",
-        "members": "138",
-        "past_events": "3",
-        "upcoming_events": "1",
-        "last_event": "2019-08-15",
-        "days_since_last_event": "10"
+        "name": "R-Ladies Perth",
+        "url": "<a href='https://www.meetup.com/rladies-perth/'>R-Ladies Perth</a>",
+        "created": "2018-10-23",
+        "members": "156",
+        "past_events": "4",
+        "upcoming_events": "0",
+        "last_event": "2019-05-07",
+        "days_since_last_event": "110"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [30.52,50.44]
+        "coordinates": [115.84,-31.96]
       }
     },
     {
@@ -441,57 +560,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-0.1,51.52]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Freiburg",
-        "url": "<a href='https://www.meetup.com/rladies-freiburg/'>R-Ladies Freiburg</a>",
-        "created": "2019-01-23",
-        "members": "61",
-        "past_events": "7",
-        "upcoming_events": "0",
-        "last_event": "2019-08-07",
-        "days_since_last_event": "18"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.85,47.99]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Lyon",
-        "url": "<a href='https://www.meetup.com/rladies-lyon/'>R-Ladies Lyon</a>",
-        "created": "2018-10-29",
-        "members": "57",
-        "past_events": "2",
-        "upcoming_events": "0",
-        "last_event": "2019-04-15",
-        "days_since_last_event": "132"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.83,45.76]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Lausanne",
-        "url": "<a href='https://www.meetup.com/rladies-lausanne/'>R-Ladies Lausanne</a>",
-        "created": "2017-12-02",
-        "members": "281",
-        "past_events": "11",
-        "upcoming_events": "0",
-        "last_event": "2019-07-02",
-        "days_since_last_event": "54"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [6.62,46.52]
       }
     },
     {
@@ -543,40 +611,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [14.29,48.31]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Vienna",
-        "url": "<a href='https://www.meetup.com/rladies-vienna/'>R-Ladies Vienna</a>",
-        "created": "2018-09-17",
-        "members": "194",
-        "past_events": "9",
-        "upcoming_events": "0",
-        "last_event": "2019-07-02",
-        "days_since_last_event": "54"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.37,48.22]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Nijmegen",
-        "url": "<a href='https://www.meetup.com/rladies-nijmegen/'>R-Ladies Nijmegen</a>",
-        "created": "2018-05-05",
-        "members": "212",
-        "past_events": "5",
-        "upcoming_events": "0",
-        "last_event": "2019-06-06",
-        "days_since_last_event": "80"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [5.85,51.84]
       }
     },
     {
@@ -735,23 +769,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Beijing",
-        "url": "<a href='https://www.meetup.com/rladies-beijing/'>R-Ladies Beijing</a>",
-        "created": "2018-05-30",
-        "members": "31",
-        "past_events": "0",
-        "upcoming_events": "0",
-        "last_event": "1970-01-01",
-        "days_since_last_event": "18133"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [116.4,39.93]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "R-Ladies Victoria",
         "url": "<a href='https://www.meetup.com/rladies-victoria/'>R-Ladies Victoria</a>",
         "created": "2018-06-08",
@@ -781,23 +798,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-118.14,34.15]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Perth",
-        "url": "<a href='https://www.meetup.com/rladies-perth/'>R-Ladies Perth</a>",
-        "created": "2018-10-23",
-        "members": "156",
-        "past_events": "4",
-        "upcoming_events": "0",
-        "last_event": "2019-05-07",
-        "days_since_last_event": "110"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [115.84,-31.96]
       }
     },
     {
@@ -840,7 +840,7 @@
         "name": "R-Ladies Utrecht",
         "url": "<a href='https://www.meetup.com/rladies-utrecht/'>R-Ladies Utrecht</a>",
         "created": "2019-06-10",
-        "members": "72",
+        "members": "73",
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "1970-01-01",
@@ -942,7 +942,7 @@
         "name": "R-Ladies Rotterdam",
         "url": "<a href='https://www.meetup.com/rladies-rotterdam/'>R-Ladies Rotterdam</a>",
         "created": "2017-12-05",
-        "members": "337",
+        "members": "338",
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-07-25",
@@ -1146,7 +1146,7 @@
         "name": "R-Ladies Sydney",
         "url": "<a href='https://www.meetup.com/rladies-sydney/'>R-Ladies Sydney</a>",
         "created": "2018-05-09",
-        "members": "607",
+        "members": "608",
         "past_events": "20",
         "upcoming_events": "1",
         "last_event": "2019-08-21",
@@ -1245,6 +1245,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Cotonou",
+        "url": "<a href='https://www.meetup.com/rladies-cotonou/'>R-Ladies Cotonou</a>",
+        "created": "2018-03-29",
+        "members": "35",
+        "past_events": "1",
+        "upcoming_events": "0",
+        "last_event": "2019-07-27",
+        "days_since_last_event": "29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.44,6.36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Munich",
         "url": "<a href='https://www.meetup.com/rladies-munich/'>R-Ladies Munich</a>",
         "created": "2017-03-21",
@@ -1265,7 +1282,7 @@
         "name": "R-Ladies Wageningen",
         "url": "<a href='https://www.meetup.com/rladies-wageningen/'>R-Ladies Wageningen</a>",
         "created": "2018-06-18",
-        "members": "53",
+        "members": "54",
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2018-12-13",
@@ -1291,6 +1308,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-45.01,-21.25]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Helsinki",
+        "url": "<a href='https://www.meetup.com/rladies-helsinki/'>R-Ladies Helsinki</a>",
+        "created": "2018-09-07",
+        "members": "216",
+        "past_events": "7",
+        "upcoming_events": "0",
+        "last_event": "2019-07-03",
+        "days_since_last_event": "53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.94,60.17]
       }
     },
     {
@@ -1333,7 +1367,7 @@
         "name": "R-Ladies Toronto",
         "url": "<a href='https://www.meetup.com/rladies-toronto/'>R-Ladies Toronto</a>",
         "created": "2018-09-18",
-        "members": "398",
+        "members": "399",
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-07-18",
@@ -1500,23 +1534,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Cotonou",
-        "url": "<a href='https://www.meetup.com/rladies-cotonou/'>R-Ladies Cotonou</a>",
-        "created": "2018-03-29",
-        "members": "35",
-        "past_events": "1",
-        "upcoming_events": "0",
-        "last_event": "2019-07-27",
-        "days_since_last_event": "29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.44,6.36]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "R-Ladies Leuven",
         "url": "<a href='https://www.meetup.com/rladies-leuven/'>R-Ladies Leuven</a>",
         "created": "2017-10-30",
@@ -1546,23 +1563,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-2.99,53.42]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Helsinki",
-        "url": "<a href='https://www.meetup.com/rladies-helsinki/'>R-Ladies Helsinki</a>",
-        "created": "2018-09-07",
-        "members": "216",
-        "past_events": "7",
-        "upcoming_events": "0",
-        "last_event": "2019-07-03",
-        "days_since_last_event": "53"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [24.94,60.17]
       }
     },
     {
@@ -1758,7 +1758,7 @@
         "name": "R-Ladies Cambridge",
         "url": "<a href='https://www.meetup.com/rladies-cambridge/'>R-Ladies Cambridge</a>",
         "created": "2017-11-10",
-        "members": "143",
+        "members": "142",
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
@@ -2030,7 +2030,7 @@
         "name": "R-Ladies Santiago",
         "url": "<a href='https://www.meetup.com/rladies-scl/'>R-Ladies Santiago</a>",
         "created": "2017-07-18",
-        "members": "1396",
+        "members": "1397",
         "past_events": "22",
         "upcoming_events": "0",
         "last_event": "2019-07-29",
@@ -2421,7 +2421,7 @@
         "name": "R-Ladies New York",
         "url": "<a href='https://www.meetup.com/rladies-newyork/'>R-Ladies New York</a>",
         "created": "2016-08-23",
-        "members": "1457",
+        "members": "1458",
         "past_events": "33",
         "upcoming_events": "3",
         "last_event": "2019-07-13",
@@ -2438,7 +2438,7 @@
         "name": "R-Ladies Ottawa",
         "url": "<a href='https://www.meetup.com/rladies-ottawa/'>R-Ladies Ottawa</a>",
         "created": "2018-12-05",
-        "members": "112",
+        "members": "113",
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2019-06-13",
@@ -2523,7 +2523,7 @@
         "name": "R-Ladies Taipei",
         "url": "<a href='https://www.meetup.com/rladies-taipei/'>R-Ladies Taipei</a>",
         "created": "2016-10-23",
-        "members": "1537",
+        "members": "1538",
         "past_events": "41",
         "upcoming_events": "1",
         "last_event": "2019-07-29",
@@ -2627,7 +2627,7 @@
         "created": "2015-04-01",
         "members": "306",
         "past_events": "33",
-        "upcoming_events": "1",
+        "upcoming_events": "4",
         "last_event": "2019-07-25",
         "days_since_last_event": "31"
       },
@@ -2712,7 +2712,7 @@
         "created": "2017-01-31",
         "members": "581",
         "past_events": "40",
-        "upcoming_events": "0",
+        "upcoming_events": "1",
         "last_event": "2019-07-09",
         "days_since_last_event": "47"
       },
@@ -2795,7 +2795,7 @@
         "name": "R-Ladies Lagos",
         "url": "<a href='https://www.meetup.com/rladies-lagos/'>R-Ladies Lagos</a>",
         "created": "2019-08-16",
-        "members": "21",
+        "members": "24",
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "1970-01-01",
