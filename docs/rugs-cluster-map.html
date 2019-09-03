@@ -101,7 +101,7 @@ var marker = L.marker(new L.LatLng(a[1], a[0]), {icon: orangeMarker});
 
 marker.bindPopup("<b>" + data.features[i].properties.url + '</b>' + '<br/>' + 'Created: '+ data.features[i].properties.created + '<br/>' +
  'Members: ' + data.features[i].properties.members  + '<br/>' + 'Past Events: '+ data.features[i].properties.past_events
-  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round((new Date() - new Date(data.features[i].properties.created) ) /(30*60*60*24*1000)) + ' months' + '<br/>' + 'Inactive: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
+  + '<br/>' + 'Upcoming Events: '+ data.features[i].properties.upcoming_events + '<br/>' + 'Last Event Date: '+ data.features[i].properties.last_event + '<br/>' + 'Months Inactive: '+ Math.round((new Date() - new Date(data.features[i].properties.created) ) /(30*60*60*24*1000)) + ' months' + '<br/>' + 'Unbegun: <a href="https://www.r-consortium.org/projects/r-user-group-support-program"><b>Apply For RConsortium Grant</b></a>');
 
 			markers.addLayer(marker);
 
