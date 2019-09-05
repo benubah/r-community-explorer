@@ -158,7 +158,8 @@ get_rugs <- function() {
 
   # retrieve all data science groups
   all_ds_groups <- find_groups(text = "data-science", fields = "past_event_count, upcoming_event_count, last_event, topics", api_key = meetup_api_key)
- 
+  all_da_groups <- find_groups(text = "data-analysis", fields = "past_event_count, upcoming_event_count,  last_event, topics", api_key = meetup_api_key)
+  
   # Just check if groups are listed multiple times with different leading or trailing spaces
   trim.strings <- function(x, side = "both") { 
     if (is.na(match(side, c("both", "leading", "trailing")))) { 
@@ -175,7 +176,8 @@ get_rugs <- function() {
   
   r_user_groups1 <- all_ds_groups[grepl("-user-|-r-|phillyr|boston-user|r-users-sydney|rug|scotland-data|bioconductor|r-data|data-mining|satrday", tolower(all_ds_groups$urlname)),]
   r_user_groups2 <- all_ds_groups[grepl("r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug", tolower(all_ds_groups$urlname)),]
-  combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2)
+  r_user_groups3 <- all_da_groups[grepl("-user-|-r-|r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug", tolower(all_da_groups$urlname)),]
+  combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2, r_user_groups3)
   filtered_group1 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$resource)),]
   combined_ruser_groups2 <-  rbind(filtered_group1, all_ruser_groups, rladies_groups)
   total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_ruser_groups2$urlname)),]
