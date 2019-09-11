@@ -138,6 +138,7 @@ find_groups <- function(text = NULL, topic_id = NULL, radius = "global", fields 
     organizer_name = purrr::map_chr(res, c("organizer", "name"),.default = NA),
     category_id = purrr::map_int(res, c("category", "id"), .null = NA),
     category_name = purrr::map_chr(res, c("category", "name"), .null = NA),
+    topics = lapply(res, "[[", "topics"),
     resource = res
   )
 }
@@ -175,9 +176,12 @@ get_rugs <- function() {
   } 
   
   r_user_groups1 <- all_ds_groups[grepl("-user-|-r-|phillyr|boston-user|r-users-sydney|rug|scotland-data|bioconductor|r-data|data-mining|satrday", tolower(all_ds_groups$urlname)),]
-  r_user_groups2 <- all_ds_groups[grepl("r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug", tolower(all_ds_groups$urlname)),]
-  r_user_groups3 <- all_da_groups[grepl("-user-|-r-|r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug", tolower(all_da_groups$urlname)),]
-  combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2, r_user_groups3)
+  r_user_groups2 <- all_ds_groups[grepl("r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug|programming-in-r|r-programming-|-using-r|r-language", tolower(all_ds_groups$urlname)),]
+  r_user_groups3 <- all_da_groups[grepl("-user-|-r-|r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug|programming-in-r|r-programming-|-using-r|r-language", tolower(all_da_groups$urlname)),]
+  r_user_groups4 <- all_ds_groups[grepl("-user-|-r-|phillyr|boston-user|r-users-sydney|rug|scotland-data|bioconductor|r-data|data-mining|satrday", tolower(all_ds_groups$topics)),]
+  r_user_groups5 <- all_ds_groups[grepl("r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug|programming-in-r|r-programming-|-using-r|r-language", tolower(all_ds_groups$topics)),]
+  r_user_groups6 <- all_da_groups[grepl("-user-|-r-|r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug|programming-in-r|r-programming-|-using-r|r-language", tolower(all_da_groups$topics)),]
+  combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2, r_user_groups3,r_user_groups4,r_user_groups5, r_user_groups5)
   filtered_group1 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$resource)),]
   combined_ruser_groups2 <-  rbind(filtered_group1, all_ruser_groups, rladies_groups)
   total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_ruser_groups2$urlname)),]
@@ -231,6 +235,10 @@ days <- function(actindex,daycount){
    r_groups$upcoming_events <- upcoming_event_counts
   r_groups$last_event <- last_event
   r_groups$days_since_last_event <- days_since_last_event
+  
+#possible mistake from meetup. San Juan is assigned to US instead of Puerto Rico
+r_groups[grepl("San Juan",r_groups$city),]$country<- "Puerto Rico"
+  
   r_groups[grepl("America",r_groups$timezone),]$timezone <- "Latin America"
   r_groups[grepl("US|Canada",r_groups$timezone),]$timezone <- "US/Canada"
   r_groups[grepl("Europe",r_groups$timezone),]$timezone <- "Europe"
