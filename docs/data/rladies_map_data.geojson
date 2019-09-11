@@ -75,7 +75,7 @@
         "name": "R-Ladies Canberra",
         "url": "<a href='https://www.meetup.com/rladies-canberra/'>R-Ladies Canberra</a>",
         "created": "2018-12-10",
-        "members": "140",
+        "members": "139",
         "past_events": "5",
         "upcoming_events": "2",
         "last_event": "2019-07-02",
@@ -568,7 +568,7 @@
         "name": "R-Ladies London",
         "url": "<a href='https://www.meetup.com/rladies-london/'>R-Ladies London</a>",
         "created": "2016-01-31",
-        "members": "1414",
+        "members": "1418",
         "past_events": "48",
         "upcoming_events": "1",
         "last_event": "2019-07-30",
@@ -789,7 +789,7 @@
         "name": "R-Ladies Xalapa",
         "url": "<a href='https://www.meetup.com/rladies-xalapa/'>R-Ladies Xalapa</a>",
         "created": "2018-07-30",
-        "members": "155",
+        "members": "156",
         "past_events": "8",
         "upcoming_events": "0",
         "last_event": "2019-06-01",
@@ -1488,7 +1488,7 @@
         "created": "2018-02-10",
         "members": "598",
         "past_events": "13",
-        "upcoming_events": "0",
+        "upcoming_events": "1",
         "last_event": "2019-08-06",
         "days_since_last_event": "36"
       },
@@ -2047,7 +2047,7 @@
         "name": "R-Ladies Buenos Aires",
         "url": "<a href='https://www.meetup.com/rladies-buenos-aires/'>R-Ladies Buenos Aires</a>",
         "created": "2017-01-03",
-        "members": "762",
+        "members": "763",
         "past_events": "15",
         "upcoming_events": "1",
         "last_event": "2019-06-15",
@@ -2387,7 +2387,7 @@
         "name": "R-Ladies San Francisco",
         "url": "<a href='https://www.meetup.com/rladies-san-francisco/'>R-Ladies San Francisco</a>",
         "created": "2012-10-01",
-        "members": "1467",
+        "members": "1468",
         "past_events": "55",
         "upcoming_events": "0",
         "last_event": "2019-08-08",
@@ -2673,23 +2673,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Twin Cities",
-        "url": "<a href='https://www.meetup.com/rladies-tc/'>R-Ladies Twin Cities</a>",
-        "created": "2015-04-01",
-        "members": "313",
-        "past_events": "33",
-        "upcoming_events": "4",
-        "last_event": "2019-07-25",
-        "days_since_last_event": "48"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.22,44.94]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Spotkania Entuzjastów R-Warsaw RUG Meetup & R-Ladies Warsaw",
         "url": "<a href='https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/'>Spotkania Entuzjastów R-Warsaw RUG Meetup & R-Ladies Warsaw</a>",
         "created": "2014-10-06",
@@ -2702,6 +2685,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [21.02,52.26]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Twin Cities",
+        "url": "<a href='https://www.meetup.com/rladies-tc/'>R-Ladies Twin Cities</a>",
+        "created": "2015-04-01",
+        "members": "313",
+        "past_events": "33",
+        "upcoming_events": "4",
+        "last_event": "2019-07-25",
+        "days_since_last_event": "48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.22,44.94]
       }
     },
     {
@@ -2830,10 +2830,10 @@
         "url": "<a href='https://www.meetup.com/rladies-den-bosch/'>R-Ladies Den Bosch</a>",
         "created": "2019-03-23",
         "members": "31",
-        "past_events": "0",
-        "upcoming_events": "1",
-        "last_event": "1970-01-01",
-        "days_since_last_event": "18150"
+        "past_events": "1",
+        "upcoming_events": "0",
+        "last_event": "2019-09-11",
+        "days_since_last_event": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2863,7 +2863,7 @@
         "name": "R-Ladies Lagos",
         "url": "<a href='https://www.meetup.com/rladies-lagos/'>R-Ladies Lagos</a>",
         "created": "2019-08-16",
-        "members": "49",
+        "members": "50",
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "1970-01-01",
