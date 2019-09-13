@@ -181,11 +181,12 @@ get_rugs <- function() {
   r_user_groups4 <- all_ds_groups[grepl("-user-|-r-|phillyr|boston-user|r-users-sydney|rug|scotland-data|bioconductor|r-data|data-mining|satrday", tolower(all_ds_groups$topics)),]
   r_user_groups5 <- all_ds_groups[grepl("r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug|programming-in-r|r-programming-|-using-r|r-language", tolower(all_ds_groups$topics)),]
   r_user_groups6 <- all_da_groups[grepl("-user-|-r-|r user|r-user|r-lab|phillyr|rug|bioconductor|r-data|rug|programming-in-r|r-programming-|-using-r|r-language", tolower(all_da_groups$topics)),]
-  combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2, r_user_groups3,r_user_groups4,r_user_groups5, r_user_groups5)
-  filtered_group1 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$resource)),]
-  combined_ruser_groups2 <-  rbind(filtered_group1, all_ruser_groups, rladies_groups)
+ combined_ruser_groups1  <- rbind(r_user_groups1, r_user_groups2, r_user_groups3,r_user_groups4,r_user_groups5, r_user_groups5,r_user_groups6)
+  filtered_group1 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$topics)),]
+  filtered_group2 <- combined_ruser_groups1[grepl("-r-|r-user|r-lab|rug|scotland-data|programming-in-r|r-programming-|-using-r|r-language|r-project-for-statistical", tolower(combined_ruser_groups1$urlname)),]
+  combined_ruser_groups2 <-  rbind(filtered_group1, filtered_group2, all_ruser_groups, rladies_groups)
   total_ruser_groups <- combined_ruser_groups2[!duplicated(trim.strings(combined_ruser_groups2$urlname)),]
-
+   
   #Groups to filter out: Rapidminer user group, Looker user group, Jupyter user group, SQL Server User group, Biomarker Labs, 
   #(note that these are other data-science user group names that end with r, they produce a combination of 'r-user' in urlnames)
   r_groups <- total_ruser_groups[!grepl("rapidminer|looker|jupyter|sql-server|biomarker-labs|strugglers", tolower(total_ruser_groups$urlname)),]
