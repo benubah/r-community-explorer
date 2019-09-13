@@ -250,7 +250,7 @@ r_groups[grepl("San Juan",r_groups$city),]$country<- "Puerto Rico"
   colnames(r_groups)[colnames(r_groups) == 'timezone'] <- 'region'
 
   # specify columns to retain
-  col_to_keep <- c("name", "city", "country",  "region", "members", "fullurl", "created", "past_events", "upcoming_events", "visibility")
+  col_to_keep <- c("name", "city", "country",  "region", "members", "fullurl", "created", "past_events", "upcoming_events", "visibility", "last_event")
   r_groups2 <- r_groups[col_to_keep]
   write.csv(r_groups2, "docs/data/rugs.csv")   
   
