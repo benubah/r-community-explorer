@@ -5,9 +5,9 @@ This is an infrastructure to explore R user groups and R-Ladies groups around th
 
 This hopefully makes it easier to find user groups, find upcoming events, discover active and inactive groups, track high profile groups based on activity and size, understand the global distribution of groups and bring to light, areas of under-representation.
 
-Primary data source for this work is the API of meetup.com; other sources are planned to be added. 
+The primary data source is the API of meetup.com. Additions of other sources remain planned.
 
-This project uses the `meetupr` package basically to query the Meetup API. It renders the dashboards using Genetelella Admin Bootstrap Dashboard template.
+This project uses the `meetupr` package to query the Meetup API. It renders the dashboards using Genetelella Admin Bootstrap Dashboard template.
 
 It is completely data-driven and is updated daily by the use of Travis' Cron jobs.
 
@@ -30,3 +30,10 @@ https://benubah.github.io/r-community-explorer/rladies.html
 https://benubah.github.io/r-community-explorer/gsoc.html
 
 ![image](gsoc1.png)
+
+### Automatic dashboard updating with Travis CI
+A simple diagram of how this project uses Travis CI to update the dashboards daily and automatically.
+
+![image](CommExplore_TravisCI_UML.png)
+
+This UML diagram was developed on http://nomnoml.com/ and then published by github_UML.Rmd using the nomnoml R package.
