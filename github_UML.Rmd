@@ -1,0 +1,43 @@
+---
+title: "R Community Explorer - Travis CI (Github)"
+author: "Ben Ubah, Dr. Claudia Vitolo, Rick Pack"
+date: "October 22, 2019"
+output: html_document
+---
+
+```{r one, echo = FALSE, include = FALSE}
+
+library(nomnoml)
+```
+
+```{nomnoml, echo = FALSE}
+#stroke: blue
+#.box: fill=#8f8 dashed visual=ellipse
+[<abstract>github r-community-explorer] root --> [.travis.yml]
+[.travis.yml|
+      [after_success()]
+    ]
+  
+  [.travis.yml] -:> [deploy.sh]
+
+  
+  [deploy.sh|
+      [setup_git()]
+    [commit_files()]
+    [upload_files()]
+    ]
+  
+  [setup_git()]->[R/rladies.R]
+  [setup_git()]->[R/rladies_hosts.R]
+  [setup_git()]->[R/rugs.R]
+  [setup_git()]->[R/rgsoc.R]    
+  
+  [commit_files()]
+  [commit_files()|git add|git commit]
+  [commit_files()]-> [<usecase>CSV and JSON]
+  
+  [upload_files()]-> [git remote]
+  [git remote|remove origin|add new origin]
+  [git remote] -> [git push]
+```
+
