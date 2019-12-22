@@ -24,7 +24,7 @@
         "name": "R-Ladies Bilbao",
         "url": "<a href='https://www.meetup.com/rladies-bilbao/'>R-Ladies Bilbao</a>",
         "created": "2019-02-27",
-        "members": "134",
+        "members": "135",
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-11-05",
@@ -211,7 +211,7 @@
         "name": "R-Ladies Novi Sad",
         "url": "<a href='https://www.meetup.com/rladies-novi-sad/'>R-Ladies Novi Sad</a>",
         "created": "2019-05-24",
-        "members": "116",
+        "members": "117",
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-12-21",
@@ -288,6 +288,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-0.1,51.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Lausanne",
+        "url": "<a href='https://www.meetup.com/rladies-lausanne/'>R-Ladies Lausanne</a>",
+        "created": "2017-12-02",
+        "members": "304",
+        "past_events": "12",
+        "upcoming_events": "0",
+        "last_event": "2019-12-03",
+        "days_since_last_event": "19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.62,46.52]
       }
     },
     {
@@ -432,7 +449,7 @@
         "name": "R-Ladies Newcastle",
         "url": "<a href='https://www.meetup.com/rladies-newcastle/'>R-Ladies Newcastle</a>",
         "created": "2019-02-27",
-        "members": "215",
+        "members": "214",
         "past_events": "8",
         "upcoming_events": "0",
         "last_event": "2019-12-10",
@@ -492,23 +509,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-122.33,47.61]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Lausanne",
-        "url": "<a href='https://www.meetup.com/rladies-lausanne/'>R-Ladies Lausanne</a>",
-        "created": "2017-12-02",
-        "members": "304",
-        "past_events": "12",
-        "upcoming_events": "0",
-        "last_event": "2019-12-03",
-        "days_since_last_event": "19"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [6.62,46.52]
       }
     },
     {
@@ -633,6 +633,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Salvador",
+        "url": "<a href='https://www.meetup.com/rladies-salvador/'>R-Ladies Salvador</a>",
+        "created": "2018-07-23",
+        "members": "161",
+        "past_events": "4",
+        "upcoming_events": "0",
+        "last_event": "2019-03-08",
+        "days_since_last_event": "289"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5,-12.97]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Berlin",
         "url": "<a href='https://www.meetup.com/rladies-berlin/'>R-Ladies Berlin</a>",
         "created": "2016-10-31",
@@ -713,6 +730,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-94.14,36.05]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Pasadena",
+        "url": "<a href='https://www.meetup.com/rladies-pasadena/'>R-Ladies Pasadena</a>",
+        "created": "2018-04-25",
+        "members": "87",
+        "past_events": "5",
+        "upcoming_events": "0",
+        "last_event": "2019-11-07",
+        "days_since_last_event": "45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.14,34.15]
       }
     },
     {
@@ -1007,23 +1041,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Salvador",
-        "url": "<a href='https://www.meetup.com/rladies-salvador/'>R-Ladies Salvador</a>",
-        "created": "2018-07-23",
-        "members": "161",
-        "past_events": "4",
-        "upcoming_events": "0",
-        "last_event": "2019-03-08",
-        "days_since_last_event": "289"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-38.5,-12.97]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "R-Ladies L'viv",
         "url": "<a href='https://www.meetup.com/rladies-lviv/'>R-Ladies L'viv</a>",
         "created": "2019-08-31",
@@ -1078,7 +1095,7 @@
         "name": "R-Ladies Cincinnati",
         "url": "<a href='https://www.meetup.com/rladies-cincinnati/'>R-Ladies Cincinnati</a>",
         "created": "2018-05-24",
-        "members": "69",
+        "members": "70",
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2018-07-17",
@@ -1138,23 +1155,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-93.63,41.6]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Pasadena",
-        "url": "<a href='https://www.meetup.com/rladies-pasadena/'>R-Ladies Pasadena</a>",
-        "created": "2018-04-25",
-        "members": "87",
-        "past_events": "5",
-        "upcoming_events": "0",
-        "last_event": "2019-11-07",
-        "days_since_last_event": "45"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-118.14,34.15]
       }
     },
     {
@@ -1265,7 +1265,7 @@
         "name": "R-Ladies Columbus",
         "url": "<a href='https://www.meetup.com/rladies-columbus/'>R-Ladies Columbus</a>",
         "created": "2016-10-04",
-        "members": "747",
+        "members": "748",
         "past_events": "31",
         "upcoming_events": "0",
         "last_event": "2019-12-11",
@@ -1350,7 +1350,7 @@
         "name": "R-Ladies Mumbai",
         "url": "<a href='https://www.meetup.com/rladies-mumbai/'>R-Ladies Mumbai</a>",
         "created": "2019-11-23",
-        "members": "37",
+        "members": "38",
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
@@ -1806,6 +1806,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Buenos Aires",
+        "url": "<a href='https://www.meetup.com/rladies-buenos-aires/'>R-Ladies Buenos Aires</a>",
+        "created": "2017-01-03",
+        "members": "867",
+        "past_events": "19",
+        "upcoming_events": "0",
+        "last_event": "2019-12-03",
+        "days_since_last_event": "19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.37,-34.61]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Santa Fe",
         "url": "<a href='https://www.meetup.com/rladies-santa-fe/'>R-Ladies Santa Fe</a>",
         "created": "2018-05-08",
@@ -1937,23 +1954,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-90.08,29.96]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Buenos Aires",
-        "url": "<a href='https://www.meetup.com/rladies-buenos-aires/'>R-Ladies Buenos Aires</a>",
-        "created": "2017-01-03",
-        "members": "867",
-        "past_events": "19",
-        "upcoming_events": "0",
-        "last_event": "2019-12-03",
-        "days_since_last_event": "19"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-58.37,-34.61]
       }
     },
     {
@@ -2285,7 +2285,7 @@
         "name": "R-Ladies Montenegro",
         "url": "<a href='https://www.meetup.com/rladies-montenegro/'>R-Ladies Montenegro</a>",
         "created": "2017-07-27",
-        "members": "89",
+        "members": "90",
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2017-08-25",
@@ -2761,7 +2761,7 @@
         "name": "R-Ladies Ankara",
         "url": "<a href='https://www.meetup.com/rladies-ankara/'>R-Ladies Ankara</a>",
         "created": "2019-07-01",
-        "members": "322",
+        "members": "323",
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-12-21",
@@ -2846,7 +2846,7 @@
         "name": "R-Ladies Podgorica",
         "url": "<a href='https://www.meetup.com/rladies-podgorica/'>R-Ladies Podgorica</a>",
         "created": "2019-09-18",
-        "members": "14",
+        "members": "15",
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-10-03",
