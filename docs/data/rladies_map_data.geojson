@@ -11,7 +11,7 @@
         "past_events": "16",
         "upcoming_events": "0",
         "last_event": "2019-12-12",
-        "days_since_last_event": "23"
+        "days_since_last_event": "24"
       },
       "geometry": {
         "type": "Point",
@@ -28,7 +28,7 @@
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-11-05",
-        "days_since_last_event": "60"
+        "days_since_last_event": "61"
       },
       "geometry": {
         "type": "Point",
@@ -41,11 +41,11 @@
         "name": "R-Ladies Bariloche",
         "url": "<a href='https://www.meetup.com/rladies-bariloche/'>R-Ladies Bariloche</a>",
         "created": "2018-05-10",
-        "members": "167",
+        "members": "168",
         "past_events": "11",
         "upcoming_events": "0",
         "last_event": "2019-12-02",
-        "days_since_last_event": "33"
+        "days_since_last_event": "34"
       },
       "geometry": {
         "type": "Point",
@@ -62,7 +62,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2018-05-22",
-        "days_since_last_event": "592"
+        "days_since_last_event": "593"
       },
       "geometry": {
         "type": "Point",
@@ -75,11 +75,11 @@
         "name": "R-Ladies Melbourne",
         "url": "<a href='https://www.meetup.com/rladies-melbourne/'>R-Ladies Melbourne</a>",
         "created": "2016-09-02",
-        "members": "1376",
+        "members": "1377",
         "past_events": "53",
         "upcoming_events": "0",
         "last_event": "2019-12-17",
-        "days_since_last_event": "18"
+        "days_since_last_event": "19"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +96,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-12-07",
-        "days_since_last_event": "28"
+        "days_since_last_event": "29"
       },
       "geometry": {
         "type": "Point",
@@ -109,11 +109,11 @@
         "name": "R-Ladies Porto Alegre",
         "url": "<a href='https://www.meetup.com/rladies-porto-alegre/'>R-Ladies Porto Alegre</a>",
         "created": "2017-10-30",
-        "members": "310",
+        "members": "311",
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-12-16",
-        "days_since_last_event": "19"
+        "days_since_last_event": "20"
       },
       "geometry": {
         "type": "Point",
@@ -126,11 +126,11 @@
         "name": "R-Ladies Quito",
         "url": "<a href='https://www.meetup.com/rladies-quito/'>R-Ladies Quito</a>",
         "created": "2017-07-18",
-        "members": "744",
+        "members": "745",
         "past_events": "9",
         "upcoming_events": "0",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
@@ -147,7 +147,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -164,7 +164,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2018-05-12",
-        "days_since_last_event": "602"
+        "days_since_last_event": "603"
       },
       "geometry": {
         "type": "Point",
@@ -177,11 +177,11 @@
         "name": "R-Ladies Kansas City",
         "url": "<a href='https://www.meetup.com/rladies-kansas-city/'>R-Ladies Kansas City</a>",
         "created": "2019-07-19",
-        "members": "43",
+        "members": "45",
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-11-23",
-        "days_since_last_event": "42"
+        "days_since_last_event": "43"
       },
       "geometry": {
         "type": "Point",
@@ -198,7 +198,7 @@
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-11-21",
-        "days_since_last_event": "44"
+        "days_since_last_event": "45"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +215,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-12-21",
-        "days_since_last_event": "14"
+        "days_since_last_event": "15"
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +232,7 @@
         "past_events": "4",
         "upcoming_events": "1",
         "last_event": "2019-12-17",
-        "days_since_last_event": "18"
+        "days_since_last_event": "19"
       },
       "geometry": {
         "type": "Point",
@@ -245,32 +245,15 @@
         "name": "R-Ladies Frankfurt",
         "url": "<a href='https://www.meetup.com/rladies-frankfurt/'>R-Ladies Frankfurt</a>",
         "created": "2019-02-27",
-        "members": "89",
+        "members": "90",
         "past_events": "8",
         "upcoming_events": "0",
         "last_event": "2019-12-12",
-        "days_since_last_event": "23"
+        "days_since_last_event": "24"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [8.68,50.12]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Madrid",
-        "url": "<a href='https://www.meetup.com/rladies-madrid/'>R-Ladies Madrid</a>",
-        "created": "2016-09-02",
-        "members": "1347",
-        "past_events": "34",
-        "upcoming_events": "0",
-        "last_event": "2019-12-04",
-        "days_since_last_event": "31"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-3.71,40.42]
       }
     },
     {
@@ -283,7 +266,7 @@
         "past_events": "14",
         "upcoming_events": "0",
         "last_event": "2019-12-07",
-        "days_since_last_event": "28"
+        "days_since_last_event": "29"
       },
       "geometry": {
         "type": "Point",
@@ -293,14 +276,31 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Madrid",
+        "url": "<a href='https://www.meetup.com/rladies-madrid/'>R-Ladies Madrid</a>",
+        "created": "2016-09-02",
+        "members": "1347",
+        "past_events": "34",
+        "upcoming_events": "0",
+        "last_event": "2019-12-04",
+        "days_since_last_event": "32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.71,40.42]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Lausanne",
         "url": "<a href='https://www.meetup.com/rladies-lausanne/'>R-Ladies Lausanne</a>",
         "created": "2017-12-02",
-        "members": "306",
+        "members": "305",
         "past_events": "12",
         "upcoming_events": "0",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -317,7 +317,7 @@
         "past_events": "16",
         "upcoming_events": "0",
         "last_event": "2019-11-14",
-        "days_since_last_event": "51"
+        "days_since_last_event": "52"
       },
       "geometry": {
         "type": "Point",
@@ -334,7 +334,7 @@
         "past_events": "52",
         "upcoming_events": "1",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -351,7 +351,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-12-02",
-        "days_since_last_event": "33"
+        "days_since_last_event": "34"
       },
       "geometry": {
         "type": "Point",
@@ -368,7 +368,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -381,11 +381,11 @@
         "name": "R-Ladies Puebla",
         "url": "<a href='https://www.meetup.com/rladies-puebla/'>R-Ladies Puebla</a>",
         "created": "2019-07-19",
-        "members": "86",
+        "members": "87",
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-11-23",
-        "days_since_last_event": "42"
+        "days_since_last_event": "43"
       },
       "geometry": {
         "type": "Point",
@@ -402,7 +402,7 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2019-11-21",
-        "days_since_last_event": "44"
+        "days_since_last_event": "45"
       },
       "geometry": {
         "type": "Point",
@@ -419,7 +419,7 @@
         "past_events": "27",
         "upcoming_events": "1",
         "last_event": "2019-12-04",
-        "days_since_last_event": "31"
+        "days_since_last_event": "32"
       },
       "geometry": {
         "type": "Point",
@@ -436,7 +436,7 @@
         "past_events": "18",
         "upcoming_events": "0",
         "last_event": "2019-12-28",
-        "days_since_last_event": "7"
+        "days_since_last_event": "8"
       },
       "geometry": {
         "type": "Point",
@@ -449,49 +449,15 @@
         "name": "R-Ladies Freiburg",
         "url": "<a href='https://www.meetup.com/rladies-freiburg/'>R-Ladies Freiburg</a>",
         "created": "2019-01-23",
-        "members": "95",
+        "members": "96",
         "past_events": "11",
         "upcoming_events": "1",
         "last_event": "2019-12-04",
-        "days_since_last_event": "31"
+        "days_since_last_event": "32"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [7.85,47.99]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Newcastle",
-        "url": "<a href='https://www.meetup.com/rladies-newcastle/'>R-Ladies Newcastle</a>",
-        "created": "2019-02-27",
-        "members": "217",
-        "past_events": "8",
-        "upcoming_events": "0",
-        "last_event": "2019-12-10",
-        "days_since_last_event": "25"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-1.6,55]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Perth",
-        "url": "<a href='https://www.meetup.com/rladies-perth/'>R-Ladies Perth</a>",
-        "created": "2018-10-23",
-        "members": "228",
-        "past_events": "10",
-        "upcoming_events": "0",
-        "last_event": "2019-12-17",
-        "days_since_last_event": "18"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [115.84,-31.96]
       }
     },
     {
@@ -504,7 +470,7 @@
         "past_events": "25",
         "upcoming_events": "1",
         "last_event": "2019-08-27",
-        "days_since_last_event": "130"
+        "days_since_last_event": "131"
       },
       "geometry": {
         "type": "Point",
@@ -514,14 +480,48 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Perth",
+        "url": "<a href='https://www.meetup.com/rladies-perth/'>R-Ladies Perth</a>",
+        "created": "2018-10-23",
+        "members": "228",
+        "past_events": "10",
+        "upcoming_events": "0",
+        "last_event": "2019-12-17",
+        "days_since_last_event": "19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.84,-31.96]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Newcastle",
+        "url": "<a href='https://www.meetup.com/rladies-newcastle/'>R-Ladies Newcastle</a>",
+        "created": "2019-02-27",
+        "members": "216",
+        "past_events": "8",
+        "upcoming_events": "0",
+        "last_event": "2019-12-10",
+        "days_since_last_event": "26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.6,55]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Kyiv",
         "url": "<a href='https://www.meetup.com/rladies-kyiv/'>R-Ladies Kyiv</a>",
         "created": "2019-02-15",
-        "members": "262",
+        "members": "263",
         "past_events": "14",
         "upcoming_events": "0",
         "last_event": "2019-12-08",
-        "days_since_last_event": "27"
+        "days_since_last_event": "28"
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +538,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-11-04",
-        "days_since_last_event": "61"
+        "days_since_last_event": "62"
       },
       "geometry": {
         "type": "Point",
@@ -555,7 +555,7 @@
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-11-29",
-        "days_since_last_event": "36"
+        "days_since_last_event": "37"
       },
       "geometry": {
         "type": "Point",
@@ -572,7 +572,7 @@
         "past_events": "7",
         "upcoming_events": "0",
         "last_event": "2019-11-28",
-        "days_since_last_event": "37"
+        "days_since_last_event": "38"
       },
       "geometry": {
         "type": "Point",
@@ -589,7 +589,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-03-08",
-        "days_since_last_event": "302"
+        "days_since_last_event": "303"
       },
       "geometry": {
         "type": "Point",
@@ -606,7 +606,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-10-30",
-        "days_since_last_event": "66"
+        "days_since_last_event": "67"
       },
       "geometry": {
         "type": "Point",
@@ -623,7 +623,7 @@
         "past_events": "8",
         "upcoming_events": "0",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -640,7 +640,7 @@
         "past_events": "7",
         "upcoming_events": "0",
         "last_event": "2019-11-26",
-        "days_since_last_event": "39"
+        "days_since_last_event": "40"
       },
       "geometry": {
         "type": "Point",
@@ -657,7 +657,7 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2019-12-06",
-        "days_since_last_event": "29"
+        "days_since_last_event": "30"
       },
       "geometry": {
         "type": "Point",
@@ -674,7 +674,7 @@
         "past_events": "18",
         "upcoming_events": "0",
         "last_event": "2019-12-02",
-        "days_since_last_event": "33"
+        "days_since_last_event": "34"
       },
       "geometry": {
         "type": "Point",
@@ -687,11 +687,11 @@
         "name": "R-Ladies Iowa City",
         "url": "<a href='https://www.meetup.com/rladies-iowa-city/'>R-Ladies Iowa City</a>",
         "created": "2018-09-18",
-        "members": "96",
+        "members": "97",
         "past_events": "5",
         "upcoming_events": "0",
         "last_event": "2019-10-17",
-        "days_since_last_event": "79"
+        "days_since_last_event": "80"
       },
       "geometry": {
         "type": "Point",
@@ -708,7 +708,7 @@
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-11-20",
-        "days_since_last_event": "45"
+        "days_since_last_event": "46"
       },
       "geometry": {
         "type": "Point",
@@ -725,7 +725,7 @@
         "past_events": "19",
         "upcoming_events": "0",
         "last_event": "2019-12-02",
-        "days_since_last_event": "33"
+        "days_since_last_event": "34"
       },
       "geometry": {
         "type": "Point",
@@ -738,32 +738,15 @@
         "name": "R-Ladies Baltimore",
         "url": "<a href='https://www.meetup.com/rladies-baltimore/'>R-Ladies Baltimore</a>",
         "created": "2018-02-26",
-        "members": "389",
+        "members": "390",
         "past_events": "9",
         "upcoming_events": "5",
         "last_event": "2019-11-22",
-        "days_since_last_event": "43"
+        "days_since_last_event": "44"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-76.62,39.29]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Niterói",
-        "url": "<a href='https://www.meetup.com/rladies-niteroi/'>R-Ladies Niterói</a>",
-        "created": "2018-06-04",
-        "members": "457",
-        "past_events": "7",
-        "upcoming_events": "0",
-        "last_event": "2019-12-12",
-        "days_since_last_event": "23"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-43.13,-22.9]
       }
     },
     {
@@ -776,7 +759,7 @@
         "past_events": "3",
         "upcoming_events": "1",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
@@ -793,11 +776,28 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-12-12",
-        "days_since_last_event": "23"
+        "days_since_last_event": "24"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-49.26,-16.72]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Niterói",
+        "url": "<a href='https://www.meetup.com/rladies-niteroi/'>R-Ladies Niterói</a>",
+        "created": "2018-06-04",
+        "members": "457",
+        "past_events": "7",
+        "upcoming_events": "0",
+        "last_event": "2019-12-12",
+        "days_since_last_event": "24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.13,-22.9]
       }
     },
     {
@@ -810,7 +810,7 @@
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-12-05",
-        "days_since_last_event": "30"
+        "days_since_last_event": "31"
       },
       "geometry": {
         "type": "Point",
@@ -827,7 +827,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-12-19",
-        "days_since_last_event": "16"
+        "days_since_last_event": "17"
       },
       "geometry": {
         "type": "Point",
@@ -837,18 +837,18 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Brisbane",
-        "url": "<a href='https://www.meetup.com/rladies-brisbane/'>R-Ladies Brisbane</a>",
-        "created": "2018-05-10",
-        "members": "238",
-        "past_events": "8",
-        "upcoming_events": "0",
-        "last_event": "2019-12-05",
-        "days_since_last_event": "30"
+        "name": "R-Ladies Kathmandu",
+        "url": "<a href='https://www.meetup.com/rladies-kathmandu/'>R-Ladies Kathmandu</a>",
+        "created": "2018-10-01",
+        "members": "69",
+        "past_events": "3",
+        "upcoming_events": "1",
+        "last_event": "2019-08-31",
+        "days_since_last_event": "127"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [153.02,-27.46]
+        "coordinates": [85.31,27.71]
       }
     },
     {
@@ -861,28 +861,11 @@
         "past_events": "19",
         "upcoming_events": "0",
         "last_event": "2019-12-10",
-        "days_since_last_event": "25"
+        "days_since_last_event": "26"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [38.74,9.03]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Kathmandu",
-        "url": "<a href='https://www.meetup.com/rladies-kathmandu/'>R-Ladies Kathmandu</a>",
-        "created": "2018-10-01",
-        "members": "68",
-        "past_events": "3",
-        "upcoming_events": "1",
-        "last_event": "2019-08-31",
-        "days_since_last_event": "126"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [85.31,27.71]
       }
     },
     {
@@ -895,7 +878,7 @@
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2018-07-21",
-        "days_since_last_event": "532"
+        "days_since_last_event": "533"
       },
       "geometry": {
         "type": "Point",
@@ -912,7 +895,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-07-02",
-        "days_since_last_event": "186"
+        "days_since_last_event": "187"
       },
       "geometry": {
         "type": "Point",
@@ -929,7 +912,7 @@
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2018-06-18",
-        "days_since_last_event": "565"
+        "days_since_last_event": "566"
       },
       "geometry": {
         "type": "Point",
@@ -942,11 +925,11 @@
         "name": "R-Ladies Rotterdam",
         "url": "<a href='https://www.meetup.com/rladies-rotterdam/'>R-Ladies Rotterdam</a>",
         "created": "2017-12-05",
-        "members": "380",
+        "members": "379",
         "past_events": "11",
         "upcoming_events": "0",
         "last_event": "2019-09-13",
-        "days_since_last_event": "113"
+        "days_since_last_event": "114"
       },
       "geometry": {
         "type": "Point",
@@ -963,7 +946,7 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2018-12-13",
-        "days_since_last_event": "387"
+        "days_since_last_event": "388"
       },
       "geometry": {
         "type": "Point",
@@ -980,7 +963,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-08-29",
-        "days_since_last_event": "128"
+        "days_since_last_event": "129"
       },
       "geometry": {
         "type": "Point",
@@ -997,7 +980,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-10-18",
-        "days_since_last_event": "78"
+        "days_since_last_event": "79"
       },
       "geometry": {
         "type": "Point",
@@ -1014,7 +997,7 @@
         "past_events": "5",
         "upcoming_events": "0",
         "last_event": "2019-10-05",
-        "days_since_last_event": "91"
+        "days_since_last_event": "92"
       },
       "geometry": {
         "type": "Point",
@@ -1031,7 +1014,7 @@
         "past_events": "7",
         "upcoming_events": "0",
         "last_event": "2019-09-05",
-        "days_since_last_event": "121"
+        "days_since_last_event": "122"
       },
       "geometry": {
         "type": "Point",
@@ -1048,7 +1031,7 @@
         "past_events": "15",
         "upcoming_events": "0",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -1065,7 +1048,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2018-07-17",
-        "days_since_last_event": "536"
+        "days_since_last_event": "537"
       },
       "geometry": {
         "type": "Point",
@@ -1082,7 +1065,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-11-15",
-        "days_since_last_event": "50"
+        "days_since_last_event": "51"
       },
       "geometry": {
         "type": "Point",
@@ -1099,7 +1082,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2018-08-29",
-        "days_since_last_event": "493"
+        "days_since_last_event": "494"
       },
       "geometry": {
         "type": "Point",
@@ -1116,7 +1099,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-05-20",
-        "days_since_last_event": "229"
+        "days_since_last_event": "230"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1116,7 @@
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-12-06",
-        "days_since_last_event": "29"
+        "days_since_last_event": "30"
       },
       "geometry": {
         "type": "Point",
@@ -1150,7 +1133,7 @@
         "past_events": "5",
         "upcoming_events": "0",
         "last_event": "2019-11-30",
-        "days_since_last_event": "35"
+        "days_since_last_event": "36"
       },
       "geometry": {
         "type": "Point",
@@ -1167,7 +1150,7 @@
         "past_events": "5",
         "upcoming_events": "0",
         "last_event": "2019-11-07",
-        "days_since_last_event": "58"
+        "days_since_last_event": "59"
       },
       "geometry": {
         "type": "Point",
@@ -1184,7 +1167,7 @@
         "past_events": "8",
         "upcoming_events": "0",
         "last_event": "2019-10-31",
-        "days_since_last_event": "65"
+        "days_since_last_event": "66"
       },
       "geometry": {
         "type": "Point",
@@ -1201,7 +1184,7 @@
         "past_events": "7",
         "upcoming_events": "0",
         "last_event": "2019-11-12",
-        "days_since_last_event": "53"
+        "days_since_last_event": "54"
       },
       "geometry": {
         "type": "Point",
@@ -1211,18 +1194,18 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Amsterdam",
-        "url": "<a href='https://www.meetup.com/rladies-amsterdam/'>R-Ladies Amsterdam</a>",
-        "created": "2018-02-10",
-        "members": "710",
-        "past_events": "18",
+        "name": "R-Ladies Brisbane",
+        "url": "<a href='https://www.meetup.com/rladies-brisbane/'>R-Ladies Brisbane</a>",
+        "created": "2018-05-10",
+        "members": "238",
+        "past_events": "8",
         "upcoming_events": "0",
-        "last_event": "2019-12-10",
-        "days_since_last_event": "25"
+        "last_event": "2019-12-05",
+        "days_since_last_event": "31"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.89,52.37]
+        "coordinates": [153.02,-27.46]
       }
     },
     {
@@ -1235,11 +1218,28 @@
         "past_events": "9",
         "upcoming_events": "0",
         "last_event": "2019-12-17",
-        "days_since_last_event": "18"
+        "days_since_last_event": "19"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-122.42,37.78]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Amsterdam",
+        "url": "<a href='https://www.meetup.com/rladies-amsterdam/'>R-Ladies Amsterdam</a>",
+        "created": "2018-02-10",
+        "members": "710",
+        "past_events": "18",
+        "upcoming_events": "0",
+        "last_event": "2019-12-10",
+        "days_since_last_event": "26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.89,52.37]
       }
     },
     {
@@ -1252,7 +1252,7 @@
         "past_events": "19",
         "upcoming_events": "3",
         "last_event": "2019-12-14",
-        "days_since_last_event": "21"
+        "days_since_last_event": "22"
       },
       "geometry": {
         "type": "Point",
@@ -1265,11 +1265,11 @@
         "name": "R-Ladies Sydney",
         "url": "<a href='https://www.meetup.com/rladies-sydney/'>R-Ladies Sydney</a>",
         "created": "2018-05-09",
-        "members": "693",
+        "members": "692",
         "past_events": "26",
         "upcoming_events": "0",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
@@ -1286,7 +1286,7 @@
         "past_events": "31",
         "upcoming_events": "0",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
@@ -1303,7 +1303,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-07-27",
-        "days_since_last_event": "161"
+        "days_since_last_event": "162"
       },
       "geometry": {
         "type": "Point",
@@ -1320,7 +1320,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-09-12",
-        "days_since_last_event": "114"
+        "days_since_last_event": "115"
       },
       "geometry": {
         "type": "Point",
@@ -1337,7 +1337,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-11-06",
-        "days_since_last_event": "59"
+        "days_since_last_event": "60"
       },
       "geometry": {
         "type": "Point",
@@ -1354,7 +1354,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -1367,11 +1367,11 @@
         "name": "R-Ladies Lavras",
         "url": "<a href='https://www.meetup.com/rladies-lavras/'>R-Ladies Lavras</a>",
         "created": "2019-04-16",
-        "members": "20",
+        "members": "21",
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-05-31",
-        "days_since_last_event": "218"
+        "days_since_last_event": "219"
       },
       "geometry": {
         "type": "Point",
@@ -1388,7 +1388,7 @@
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-11-19",
-        "days_since_last_event": "46"
+        "days_since_last_event": "47"
       },
       "geometry": {
         "type": "Point",
@@ -1405,7 +1405,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -1418,11 +1418,11 @@
         "name": "R-Ladies Dallas",
         "url": "<a href='https://www.meetup.com/rladies-dallas/'>R-Ladies Dallas</a>",
         "created": "2018-03-04",
-        "members": "347",
+        "members": "348",
         "past_events": "15",
         "upcoming_events": "0",
         "last_event": "2019-11-13",
-        "days_since_last_event": "52"
+        "days_since_last_event": "53"
       },
       "geometry": {
         "type": "Point",
@@ -1435,11 +1435,11 @@
         "name": "R-Ladies El Paso",
         "url": "<a href='https://www.meetup.com/rladies-el-paso/'>R-Ladies El Paso</a>",
         "created": "2019-04-19",
-        "members": "40",
+        "members": "41",
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-11-21",
-        "days_since_last_event": "44"
+        "days_since_last_event": "45"
       },
       "geometry": {
         "type": "Point",
@@ -1452,11 +1452,11 @@
         "name": "R-Ladies Los Angeles",
         "url": "<a href='https://www.meetup.com/rladies-la/'>R-Ladies Los Angeles</a>",
         "created": "2016-09-02",
-        "members": "428",
+        "members": "427",
         "past_events": "25",
         "upcoming_events": "0",
         "last_event": "2019-12-07",
-        "days_since_last_event": "28"
+        "days_since_last_event": "29"
       },
       "geometry": {
         "type": "Point",
@@ -1473,7 +1473,7 @@
         "past_events": "7",
         "upcoming_events": "0",
         "last_event": "2018-07-31",
-        "days_since_last_event": "522"
+        "days_since_last_event": "523"
       },
       "geometry": {
         "type": "Point",
@@ -1490,7 +1490,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2018-04-11",
-        "days_since_last_event": "633"
+        "days_since_last_event": "634"
       },
       "geometry": {
         "type": "Point",
@@ -1507,7 +1507,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2017-11-30",
-        "days_since_last_event": "765"
+        "days_since_last_event": "766"
       },
       "geometry": {
         "type": "Point",
@@ -1524,28 +1524,11 @@
         "past_events": "8",
         "upcoming_events": "0",
         "last_event": "2019-06-18",
-        "days_since_last_event": "200"
+        "days_since_last_event": "201"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-68.83,-32.89]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Chicago",
-        "url": "<a href='https://www.meetup.com/rladies-chicago/'>R-Ladies Chicago</a>",
-        "created": "2017-07-05",
-        "members": "1049",
-        "past_events": "32",
-        "upcoming_events": "0",
-        "last_event": "2019-12-04",
-        "days_since_last_event": "31"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-87.62,41.88]
       }
     },
     {
@@ -1558,7 +1541,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2018-10-09",
-        "days_since_last_event": "452"
+        "days_since_last_event": "453"
       },
       "geometry": {
         "type": "Point",
@@ -1575,7 +1558,7 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2018-06-18",
-        "days_since_last_event": "565"
+        "days_since_last_event": "566"
       },
       "geometry": {
         "type": "Point",
@@ -1592,7 +1575,7 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2018-08-28",
-        "days_since_last_event": "494"
+        "days_since_last_event": "495"
       },
       "geometry": {
         "type": "Point",
@@ -1609,11 +1592,28 @@
         "past_events": "11",
         "upcoming_events": "0",
         "last_event": "2019-12-14",
-        "days_since_last_event": "21"
+        "days_since_last_event": "22"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-64.3,-36.62]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Chicago",
+        "url": "<a href='https://www.meetup.com/rladies-chicago/'>R-Ladies Chicago</a>",
+        "created": "2017-07-05",
+        "members": "1049",
+        "past_events": "32",
+        "upcoming_events": "0",
+        "last_event": "2019-12-04",
+        "days_since_last_event": "32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.62,41.88]
       }
     },
     {
@@ -1626,7 +1626,7 @@
         "past_events": "69",
         "upcoming_events": "0",
         "last_event": "2019-12-10",
-        "days_since_last_event": "25"
+        "days_since_last_event": "26"
       },
       "geometry": {
         "type": "Point",
@@ -1639,11 +1639,11 @@
         "name": "R-Ladies Philly",
         "url": "<a href='https://www.meetup.com/rladies-philly/'>R-Ladies Philly</a>",
         "created": "2017-10-11",
-        "members": "811",
+        "members": "812",
         "past_events": "34",
         "upcoming_events": "3",
         "last_event": "2019-12-02",
-        "days_since_last_event": "33"
+        "days_since_last_event": "34"
       },
       "geometry": {
         "type": "Point",
@@ -1660,7 +1660,7 @@
         "past_events": "19",
         "upcoming_events": "0",
         "last_event": "2019-12-13",
-        "days_since_last_event": "22"
+        "days_since_last_event": "23"
       },
       "geometry": {
         "type": "Point",
@@ -1677,7 +1677,7 @@
         "past_events": "11",
         "upcoming_events": "0",
         "last_event": "2019-12-09",
-        "days_since_last_event": "26"
+        "days_since_last_event": "27"
       },
       "geometry": {
         "type": "Point",
@@ -1694,7 +1694,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-09-13",
-        "days_since_last_event": "113"
+        "days_since_last_event": "114"
       },
       "geometry": {
         "type": "Point",
@@ -1711,7 +1711,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-08-22",
-        "days_since_last_event": "135"
+        "days_since_last_event": "136"
       },
       "geometry": {
         "type": "Point",
@@ -1728,7 +1728,7 @@
         "past_events": "18",
         "upcoming_events": "1",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -1745,7 +1745,7 @@
         "past_events": "15",
         "upcoming_events": "1",
         "last_event": "2019-06-14",
-        "days_since_last_event": "204"
+        "days_since_last_event": "205"
       },
       "geometry": {
         "type": "Point",
@@ -1758,11 +1758,11 @@
         "name": "R-Ladies Boston",
         "url": "<a href='https://www.meetup.com/rladies-boston/'>R-Ladies Boston</a>",
         "created": "2016-09-16",
-        "members": "791",
+        "members": "792",
         "past_events": "36",
         "upcoming_events": "0",
         "last_event": "2019-12-16",
-        "days_since_last_event": "19"
+        "days_since_last_event": "20"
       },
       "geometry": {
         "type": "Point",
@@ -1775,11 +1775,11 @@
         "name": "R-Ladies London, Ontario",
         "url": "<a href='https://www.meetup.com/rladies-ldnont/'>R-Ladies London, Ontario</a>",
         "created": "2017-01-17",
-        "members": "441",
+        "members": "442",
         "past_events": "25",
         "upcoming_events": "1",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -1796,7 +1796,7 @@
         "past_events": "47",
         "upcoming_events": "0",
         "last_event": "2019-11-13",
-        "days_since_last_event": "52"
+        "days_since_last_event": "53"
       },
       "geometry": {
         "type": "Point",
@@ -1809,11 +1809,11 @@
         "name": "R-Ladies Irvine",
         "url": "<a href='https://www.meetup.com/rladies-irvine/'>R-Ladies Irvine</a>",
         "created": "2018-03-13",
-        "members": "341",
+        "members": "342",
         "past_events": "13",
         "upcoming_events": "1",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
@@ -1830,28 +1830,11 @@
         "past_events": "11",
         "upcoming_events": "0",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-60.69,-31.6]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies San Jose",
-        "url": "<a href='https://www.meetup.com/rladies-san-jose/'>R-Ladies San Jose</a>",
-        "created": "2017-10-09",
-        "members": "460",
-        "past_events": "19",
-        "upcoming_events": "0",
-        "last_event": "2019-12-04",
-        "days_since_last_event": "31"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-84.08,9.93]
       }
     },
     {
@@ -1864,7 +1847,7 @@
         "past_events": "15",
         "upcoming_events": "0",
         "last_event": "2019-11-09",
-        "days_since_last_event": "56"
+        "days_since_last_event": "57"
       },
       "geometry": {
         "type": "Point",
@@ -1881,7 +1864,7 @@
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -1898,7 +1881,7 @@
         "past_events": "19",
         "upcoming_events": "0",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -1915,7 +1898,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -1932,7 +1915,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -1949,11 +1932,28 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2018-03-26",
-        "days_since_last_event": "649"
+        "days_since_last_event": "650"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-82.52,27.41]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies San Jose",
+        "url": "<a href='https://www.meetup.com/rladies-san-jose/'>R-Ladies San Jose</a>",
+        "created": "2017-10-09",
+        "members": "460",
+        "past_events": "19",
+        "upcoming_events": "0",
+        "last_event": "2019-12-04",
+        "days_since_last_event": "32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.08,9.93]
       }
     },
     {
@@ -1966,11 +1966,28 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-90.08,29.96]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Santiago",
+        "url": "<a href='https://www.meetup.com/rladies-scl/'>R-Ladies Santiago</a>",
+        "created": "2017-07-18",
+        "members": "1497",
+        "past_events": "23",
+        "upcoming_events": "1",
+        "last_event": "2019-09-16",
+        "days_since_last_event": "111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.64,-33.46]
       }
     },
     {
@@ -1983,7 +2000,7 @@
         "past_events": "14",
         "upcoming_events": "1",
         "last_event": "2019-11-21",
-        "days_since_last_event": "44"
+        "days_since_last_event": "45"
       },
       "geometry": {
         "type": "Point",
@@ -2000,7 +2017,7 @@
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2017,28 +2034,11 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2019-03-09",
-        "days_since_last_event": "301"
+        "days_since_last_event": "302"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-68.15,-16.5]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Santiago",
-        "url": "<a href='https://www.meetup.com/rladies-scl/'>R-Ladies Santiago</a>",
-        "created": "2017-07-18",
-        "members": "1496",
-        "past_events": "23",
-        "upcoming_events": "0",
-        "last_event": "2019-09-16",
-        "days_since_last_event": "110"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-70.64,-33.46]
       }
     },
     {
@@ -2051,7 +2051,7 @@
         "past_events": "17",
         "upcoming_events": "0",
         "last_event": "2019-09-16",
-        "days_since_last_event": "110"
+        "days_since_last_event": "111"
       },
       "geometry": {
         "type": "Point",
@@ -2064,11 +2064,11 @@
         "name": "R-Ladies Dublin",
         "url": "<a href='https://www.meetup.com/rladies-dublin/'>R-Ladies Dublin</a>",
         "created": "2016-11-12",
-        "members": "716",
+        "members": "715",
         "past_events": "20",
         "upcoming_events": "0",
         "last_event": "2019-06-24",
-        "days_since_last_event": "194"
+        "days_since_last_event": "195"
       },
       "geometry": {
         "type": "Point",
@@ -2085,7 +2085,7 @@
         "past_events": "5",
         "upcoming_events": "0",
         "last_event": "2019-10-24",
-        "days_since_last_event": "72"
+        "days_since_last_event": "73"
       },
       "geometry": {
         "type": "Point",
@@ -2102,7 +2102,7 @@
         "past_events": "5",
         "upcoming_events": "0",
         "last_event": "2019-03-05",
-        "days_since_last_event": "305"
+        "days_since_last_event": "306"
       },
       "geometry": {
         "type": "Point",
@@ -2119,7 +2119,7 @@
         "past_events": "17",
         "upcoming_events": "0",
         "last_event": "2019-11-05",
-        "days_since_last_event": "60"
+        "days_since_last_event": "61"
       },
       "geometry": {
         "type": "Point",
@@ -2132,11 +2132,11 @@
         "name": "R-Ladies Cape Town",
         "url": "<a href='https://www.meetup.com/rladies-cape-town/'>R-Ladies Cape Town</a>",
         "created": "2017-03-06",
-        "members": "555",
+        "members": "556",
         "past_events": "21",
         "upcoming_events": "0",
         "last_event": "2019-10-17",
-        "days_since_last_event": "79"
+        "days_since_last_event": "80"
       },
       "geometry": {
         "type": "Point",
@@ -2153,7 +2153,7 @@
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-03-30",
-        "days_since_last_event": "280"
+        "days_since_last_event": "281"
       },
       "geometry": {
         "type": "Point",
@@ -2170,7 +2170,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2187,7 +2187,7 @@
         "past_events": "28",
         "upcoming_events": "0",
         "last_event": "2019-12-12",
-        "days_since_last_event": "23"
+        "days_since_last_event": "24"
       },
       "geometry": {
         "type": "Point",
@@ -2204,7 +2204,7 @@
         "past_events": "9",
         "upcoming_events": "0",
         "last_event": "2019-11-08",
-        "days_since_last_event": "57"
+        "days_since_last_event": "58"
       },
       "geometry": {
         "type": "Point",
@@ -2221,7 +2221,7 @@
         "past_events": "17",
         "upcoming_events": "0",
         "last_event": "2019-05-29",
-        "days_since_last_event": "220"
+        "days_since_last_event": "221"
       },
       "geometry": {
         "type": "Point",
@@ -2238,7 +2238,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2255,7 +2255,7 @@
         "past_events": "57",
         "upcoming_events": "0",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
@@ -2265,14 +2265,31 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies RTP",
+        "url": "<a href='https://www.meetup.com/rladies-rtp/'>R-Ladies RTP</a>",
+        "created": "2016-08-15",
+        "members": "666",
+        "past_events": "40",
+        "upcoming_events": "1",
+        "last_event": "2019-10-10",
+        "days_since_last_event": "87"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.9,36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Tucson AZ",
         "url": "<a href='https://www.meetup.com/rladies-tucson-az/'>R-Ladies Tucson AZ</a>",
         "created": "2017-11-14",
-        "members": "250",
+        "members": "251",
         "past_events": "11",
         "upcoming_events": "0",
         "last_event": "2019-12-21",
-        "days_since_last_event": "14"
+        "days_since_last_event": "15"
       },
       "geometry": {
         "type": "Point",
@@ -2289,7 +2306,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2017-08-25",
-        "days_since_last_event": "862"
+        "days_since_last_event": "863"
       },
       "geometry": {
         "type": "Point",
@@ -2306,7 +2323,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2018-06-16",
-        "days_since_last_event": "567"
+        "days_since_last_event": "568"
       },
       "geometry": {
         "type": "Point",
@@ -2316,31 +2333,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies RTP",
-        "url": "<a href='https://www.meetup.com/rladies-rtp/'>R-Ladies RTP</a>",
-        "created": "2016-08-15",
-        "members": "666",
-        "past_events": "40",
-        "upcoming_events": "0",
-        "last_event": "2019-10-10",
-        "days_since_last_event": "86"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-78.9,36]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "R-Ladies Washington D.C.",
         "url": "<a href='https://www.meetup.com/rladies-dc/'>R-Ladies Washington D.C.</a>",
         "created": "2016-12-07",
-        "members": "1704",
+        "members": "1707",
         "past_events": "45",
         "upcoming_events": "2",
         "last_event": "2019-11-23",
-        "days_since_last_event": "42"
+        "days_since_last_event": "43"
       },
       "geometry": {
         "type": "Point",
@@ -2357,7 +2357,7 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2019-08-30",
-        "days_since_last_event": "127"
+        "days_since_last_event": "128"
       },
       "geometry": {
         "type": "Point",
@@ -2370,11 +2370,11 @@
         "name": "R-Ladies Belo Horizonte",
         "url": "<a href='https://www.meetup.com/rladiesbh/'>R-Ladies Belo Horizonte</a>",
         "created": "2018-04-20",
-        "members": "748",
+        "members": "750",
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-11-09",
-        "days_since_last_event": "56"
+        "days_since_last_event": "57"
       },
       "geometry": {
         "type": "Point",
@@ -2391,7 +2391,7 @@
         "past_events": "8",
         "upcoming_events": "0",
         "last_event": "2019-12-02",
-        "days_since_last_event": "33"
+        "days_since_last_event": "34"
       },
       "geometry": {
         "type": "Point",
@@ -2408,7 +2408,7 @@
         "past_events": "18",
         "upcoming_events": "0",
         "last_event": "2019-09-19",
-        "days_since_last_event": "107"
+        "days_since_last_event": "108"
       },
       "geometry": {
         "type": "Point",
@@ -2425,7 +2425,7 @@
         "past_events": "40",
         "upcoming_events": "1",
         "last_event": "2019-12-03",
-        "days_since_last_event": "32"
+        "days_since_last_event": "33"
       },
       "geometry": {
         "type": "Point",
@@ -2442,7 +2442,7 @@
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2019-12-21",
-        "days_since_last_event": "14"
+        "days_since_last_event": "15"
       },
       "geometry": {
         "type": "Point",
@@ -2459,7 +2459,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-11-25",
-        "days_since_last_event": "40"
+        "days_since_last_event": "41"
       },
       "geometry": {
         "type": "Point",
@@ -2476,7 +2476,7 @@
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-10-02",
-        "days_since_last_event": "94"
+        "days_since_last_event": "95"
       },
       "geometry": {
         "type": "Point",
@@ -2489,11 +2489,11 @@
         "name": "R-Ladies Lexington Park",
         "url": "<a href='https://www.meetup.com/rladies-lexington-park/'>R-Ladies Lexington Park</a>",
         "created": "2019-08-16",
-        "members": "10",
+        "members": "13",
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-11-21",
-        "days_since_last_event": "44"
+        "days_since_last_event": "45"
       },
       "geometry": {
         "type": "Point",
@@ -2510,7 +2510,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-10-21",
-        "days_since_last_event": "75"
+        "days_since_last_event": "76"
       },
       "geometry": {
         "type": "Point",
@@ -2527,7 +2527,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-11-21",
-        "days_since_last_event": "44"
+        "days_since_last_event": "45"
       },
       "geometry": {
         "type": "Point",
@@ -2540,11 +2540,11 @@
         "name": "R-Ladies CDMX",
         "url": "<a href='https://www.meetup.com/rladies-cdmx/'>R-Ladies CDMX</a>",
         "created": "2017-07-04",
-        "members": "1427",
+        "members": "1429",
         "past_events": "10",
         "upcoming_events": "0",
         "last_event": "2019-12-17",
-        "days_since_last_event": "18"
+        "days_since_last_event": "19"
       },
       "geometry": {
         "type": "Point",
@@ -2557,11 +2557,11 @@
         "name": "R-Ladies Taipei",
         "url": "<a href='https://www.meetup.com/rladies-taipei/'>R-Ladies Taipei</a>",
         "created": "2016-10-23",
-        "members": "1648",
+        "members": "1649",
         "past_events": "44",
         "upcoming_events": "1",
         "last_event": "2019-12-02",
-        "days_since_last_event": "33"
+        "days_since_last_event": "34"
       },
       "geometry": {
         "type": "Point",
@@ -2578,7 +2578,7 @@
         "past_events": "9",
         "upcoming_events": "0",
         "last_event": "2018-06-07",
-        "days_since_last_event": "576"
+        "days_since_last_event": "577"
       },
       "geometry": {
         "type": "Point",
@@ -2591,11 +2591,11 @@
         "name": "R-Ladies St. Louis",
         "url": "<a href='https://www.meetup.com/rladies-st-louis/'>R-Ladies St. Louis</a>",
         "created": "2017-08-28",
-        "members": "403",
+        "members": "406",
         "past_events": "11",
         "upcoming_events": "3",
         "last_event": "2019-11-13",
-        "days_since_last_event": "52"
+        "days_since_last_event": "53"
       },
       "geometry": {
         "type": "Point",
@@ -2612,7 +2612,7 @@
         "past_events": "14",
         "upcoming_events": "0",
         "last_event": "2019-08-06",
-        "days_since_last_event": "151"
+        "days_since_last_event": "152"
       },
       "geometry": {
         "type": "Point",
@@ -2625,11 +2625,11 @@
         "name": "R-Ladies Miami",
         "url": "<a href='https://www.meetup.com/rladies-miami/'>R-Ladies Miami</a>",
         "created": "2017-06-03",
-        "members": "520",
+        "members": "519",
         "past_events": "16",
         "upcoming_events": "0",
         "last_event": "2019-12-18",
-        "days_since_last_event": "17"
+        "days_since_last_event": "18"
       },
       "geometry": {
         "type": "Point",
@@ -2646,7 +2646,7 @@
         "past_events": "45",
         "upcoming_events": "2",
         "last_event": "2019-12-12",
-        "days_since_last_event": "23"
+        "days_since_last_event": "24"
       },
       "geometry": {
         "type": "Point",
@@ -2663,7 +2663,7 @@
         "past_events": "37",
         "upcoming_events": "1",
         "last_event": "2019-12-11",
-        "days_since_last_event": "24"
+        "days_since_last_event": "25"
       },
       "geometry": {
         "type": "Point",
@@ -2676,11 +2676,11 @@
         "name": "R-Ladies Istanbul",
         "url": "<a href='https://www.meetup.com/rladies-istanbul/'>R-Ladies Istanbul</a>",
         "created": "2016-09-06",
-        "members": "1707",
+        "members": "1710",
         "past_events": "27",
         "upcoming_events": "1",
         "last_event": "2019-12-28",
-        "days_since_last_event": "7"
+        "days_since_last_event": "8"
       },
       "geometry": {
         "type": "Point",
@@ -2697,7 +2697,7 @@
         "past_events": "4",
         "upcoming_events": "1",
         "last_event": "2019-12-16",
-        "days_since_last_event": "19"
+        "days_since_last_event": "20"
       },
       "geometry": {
         "type": "Point",
@@ -2714,7 +2714,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2017-02-24",
-        "days_since_last_event": "1044"
+        "days_since_last_event": "1045"
       },
       "geometry": {
         "type": "Point",
@@ -2731,7 +2731,7 @@
         "past_events": "32",
         "upcoming_events": "1",
         "last_event": "2019-12-18",
-        "days_since_last_event": "17"
+        "days_since_last_event": "18"
       },
       "geometry": {
         "type": "Point",
@@ -2748,7 +2748,7 @@
         "past_events": "44",
         "upcoming_events": "1",
         "last_event": "2019-11-20",
-        "days_since_last_event": "45"
+        "days_since_last_event": "46"
       },
       "geometry": {
         "type": "Point",
@@ -2761,11 +2761,11 @@
         "name": "R-Ladies Ankara",
         "url": "<a href='https://www.meetup.com/rladies-ankara/'>R-Ladies Ankara</a>",
         "created": "2019-07-01",
-        "members": "330",
+        "members": "331",
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2019-12-21",
-        "days_since_last_event": "14"
+        "days_since_last_event": "15"
       },
       "geometry": {
         "type": "Point",
@@ -2782,7 +2782,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-09-11",
-        "days_since_last_event": "115"
+        "days_since_last_event": "116"
       },
       "geometry": {
         "type": "Point",
@@ -2799,7 +2799,7 @@
         "past_events": "7",
         "upcoming_events": "0",
         "last_event": "2019-11-17",
-        "days_since_last_event": "48"
+        "days_since_last_event": "49"
       },
       "geometry": {
         "type": "Point",
@@ -2816,7 +2816,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-12-20",
-        "days_since_last_event": "15"
+        "days_since_last_event": "16"
       },
       "geometry": {
         "type": "Point",
@@ -2829,11 +2829,11 @@
         "name": "R-Ladies Masqat",
         "url": "<a href='https://www.meetup.com/rladies-masqat/'>R-Ladies Masqat</a>",
         "created": "2019-10-31",
-        "members": "46",
+        "members": "50",
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2846,11 +2846,11 @@
         "name": "R-Ladies Calgary",
         "url": "<a href='https://www.meetup.com/rladies-calgary/'>R-Ladies Calgary</a>",
         "created": "2019-09-14",
-        "members": "47",
+        "members": "48",
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2867,7 +2867,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-10-03",
-        "days_since_last_event": "93"
+        "days_since_last_event": "94"
       },
       "geometry": {
         "type": "Point",
@@ -2884,7 +2884,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-12-21",
-        "days_since_last_event": "14"
+        "days_since_last_event": "15"
       },
       "geometry": {
         "type": "Point",
@@ -2897,11 +2897,11 @@
         "name": "R-Ladies Al-Khartum",
         "url": "<a href='https://www.meetup.com/rladies-al-khartum/'>R-Ladies Al-Khartum</a>",
         "created": "2019-11-23",
-        "members": "6",
+        "members": "7",
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2918,7 +2918,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2935,7 +2935,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -2948,11 +2948,11 @@
         "name": "R-Ladies Lagos",
         "url": "<a href='https://www.meetup.com/rladies-lagos/'>R-Ladies Lagos</a>",
         "created": "2019-08-16",
-        "members": "157",
+        "members": "159",
         "past_events": "2",
         "upcoming_events": "0",
         "last_event": "2019-12-07",
-        "days_since_last_event": "28"
+        "days_since_last_event": "29"
       },
       "geometry": {
         "type": "Point",
@@ -2969,7 +2969,7 @@
         "past_events": "7",
         "upcoming_events": "0",
         "last_event": "2019-11-09",
-        "days_since_last_event": "56"
+        "days_since_last_event": "57"
       },
       "geometry": {
         "type": "Point",
@@ -2986,7 +2986,7 @@
         "past_events": "4",
         "upcoming_events": "0",
         "last_event": "2019-11-21",
-        "days_since_last_event": "44"
+        "days_since_last_event": "45"
       },
       "geometry": {
         "type": "Point",
@@ -3003,7 +3003,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2019-11-08",
-        "days_since_last_event": "57"
+        "days_since_last_event": "58"
       },
       "geometry": {
         "type": "Point",
@@ -3020,7 +3020,7 @@
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "1970-01-01",
-        "days_since_last_event": "18265"
+        "days_since_last_event": "18266"
       },
       "geometry": {
         "type": "Point",
@@ -3037,7 +3037,7 @@
         "past_events": "10",
         "upcoming_events": "1",
         "last_event": "2019-10-10",
-        "days_since_last_event": "86"
+        "days_since_last_event": "87"
       },
       "geometry": {
         "type": "Point",
@@ -3054,7 +3054,7 @@
         "past_events": "9",
         "upcoming_events": "0",
         "last_event": "2019-10-02",
-        "days_since_last_event": "94"
+        "days_since_last_event": "95"
       },
       "geometry": {
         "type": "Point",
@@ -3071,7 +3071,7 @@
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2017-02-22",
-        "days_since_last_event": "1046"
+        "days_since_last_event": "1047"
       },
       "geometry": {
         "type": "Point",
@@ -3088,7 +3088,7 @@
         "past_events": "6",
         "upcoming_events": "0",
         "last_event": "2019-03-07",
-        "days_since_last_event": "303"
+        "days_since_last_event": "304"
       },
       "geometry": {
         "type": "Point",
