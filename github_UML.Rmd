@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r one, echo = FALSE, include = FALSE}
-
+# Test nomnoml code in http://nomnoml.com/
 library(nomnoml)
 ```
 
