@@ -167,14 +167,15 @@ get_rladies <- function() {
   rladies_groups$upcoming_events <- upcoming_event_counts
   rladies_groups$last_event <- last_event
   rladies_groups$days_since_last_event <- days_since_last_event
+  rladies_groups$activity <- days_since_last_event
   
-  rladies_groups$days_since_last_event[which(as.integer(rladies_groups$past_events) >=0 & as.integer(rladies_groups$days_since_last_event) <= 180 | as.integer(rladies_groups$upcoming_events) > 0)] = "Active"
+  rladies_groups$activity[which(as.integer(rladies_groups$past_events) >=0 & as.integer(rladies_groups$activity) <= 180 | as.integer(rladies_groups$upcoming_events) > 0)] = "Active"
   #rladies_groups$days_since_last_event[which(as.integer(rladies_groups$past_events) > 0 & as.integer(rladies_groups$days_since_last_event) > 180 & as.integer(rladies_groups$upcoming_events) == 0 )] = "Inactive"
-  rladies_groups$days_since_last_event[which(as.integer(rladies_groups$past_events) == 0 & as.integer(rladies_groups$upcoming_events) == 0)] = "Unbegun"
-  rladies_groups$days_since_last_event[which(rladies_groups$days_since_last_event != "Unbegun" & rladies_groups$days_since_last_event != "Active")] = "Inactive"
+  rladies_groups$activity[which(as.integer(rladies_groups$past_events) == 0 & as.integer(rladies_groups$upcoming_events) == 0)] = "Unbegun"
+  rladies_groups$activity[which(rladies_groups$activity != "Unbegun" & rladies_groups$activity != "Active")] = "Inactive"
   
   
-  rladies_groups$status <- rladies_groups$days_since_last_event
+  rladies_groups$status <- rladies_groups$activity
   rladies_groups[grepl("America",rladies_groups$timezone),]$timezone <- "Latin America"
   rladies_groups[grepl("US|Canada",rladies_groups$timezone),]$timezone <- "US/Canada"
   rladies_groups[grepl("Europe",rladies_groups$timezone),]$timezone <- "Europe"
