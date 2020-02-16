@@ -34,7 +34,7 @@ spf <- function(...) stop(sprintf(...), call. = FALSE)
   
   if (length(reslist) == 0) {
     #stop("Zero records match your filter. Nothing to return.\n",
-     #    call. = FALSE)
+    #    call. = FALSE)
     return(list(result = list(), headers = req$headers))
   }
   
@@ -158,6 +158,7 @@ get_rladies <- function() {
   last_event <- .date_helper(purrr::map_dbl(last, "time", .default = 0))
   last_event <- as.Date(last_event)
   days_since_last_event  <- as.integer(Sys.Date() - last_event)
+  activity <- days_since_last_event
   
   # add a full urlname, past_events and upcoming_events as another column
   rladies_groups$fullurl <- paste0("https://www.meetup.com/", rladies_groups$urlname, "/")
@@ -166,6 +167,14 @@ get_rladies <- function() {
   rladies_groups$upcoming_events <- upcoming_event_counts
   rladies_groups$last_event <- last_event
   rladies_groups$days_since_last_event <- days_since_last_event
+  
+  rladies_groups$days_since_last_event[which(as.integer(rladies_groups$past_events) >=0 & as.integer(rladies_groups$days_since_last_event) <= 180 | as.integer(rladies_groups$upcoming_events) > 0)] = "Active"
+  #rladies_groups$days_since_last_event[which(as.integer(rladies_groups$past_events) > 0 & as.integer(rladies_groups$days_since_last_event) > 180 & as.integer(rladies_groups$upcoming_events) == 0 )] = "Inactive"
+  rladies_groups$days_since_last_event[which(as.integer(rladies_groups$past_events) == 0 & as.integer(rladies_groups$upcoming_events) == 0)] = "Unbegun"
+  rladies_groups$days_since_last_event[which(rladies_groups$days_since_last_event != "Unbegun" & rladies_groups$days_since_last_event != "Active")] = "Inactive"
+  
+  
+  rladies_groups$status <- rladies_groups$days_since_last_event
   rladies_groups[grepl("America",rladies_groups$timezone),]$timezone <- "Latin America"
   rladies_groups[grepl("US|Canada",rladies_groups$timezone),]$timezone <- "US/Canada"
   rladies_groups[grepl("Europe",rladies_groups$timezone),]$timezone <- "Europe"
@@ -225,7 +234,7 @@ get_rladies <- function() {
                            avgevent = average_event_chapter, avgmember = average_member_chapter)
   
   # specify columns to retain
-  col_to_keep <- c("name", "city", "country",  "region", "members", "fullurl", "created", "past_events", "upcoming_events")
+  col_to_keep <- c("name", "city", "country",  "region", "members", "fullurl", "created", "status", "last_event", "past_events", "upcoming_events")
   rladies_groups2 <- rladies_groups[col_to_keep]
   write.csv(rladies_groups2, "docs/data/rladies.csv")   
   
