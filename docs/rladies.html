@@ -206,7 +206,7 @@ d3.json("data/rladies_summary.json").then(function(data) {
 document.getElementById('chapters').innerHTML = data[0][0].chapters; 
 document.getElementById('members').innerHTML = data[0][0].members;
 document.getElementById('countries').innerHTML = data[0][0].countries;
-document.getElementById('city').innerHTML = data[0][0].city;
+//document.getElementById('city').innerHTML = data[0][0].city;
 document.getElementById('pastevents').innerHTML = data[0][0].past_events;
 document.getElementById('upcomingevents').innerHTML = data[0][0].upcoming_events;
 document.getElementById('avgchapter').innerHTML = data[0][0].avgchapter;
@@ -244,7 +244,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                 
                   <div class="x_content">
                     <div class="row">
-                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                      <div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="tile-stats" style="background-color:white">
                           <div class="icon" style="color:purple"><i class="fa fa-users"></i>
                           </div>
@@ -254,7 +254,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                           <br/>
                         </div>
                       </div>
-                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                      <div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="tile-stats" style="background-color:purple">
 
                           <div class="icon" style="color:white"><i class="fa fa-user"></i>
@@ -267,7 +267,7 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
                         </div>
                       </div>
                       
-<div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="tile-stats" style="background-color:white">
                           <div class="icon" style="color:purple"><i class="fa fa-globe"></i>
                           </div>
@@ -277,20 +277,6 @@ document.getElementById('lastupdate').innerHTML = "Last Update: " + data[0][0].l
 
                         </div>
                       </div>
-
-<div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="tile-stats" style="background-color:purple">
-
-                          <div class="icon" style="color:white"><i class="fa fa-map-marker"></i>
-                          </div>
-                          <div id="city" class="count" style="color:white"></div>
-
-                          <h3>Cities</h3>
-                          <p></p><br/>
-
-                        </div>
-                      </div>
-
 
                              </div></div></div>
 
