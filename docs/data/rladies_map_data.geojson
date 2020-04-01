@@ -310,6 +310,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies East Lansing",
+        "url": "<a href='https://www.meetup.com/rladies-eastlansing/'>R-Ladies East Lansing</a>",
+        "created": "2017-12-09",
+        "members": "435",
+        "past_events": "21",
+        "upcoming_events": "1",
+        "last_event": "2020-03-23",
+        "days_since_last_event": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49,42.65]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Novi Sad",
         "url": "<a href='https://www.meetup.com/rladies-novi-sad/'>R-Ladies Novi Sad</a>",
         "created": "2019-05-24",
@@ -594,23 +611,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-1.6,55]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies East Lansing",
-        "url": "<a href='https://www.meetup.com/rladies-eastlansing/'>R-Ladies East Lansing</a>",
-        "created": "2017-12-09",
-        "members": "435",
-        "past_events": "21",
-        "upcoming_events": "1",
-        "last_event": "2020-03-23",
-        "days_since_last_event": "9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-84.49,42.65]
       }
     },
     {
@@ -3084,7 +3084,7 @@
         "name": "R-Ladies Lagos",
         "url": "<a href='https://www.meetup.com/rladies-lagos/'>R-Ladies Lagos</a>",
         "created": "2019-08-16",
-        "members": "239",
+        "members": "240",
         "past_events": "3",
         "upcoming_events": "0",
         "last_event": "2020-02-22",
