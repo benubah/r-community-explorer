@@ -191,7 +191,7 @@ get_rladies <- function() {
   rladies_groups$created <-  as.Date(rladies_groups$created)
   count_date <- table(datecreated)
   # generate new vector of all days in the time frame
-  newdate <- seq(datecreated[1], datecreated[length(datecreated)], by = "days") 
+  newdate <- seq(datecreated[1], Sys.Date(), by = "days") 
   
   count_newdate <- table(newdate)
   actindex <- match(names(count_newdate),names(count_date),nomatch = 0)
