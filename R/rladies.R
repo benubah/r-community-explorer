@@ -240,7 +240,9 @@ get_rladies <- function() {
   write.csv(rladies_groups2, "docs/data/rladies.csv")   
   
   #for leaflet map save to geoJSON
-  col_to_keep <- c("name", "url", "created", "members","past_events","upcoming_events", "last_event", "days_since_last_event", "lat","lon")
+  rladies_groups$end <- Sys.Date()
+  rladies_groups$start <-  as.Date(rladies_groups$created)
+  col_to_keep <- c("name", "url", "created", "members","past_events","upcoming_events", "last_event", "days_since_last_event", "lat","lon", "start","end")
   rladies_map_data <- rladies_groups[col_to_keep]
   leafletR::toGeoJSON(data = rladies_map_data, dest = "docs/data/")
   
