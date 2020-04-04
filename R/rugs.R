@@ -255,7 +255,9 @@ r_groups[grepl("San Juan",r_groups$city),]$country<- "Puerto Rico"
   write.csv(r_groups2, "docs/data/rugs.csv")   
   
   #for leaflet map save to geoJSON
-  col_to_keep <- c("name", "url", "created", "members","past_events","upcoming_events", "last_event", "days_since_last_event", "lat","lon")
+   r_groups$end <- Sys.Date()  # required for leaflet-timeline animation
+  r_groups$start <-  as.Date(r_groups$created) # required for leaflet-timeline animation
+  col_to_keep <- c("name", "url", "created", "members","past_events","upcoming_events", "last_event", "days_since_last_event", "lat","lon", "start","end")
   rugs_map_data <- r_groups[col_to_keep]
   rugs_map_data$name <- gsub('\"R\"','R', rugs_map_data$name)
   rugs_map_data$url <- gsub('\"R\"','R', rugs_map_data$url)
