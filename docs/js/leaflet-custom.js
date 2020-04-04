@@ -1,4 +1,5 @@
-   document.getElementById('lfmap').innerHTML = "<div id='map' style='width: 100%; height: 100%;'></div>";
+if($("#lfmap").length){  
+document.getElementById('lfmap').innerHTML = "<div id='map' style='width: 100%; height: 100%;'></div>";
 // initialize the map
 var activegroups  = L.layerGroup();
 var inactivegroups  = L.layerGroup();
@@ -111,7 +112,7 @@ var overlays = {
   slider.addTimelines(pins,pins2,pins3);
 
     })
-
+}
 
 
 if($("#rlfmap").length){
