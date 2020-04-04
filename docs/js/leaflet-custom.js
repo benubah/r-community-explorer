@@ -156,12 +156,12 @@ var slider = L.timelineSliderControl({
 L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
      var purpleMarker = L.AwesomeMarkers.icon({
 icon: 'check-circle',
-    markerColor: 'purple'
+    markerColor: 'blue'
   });
 
 var darkpurpleMarker = L.AwesomeMarkers.icon({
 icon: 'user-times',
-markerColor: 'darkpurple'
+markerColor: 'darkblue'
   });
 
 var darkredMarker = L.AwesomeMarkers.icon({
