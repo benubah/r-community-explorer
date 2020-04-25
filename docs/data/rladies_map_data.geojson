@@ -460,25 +460,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Oslo",
-        "url": "<a href='https://www.meetup.com/rladies-oslo/'>R-Ladies Oslo</a>",
-        "created": "2018-02-26",
-        "members": "391",
-        "past_events": "9",
-        "upcoming_events": "1",
-        "last_event": "2020-03-03",
-        "days_since_last_event": "53",
-        "start": "2018-02-26",
-        "end": "2020-04-25"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.75,59.91]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "R-Ladies East Lansing",
         "url": "<a href='https://www.meetup.com/rladies-east-lansing/'>R-Ladies East Lansing</a>",
         "created": "2017-12-09",
@@ -493,6 +474,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-84.49,42.65]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Oslo",
+        "url": "<a href='https://www.meetup.com/rladies-oslo/'>R-Ladies Oslo</a>",
+        "created": "2018-02-26",
+        "members": "393",
+        "past_events": "9",
+        "upcoming_events": "1",
+        "last_event": "2020-03-03",
+        "days_since_last_event": "53",
+        "start": "2018-02-26",
+        "end": "2020-04-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.75,59.91]
       }
     },
     {
@@ -653,7 +653,7 @@
         "name": "R-Ladies San Diego",
         "url": "<a href='https://www.meetup.com/rladies-san-diego/'>R-Ladies San Diego</a>",
         "created": "2017-06-16",
-        "members": "504",
+        "members": "505",
         "past_events": "31",
         "upcoming_events": "0",
         "last_event": "2020-03-26",
@@ -1299,7 +1299,7 @@
         "name": "R-Ladies Mumbai",
         "url": "<a href='https://www.meetup.com/rladies-mumbai/'>R-Ladies Mumbai</a>",
         "created": "2019-11-23",
-        "members": "57",
+        "members": "58",
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "NA",
@@ -1310,25 +1310,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [72.82,18.96]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Los Angeles",
-        "url": "<a href='https://www.meetup.com/rladies-la/'>R-Ladies Los Angeles</a>",
-        "created": "2016-09-02",
-        "members": "461",
-        "past_events": "28",
-        "upcoming_events": "0",
-        "last_event": "2020-03-28",
-        "days_since_last_event": "28",
-        "start": "2016-09-02",
-        "end": "2020-04-25"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-118.45,34.07]
       }
     },
     {
@@ -1348,6 +1329,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-82.34,27.98]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Los Angeles",
+        "url": "<a href='https://www.meetup.com/rladies-la/'>R-Ladies Los Angeles</a>",
+        "created": "2016-09-02",
+        "members": "461",
+        "past_events": "28",
+        "upcoming_events": "0",
+        "last_event": "2020-03-28",
+        "days_since_last_event": "28",
+        "start": "2016-09-02",
+        "end": "2020-04-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.45,34.07]
       }
     },
     {
@@ -1584,7 +1584,7 @@
         "name": "R-Ladies Philly",
         "url": "<a href='https://www.meetup.com/rladies-philly/'>R-Ladies Philly</a>",
         "created": "2017-10-11",
-        "members": "876",
+        "members": "877",
         "past_events": "45",
         "upcoming_events": "9",
         "last_event": "2020-04-15",
@@ -1622,7 +1622,7 @@
         "name": "R-Ladies Oxford",
         "url": "<a href='https://www.meetup.com/rladies-oxford/'>R-Ladies Oxford</a>",
         "created": "2020-01-12",
-        "members": "18",
+        "members": "19",
         "past_events": "0",
         "upcoming_events": "0",
         "last_event": "NA",
@@ -2135,7 +2135,7 @@
         "name": "R-Ladies Santiago",
         "url": "<a href='https://www.meetup.com/rladies-scl/'>R-Ladies Santiago</a>",
         "created": "2017-07-18",
-        "members": "1593",
+        "members": "1594",
         "past_events": "24",
         "upcoming_events": "0",
         "last_event": "2020-01-29",
@@ -2458,7 +2458,7 @@
         "name": "R-Ladies New York",
         "url": "<a href='https://www.meetup.com/rladies-newyork/'>R-Ladies New York</a>",
         "created": "2016-08-23",
-        "members": "1735",
+        "members": "1736",
         "past_events": "42",
         "upcoming_events": "1",
         "last_event": "2020-02-26",
@@ -2705,7 +2705,7 @@
         "name": "R-Ladies Miami",
         "url": "<a href='https://www.meetup.com/rladies-miami/'>R-Ladies Miami</a>",
         "created": "2017-06-03",
-        "members": "643",
+        "members": "644",
         "past_events": "20",
         "upcoming_events": "1",
         "last_event": "2020-03-03",
@@ -2876,7 +2876,7 @@
         "name": "R-Ladies Den Bosch",
         "url": "<a href='https://www.meetup.com/rladies-den-bosch/'>R-Ladies Den Bosch</a>",
         "created": "2019-03-23",
-        "members": "66",
+        "members": "68",
         "past_events": "2",
         "upcoming_events": "1",
         "last_event": "2020-02-18",
