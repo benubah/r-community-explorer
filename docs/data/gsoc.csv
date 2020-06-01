@@ -1,4 +1,4 @@
-﻿Year	Project	WorkProduct	Student	Mentors
+Year	Project	WorkProduct	Student	Mentors
 2008	Finite Mixture Models for Large Data Sets	Package	Arijit Das	Friedrich Leisch
 2008	Roxygen documentation system for R	Documentation	Peter Danenberg	Manuel Eugster
 2008	lme4: Adaptive Gauss-Hermite quadrature method for mixed-effects models	Package	Bin Dai	Douglas M. Bates
@@ -13,7 +13,7 @@
 2010	rgeos - an R wrapper for GEOS	Package	rundel	Roger Bivand
 2011	optile Category order optimization for graphical displays of categorical data	Package	Alexander Pilhöfer	Rosuda93
 2011	Manipulating RStudio Graphics Towards Creating Intuitive Mathematical Comprehension	GUI	Andrew Rich	Daniel Kaplan, JJ Allaire
-2011	R-EM-Accelerator---Smarter Iterative Schemes Save Your Time	Package	Hui Zhao	Roger Peng, Ravi Varadhan
+2011	R-EM-Accelerator: Smarter Iterative Schemes Save Your Time	Package	Hui Zhao	Roger Peng, Ravi Varadhan
 2011	Convergence acceleration of the Expectation-Maximization (EM) algorithms in computational statistics: A suite of cutting-edge acceleration schemes	Package	Jennifer	Ravi Varadhan
 2011	SMART: Sparse Multivariate Adaptive Regression Toolkit	Package	Juemin	Han Liu
 2011	Exploratory visualization of dynamic stochastic processes	Visualization	Kåre Jacobsen	Niels Richard Hansen
@@ -214,3 +214,23 @@
 2019	Add subsampling to aster models	Package	Shannon Sequeira	    Daniel Eck, Ruth Shaw, Charles Geyer
 2019	Adding plotting engine into PerformanceAnalytics package	Visualization	Ziheng Zhou	    Brian Peterson, Erol Biceroglu, Joshua Ulrich, Justin Shea, Peter Carl
 2019	Exploring Election and Census Highly Informative Data Nationally for Indonesia ( Eechidna R package)	Data	Fahrozi Fahrozi	    Jeremy Forbes, Ben Marwick
+2020	Enhancing bdchecks: a biodiversity data quality checks system in R	Package	Martynas Jočys	    Thiloshon Nagarajah, Povilas Gibas, Tomer Gueta, Vijay Barve
+2020	Modeling Expected Returns with R	Package	Vito Lestingi	    Justin M. Shea, Brian Peterson, Erol Biceroglu, Peter Carl
+2020	MiniZinc Interface for R	Package	Akshit Achara	    Lars Kotthoff, Hans W Borchers
+2020	Asymptotic complexity testing framework/package	Package	Anirban Chetia	    Toby Hocking, Neeraj Dhanraj Bokde
+2020	Fortification of the hyperSpec R Package	Package	Erick Oduniyi	    Claudia Beleites, Roman Kiselev, Bryan Hanson
+2020	Better solvers for SLOPE package	Package	Akarsh Goyal	    Jonas Wallin, Johan Larsson
+2020	Validation of Neural Network Packages	Package	Salsabila Mahdi	Christophe Dutang, Patrice Kiener, John Nash
+2020	bddashboard: Interactive Biodiversity Data Dashboard	Package	Rahul Chauhan	    Thiloshon Nagarajah, Tomer Gueta, Vijay Barve
+2020	gRPC	Package	Shehab Hosny	    Gergely Daroczi, Neal Fultz
+2020	rtracklayer improvements	Package	Sanchit Saini	    Michael Lawrence, Toby Hocking
+2020	Animated interactive ggplots	Package	lazycipher	    Faizan Khan, Toby Hocking
+2020	mAED: Multi-Stage Adaptive Enrichment Design in R	Package	Chen Liang	Ethan Fang, Tuo Zhao
+2020	A package for robust-GARCH model	Package	Echo Liu	    alexiosg, Daniel Hanson, Doug Martin
+2020	The bdverse's development and QA frameworks	Package	Sunny Dhoke	    Thiloshon Nagarajah, Tomer Gueta, Vijay Barve
+2020	Biological Survey Planning Considering Hutchinson’s Duality	Package	Claudia Nuñez Penichet	    Narayani Barve, Tomer Gueta, Vijay Barve
+2020	Expanding the highfrequency package	Package	Emil Sjørup	    Kris Boudt, Nabil Bouamara, Onno Kleen
+2020	rco: The R Code Optimizer R Project for Statistical Computing-GSoC 2020	Package	Rahul Saxena	Juan Cruz Rodriguez, Mauricio Pachá Vargas
+2020	rsqliteadmin : sqlite admin tool in R shiny	Visualization	Divyansh Chawla	    Marlon E. Cobos, Thiloshon Nagarajah, Narayani Barve, Vijay Barve
+2020	Constrained changepoint GUI	Visualization	Julian Stanley	    Toby Hocking, Guillem Rigaill
+2020	QBLD - Quantile Regression for Binary Longitudinal Data	Package	Ayush Agarwal	    Dootika Vats, Adam Maidman
