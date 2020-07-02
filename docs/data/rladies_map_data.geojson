@@ -558,7 +558,7 @@
         "name": "R-Ladies Auckland",
         "url": "<a href='https://www.meetup.com/rladies-auckland/'>R-Ladies Auckland</a>",
         "created": "2017-11-20",
-        "members": "659",
+        "members": "658",
         "past_events": "24",
         "upcoming_events": "0",
         "last_event": "2020-06-16",
@@ -1092,7 +1092,7 @@
         "created": "2017-12-05",
         "members": "425",
         "past_events": "12",
-        "upcoming_events": "0",
+        "upcoming_events": "1",
         "last_event": "2020-04-21",
         "days_since_last_event": "72",
         "start": "2017-12-05",
@@ -1196,6 +1196,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-118.14,34.15]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R-Ladies Helsinki",
+        "url": "<a href='https://www.meetup.com/rladies-helsinki/'>R-Ladies Helsinki</a>",
+        "created": "2018-09-07",
+        "members": "370",
+        "past_events": "14",
+        "upcoming_events": "0",
+        "last_event": "2020-06-18",
+        "days_since_last_event": "14",
+        "start": "2018-09-07",
+        "end": "2020-07-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.94,60.17]
       }
     },
     {
@@ -1334,6 +1353,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "R-Ladies Cotonou",
+        "url": "<a href='https://www.meetup.com/rladies-cotonou/'>R-Ladies Cotonou</a>",
+        "created": "2018-03-29",
+        "members": "35",
+        "past_events": "2",
+        "upcoming_events": "0",
+        "last_event": "2020-02-08",
+        "days_since_last_event": "145",
+        "start": "2018-03-29",
+        "end": "2020-07-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.44,6.36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "R-Ladies Amsterdam",
         "url": "<a href='https://www.meetup.com/rladies-amsterdam/'>R-Ladies Amsterdam</a>",
         "created": "2018-02-10",
@@ -1429,25 +1467,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R-Ladies Helsinki",
-        "url": "<a href='https://www.meetup.com/rladies-helsinki/'>R-Ladies Helsinki</a>",
-        "created": "2018-09-07",
-        "members": "370",
-        "past_events": "14",
-        "upcoming_events": "0",
-        "last_event": "2020-06-18",
-        "days_since_last_event": "14",
-        "start": "2018-09-07",
-        "end": "2020-07-02"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [24.94,60.17]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "R-Ladies Mendoza",
         "url": "<a href='https://www.meetup.com/rladies-mendoza/'>R-Ladies Mendoza</a>",
         "created": "2018-02-26",
@@ -1462,25 +1481,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-68.83,-32.89]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "R-Ladies Cotonou",
-        "url": "<a href='https://www.meetup.com/rladies-cotonou/'>R-Ladies Cotonou</a>",
-        "created": "2018-03-29",
-        "members": "35",
-        "past_events": "2",
-        "upcoming_events": "0",
-        "last_event": "2020-02-08",
-        "days_since_last_event": "145",
-        "start": "2018-03-29",
-        "end": "2020-07-02"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.44,6.36]
       }
     },
     {
@@ -2344,7 +2344,7 @@
         "name": "R-Ladies Washington D.C.",
         "url": "<a href='https://www.meetup.com/rladies-dc/'>R-Ladies Washington D.C.</a>",
         "created": "2016-12-07",
-        "members": "1948",
+        "members": "1949",
         "past_events": "53",
         "upcoming_events": "12",
         "last_event": "2020-06-26",
@@ -3256,7 +3256,7 @@
         "name": "R-Ladies Barranquilla",
         "url": "<a href='https://www.meetup.com/rladies-barranquilla/'>R-Ladies Barranquilla</a>",
         "created": "2020-05-02",
-        "members": "44",
+        "members": "46",
         "past_events": "0",
         "upcoming_events": "1",
         "last_event": "NA",
@@ -3294,7 +3294,7 @@
         "name": "R-Ladies Algiers",
         "url": "<a href='https://www.meetup.com/rladies-algiers/'>R-Ladies Algiers</a>",
         "created": "2020-05-02",
-        "members": "55",
+        "members": "56",
         "past_events": "1",
         "upcoming_events": "0",
         "last_event": "2020-06-13",
