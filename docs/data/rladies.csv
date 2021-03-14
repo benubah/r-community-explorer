@@ -1,5 +1,5 @@
 "","name","city","country","region","members","fullurl","created","status","last_event","past_events","upcoming_events"
-"1","R-Ladies Barcelona","Barcelona","Spain","Europe",601,"https://www.meetup.com/rladies-barcelona/",2016-10-22,"Active",2020-11-19,19,1
+"1","R-Ladies Barcelona","Barcelona","Spain","Europe",603,"https://www.meetup.com/rladies-barcelona/",2016-10-22,"Active",2020-11-19,19,1
 "2","R-Ladies Bilbao","Bilbao","Spain","Europe",190,"https://www.meetup.com/rladies-bilbao/",2019-02-27,"Inactive",2020-01-14,4,0
 "3","R-Ladies Tucson AZ","Tucson","USA","US/Canada",360,"https://www.meetup.com/rladies-tucson-az/",2017-11-14,"Active",2021-03-10,49,0
 "4","R-Ladies Bariloche","San Carlos de Bariloche","Argentina","Latin America",280,"https://www.meetup.com/rladies-bariloche/",2018-05-10,"Active",2020-10-26,13,0
@@ -8,11 +8,11 @@
 "7","R-Ladies Santa Barbara","Santa Barbara","USA","US/Canada",472,"https://www.meetup.com/rladies-santa-barbara/",2018-01-26,"Active",2021-02-25,15,0
 "8","R-Ladies Canberra","Canberra","Australia","Australia",211,"https://www.meetup.com/rladies-canberra/",2018-12-10,"Active",2021-03-02,14,0
 "9","R-Ladies Quito","Quito","Ecuador","Latin America",813,"https://www.meetup.com/rladies-quito/",2017-07-18,"Inactive",2020-07-01,10,0
-"10","R-Ladies Guayaquil","Guayaquil","Ecuador","Latin America",546,"https://www.meetup.com/rladies-guayaquil/",2018-04-05,"Inactive",2020-08-07,7,0
+"10","R-Ladies Guayaquil","Guayaquil","Ecuador","Latin America",545,"https://www.meetup.com/rladies-guayaquil/",2018-04-05,"Inactive",2020-08-07,7,0
 "11","R-Ladies Kansas City","Kansas City","USA","US/Canada",65,"https://www.meetup.com/rladies-kansas-city/",2019-07-19,"Inactive",2020-02-14,4,0
 "12","R-Ladies Johannesburg","Johannesburg","South Africa","Africa",794,"https://www.meetup.com/rladies-johannesburg/",2018-02-26,"Active",2021-02-25,29,0
-"13","R-Ladies Madrid","Madrid","Spain","Europe",1694,"https://www.meetup.com/rladies-madrid/",2016-09-02,"Active",2021-02-04,41,1
-"14","R-Ladies East Lansing","East Lansing","USA","US/Canada",545,"https://www.meetup.com/rladies-east-lansing/",2017-12-09,"Active",2021-02-26,27,2
+"13","R-Ladies Madrid","Madrid","Spain","Europe",1692,"https://www.meetup.com/rladies-madrid/",2016-09-02,"Active",2021-02-04,41,1
+"14","R-Ladies East Lansing","East Lansing","USA","US/Canada",546,"https://www.meetup.com/rladies-east-lansing/",2017-12-09,"Active",2021-02-26,27,2
 "15","R-Ladies Puebla","Puebla","Mexico","Latin America",232,"https://www.meetup.com/rladies-puebla/",2019-07-19,"Active",2021-02-25,6,0
 "16","R-Ladies Lausanne","Lausanne","Switzerland","Europe",319,"https://www.meetup.com/rladies-lausanne/",2017-12-02,"Inactive",2019-12-03,12,0
 "17","R-Ladies Novi Sad","Novi Sad","Serbia","Europe",140,"https://www.meetup.com/rladies-novi-sad/",2019-05-24,"Inactive",2019-12-21,6,0
@@ -25,8 +25,8 @@
 "24","R-Ladies Seattle","Seattle","USA","US/Canada",886,"https://www.meetup.com/rladies-seattle/",2017-11-08,"Active",2021-02-10,35,2
 "25","R-Ladies Freiburg","Freiburg","Germany","Europe",483,"https://www.meetup.com/rladies-freiburg/",2019-01-23,"Active",2021-03-03,35,5
 "26","R-Ladies Bucharest","Bucharest","Romania","Europe",258,"https://www.meetup.com/rladies-bucharest/",2019-05-09,"Active",2021-02-16,17,1
-"27","R-Ladies Vienna","Vienna","Austria","Europe",239,"https://www.meetup.com/rladies-vienna/",2018-09-17,"Active",2021-02-25,11,1
-"28","R-Ladies Xalapa","Xalapa","Mexico","Latin America",422,"https://www.meetup.com/rladies-xalapa/",2018-07-30,"Active",2020-12-18,20,1
+"27","R-Ladies Vienna","Vienna","Austria","Europe",240,"https://www.meetup.com/rladies-vienna/",2018-09-17,"Active",2021-02-25,11,1
+"28","R-Ladies Xalapa","Xalapa","Mexico","Latin America",424,"https://www.meetup.com/rladies-xalapa/",2018-07-30,"Active",2020-12-18,20,1
 "29","R-Ladies Athens","Athens","USA","US/Canada",49,"https://www.meetup.com/rladies-athens-ga/",2019-08-31,"Active",2021-03-03,4,0
 "30","R-Ladies Edinburgh","Edinburgh","United Kingdom","Europe",577,"https://www.meetup.com/rladies-edinburgh/",2018-07-27,"Active",2021-02-17,16,0
 "31","R-Ladies Lyon","Lyon","France","Europe",81,"https://www.meetup.com/rladies-lyon/",2018-10-29,"Inactive",2019-11-04,4,0
@@ -39,32 +39,32 @@
 "38","R-Ladies Stockholm","Stockholm","Sweden","Europe",383,"https://www.meetup.com/rladies-stockholm/",2018-08-16,"Inactive",2019-11-26,7,0
 "39","R-Ladies Iowa City","Iowa City","USA","US/Canada",111,"https://www.meetup.com/rladies-iowa-city/",2018-09-18,"Inactive",2019-10-17,5,0
 "40","R-Ladies Fayetteville","Fayetteville","USA","US/Canada",121,"https://www.meetup.com/rladies-fayetteville/",2019-07-27,"Active",2021-01-27,11,0
-"41","R-Ladies Perth","Perth","Australia","Australia",254,"https://www.meetup.com/rladies-perth/",2018-10-23,"Inactive",2019-12-17,10,0
-"42","R-Ladies Auckland","Auckland","New Zealand","Australia",734,"https://www.meetup.com/rladies-auckland/",2017-11-20,"Active",2020-12-03,27,0
-"43","R-Ladies Baltimore","Baltimore","USA","US/Canada",797,"https://www.meetup.com/rladies-baltimore/",2018-02-26,"Active",2021-03-09,21,2
-"44","R-Ladies Goiânia","Goiania","Brazil","Latin America",369,"https://www.meetup.com/rladies-goiania/",2019-05-06,"Active",2021-03-06,19,1
-"45","R-Ladies Lima","Lima","Peru","Latin America",1496,"https://www.meetup.com/rladies-lima/",2018-01-25,"Active",2020-12-16,12,1
-"46","R-Ladies Brisbane","Brisbane","Australia","Australia",501,"https://www.meetup.com/rladies-brisbane/",2018-05-10,"Active",2020-12-04,17,1
-"47","R-Ladies Utrecht","Utrecht","Netherlands","Europe",197,"https://www.meetup.com/rladies-utrecht/",2019-06-10,"Active",2021-03-11,6,0
-"48","R-Ladies Montpellier","Montpellier","France","Europe",133,"https://www.meetup.com/rladies-montpellier/",2018-10-17,"Active",2020-12-01,8,0
-"49","R-Ladies Rotterdam","Rotterdam","Netherlands","Europe",505,"https://www.meetup.com/rladies-rotterdam/",2017-12-05,"Active",2020-12-22,16,0
-"50","R-Ladies L'viv","L'viv","Ukraine","Europe",35,"https://www.meetup.com/rladies-lviv/",2019-08-31,"Inactive",2019-10-18,4,0
-"51","R-Ladies Copenhagen","Copenhagen","Denmark","Europe",454,"https://www.meetup.com/rladies-copenhagen/",2017-11-20,"Inactive",2019-12-05,10,0
-"52","R-Ladies Oslo","Oslo","Norway","Europe",539,"https://www.meetup.com/rladies-oslo/",2018-02-26,"Active",2020-09-24,12,0
-"53","R-Ladies Niterói","Niterói","Brazil","Latin America",749,"https://www.meetup.com/rladies-niteroi/",2018-06-04,"Active",2020-10-06,9,0
-"54","R-Ladies New Delhi","Delhi","India","Asia",335,"https://www.meetup.com/rladies-new-delhi/",2019-09-01,"Inactive",2020-09-06,9,0
-"55","R-Ladies Kathmandu","Kathmandu","Nepal","Asia",80,"https://www.meetup.com/rladies-kathmandu/",2018-10-01,"Inactive",2020-03-28,4,0
-"56","R-Ladies Toronto","Toronto","Canada","US/Canada",625,"https://www.meetup.com/rladies-toronto/",2018-09-18,"Inactive",2020-08-12,6,0
-"57","R-Ladies Des Moines","Des Moines","USA","US/Canada",26,"https://www.meetup.com/rladies-des-moines/",2018-09-23,"Inactive",2019-05-20,4,0
-"58","R-Ladies Boulder","Boulder","USA","US/Canada",168,"https://www.meetup.com/rladies-boulder/",2018-06-11,"Active",2020-11-11,10,0
-"59","R-Ladies Denver","Denver","USA","US/Canada",94,"https://www.meetup.com/rladies-denver/",2019-07-02,"Inactive",2020-01-24,4,0
-"60","R-Ladies Jakarta","Jakarta","Indonesia","Asia",549,"https://www.meetup.com/rladies-jakarta/",2019-07-06,"Active",2020-10-24,12,0
-"61","R-Ladies Pasadena","Pasadena","USA","US/Canada",95,"https://www.meetup.com/rladies-pasadena/",2018-04-25,"Inactive",2019-11-07,5,0
+"41","R-Ladies Pasadena","Pasadena","USA","US/Canada",95,"https://www.meetup.com/rladies-pasadena/",2018-04-25,"Inactive",2019-11-07,5,0
+"42","R-Ladies Perth","Perth","Australia","Australia",254,"https://www.meetup.com/rladies-perth/",2018-10-23,"Inactive",2019-12-17,10,0
+"43","R-Ladies Auckland","Auckland","New Zealand","Australia",735,"https://www.meetup.com/rladies-auckland/",2017-11-20,"Active",2020-12-03,27,0
+"44","R-Ladies Baltimore","Baltimore","USA","US/Canada",798,"https://www.meetup.com/rladies-baltimore/",2018-02-26,"Active",2021-03-09,21,2
+"45","R-Ladies Lima","Lima","Peru","Latin America",1495,"https://www.meetup.com/rladies-lima/",2018-01-25,"Active",2021-03-13,13,0
+"46","R-Ladies Goiânia","Goiania","Brazil","Latin America",369,"https://www.meetup.com/rladies-goiania/",2019-05-06,"Active",2021-03-06,19,1
+"47","R-Ladies Brisbane","Brisbane","Australia","Australia",501,"https://www.meetup.com/rladies-brisbane/",2018-05-10,"Active",2020-12-04,17,1
+"48","R-Ladies Utrecht","Utrecht","Netherlands","Europe",197,"https://www.meetup.com/rladies-utrecht/",2019-06-10,"Active",2021-03-11,6,0
+"49","R-Ladies Montpellier","Montpellier","France","Europe",133,"https://www.meetup.com/rladies-montpellier/",2018-10-17,"Active",2020-12-01,8,0
+"50","R-Ladies Rotterdam","Rotterdam","Netherlands","Europe",504,"https://www.meetup.com/rladies-rotterdam/",2017-12-05,"Active",2020-12-22,16,0
+"51","R-Ladies L'viv","L'viv","Ukraine","Europe",35,"https://www.meetup.com/rladies-lviv/",2019-08-31,"Inactive",2019-10-18,4,0
+"52","R-Ladies Copenhagen","Copenhagen","Denmark","Europe",454,"https://www.meetup.com/rladies-copenhagen/",2017-11-20,"Inactive",2019-12-05,10,0
+"53","R-Ladies Oslo","Oslo","Norway","Europe",539,"https://www.meetup.com/rladies-oslo/",2018-02-26,"Active",2020-09-24,12,0
+"54","R-Ladies Niterói","Niterói","Brazil","Latin America",749,"https://www.meetup.com/rladies-niteroi/",2018-06-04,"Active",2020-10-06,9,0
+"55","R-Ladies New Delhi","Delhi","India","Asia",335,"https://www.meetup.com/rladies-new-delhi/",2019-09-01,"Inactive",2020-09-06,9,0
+"56","R-Ladies Kathmandu","Kathmandu","Nepal","Asia",80,"https://www.meetup.com/rladies-kathmandu/",2018-10-01,"Inactive",2020-03-28,4,0
+"57","R-Ladies Toronto","Toronto","Canada","US/Canada",625,"https://www.meetup.com/rladies-toronto/",2018-09-18,"Inactive",2020-08-12,6,0
+"58","R-Ladies Des Moines","Des Moines","USA","US/Canada",26,"https://www.meetup.com/rladies-des-moines/",2018-09-23,"Inactive",2019-05-20,4,0
+"59","R-Ladies Boulder","Boulder","USA","US/Canada",168,"https://www.meetup.com/rladies-boulder/",2018-06-11,"Active",2020-11-11,10,0
+"60","R-Ladies Denver","Denver","USA","US/Canada",94,"https://www.meetup.com/rladies-denver/",2019-07-02,"Inactive",2020-01-24,4,0
+"61","R-Ladies Jakarta","Jakarta","Indonesia","Asia",549,"https://www.meetup.com/rladies-jakarta/",2019-07-06,"Active",2020-10-24,12,0
 "62","R-Ladies Christchurch","Christchurch","New Zealand","Australia",91,"https://www.meetup.com/rladies-christchurch/",2019-05-04,"Inactive",2019-11-12,7,0
 "63","R-Ladies Amsterdam","Amsterdam","Netherlands","Europe",976,"https://www.meetup.com/rladies-amsterdam/",2018-02-10,"Active",2021-02-10,27,1
 "64","R-Ladies Helsinki","Helsinki","Finland","Europe",403,"https://www.meetup.com/rladies-helsinki/",2018-09-07,"Active",2021-03-10,15,0
 "65","R-Ladies Columbus","Columbus","USA","US/Canada",902,"https://www.meetup.com/rladies-columbus/",2016-10-04,"Active",2021-03-11,45,1
-"66","R-Ladies Mumbai","Mumbai","India","Asia",92,"https://www.meetup.com/rladies-mumbai/",2019-11-23,"Active",2021-02-27,2,0
+"66","R-Ladies Mumbai","Mumbai","India","Asia",93,"https://www.meetup.com/rladies-mumbai/",2019-11-23,"Active",2021-02-27,2,0
 "67","R-Ladies Addis Ababa","Addis Abeba","Ethiopia","Africa",524,"https://www.meetup.com/rladies-addis-ababa/",2018-03-21,"Active",2021-03-09,26,0
 "68","R-Ladies Cotonou","Cotonou","Benin","Africa",35,"https://www.meetup.com/rladies-cotonou/",2018-03-29,"Inactive",2020-02-08,2,0
 "69","R-Ladies Lancaster","Lancaster","United Kingdom","Europe",131,"https://www.meetup.com/rladies-lancaster/",2018-09-12,"Inactive",2020-03-04,8,0
@@ -82,15 +82,15 @@
 "81","R-Ladies Los Angeles","Los Angeles","USA","US/Canada",622,"https://www.meetup.com/rladies-la/",2016-09-02,"Inactive",2020-07-29,32,0
 "82","R-Ladies Washington D.C.","Washington","USA","US/Canada",2152,"https://www.meetup.com/rladies-dc/",2016-12-07,"Active",2021-03-08,99,4
 "83","R-Ladies Chicago","Chicago","USA","US/Canada",1276,"https://www.meetup.com/rladies-chicago/",2017-07-05,"Active",2021-02-26,41,2
-"84","R-Ladies Philly","Philadelphia","USA","US/Canada",1427,"https://www.meetup.com/rladies-philly/",2017-10-11,"Active",2021-03-04,57,3
-"85","R-Ladies Vancouver","Vancouver","Canada","US/Canada",535,"https://www.meetup.com/rladies-vancouver/",2017-10-06,"Active",2021-01-22,29,1
-"86","R-Ladies Oxford","Oxford","United Kingdom","Europe",32,"https://www.meetup.com/rladies-oxford/",2020-01-12,"Unbegun",NA,0,0
-"87","R-Ladies Cambridge","Cambridge","United Kingdom","Europe",286,"https://www.meetup.com/rladies-cambridge/",2017-11-10,"Inactive",2020-08-04,2,0
-"88","R-Ladies Resistencia-Corrientes","Corrientes","Argentina","Latin America",143,"https://www.meetup.com/rladies-resistencia-corrientes/",2018-06-08,"Active",2020-12-07,11,0
-"89","R-Ladies Montevideo","Montevideo","Uruguay","Latin America",379,"https://www.meetup.com/rladies-montevideo/",2017-06-02,"Active",2020-12-09,14,0
-"90","R-Ladies Santa Rosa","Santa Rosa","Argentina","Latin America",137,"https://www.meetup.com/rladies-santa-rosa/",2017-04-06,"Active",2020-12-07,17,0
-"91","R-Ladies Ames","Ames","USA","US/Canada",238,"https://www.meetup.com/rladies-ames/",2016-11-25,"Active",2020-11-12,79,0
-"92","R-Ladies Irvine","Irvine","USA","US/Canada",469,"https://www.meetup.com/rladies-irvine/",2018-03-13,"Active",2021-01-20,20,1
+"84","R-Ladies Philly","Philadelphia","USA","US/Canada",1430,"https://www.meetup.com/rladies-philly/",2017-10-11,"Active",2021-03-04,57,3
+"85","R-Ladies Irvine","Irvine","USA","US/Canada",469,"https://www.meetup.com/rladies-irvine/",2018-03-13,"Active",2021-01-20,20,1
+"86","R-Ladies Vancouver","Vancouver","Canada","US/Canada",535,"https://www.meetup.com/rladies-vancouver/",2017-10-06,"Active",2021-01-22,29,1
+"87","R-Ladies Oxford","Oxford","United Kingdom","Europe",32,"https://www.meetup.com/rladies-oxford/",2020-01-12,"Unbegun",NA,0,0
+"88","R-Ladies Cambridge","Cambridge","United Kingdom","Europe",286,"https://www.meetup.com/rladies-cambridge/",2017-11-10,"Inactive",2020-08-04,2,0
+"89","R-Ladies Resistencia-Corrientes","Corrientes","Argentina","Latin America",143,"https://www.meetup.com/rladies-resistencia-corrientes/",2018-06-08,"Active",2020-12-07,11,0
+"90","R-Ladies Montevideo","Montevideo","Uruguay","Latin America",379,"https://www.meetup.com/rladies-montevideo/",2017-06-02,"Active",2020-12-09,14,0
+"91","R-Ladies Santa Rosa","Santa Rosa","Argentina","Latin America",137,"https://www.meetup.com/rladies-santa-rosa/",2017-04-06,"Active",2020-12-07,17,0
+"92","R-Ladies Ames","Ames","USA","US/Canada",238,"https://www.meetup.com/rladies-ames/",2016-11-25,"Active",2020-11-12,79,0
 "93","R-Ladies Niš","Niš","Serbia","Europe",12,"https://www.meetup.com/rladies-nis/",2020-02-22,"Unbegun",NA,0,0
 "94","R-Ladies Paris","Paris","France","Europe",590,"https://www.meetup.com/rladies-paris/",2016-09-19,"Inactive",2019-06-14,15,0
 "95","R-Ladies Manchester","Manchester","United Kingdom","Europe",481,"https://www.meetup.com/rladies-manchester/",2016-11-29,"Inactive",2020-04-07,20,0
@@ -101,15 +101,15 @@
 "100","R-Ladies Coventry","Coventry","United Kingdom","Europe",195,"https://www.meetup.com/rladies-coventry/",2020-02-22,"Active",2021-03-09,4,0
 "101","R-Ladies São Paulo","São Paulo","Brazil","Latin America",1156,"https://www.meetup.com/rladies-sao-paulo/",2018-02-10,"Active",2020-12-05,21,0
 "102","R-Ladies Manaus","Manaus","Brazil","Latin America",30,"https://www.meetup.com/R-Ladies-Manaus/",2019-09-11,"Unbegun",NA,0,0
-"103","R-Ladies Santa Fe","Santa Fe","Argentina","Latin America",214,"https://www.meetup.com/rladies-santa-fe/",2018-05-08,"Inactive",2020-07-24,14,0
-"104","R-Ladies Syracuse","Syracuse","USA","US/Canada",8,"https://www.meetup.com/rladies-syracuse/",2019-11-30,"Unbegun",NA,0,0
-"105","R-Ladies San Jose","San Jose","Costa Rica","Latin America",623,"https://www.meetup.com/rladies-san-jose/",2017-10-09,"Active",2020-10-08,23,0
-"106","R-Ladies New Orleans","New Orleans","USA","US/Canada",39,"https://www.meetup.com/rladies-new-orleans/",2019-11-30,"Inactive",2020-02-11,1,0
-"107","R-Ladies Nairobi","Nairobi","Kenya","Africa",479,"https://www.meetup.com/rladies-nairobi/",2020-06-13,"Active",2021-03-13,6,0
-"108","R-Ladies Monterrey","Monterrey","Mexico","Latin America",329,"https://www.meetup.com/rladies-monterrey/",2020-01-12,"Active",2021-03-05,8,0
-"109","R-Ladies Montreal","Montréal","Canada","US/Canada",524,"https://www.meetup.com/rladies-montreal/",2017-09-14,"Active",2021-02-18,28,2
-"110","R-Ladies Rio de Janeiro","Rio de Janeiro","Brazil","Latin America",602,"https://www.meetup.com/rladies-rio/",2017-02-27,"Active",2020-09-30,11,0
-"111","R-Ladies Buenos Aires","Buenos Aires","Argentina","Latin America",1274,"https://www.meetup.com/rladies-buenos-aires/",2017-01-03,"Active",2020-12-07,31,0
+"103","R-Ladies Buenos Aires","Buenos Aires","Argentina","Latin America",1274,"https://www.meetup.com/rladies-buenos-aires/",2017-01-03,"Active",2020-12-07,31,0
+"104","R-Ladies Santa Fe","Santa Fe","Argentina","Latin America",214,"https://www.meetup.com/rladies-santa-fe/",2018-05-08,"Inactive",2020-07-24,14,0
+"105","R-Ladies Syracuse","Syracuse","USA","US/Canada",8,"https://www.meetup.com/rladies-syracuse/",2019-11-30,"Unbegun",NA,0,0
+"106","R-Ladies San Jose","San Jose","Costa Rica","Latin America",623,"https://www.meetup.com/rladies-san-jose/",2017-10-09,"Active",2020-10-08,23,0
+"107","R-Ladies New Orleans","New Orleans","USA","US/Canada",39,"https://www.meetup.com/rladies-new-orleans/",2019-11-30,"Inactive",2020-02-11,1,0
+"108","R-Ladies Nairobi","Nairobi","Kenya","Africa",479,"https://www.meetup.com/rladies-nairobi/",2020-06-13,"Active",2021-03-13,6,0
+"109","R-Ladies Monterrey","Monterrey","Mexico","Latin America",329,"https://www.meetup.com/rladies-monterrey/",2020-01-12,"Active",2021-03-05,8,0
+"110","R-Ladies Montreal","Montréal","Canada","US/Canada",524,"https://www.meetup.com/rladies-montreal/",2017-09-14,"Active",2021-02-18,28,2
+"111","R-Ladies Rio de Janeiro","Rio de Janeiro","Brazil","Latin America",602,"https://www.meetup.com/rladies-rio/",2017-02-27,"Active",2020-09-30,11,0
 "112","R-Ladies La Paz","La Paz","Bolivia","Latin America",289,"https://www.meetup.com/rladies-la-paz/",2018-10-23,"Active",2021-01-16,24,0
 "113","R-Ladies Nashville","Nashville","USA","US/Canada",509,"https://www.meetup.com/rladies-nashville/",2016-09-28,"Inactive",2020-03-09,18,0
 "114","R-Ladies Santiago","Santiago","Chile","Latin America",2287,"https://www.meetup.com/rladies-scl/",2017-07-18,"Active",2021-03-12,44,0
@@ -118,29 +118,29 @@
 "117","R-Ladies Chennai","Chennai","India","Asia",332,"https://www.meetup.com/rladies-chennai/",2017-10-15,"Inactive",2020-09-12,6,0
 "118","R-Ladies Vitória","Vitória","Brazil","Latin America",189,"https://www.meetup.com/rladies-vitoria/",2019-09-29,"Active",2020-11-28,3,0
 "119","R-Ladies Charlottesville","Charlottesville","USA","US/Canada",417,"https://www.meetup.com/rladies-charlottesville/",2017-09-21,"Inactive",2020-06-16,18,0
-"120","R-Ladies Cape Town","Cape Town","South Africa","Africa",719,"https://www.meetup.com/rladies-cape-town/",2017-03-06,"Active",2020-10-28,30,0
+"120","R-Ladies Cape Town","Cape Town","South Africa","Africa",720,"https://www.meetup.com/rladies-cape-town/",2017-03-06,"Active",2020-10-28,30,0
 "121","R-Ladies Brussels","Brussels","Belgium","Europe",233,"https://www.meetup.com/rladies-brussels/",2017-08-15,"Inactive",2019-03-30,10,0
 "122","R-Ladies Strasbourg","Strasbourg","France","Europe",82,"https://www.meetup.com/rladies-strasbourg/",2017-09-27,"Active",2021-03-11,12,0
 "123","R-Ladies Orlando","Orlando","USA","US/Canada",322,"https://www.meetup.com/rladies-orlando/",2017-06-05,"Inactive",2019-05-29,17,0
 "124","South Central PA R-Ladies","Middletown","USA","US/Canada",9,"https://www.meetup.com/South-Central-PA-R-Ladies/",2019-08-24,"Unbegun",NA,0,0
 "125","R-Ladies RTP","Durham","USA","US/Canada",824,"https://www.meetup.com/rladies-rtp/",2016-08-15,"Active",2021-03-11,53,3
 "126","R-Ladies San Francisco","San Francisco","USA","US/Canada",1642,"https://www.meetup.com/rladies-san-francisco/",2012-10-01,"Inactive",2020-09-10,60,0
-"127","R-Ladies Valparaíso","Valparaíso","Chile","Latin America",309,"https://www.meetup.com/rladies-valparaiso/",2018-05-18,"Active",2021-03-12,22,0
-"128","R-Ladies Belo Horizonte","Belo Horizonte","Brazil","Latin America",845,"https://www.meetup.com/rladies-belo-horizonte/",2018-04-20,"Active",2021-02-17,17,0
+"127","R-Ladies Valparaíso","Valparaíso","Chile","Latin America",311,"https://www.meetup.com/rladies-valparaiso/",2018-05-18,"Active",2021-03-12,22,0
+"128","R-Ladies Belo Horizonte","Belo Horizonte","Brazil","Latin America",846,"https://www.meetup.com/rladies-belo-horizonte/",2018-04-20,"Active",2021-02-17,17,0
 "129","R-Ladies Bari","Bari","Italy","Europe",124,"https://www.meetup.com/rladies-bari/",2018-05-17,"Active",2021-03-10,18,0
-"130","R-Ladies Milan","Milano","Italy","Europe",1016,"https://www.meetup.com/rladies-milan/",2017-06-29,"Active",2021-03-10,27,0
+"130","R-Ladies Milan","Milano","Italy","Europe",1015,"https://www.meetup.com/rladies-milan/",2017-06-29,"Active",2021-03-10,27,0
 "131","R-Ladies New York","New York","USA","US/Canada",1993,"https://www.meetup.com/rladies-newyork/",2016-08-23,"Active",2021-03-05,56,0
 "132","R-Ladies Pune","Pune","India","Asia",135,"https://www.meetup.com/rladies-pune/",2019-09-29,"Inactive",2020-07-24,7,0
 "133","R-Ladies Ottawa","Ottawa","Canada","US/Canada",226,"https://www.meetup.com/rladies-ottawa/",2018-12-05,"Active",2020-10-27,6,0
 "134","R-Ladies Lexington Park","Lexington Park","USA","US/Canada",36,"https://www.meetup.com/rladies-lexington-park/",2019-08-16,"Active",2020-12-15,2,0
 "135","R-Ladies Bergen","Bergen","Norway","Europe",268,"https://www.meetup.com/rladies-bergen/",2019-10-28,"Active",2021-03-08,11,1
-"136","R-Ladies Cuernavaca","Cuernavaca","Mexico","Latin America",478,"https://www.meetup.com/rladies-cuernavaca/",2019-08-15,"Active",2020-11-12,9,0
+"136","R-Ladies Cuernavaca","Cuernavaca","Mexico","Latin America",477,"https://www.meetup.com/rladies-cuernavaca/",2019-08-15,"Active",2020-11-12,9,0
 "137","R-Ladies CDMX","México City","Mexico","Latin America",1894,"https://www.meetup.com/rladies-cdmx/",2017-07-04,"Active",2021-02-19,16,0
 "138","R-Ladies Twin Cities","Minneapolis","USA","US/Canada",416,"https://www.meetup.com/rladies-tc/",2015-04-01,"Active",2021-02-19,44,2
 "139","R-Ladies Yaoundé","Yaoundé","Cameroon","Africa",54,"https://www.meetup.com/rladies-yaounde/",2020-01-05,"Unbegun",NA,0,0
 "140","R-Ladies Buffalo","Buffalo","USA","US/Canada",28,"https://www.meetup.com/rladies-buffalo/",2017-05-28,"Inactive",2019-11-21,4,0
 "141","R-Ladies Ribeirão Preto","Ribeirão Preto","Brazil","Latin America",111,"https://www.meetup.com/rladies-ribeirao-preto/",2020-03-06,"Active",2020-11-30,2,0
-"142","R-Ladies Taipei","Taipei","Taiwan","Asia",1766,"https://www.meetup.com/rladies-taipei/",2016-10-23,"Active",2021-02-22,46,1
+"142","R-Ladies Taipei","Taipei","Taiwan","Asia",1767,"https://www.meetup.com/rladies-taipei/",2016-10-23,"Active",2021-02-22,46,1
 "143","R Ladies Aarhus","Aarhus","Denmark","Europe",10,"https://www.meetup.com/rladies-aarhus/",2020-11-20,"Unbegun",NA,0,0
 "144","R-Ladies Cochabamba","Cochabamba","Bolivia","Latin America",11,"https://www.meetup.com/rladies-cochabamba/",2020-06-12,"Unbegun",NA,0,0
 "145","R-Ladies Cusco","Cusco","Peru","Latin America",25,"https://www.meetup.com/rladies-cusco/",2020-05-09,"Active",2020-12-16,2,0
@@ -148,8 +148,8 @@
 "147","R-Ladies St. Louis","Saint Louis","USA","US/Canada",766,"https://www.meetup.com/rladies-st-louis/",2017-08-28,"Active",2021-03-10,21,1
 "148","R-Ladies PDX","Portland","USA","US/Canada",247,"https://www.meetup.com/rladies-pdx/",2017-07-20,"Inactive",2019-08-06,14,0
 "149","R-Ladies Miami","Miami","USA","US/Canada",1108,"https://www.meetup.com/rladies-miami/",2017-06-03,"Active",2020-12-10,31,0
-"150","R-Ladies Abuja","Abuja","Nigeria","Africa",195,"https://www.meetup.com/rladies-abuja/",2020-02-04,"Active",2021-01-23,3,0
-"151","R-Ladies Istanbul","Istanbul","Turkey","Europe",1936,"https://www.meetup.com/rladies-istanbul/",2016-09-06,"Active",2021-03-08,36,0
+"150","R-Ladies Abuja","Abuja","Nigeria","Africa",196,"https://www.meetup.com/rladies-abuja/",2020-02-04,"Active",2021-01-23,3,0
+"151","R-Ladies Istanbul","Istanbul","Turkey","Europe",1935,"https://www.meetup.com/rladies-istanbul/",2016-09-06,"Active",2021-03-08,36,0
 "152","R Users & R-Ladies Warsaw (Spotkania Entuzjastów R)","Warsaw","Poland","Europe",2828,"https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/",2014-10-06,"Active",2021-03-11,113,3
 "153","R-Ladies Madison","Madison","USA","US/Canada",124,"https://www.meetup.com/R-Ladies-Madison/",2019-04-30,"Active",2021-01-22,10,0
 "154","R-Ladies Budapest","Budapest","Hungary","Europe",862,"https://www.meetup.com/rladies-budapest/",2017-01-24,"Inactive",2020-01-29,33,0
@@ -166,9 +166,9 @@
 "165","R-Ladies Beijing","Beijing","China","Asia",56,"https://www.meetup.com/rladies-beijing/",2019-11-13,"Inactive",2020-07-09,3,0
 "166","R-Ladies Queretaro","Querétaro","Mexico","Latin America",587,"https://www.meetup.com/rladies-queretaro/",2019-03-30,"Active",2021-03-11,14,0
 "167","R-Ladies Eskisehir","Eskisehir","Turkey","Europe",133,"https://www.meetup.com/rladies-eskisehir/",2019-11-13,"Active",2021-03-08,11,0
-"168","R-Ladies Lagos","Lagos","Nigeria","Africa",294,"https://www.meetup.com/rladies-lagos/",2019-08-16,"Inactive",2020-02-22,3,0
+"168","R-Ladies Lagos","Lagos","Nigeria","Africa",295,"https://www.meetup.com/rladies-lagos/",2019-08-16,"Inactive",2020-02-22,3,0
 "169","R-Ladies Nelson","Nelson","New Zealand","Australia",14,"https://www.meetup.com/rladies-nelson/",2019-03-23,"Unbegun",NA,0,0
-"170","R-Ladies Medellín","Medellín","Colombia","Latin America",475,"https://www.meetup.com/rladies-medellin/",2019-09-28,"Active",2020-11-18,5,1
+"170","R-Ladies Medellín","Medellín","Colombia","Latin America",476,"https://www.meetup.com/rladies-medellin/",2019-09-28,"Active",2020-11-18,5,1
 "171","R-Ladies Floripa","Florianópolis","Brazil","Latin America",445,"https://www.meetup.com/rladies-florianopolis/",2019-04-07,"Inactive",2020-02-19,8,0
 "172","R-Ladies Galapagos Islands","Puerto Ayora","Ecuador","Pacific/Galapagos",240,"https://www.meetup.com/rladies-galapagos-islands/",2020-01-12,"Active",2021-02-19,12,0
 "173","R-Ladies Pachuca","Pachuca","Mexico","Latin America",13,"https://www.meetup.com/rladies-pachuca/",2019-09-15,"Unbegun",NA,0,0
@@ -185,9 +185,9 @@
 "184","R-Ladies Kuala Lumpur","Kuala Lumpur","Malaysia","Asia",11,"https://www.meetup.com/rladies-kuala-lumpur/",2020-11-23,"Unbegun",NA,0,0
 "185","R-Ladies Ha Noi","Ha Noi","Vietnam","Asia",42,"https://www.meetup.com/rladies-ha-noi/",2020-02-16,"Unbegun",NA,0,0
 "186","R-Ladies Aguascalientes","Aguascalientes","Mexico","Latin America",315,"https://www.meetup.com/rladies-aguascalientes/",2020-02-22,"Active",2020-11-24,5,0
-"187","R-Ladies Saudi Arabia (Dammam)","Dammam","Saudi Arabia","Asia",193,"https://www.meetup.com/rladies-dammam/",2020-11-20,"Active",2021-02-13,3,0
-"188","R-Ladies Glasgow","Glasgow","United Kingdom","Europe",50,"https://www.meetup.com/rladies-glasgow/",2020-06-24,"Active",2021-03-12,2,0
-"189","R-Ladies Fortaleza","Fortaleza","Brazil","Latin America",106,"https://www.meetup.com/rladies-fortaleza/",2020-06-09,"Active",2020-12-12,2,0
+"187","R-Ladies Glasgow","Glasgow","United Kingdom","Europe",50,"https://www.meetup.com/rladies-glasgow/",2020-06-24,"Active",2021-03-12,2,0
+"188","R-Ladies Fortaleza","Fortaleza","Brazil","Latin America",106,"https://www.meetup.com/rladies-fortaleza/",2020-06-09,"Active",2020-12-12,2,0
+"189","R-Ladies Saudi Arabia (Dammam)","Dammam","Saudi Arabia","Asia",193,"https://www.meetup.com/rladies-dammam/",2020-11-20,"Active",2021-02-13,3,0
 "190","R-Ladies Cordoba","Córdoba","Argentina","Latin America",32,"https://www.meetup.com/rladies-cordoba/",2020-05-14,"Active",2020-12-07,3,0
 "191","R-Ladies General Pico","General Pico","Argentina","Latin America",63,"https://www.meetup.com/rladies-general-pico/",2020-03-14,"Active",2020-10-03,5,0
 "192","R-Ladies Tijuana","Tijuana","Mexico","Latin America",47,"https://www.meetup.com/rladies-tijuana/",2020-08-24,"Active",2020-09-25,2,0
@@ -196,4 +196,4 @@
 "195","R-Ladies Talca","Talca","Chile","Latin America",156,"https://www.meetup.com/rladies-talca/",2020-05-14,"Active",2021-03-12,6,0
 "196","R-Ladies Adelaide","Adelaide","Australia","Australia",310,"https://www.meetup.com/rladies-adelaide/",2017-02-02,"Inactive",2019-10-02,9,0
 "197","R-Ladies Bogotá","Bogotá","Colombia","Latin America",290,"https://www.meetup.com/rladies-bogota/",2017-09-22,"Active",2021-02-18,7,1
-"198","Deadly Divas-Bend's True Crime Book Club for Ladies","Bend","USA","US/Canada",125,"https://www.meetup.com/Deadly-Divas-Bends-True-Crime-Book-Club-for-Ladies/",2019-08-11,"Active",2021-02-16,22,2
+"198","Deadly Divas-Bend's True Crime Book Club for Ladies","Bend","USA","US/Canada",126,"https://www.meetup.com/Deadly-Divas-Bends-True-Crime-Book-Club-for-Ladies/",2019-08-11,"Active",2021-02-16,22,2
