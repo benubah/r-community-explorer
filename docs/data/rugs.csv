@@ -1,7 +1,7 @@
 "","name","city","country","region","members","fullurl","created","past_events","upcoming_events","visibility","last_event"
 "1","Customer Data Science LA","Santa Monica","USA","US/Canada",621,"https://www.meetup.com/Customer-Data-Science-LA/",2019-06-20,14,0,"public_limited",2020-10-01
-"2","ODSC Vancouver Data Science","Vancouver","Canada","US/Canada",321,"https://www.meetup.com/ODSC-Vancouver-Data-Science/",2019-11-22,38,8,"public",2021-03-24
-"3","ODSC Denver Data Science","Denver","USA","US/Canada",155,"https://www.meetup.com/ODSC-Denver-Data-Science/",2019-11-22,47,8,"public",2021-03-24
+"2","ODSC Vancouver Data Science","Vancouver","Canada","US/Canada",322,"https://www.meetup.com/ODSC-Vancouver-Data-Science/",2019-11-22,38,8,"public",2021-03-24
+"3","ODSC Denver Data Science","Denver","USA","US/Canada",157,"https://www.meetup.com/ODSC-Denver-Data-Science/",2019-11-22,47,8,"public",2021-03-24
 "4","Ulmer Data Science Stammtisch","Ulm","Germany","Europe",404,"https://www.meetup.com/Ulmer-Data-Science-Stammtisch/",2017-12-06,10,0,"public",2019-11-25
 "5","Western Mass Statistics and Data Science","Northampton","USA","US/Canada",527,"https://www.meetup.com/Pioneer-Valley-and-Five-College-R-Statistical-Meetup/",2013-01-02,209,0,"public",2020-02-27
 "6","Clarksville Data Science and R Users Meetup Group","Clarksville","USA","US/Canada",26,"https://www.meetup.com/Clarksville-Data-Science-and-R-Users-Meetup-Group/",2019-06-13,2,0,"public",2019-08-11
@@ -23,13 +23,13 @@
 "22","Eskisehir R Users Group & ESTÜ Veri Bilimi Kulübü","Eskisehir","Turkey","Europe",88,"https://www.meetup.com/Eskisehir-R-Users-Group-Data-Science-Society/",2020-02-28,10,1,"public",2021-02-19
 "23","University of Ibadan R Users Group (UI RUG)","Ibadan","Nigeria","Africa",86,"https://www.meetup.com/University-of-Ibadan-R-Users-Group-UI-RUG/",2020-02-14,1,0,"public",2020-03-07
 "24","Applied R Munich","München","Germany","Europe",1177,"https://www.meetup.com/Applied-R-Munich/",2015-10-16,14,0,"public",2020-12-11
-"25","Phoenix R User Group","Phoenix","USA","US/Canada",883,"https://www.meetup.com/Phoenix-R-User-Group/",2016-04-16,18,0,"public",2018-08-24
-"26","Chico R Users Group","Chico","USA","US/Canada",57,"https://www.meetup.com/Chico-R-Users-Group/",2015-12-07,86,0,"public",2020-08-12
-"27","Cebu R Users Group (CRUG)","Cebu","Philippines","Asia",59,"https://www.meetup.com/Cebu-R-Users-Group-CRUG/",2014-09-17,2,0,"public_limited",2015-03-19
-"28","Orange County R Users Group (OCRUG)","Irvine","USA","US/Canada",788,"https://www.meetup.com/OC-RUG/",2014-12-17,97,2,"public",2021-03-25
-"29","R User Group Kano","Kano","Nigeria","Africa",21,"https://www.meetup.com/r-user-group-kano/",2020-11-28,1,0,"public",2021-01-17
-"30","Oxford R User Group","Oxford","United Kingdom","Europe",592,"https://www.meetup.com/Oxford-R-User-Group/",2017-08-17,23,0,"public",2020-02-03
-"31","Poznan R Users Group (PAZUR)","Poznan","Poland","Europe",625,"https://www.meetup.com/Poznan-R-User-Group-PAZUR/",2015-11-27,23,0,"public",2020-01-30
+"25","Poznan R Users Group (PAZUR)","Poznan","Poland","Europe",625,"https://www.meetup.com/Poznan-R-User-Group-PAZUR/",2015-11-27,23,0,"public",2020-01-30
+"26","Phoenix R User Group","Phoenix","USA","US/Canada",883,"https://www.meetup.com/Phoenix-R-User-Group/",2016-04-16,18,0,"public",2018-08-24
+"27","Chico R Users Group","Chico","USA","US/Canada",57,"https://www.meetup.com/Chico-R-Users-Group/",2015-12-07,86,0,"public",2020-08-12
+"28","Cebu R Users Group (CRUG)","Cebu","Philippines","Asia",59,"https://www.meetup.com/Cebu-R-Users-Group-CRUG/",2014-09-17,2,0,"public_limited",2015-03-19
+"29","Orange County R Users Group (OCRUG)","Irvine","USA","US/Canada",788,"https://www.meetup.com/OC-RUG/",2014-12-17,97,2,"public",2021-03-25
+"30","R User Group Kano","Kano","Nigeria","Africa",21,"https://www.meetup.com/r-user-group-kano/",2020-11-28,1,0,"public",2021-01-17
+"31","Oxford R User Group","Oxford","United Kingdom","Europe",592,"https://www.meetup.com/Oxford-R-User-Group/",2017-08-17,23,0,"public",2020-02-03
 "32","Rhus - useR group","Århus","Denmark","Europe",237,"https://www.meetup.com/Rhus-useR-group/",2015-01-19,5,0,"public",2019-12-03
 "33","Bauru R Big Data Analytics Meetup","Bauru","Brazil","Latin America",50,"https://www.meetup.com/Bauru-R-Big-Data-Analytics-Meetup/",2016-05-22,0,0,"public",1970-01-01
 "34","Lansing Area R Users Group","East Lansing","USA","US/Canada",220,"https://www.meetup.com/Lansing-Area-R-Users-Group/",2012-01-24,31,0,"public",2020-03-09
@@ -37,39 +37,39 @@
 "36","Milwaukee R Meetup","Milwaukee","USA","US/Canada",302,"https://www.meetup.com/Milwaukee-R-Meetup/",2015-06-05,9,0,"public",2020-03-19
 "37","Data Analytics GDL User Group","Guadalajara","Mexico","Latin America",318,"https://www.meetup.com/Data-Analytics-GDL-User-Group/",2017-04-13,2,0,"public",2017-12-08
 "38","Vancouver Data Visualization","Vancouver","Canada","US/Canada",4356,"https://www.meetup.com/Vancouver-Data-Visualization/",2011-03-14,44,0,"public",2021-02-04
-"39","San Diego Data Science & R Users Group","Del Mar","USA","US/Canada",910,"https://www.meetup.com/San-Diego-Data-Science-R-Users-Group/",2009-10-14,32,0,"public",2017-03-31
+"39","San Diego Data Science & R Users Group","Del Mar","USA","US/Canada",909,"https://www.meetup.com/San-Diego-Data-Science-R-Users-Group/",2009-10-14,32,0,"public",2017-03-31
 "40","Bengaluru R UseR Group (BRUG)","Bangalore","India","Asia",1827,"https://www.meetup.com/BengaluRu-use-R-gRoup/",2018-08-28,18,0,"public",2021-02-28
 "41","Abuja R User Group","Abuja","Nigeria","Africa",295,"https://www.meetup.com/Abuja-R-User-Group-Meetup/",2019-10-16,11,0,"public",2021-01-09
 "42","Bhavnagar Data Analysis Meetup","Bhavnagar","India","Asia",35,"https://www.meetup.com/Bhavnagar-Data-Analysis-Meetup/",2014-06-15,0,0,"public",1970-01-01
 "43","PhillyR","Philadelphia","USA","US/Canada",870,"https://www.meetup.com/PhillyR/",2016-04-19,18,0,"public",2019-11-15
 "44","Microsoft Advanced Analytics User Group","Mechelen","Belgium","Europe",763,"https://www.meetup.com/Microsoft-Advanced-Analytics-User-Group/",2017-11-17,13,0,"public",2019-04-15
 "45","Chile Elastic User Group","Santiago","Chile","Latin America",22,"https://www.meetup.com/chile-elastic-user-group/",2021-02-18,1,1,"public",2021-03-12
-"46","R User Group Nepal","Kathmandu","Nepal","Asia",182,"https://www.meetup.com/rugnepal/",2018-09-16,5,0,"public",2020-03-07
-"47","CaRdiff - the Cardiff R User Group","Cardiff","United Kingdom","Europe",752,"https://www.meetup.com/Cardiff-R-User-Group/",2014-12-19,142,0,"public",2021-03-11
-"48","Central Iowa R User Group","Des Moines","USA","US/Canada",710,"https://www.meetup.com/Central-Iowa-R-User-Group/",2015-06-15,260,1,"public",2021-03-27
-"49","Nairobi R Users Group","Nairobi","Kenya","Africa",50,"https://www.meetup.com/Nairobi-R-Users-Group/",2017-03-30,0,0,"public",1970-01-01
+"46","CaRdiff - the Cardiff R User Group","Cardiff","United Kingdom","Europe",752,"https://www.meetup.com/Cardiff-R-User-Group/",2014-12-19,142,0,"public",2021-03-11
+"47","Central Iowa R User Group","Des Moines","USA","US/Canada",710,"https://www.meetup.com/Central-Iowa-R-User-Group/",2015-06-15,260,1,"public",2021-03-27
+"48","Nairobi R Users Group","Nairobi","Kenya","Africa",50,"https://www.meetup.com/Nairobi-R-Users-Group/",2017-03-30,0,0,"public",1970-01-01
+"49","Dar Es Salaam R Users Group","Dar es Salaam","Tanzania","Africa",841,"https://www.meetup.com/DarEs-Salaam-R-users/",2015-04-30,2,0,"public",2020-07-23
 "50","Exeter R Users Group (Exeter, Devon, England)","Exeter","United Kingdom","Europe",243,"https://www.meetup.com/Exeter-R-Users-Group-Exeter-Devon-England/",2014-01-14,16,0,"public",2019-09-09
 "51","St. Petersburg R User Group","St. Petersburg","Russia","Europe",1122,"https://www.meetup.com/St-Petersburg-R-User-Group/",2015-03-11,17,0,"public",2020-12-11
-"52","Detroit useR Group (R Programming Language)","Birmingham","USA","US/Canada",314,"https://www.meetup.com/Detroit-useR-Group-R-Programming-Language/",2013-06-19,6,0,"public",2017-01-08
-"53","R Users & R-Ladies Warsaw (Spotkania Entuzjastów R)","Warsaw","Poland","Europe",2840,"https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/",2014-10-06,117,0,"public",2021-03-24
-"54","Pittsburgh useR Group","Pittsburgh","USA","US/Canada",585,"https://www.meetup.com/Pittsburgh-useR-Group/",2013-03-26,38,0,"public",2021-03-10
-"55","Berlin R Users Group","Berlin","Germany","Europe",2180,"https://www.meetup.com/Berlin-R-Users-Group/",2015-01-04,57,1,"public",2021-02-18
-"56","Cairo R Users Group","Cairo","Egypt","Africa",2207,"https://www.meetup.com/Cairo-R-Users-Group/",2015-04-30,5,0,"public",2020-01-06
-"57","Dar Es Salaam R Users Group","Dar es Salaam","Tanzania","Africa",841,"https://www.meetup.com/DarEs-Salaam-R-users/",2015-04-30,2,0,"public",2020-07-23
-"58","Johannesburg R User Group (R Programming Language)","Johannesburg","South Africa","Africa",902,"https://www.meetup.com/Joburg-R-Users-Group/",2015-05-03,12,0,"public",2020-12-03
-"59","Meetup R Nantes","Nantes","France","Europe",720,"https://www.meetup.com/Meetup-R-Nantes/",2016-06-27,23,0,"public",2019-12-02
-"60","Budapest Users of R Network","Budapest","Hungary","Europe",1682,"https://www.meetup.com/Budapest-Users-of-R-Network/",2013-08-11,57,0,"public",2020-01-29
-"61","STWUR - Wroclaw R Users Group Meetup","Wroclaw","Poland","Europe",1117,"https://www.meetup.com/Wroclaw-R-Users-Group/",2017-01-17,32,0,"public",2020-09-24
-"62","Cork (Ireland) R-Users Group","Cork","Ireland","Europe",668,"https://www.meetup.com/Cork-Ireland-R-Users-Group/",2015-07-01,52,0,"public",2020-02-10
-"63","NottinghamR - Nottingham R Users Group","Nottingham","United Kingdom","Europe",391,"https://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/",2016-01-08,8,0,"public_limited",2020-11-04
-"64","Kiel R User Group","Kiel","Germany","Europe",19,"https://www.meetup.com/Kiel-R-User-Group/",2019-11-22,0,0,"public",1970-01-01
-"65","Bmore UseR Group","Baltimore","USA","US/Canada",143,"https://www.meetup.com/Bmore-UseR-Group/",2016-08-26,1,0,"public",2017-09-20
-"66","Greater Toronto Area (GTA) R User Group","Toronto","Canada","US/Canada",1474,"https://www.meetup.com/Greater-Toronto-Area-GTA-R-Users-Group/",2010-10-07,37,0,"public",2020-12-09
-"67","Columbus useR Group","Columbus","USA","US/Canada",196,"https://www.meetup.com/Columbus-useR-Group/",2014-03-17,3,0,"public",2015-01-28
-"68","Tampa R Users Group","Tampa","USA","US/Canada",534,"https://www.meetup.com/Tampa-R-Users-Group/",2017-07-28,30,0,"public",2020-08-25
-"69","Western Australia R Group (WARG)","Perth","Australia","Australia",180,"https://www.meetup.com/Western-Australia-R-Group-WARG/",2014-06-27,9,0,"public",2016-07-21
-"70","Adelaide R Users Group","Adelaide","Australia","Australia",311,"https://www.meetup.com/Adelaide-R-Users/",2016-11-07,4,0,"public",2019-09-25
-"71","Greater Boston useR Group (R Programming Language)","Boston","USA","US/Canada",4740,"https://www.meetup.com/Boston-useR/",2011-02-10,75,2,"public",2021-02-24
+"52","R User Group Nepal","Kathmandu","Nepal","Asia",182,"https://www.meetup.com/rugnepal/",2018-09-16,5,0,"public",2020-03-07
+"53","Detroit useR Group (R Programming Language)","Birmingham","USA","US/Canada",314,"https://www.meetup.com/Detroit-useR-Group-R-Programming-Language/",2013-06-19,6,0,"public",2017-01-08
+"54","Tampa R Users Group","Tampa","USA","US/Canada",534,"https://www.meetup.com/Tampa-R-Users-Group/",2017-07-28,30,0,"public",2020-08-25
+"55","Western Australia R Group (WARG)","Perth","Australia","Australia",180,"https://www.meetup.com/Western-Australia-R-Group-WARG/",2014-06-27,9,0,"public",2016-07-21
+"56","R Users & R-Ladies Warsaw (Spotkania Entuzjastów R)","Warsaw","Poland","Europe",2841,"https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/",2014-10-06,117,0,"public",2021-03-24
+"57","Pittsburgh useR Group","Pittsburgh","USA","US/Canada",585,"https://www.meetup.com/Pittsburgh-useR-Group/",2013-03-26,38,0,"public",2021-03-10
+"58","Berlin R Users Group","Berlin","Germany","Europe",2180,"https://www.meetup.com/Berlin-R-Users-Group/",2015-01-04,57,1,"public",2021-02-18
+"59","Cairo R Users Group","Cairo","Egypt","Africa",2207,"https://www.meetup.com/Cairo-R-Users-Group/",2015-04-30,5,0,"public",2020-01-06
+"60","Johannesburg R User Group (R Programming Language)","Johannesburg","South Africa","Africa",902,"https://www.meetup.com/Joburg-R-Users-Group/",2015-05-03,12,0,"public",2020-12-03
+"61","Meetup R Nantes","Nantes","France","Europe",720,"https://www.meetup.com/Meetup-R-Nantes/",2016-06-27,23,0,"public",2019-12-02
+"62","Budapest Users of R Network","Budapest","Hungary","Europe",1682,"https://www.meetup.com/Budapest-Users-of-R-Network/",2013-08-11,57,0,"public",2020-01-29
+"63","STWUR - Wroclaw R Users Group Meetup","Wroclaw","Poland","Europe",1117,"https://www.meetup.com/Wroclaw-R-Users-Group/",2017-01-17,32,0,"public",2020-09-24
+"64","Cork (Ireland) R-Users Group","Cork","Ireland","Europe",668,"https://www.meetup.com/Cork-Ireland-R-Users-Group/",2015-07-01,52,0,"public",2020-02-10
+"65","NottinghamR - Nottingham R Users Group","Nottingham","United Kingdom","Europe",391,"https://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/",2016-01-08,8,0,"public_limited",2020-11-04
+"66","Kiel R User Group","Kiel","Germany","Europe",19,"https://www.meetup.com/Kiel-R-User-Group/",2019-11-22,0,0,"public",1970-01-01
+"67","Bmore UseR Group","Baltimore","USA","US/Canada",143,"https://www.meetup.com/Bmore-UseR-Group/",2016-08-26,1,0,"public",2017-09-20
+"68","Greater Toronto Area (GTA) R User Group","Toronto","Canada","US/Canada",1474,"https://www.meetup.com/Greater-Toronto-Area-GTA-R-Users-Group/",2010-10-07,37,0,"public",2020-12-09
+"69","Columbus useR Group","Columbus","USA","US/Canada",196,"https://www.meetup.com/Columbus-useR-Group/",2014-03-17,3,0,"public",2015-01-28
+"70","Adelaide R Users Group","Adelaide","Australia","Australia",312,"https://www.meetup.com/Adelaide-R-Users/",2016-11-07,4,0,"public",2019-09-25
+"71","Greater Boston useR Group (R Programming Language)","Boston","USA","US/Canada",4743,"https://www.meetup.com/Boston-useR/",2011-02-10,75,2,"public",2021-02-24
 "72","Santa Barbara R Users Group","Santa Barbara","USA","US/Canada",436,"https://www.meetup.com/Santa-Barbara-R-Users-Group/",2013-02-27,25,2,"public",2021-02-24
 "73","Abidjan R users Meetup","Abidjan","Ivory Coast","Africa",582,"https://www.meetup.com/Abidjan-R-users-Meetup/",2018-03-27,9,0,"public",2020-04-25
 "74","Riyadh UseR Group","Riyadh","Saudi Arabia","Asia",391,"https://www.meetup.com/Riyadh-UseR-Group/",2016-12-06,1,0,"public",2016-12-15
@@ -79,7 +79,7 @@
 "78","New York R User Group","New York","USA","US/Canada",1049,"https://www.meetup.com/New-York-R-Users-Group/",2013-08-24,43,3,"public",2016-11-02
 "79","Indore Hadoop User Group","Indore","India","Asia",455,"https://www.meetup.com/Indore-Hadoop-User-Group/",2014-08-01,0,0,"public",1970-01-01
 "80","CopenhagenR - useR Group","Copenhagen","Denmark","Europe",1384,"https://www.meetup.com/CopenhagenR-useR-Group/",2013-09-03,36,0,"public",2021-01-14
-"81","Inland Northwest R User Group (INRUG)","Spokane","USA","US/Canada",156,"https://www.meetup.com/Inland-Northwest-R-User-Group-INRUG/",2015-03-29,35,1,"public",2021-02-27
+"81","Inland Northwest R User Group (INRUG)","Spokane","USA","US/Canada",157,"https://www.meetup.com/Inland-Northwest-R-User-Group-INRUG/",2015-03-29,35,1,"public",2021-02-27
 "82","Trenton R Users (TRU)","Trenton","USA","US/Canada",498,"https://www.meetup.com/TRUgroup/",2015-01-27,73,1,"public",2021-03-20
 "83","Central Illinois SAS® User Group Meetup","Springfield","USA","US/Canada",105,"https://www.meetup.com/Central-Illinois-SAS-User-Group-Meetup/",2014-11-14,27,2,"public",2021-03-11
 "84","Zurich R User Group","Zürich","Switzerland","Europe",1923,"https://www.meetup.com/Zurich-R-User-Group/",2015-11-18,32,0,"public",2020-10-29
@@ -88,56 +88,56 @@
 "87","Winnipeg R User Group","Winnipeg","Canada","US/Canada",125,"https://www.meetup.com/Winnipeg-R-User-Group/",2018-11-03,12,0,"public",2020-02-15
 "88","Austin R User Group","Austin","USA","US/Canada",1637,"https://www.meetup.com/Austin-R-User-Group/",2012-01-16,51,0,"public",2019-11-20
 "89","Alteryx User Group Brisbane","Brisbane","Australia","Australia",19,"https://www.meetup.com/Alteryx-User-Group-Brisbane/",2016-04-24,7,0,"public",2019-06-12
-"90","Cleveland R User Group","Independence","USA","US/Canada",837,"https://www.meetup.com/Cleveland-UseR-Group/",2012-01-16,83,2,"public",2021-03-24
+"90","Cleveland R User Group","Independence","USA","US/Canada",838,"https://www.meetup.com/Cleveland-UseR-Group/",2012-01-16,83,2,"public",2021-03-24
 "91","IndyUseR Group","Indianapolis","USA","US/Canada",591,"https://www.meetup.com/Indy-useR-Group/",2013-06-28,70,0,"public",2021-03-16
 "92","Kansas City R Users Group","Kansas City","USA","US/Canada",998,"https://www.meetup.com/Kansas-City-R-Users-Group/",2013-12-02,83,3,"public",2021-03-13
 "93","Lucerne R User Group","Luzern","Switzerland","Europe",91,"https://www.meetup.com/Lucerne-R-User-Group/",2020-04-08,7,1,"public",2021-02-24
 "94","KNIME User Group UK","London","United Kingdom","Europe",415,"https://www.meetup.com/KNIME-User-Group-UK/",2013-11-29,34,1,"public",2021-03-24
-"95","B'moRe R PRogramming for EveRyone","Baltimore","USA","US/Canada",55,"https://www.meetup.com/bmore-r-programming-for-everyone/",2020-11-29,5,0,"public",2021-02-26
-"96","Meetup de Grupo de Usuarios de R de Málaga","Málaga","Spain","Europe",177,"https://www.meetup.com/Meetup-de-Grupo-de-Usuarios-de-R-de-Malaga/",2019-02-15,11,0,"public",2021-02-24
-"97","Sevilla R Users","Sevilla","Spain","Europe",609,"https://www.meetup.com/Sevilla-R-users/",2017-03-13,27,0,"public",2020-06-24
-"98","Grupo de Usuarios de R de Madrid","Madrid","Spain","Europe",2451,"https://www.meetup.com/Grupo-de-Usuarios-de-R-de-Madrid/",2015-02-20,42,0,"public",2020-09-18
-"99","Patra's R Users Group","Pátrai","Greece","Europe",138,"https://www.meetup.com/Patras-R-Users-Group/",2015-05-07,3,0,"public",2015-10-07
-"100","ZagReb","Zagreb","Croatia","Europe",270,"https://www.meetup.com/zagreb-r-group/",2017-03-30,5,0,"public",2018-04-04
-"101","Portsmouth R User Group Meetup","Portsmouth","United Kingdom","Europe",187,"https://www.meetup.com/Portsmouth-R-User-Group/",2018-06-26,10,0,"public",2021-01-14
-"102","Grupo de Usuários de R em Ouro Preto","Ouro Preto","Brazil","Latin America",33,"https://www.meetup.com/Grupo-de-Usuarios-de-R-em-Ouro-Preto/",2020-02-04,3,0,"public",2020-03-17
-"103","R User Group Finland","Helsinki","Finland","Europe",260,"https://www.meetup.com/R-User-Group-Finland/",2015-08-31,1,0,"public",2015-09-30
-"104","Campinas R Users Meetup","Campinas","Brazil","Latin America",329,"https://www.meetup.com/Campinas-R-Users-Meetup/",2014-11-19,10,0,"public",2015-11-18
-"105","Greater Portland useR Group (R programming language)","Portland","USA","US/Canada",173,"https://www.meetup.com/Greater-Portland-useR-Group/",2018-08-10,13,0,"public",2021-01-13
-"106","UVa R Users Group","Charlottesville","USA","US/Canada",593,"https://www.meetup.com/UVa-R-Users-Group/",2014-08-04,23,0,"public",2019-08-27
-"107","Panama R User's Group","Panamá","Panama","Latin America",565,"https://www.meetup.com/Panama-R-Users-Group/",2017-02-13,18,0,"public",2020-03-28
-"108","Ann Arbor R User Group","Ann Arbor","USA","US/Canada",798,"https://www.meetup.com/Ann-Arbor-R-User-Group/",2014-05-26,69,0,"public",2020-12-10
-"109","Dallas R Users Group","Dallas","USA","US/Canada",2232,"https://www.meetup.com/Dallas-R-Users-Group/",2011-02-19,86,0,"public",2021-02-15
-"110","The México City R Users Group","México City","Mexico","Latin America",156,"https://www.meetup.com/The-Mexico-City-R-Users-Group/",2014-02-05,4,0,"public",2015-12-02
-"111","Utah County R User Group","Provo","USA","US/Canada",112,"https://www.meetup.com/utah-county-rug/",2019-01-22,6,0,"public",2020-02-27
-"112","Hong Kong R User Group","Hong Kong","Hong Kong","Asia",182,"https://www.meetup.com/Hong-Kong-R-User-Group/",2018-05-02,6,0,"public",2020-12-29
-"113","Wellington R Users Group (WRUG)","Wellington","New Zealand","Australia",342,"https://www.meetup.com/Wellington-R-Users-Group-WRUG/",2013-09-04,12,0,"public",2018-02-27
-"114","R User Group - Philippines","Manila","Philippines","Asia",1430,"https://www.meetup.com/R-User-Group-Philippines/",2013-08-20,86,2,"public",2021-03-17
-"115","AalborgRUG","Aalborg","Denmark","Europe",185,"https://www.meetup.com/AalborgRUG/",2017-09-30,9,1,"public",2021-01-11
-"116","Prague R Meetup Group","Prague","Czech Republic","Europe",664,"https://www.meetup.com/Prague-R-Meetup-Group/",2015-03-16,8,0,"public",2019-05-22
+"95","AalborgRUG","Aalborg","Denmark","Europe",185,"https://www.meetup.com/AalborgRUG/",2017-09-30,9,1,"public",2021-01-11
+"96","B'moRe R PRogramming for EveRyone","Baltimore","USA","US/Canada",55,"https://www.meetup.com/bmore-r-programming-for-everyone/",2020-11-29,5,0,"public",2021-02-26
+"97","Meetup de Grupo de Usuarios de R de Málaga","Málaga","Spain","Europe",177,"https://www.meetup.com/Meetup-de-Grupo-de-Usuarios-de-R-de-Malaga/",2019-02-15,11,0,"public",2021-02-24
+"98","Sevilla R Users","Sevilla","Spain","Europe",609,"https://www.meetup.com/Sevilla-R-users/",2017-03-13,27,0,"public",2020-06-24
+"99","Grupo de Usuarios de R de Madrid","Madrid","Spain","Europe",2451,"https://www.meetup.com/Grupo-de-Usuarios-de-R-de-Madrid/",2015-02-20,42,0,"public",2020-09-18
+"100","Patra's R Users Group","Pátrai","Greece","Europe",138,"https://www.meetup.com/Patras-R-Users-Group/",2015-05-07,3,0,"public",2015-10-07
+"101","ZagReb","Zagreb","Croatia","Europe",270,"https://www.meetup.com/zagreb-r-group/",2017-03-30,5,0,"public",2018-04-04
+"102","Portsmouth R User Group Meetup","Portsmouth","United Kingdom","Europe",187,"https://www.meetup.com/Portsmouth-R-User-Group/",2018-06-26,10,0,"public",2021-01-14
+"103","Grupo de Usuários de R em Ouro Preto","Ouro Preto","Brazil","Latin America",33,"https://www.meetup.com/Grupo-de-Usuarios-de-R-em-Ouro-Preto/",2020-02-04,3,0,"public",2020-03-17
+"104","R User Group Finland","Helsinki","Finland","Europe",260,"https://www.meetup.com/R-User-Group-Finland/",2015-08-31,1,0,"public",2015-09-30
+"105","Campinas R Users Meetup","Campinas","Brazil","Latin America",329,"https://www.meetup.com/Campinas-R-Users-Meetup/",2014-11-19,10,0,"public",2015-11-18
+"106","Greater Portland useR Group (R programming language)","Portland","USA","US/Canada",173,"https://www.meetup.com/Greater-Portland-useR-Group/",2018-08-10,13,0,"public",2021-01-13
+"107","UVa R Users Group","Charlottesville","USA","US/Canada",593,"https://www.meetup.com/UVa-R-Users-Group/",2014-08-04,23,0,"public",2019-08-27
+"108","Panama R User's Group","Panamá","Panama","Latin America",565,"https://www.meetup.com/Panama-R-Users-Group/",2017-02-13,18,0,"public",2020-03-28
+"109","Ann Arbor R User Group","Ann Arbor","USA","US/Canada",798,"https://www.meetup.com/Ann-Arbor-R-User-Group/",2014-05-26,69,0,"public",2020-12-10
+"110","San Carlos R User Group","Quesada","Costa Rica","Latin America",629,"https://www.meetup.com/San-Carlos-R-User-Group/",2016-01-20,35,0,"public",2019-08-10
+"111","Dallas R Users Group","Dallas","USA","US/Canada",2233,"https://www.meetup.com/Dallas-R-Users-Group/",2011-02-19,86,0,"public",2021-02-15
+"112","The México City R Users Group","México City","Mexico","Latin America",156,"https://www.meetup.com/The-Mexico-City-R-Users-Group/",2014-02-05,4,0,"public",2015-12-02
+"113","Utah County R User Group","Provo","USA","US/Canada",112,"https://www.meetup.com/utah-county-rug/",2019-01-22,6,0,"public",2020-02-27
+"114","Wellington R Users Group (WRUG)","Wellington","New Zealand","Australia",341,"https://www.meetup.com/Wellington-R-Users-Group-WRUG/",2013-09-04,12,0,"public",2018-02-27
+"115","R User Group - Philippines","Manila","Philippines","Asia",1430,"https://www.meetup.com/R-User-Group-Philippines/",2013-08-20,86,2,"public",2021-03-17
+"116","Prague R Meetup Group","Prague","Czech Republic","Europe",665,"https://www.meetup.com/Prague-R-Meetup-Group/",2015-03-16,8,0,"public",2019-05-22
 "117","RVA R User's Group.","Richmond","USA","US/Canada",50,"https://www.meetup.com/RVA-R-Users-Group/",2018-01-29,9,0,"public",2019-12-18
 "118","Charlotte R Users Group","Charlotte","USA","US/Canada",866,"https://www.meetup.com/Charlotte-R-Users-Group/",2013-12-17,32,0,"public",2020-04-21
-"119","San Carlos R User Group","Quesada","Costa Rica","Latin America",629,"https://www.meetup.com/San-Carlos-R-User-Group/",2016-01-20,35,0,"public",2019-08-10
-"120","Oslo useR! Group","Oslo","Norway","Europe",1649,"https://www.meetup.com/Oslo-useR-Group/",2015-02-11,37,2,"public",2021-03-25
-"121","Salt Lake City R Users Group","Salt Lake City","USA","US/Canada",1237,"https://www.meetup.com/slc-rug/",2017-11-06,32,2,"public",2021-03-10
-"122","Malaysia R User Public Group","Kuala Lumpur","Malaysia","Asia",267,"https://www.meetup.com/Malaysia-R-User-Group/",2018-09-25,4,0,"public",2020-11-21
-"123","Tecate BC México R Users Group Meetup","Tecate","Mexico","Latin America",17,"https://www.meetup.com/Tecate-BC-Mexico-R-Users-Group-Meetup/",2014-09-11,0,0,"public",1970-01-01
-"124","San Diego R Users Group","San Diego","USA","US/Canada",59,"https://www.meetup.com/sd-r-users/",2019-10-06,3,0,"public",2020-07-30
-"125","Twin Cities R User Group (TCRUG)","Minneapolis","USA","US/Canada",1871,"https://www.meetup.com/twincitiesrug/",2011-01-26,67,0,"public",2020-05-22
-"126","Denver R User Group","Denver","USA","US/Canada",1461,"https://www.meetup.com/DenverRUG/",2010-08-25,76,0,"public",2020-03-10
-"127","R User Group - Singapore (RUGS)","Singapore","Singapore","Asia",1998,"https://www.meetup.com/R-User-Group-SG/",2010-07-26,81,2,"public_limited",2021-01-28
-"128","Saint Louis R User Group","Saint Louis","USA","US/Canada",987,"https://www.meetup.com/Saint-Louis-RUG/",2011-01-26,71,0,"public",2020-09-16
-"129","South Central PA R-Ladies","Middletown","USA","US/Canada",9,"https://www.meetup.com/South-Central-PA-R-Ladies/",2019-08-24,0,0,"public",1970-01-01
-"130","Portland R User Group","Portland","USA","US/Canada",1755,"https://www.meetup.com/portland-r-user-group/",2010-08-04,165,0,"public",2021-03-16
-"131","Wiesbaden R User Group","Wiesbaden","Germany","Europe",432,"https://www.meetup.com/Wiesbaden-R-Users-Group/",2011-01-28,89,7,"public",2021-03-17
+"119","Oslo useR! Group","Oslo","Norway","Europe",1650,"https://www.meetup.com/Oslo-useR-Group/",2015-02-11,37,2,"public",2021-03-25
+"120","Salt Lake City R Users Group","Salt Lake City","USA","US/Canada",1238,"https://www.meetup.com/slc-rug/",2017-11-06,32,2,"public",2021-03-10
+"121","Malaysia R User Public Group","Kuala Lumpur","Malaysia","Asia",267,"https://www.meetup.com/Malaysia-R-User-Group/",2018-09-25,4,0,"public",2020-11-21
+"122","Tecate BC México R Users Group Meetup","Tecate","Mexico","Latin America",17,"https://www.meetup.com/Tecate-BC-Mexico-R-Users-Group-Meetup/",2014-09-11,0,0,"public",1970-01-01
+"123","San Diego R Users Group","San Diego","USA","US/Canada",59,"https://www.meetup.com/sd-r-users/",2019-10-06,3,0,"public",2020-07-30
+"124","Twin Cities R User Group (TCRUG)","Minneapolis","USA","US/Canada",1871,"https://www.meetup.com/twincitiesrug/",2011-01-26,67,0,"public",2020-05-22
+"125","Denver R User Group","Denver","USA","US/Canada",1461,"https://www.meetup.com/DenverRUG/",2010-08-25,76,0,"public",2020-03-10
+"126","R User Group - Singapore (RUGS)","Singapore","Singapore","Asia",1997,"https://www.meetup.com/R-User-Group-SG/",2010-07-26,81,2,"public_limited",2021-01-28
+"127","Saint Louis R User Group","Saint Louis","USA","US/Canada",987,"https://www.meetup.com/Saint-Louis-RUG/",2011-01-26,71,0,"public",2020-09-16
+"128","South Central PA R-Ladies","Middletown","USA","US/Canada",9,"https://www.meetup.com/South-Central-PA-R-Ladies/",2019-08-24,0,0,"public",1970-01-01
+"129","Portland R User Group","Portland","USA","US/Canada",1754,"https://www.meetup.com/portland-r-user-group/",2010-08-04,165,0,"public",2021-03-16
+"130","Ottawa-Gatineau R Users Group","Ottawa","Canada","US/Canada",1,"https://www.meetup.com/ottawa-gatineau-r-users-group/",2021-03-29,0,0,"public",1970-01-01
+"131","Wiesbaden R User Group","Wiesbaden","Germany","Europe",433,"https://www.meetup.com/Wiesbaden-R-Users-Group/",2011-01-28,89,7,"public",2021-03-17
 "132","R Users Monterrey","Monterrey","Mexico","Latin America",50,"https://www.meetup.com/R-Users-Monterrey/",2017-08-10,2,0,"public",2020-03-11
-"133","R Users Group, Gainesville, FL","Gainesville","USA","US/Canada",473,"https://www.meetup.com/R-Users-Group-Gainesville-FL/",2013-05-22,33,0,"public",2018-02-06
+"133","R Users Group, Gainesville, FL","Gainesville","USA","US/Canada",475,"https://www.meetup.com/R-Users-Group-Gainesville-FL/",2013-05-22,33,1,"public",2018-02-06
 "134","Turkish Community of R","Ankara","Turkey","Europe",1328,"https://www.meetup.com/tcr-users/",2013-03-08,11,0,"public",2021-01-11
 "135","Cali R Users Group (Cali)","Cali","Colombia","Latin America",608,"https://www.meetup.com/R-Users-Group-Cali/",2014-12-23,9,0,"public",2020-02-29
 "136","Vancouver R Users Group (data analysis / statistics)","Vancouver","Canada","US/Canada",1031,"https://www.meetup.com/Vancouver-R-Users-Group-data-analysis-statistics/",2011-02-09,20,0,"public",2015-08-03
-"137","SheffieldR - Sheffield R Users Group","Sheffield","United Kingdom","Europe",465,"https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/",2013-03-28,56,0,"public",2020-03-03
+"137","SheffieldR - Sheffield R Users Group","Sheffield","United Kingdom","Europe",466,"https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/",2013-03-28,56,0,"public",2020-03-03
 "138","Kyiv useR! Group","Kyiv","Ukraine","Europe",574,"https://www.meetup.com/Kyiv-useR-Group/",2015-04-21,7,0,"public",2018-08-15
-"139","Auckland R Users Group (AKLRUG)","Auckland","New Zealand","Australia",1339,"https://www.meetup.com/Auckland-R-Users-Group-AKLRUG/",2013-01-08,22,0,"public",2020-11-18
+"139","Auckland R Users Group (AKLRUG)","Auckland","New Zealand","Australia",1340,"https://www.meetup.com/Auckland-R-Users-Group-AKLRUG/",2013-01-08,22,0,"public",2020-11-18
 "140","mumbai-r-user-group","Mumbai","India","Asia",569,"https://www.meetup.com/mumbai-r-user-group/",2013-09-15,31,1,"public",2017-02-02
 "141","DakaR R User Group","Dakar","Senegal","Africa",283,"https://www.meetup.com/DakaR-R-User-Group/",2013-10-23,8,0,"public",2020-10-02
 "142","Bozeman Area R useR Group","Bozeman","USA","US/Canada",165,"https://www.meetup.com/Bozeman-useR-Group-R-Programming-Language/",2013-05-30,25,0,"public",2018-03-02
@@ -146,12 +146,12 @@
 "145","Offa R Users Group","Offa","Nigeria","Africa",172,"https://www.meetup.com/FEDPOFA-R-Users-Group/",2013-09-20,39,0,"public",2019-09-04
 "146","New Delhi  UseR Group (R Programming Language)","Delhi","India","Asia",1440,"https://www.meetup.com/New-Delhi-R-UseR-Group/",2012-10-21,87,0,"public_limited",2018-08-18
 "147","Leipzig R statistical computing","Leipzig","Germany","Europe",252,"https://www.meetup.com/Leipzig-R-statistical-computing/",2011-10-22,11,0,"public",2018-04-16
-"148","Bay Area useR Group (R Programming Language)","San Francisco","USA","US/Canada",6567,"https://www.meetup.com/R-Users/",2008-07-17,152,0,"public",2021-02-17
+"148","Bay Area useR Group (R Programming Language)","San Francisco","USA","US/Canada",6566,"https://www.meetup.com/R-Users/",2008-07-17,152,0,"public",2021-02-17
 "149","Sydney Users of  R Forum (SURF)","Sydney","Australia","Australia",2822,"https://www.meetup.com/R-Users-Sydney/",2010-06-06,115,1,"public",2020-03-11
 "150","amst-R-dam","Amsterdam","Netherlands","Europe",1237,"https://www.meetup.com/amst-R-dam/",2010-09-09,33,0,"public",2019-06-20
 "151","Florianópolis R-NNQ R users group","Florianópolis","Brazil","Latin America",551,"https://www.meetup.com/Florianopolis-R-NNQ-R-users-group/",2016-05-06,19,0,"public",2019-11-28
-"152","Melbourne Users of R Network (MelbURN)","Melbourne","Australia","Australia",2980,"https://www.meetup.com/MelbURN-Melbourne-Users-of-R-Network/",2010-08-04,101,1,"public",2020-11-10
-"153","Data Science Festival - London","London","United Kingdom","Europe",11261,"https://www.meetup.com/Data-Science-Festival-London/",2016-04-25,115,1,"public",2021-03-25
+"152","Melbourne Users of R Network (MelbURN)","Melbourne","Australia","Australia",2979,"https://www.meetup.com/MelbURN-Melbourne-Users-of-R-Network/",2010-08-04,101,1,"public",2020-11-10
+"153","Data Science Festival - London","London","United Kingdom","Europe",11260,"https://www.meetup.com/Data-Science-Festival-London/",2016-04-25,115,1,"public",2021-03-25
 "154","Data Science Nantes","Nantes","France","Europe",573,"https://www.meetup.com/Data-Science-Nantes/",2018-12-03,8,0,"public",2021-03-09
 "155","ODSC Birmingham Data Science","Birmingham","United Kingdom","Europe",394,"https://www.meetup.com/data-science-ODSC-Birmingham/",2018-08-14,50,6,"public",2021-03-23
 "156","ODSC Lviv Data Science","L'viv","Ukraine","Europe",254,"https://www.meetup.com/Data-Science-ODSC-Lviv/",2018-08-13,51,3,"public",2021-03-23
@@ -160,53 +160,53 @@
 "159","Data Science Hub","Mumbai","India","Asia",859,"https://www.meetup.com/Data-Science-Hub/",2019-05-04,57,0,"public",2021-03-25
 "160","Python And Data Science For Freshers Training and Workshop","Bangalore","India","Asia",2293,"https://www.meetup.com/Python-And-Data-Science-For-Freshers-Training-Workshop/",2018-08-28,5,0,"public",2020-03-30
 "161","Data Science After Dark","Springfield","USA","US/Canada",252,"https://www.meetup.com/Data-Science-After-Dark/",2019-03-22,8,0,"public",2020-06-16
-"162","Collin County Data Science Education","Plano","USA","US/Canada",472,"https://www.meetup.com/Collin-County-Data-Science-Education/",2019-02-17,14,0,"public",2020-04-23
+"162","Collin County Data Science Education","Plano","USA","US/Canada",471,"https://www.meetup.com/Collin-County-Data-Science-Education/",2019-02-17,14,0,"public",2020-04-23
 "163","Newcastle Upon Tyne Data Science Meetup","Newcastle Upon Tyne","United Kingdom","Europe",936,"https://www.meetup.com/Newcastle-Upon-Tyne-Data-Science-Meetup/",2017-05-08,18,0,"public",2021-03-16
-"164","Bay Area Data Science Enthusiasts","Palo Alto","USA","US/Canada",2224,"https://www.meetup.com/Bay-Area-Data-Science-Enthusiasts/",2019-02-11,147,1,"public",2021-03-23
-"165","Fresno Data Science Meetup","Fresno","USA","US/Canada",424,"https://www.meetup.com/Fresno-Data-Science-Meetup/",2019-03-17,26,0,"public",2021-03-19
+"164","Bay Area Data Science Enthusiasts","Palo Alto","USA","US/Canada",2225,"https://www.meetup.com/Bay-Area-Data-Science-Enthusiasts/",2019-02-11,147,1,"public",2021-03-23
+"165","Fresno Data Science Meetup","Fresno","USA","US/Canada",426,"https://www.meetup.com/Fresno-Data-Science-Meetup/",2019-03-17,26,0,"public",2021-03-19
 "166","SF - Bay Area Data Science Initiative","San Francisco","USA","US/Canada",745,"https://www.meetup.com/SF-Bay-Area-Data-Science-Initiative/",2020-02-10,70,1,"public",2021-03-23
-"167","ODSC Milano Data Science","Milano","Italy","Europe",1812,"https://www.meetup.com/Milano-Data-Science-ODSC/",2018-08-03,73,3,"public",2021-03-23
+"167","ODSC Milano Data Science","Milano","Italy","Europe",1815,"https://www.meetup.com/Milano-Data-Science-ODSC/",2018-08-03,73,3,"public",2021-03-23
 "168","ODSC Sao Paulo Data Science","São Paulo","Brazil","Latin America",2222,"https://www.meetup.com/Sao-Paulo-Data-Science-ODSC/",2018-12-14,62,10,"public",2021-03-24
-"169","Data Science - For Beginners (Hyderabad)","Hyderabad","India","Asia",998,"https://www.meetup.com/Data-Science-For-Beginners-Hyderabad/",2020-02-21,59,1,"public",2021-03-27
-"170","Data Science Festival - Berlin","Berlin","Germany","Europe",432,"https://www.meetup.com/meetup-group-Berlin/",2019-10-16,53,1,"public",2021-03-25
+"169","Data Science - For Beginners (Hyderabad)","Hyderabad","India","Asia",999,"https://www.meetup.com/Data-Science-For-Beginners-Hyderabad/",2020-02-21,59,1,"public",2021-03-27
+"170","Data Science Festival - Berlin","Berlin","Germany","Europe",434,"https://www.meetup.com/meetup-group-Berlin/",2019-10-16,53,1,"public",2021-03-25
 "171","ODSC Austin Data Science","Austin","USA","US/Canada",704,"https://www.meetup.com/Data-Science-ODSC-Austin/",2018-12-21,71,9,"public",2021-03-24
-"172","Data Science Festival - Lagos","Lagos","Nigeria","Africa",336,"https://www.meetup.com/Data-Science-Festival-Lagos/",2020-06-22,46,1,"public",2021-03-25
-"173","ODSC Los Angeles Data Science","Los Angeles","USA","US/Canada",724,"https://www.meetup.com/Data-Science-ODSC-Los-Angeles/",2018-09-06,72,10,"public",2021-03-24
-"174","Data Science Festival - Leeds","Leeds","United Kingdom","Europe",274,"https://www.meetup.com/Data-Science-Festival-Leeds/",2019-10-16,54,1,"public",2021-03-25
+"172","Data Science Festival - Lagos","Lagos","Nigeria","Africa",337,"https://www.meetup.com/Data-Science-Festival-Lagos/",2020-06-22,46,1,"public",2021-03-25
+"173","ODSC Zurich Data Science","Zürich","Switzerland","Europe",1030,"https://www.meetup.com/Zurich-Data-Sciece-ODSC/",2018-08-02,71,3,"public",2021-03-23
+"174","ODSC Los Angeles Data Science","Los Angeles","USA","US/Canada",724,"https://www.meetup.com/Data-Science-ODSC-Los-Angeles/",2018-09-06,72,10,"public",2021-03-24
 "175","ODSC Chicago Data Science","Chicago","USA","US/Canada",701,"https://www.meetup.com/ODSC-Chicago-Data-Science/",2018-12-21,72,10,"public",2021-03-24
-"176","ODSC Zurich Data Science","Zürich","Switzerland","Europe",1029,"https://www.meetup.com/Zurich-Data-Sciece-ODSC/",2018-08-02,71,3,"public",2021-03-23
-"177","ODSC Amsterdam Data Science","Amsterdam","Netherlands","Europe",831,"https://www.meetup.com/Amsterdam-Data-Science-ODSC/",2018-08-02,56,3,"public",2021-03-23
-"178","ODSC Manchester Data Science","Manchester","United Kingdom","Europe",670,"https://www.meetup.com/Data-Science-ODSC-Manchester/",2018-08-16,54,6,"public",2021-03-23
+"176","ODSC Amsterdam Data Science","Amsterdam","Netherlands","Europe",831,"https://www.meetup.com/Amsterdam-Data-Science-ODSC/",2018-08-02,56,3,"public",2021-03-23
+"177","ODSC Manchester Data Science","Manchester","United Kingdom","Europe",670,"https://www.meetup.com/Data-Science-ODSC-Manchester/",2018-08-16,54,6,"public",2021-03-23
+"178","ODSC Edinburgh Data Science","Edinburgh","United Kingdom","Europe",532,"https://www.meetup.com/Edinburgh-ODSC-Data-Science/",2018-08-10,47,6,"public",2021-03-23
 "179","ODSC Cambridge Data Science","Cambridge","United Kingdom","Europe",403,"https://www.meetup.com/data-science-odsc-cambridge/",2018-08-14,49,6,"public",2021-03-23
-"180","ODSC Edinburgh Data Science","Edinburgh","United Kingdom","Europe",532,"https://www.meetup.com/Edinburgh-ODSC-Data-Science/",2018-08-10,47,6,"public",2021-03-23
-"181","ODSC Lisbon Data Science","Lisbon","Portugal","Europe",362,"https://www.meetup.com/Lisbon-Data-Science-ODSC/",2019-07-24,37,3,"public",2021-03-23
-"182","ODSC Berlin Data Science","Berlin","Germany","Europe",679,"https://www.meetup.com/Berlin-Data-Science-ODSC/",2018-08-02,54,3,"public",2021-03-23
-"183","ODSC Dublin Data Science","Dublin","Ireland","Europe",1460,"https://www.meetup.com/Dublin-Data-Science-ODSC/",2018-08-02,71,6,"public",2021-03-23
-"184","ODSC Madrid Data Science","Madrid","Spain","Europe",931,"https://www.meetup.com/Madrid-Data-Science-ODSC/",2018-08-02,57,3,"public",2021-03-23
-"185","ODSC Copenhagen Data Science","Copenhagen","Denmark","Europe",660,"https://www.meetup.com/Copenhagen-Data-Sciece-ODSC/",2018-08-02,49,3,"public",2021-03-23
-"186","ODSC Delhi Data Science","Delhi","India","Asia",2919,"https://www.meetup.com/Delhi-Data-Science-ODSC/",2019-05-23,41,1,"public",2021-01-28
-"187","ODSC Glasgow Data Science","Glasgow","United Kingdom","Europe",517,"https://www.meetup.com/ODSC-Glasgow-Data-Science/",2018-08-10,51,6,"public",2021-03-23
-"188","ODSC Stockholm Data Science","Stockholm","Sweden","Europe",722,"https://www.meetup.com/Stockholm-Data-Sciece-ODSC/",2018-08-02,47,3,"public",2021-03-23
-"189","ODSC Kyiv Data Science","Kyiv","Ukraine","Europe",598,"https://www.meetup.com/Data-Science-Kyiv-ODSC/",2018-08-13,45,3,"public",2021-03-23
-"190","AfterWork Data Science Lagos","Lagos","Nigeria","Africa",458,"https://www.meetup.com/AfterWork-Data-Science-Lagos/",2020-05-27,15,0,"public",2020-11-17
-"191","Bamako Data Science","Bamako","Mali","Africa",291,"https://www.meetup.com/Bamako-Data-Science/",2018-07-02,20,0,"public",2021-02-05
-"192","Palestine Data Science Meetup","Ramallah","Palestine","Asia",169,"https://www.meetup.com/Palestine-Data-Science-Meetup/",2017-05-21,0,0,"public",1970-01-01
-"193","L3 Data Science: A Space to Learn and Grow","London","United Kingdom","Europe",148,"https://www.meetup.com/L3-Data-Science-A-Space-to-Learn-and-Grow/",2020-06-18,0,0,"public",1970-01-01
-"194","Data Science Talks","São Paulo","Brazil","Latin America",1304,"https://www.meetup.com/Data-Science-Talks/",2019-04-19,4,0,"public",2020-05-01
-"195","Data Science Curitiba","Curitiba","Brazil","Latin America",1474,"https://www.meetup.com/Data-Science-Curitiba/",2017-09-29,14,0,"public_limited",2020-02-11
-"196","Data Science and Machine Learning Meet","Pune","India","Asia",1536,"https://www.meetup.com/Data-Science-and-Machine-Learning/",2017-12-06,17,0,"public",2020-06-18
-"197","Practical Data Science","Bangalore","India","Asia",4669,"https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/",2016-02-05,23,0,"public",2021-03-01
-"198","New Haven Data Science","New Haven","USA","US/Canada",537,"https://www.meetup.com/New-Haven-Data-Science-Meetup/",2015-03-15,12,0,"public",2018-06-04
-"199","Data Science Study Group: South Florida","Miami","USA","US/Canada",1573,"https://www.meetup.com/Data-Science-Study-Group-South-Florida/",2017-07-06,65,0,"public",2020-10-07
-"200","Winnipeg Data Science - Projects - Machine Learning with SQL","Winnipeg","Canada","US/Canada",110,"https://www.meetup.com/Winnipeg-Data-Science-Projects/",2018-11-05,12,0,"public",2019-03-17
-"201","KL Data Science","Kuala Lumpur","Malaysia","Asia",148,"https://www.meetup.com/KL-Data-Science/",2019-05-31,0,0,"public",1970-01-01
-"202","ODSC Singapore Data Science","Singapore","Singapore","Asia",739,"https://www.meetup.com/Singapore-Data-Science-ODSC/",2019-02-04,22,0,"public",2020-12-19
-"203","Data Science Case Studies and Interview Prep","Mountain View","USA","US/Canada",545,"https://www.meetup.com/DSCaseStudies/",2019-04-29,25,0,"public",2020-07-05
-"204","San Francisco Data Science Leadership Meetup","San Francisco","USA","US/Canada",57,"https://www.meetup.com/San-Francisco-Data-Science-Leadership-Meetup/",2020-02-12,1,0,"public",2020-02-27
-"205","Open Data Science - Christchurch","Christchurch","New Zealand","Australia",21,"https://www.meetup.com/Christchurch-Data-Science-Group/",2019-03-07,3,0,"public",2019-05-18
-"206","London Data Science Journal Club","London","United Kingdom","Europe",3403,"https://www.meetup.com/London-Data-Science-Journal-Club/",2015-06-15,54,0,"public",2021-03-09
+"180","ODSC Lisbon Data Science","Lisbon","Portugal","Europe",363,"https://www.meetup.com/Lisbon-Data-Science-ODSC/",2019-07-24,37,3,"public",2021-03-23
+"181","ODSC Dublin Data Science","Dublin","Ireland","Europe",1460,"https://www.meetup.com/Dublin-Data-Science-ODSC/",2018-08-02,71,6,"public",2021-03-23
+"182","ODSC Berlin Data Science","Berlin","Germany","Europe",680,"https://www.meetup.com/Berlin-Data-Science-ODSC/",2018-08-02,54,3,"public",2021-03-23
+"183","ODSC Madrid Data Science","Madrid","Spain","Europe",931,"https://www.meetup.com/Madrid-Data-Science-ODSC/",2018-08-02,57,3,"public",2021-03-23
+"184","ODSC Copenhagen Data Science","Copenhagen","Denmark","Europe",660,"https://www.meetup.com/Copenhagen-Data-Sciece-ODSC/",2018-08-02,49,3,"public",2021-03-23
+"185","ODSC Delhi Data Science","Delhi","India","Asia",2919,"https://www.meetup.com/Delhi-Data-Science-ODSC/",2019-05-23,41,1,"public",2021-01-28
+"186","ODSC Glasgow Data Science","Glasgow","United Kingdom","Europe",517,"https://www.meetup.com/ODSC-Glasgow-Data-Science/",2018-08-10,51,6,"public",2021-03-23
+"187","ODSC Stockholm Data Science","Stockholm","Sweden","Europe",722,"https://www.meetup.com/Stockholm-Data-Sciece-ODSC/",2018-08-02,47,3,"public",2021-03-23
+"188","ODSC Kyiv Data Science","Kyiv","Ukraine","Europe",598,"https://www.meetup.com/Data-Science-Kyiv-ODSC/",2018-08-13,45,3,"public",2021-03-23
+"189","AfterWork Data Science Lagos","Lagos","Nigeria","Africa",458,"https://www.meetup.com/AfterWork-Data-Science-Lagos/",2020-05-27,15,0,"public",2020-11-17
+"190","Bamako Data Science","Bamako","Mali","Africa",291,"https://www.meetup.com/Bamako-Data-Science/",2018-07-02,20,0,"public",2021-02-05
+"191","Palestine Data Science Meetup","Ramallah","Palestine","Asia",169,"https://www.meetup.com/Palestine-Data-Science-Meetup/",2017-05-21,0,0,"public",1970-01-01
+"192","L3 Data Science: A Space to Learn and Grow","London","United Kingdom","Europe",148,"https://www.meetup.com/L3-Data-Science-A-Space-to-Learn-and-Grow/",2020-06-18,0,0,"public",1970-01-01
+"193","Data Science Talks","São Paulo","Brazil","Latin America",1304,"https://www.meetup.com/Data-Science-Talks/",2019-04-19,4,0,"public",2020-05-01
+"194","Data Science Curitiba","Curitiba","Brazil","Latin America",1474,"https://www.meetup.com/Data-Science-Curitiba/",2017-09-29,14,0,"public_limited",2020-02-11
+"195","Data Science and Machine Learning Meet","Pune","India","Asia",1535,"https://www.meetup.com/Data-Science-and-Machine-Learning/",2017-12-06,17,0,"public",2020-06-18
+"196","Practical Data Science","Bangalore","India","Asia",4669,"https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/",2016-02-05,23,0,"public",2021-03-01
+"197","New Haven Data Science","New Haven","USA","US/Canada",537,"https://www.meetup.com/New-Haven-Data-Science-Meetup/",2015-03-15,12,0,"public",2018-06-04
+"198","Data Science Study Group: South Florida","Miami","USA","US/Canada",1573,"https://www.meetup.com/Data-Science-Study-Group-South-Florida/",2017-07-06,65,0,"public",2020-10-07
+"199","Winnipeg Data Science - Projects - Machine Learning with SQL","Winnipeg","Canada","US/Canada",110,"https://www.meetup.com/Winnipeg-Data-Science-Projects/",2018-11-05,12,0,"public",2019-03-17
+"200","KL Data Science","Kuala Lumpur","Malaysia","Asia",148,"https://www.meetup.com/KL-Data-Science/",2019-05-31,0,0,"public",1970-01-01
+"201","ODSC Singapore Data Science","Singapore","Singapore","Asia",739,"https://www.meetup.com/Singapore-Data-Science-ODSC/",2019-02-04,22,0,"public",2020-12-19
+"202","Data Science Case Studies and Interview Prep","Mountain View","USA","US/Canada",545,"https://www.meetup.com/DSCaseStudies/",2019-04-29,25,0,"public",2020-07-05
+"203","San Francisco Data Science Leadership Meetup","San Francisco","USA","US/Canada",57,"https://www.meetup.com/San-Francisco-Data-Science-Leadership-Meetup/",2020-02-12,1,0,"public",2020-02-27
+"204","Open Data Science - Christchurch","Christchurch","New Zealand","Australia",21,"https://www.meetup.com/Christchurch-Data-Science-Group/",2019-03-07,3,0,"public",2019-05-18
+"205","London Data Science Journal Club","London","United Kingdom","Europe",3404,"https://www.meetup.com/London-Data-Science-Journal-Club/",2015-06-15,54,0,"public",2021-03-09
+"206","Data Science Festival - Leeds","Leeds","United Kingdom","Europe",274,"https://www.meetup.com/Data-Science-Festival-Leeds/",2019-10-16,54,1,"public",2021-03-25
 "207","Fort Collins Data Science","Fort Collins","USA","US/Canada",509,"https://www.meetup.com/Fort-Collins-Data-Science/",2015-09-02,134,0,"public",2021-01-27
-"208","Data Science Rotterdam","Rotterdam","Netherlands","Europe",978,"https://www.meetup.com/Data-Science-Rdm/",2015-03-07,9,0,"public",2020-09-23
+"208","Data Science Rotterdam","Rotterdam","Netherlands","Europe",979,"https://www.meetup.com/Data-Science-Rdm/",2015-03-07,9,0,"public",2020-09-23
 "209","Berlin Real World Data Science/Machine Learning Group","Berlin","Germany","Europe",657,"https://www.meetup.com/Berlin-Real-World-Data-Science-Machine-Learning-Group/",2016-04-10,0,0,"public",1970-01-01
 "210","Charlotte Women of Data Science, Machine Learning and AI","Charlotte","USA","US/Canada",124,"https://www.meetup.com/Charlotte-Women-of-Data-Science-Deep-Learning-ML-AI/",2019-02-27,1,0,"public",2019-03-20
 "211","Applied Data Science of Atlanta","Atlanta","USA","US/Canada",1200,"https://www.meetup.com/Applied-Data-Science-of-Atlanta/",2015-04-26,25,0,"public",2019-12-03
@@ -214,8 +214,8 @@
 "213","Data Science Den Haag","Den Haag","Netherlands","Europe",136,"https://www.meetup.com/Data-Science-Den-Haag/",2017-04-07,0,0,"public",1970-01-01
 "214","Practical Data Science and Machine Learning","Århus","Denmark","Europe",548,"https://www.meetup.com/datasciencedk/",2014-03-29,7,0,"public",2020-03-19
 "215","Data Science for Non-Profits","San Diego","USA","US/Canada",509,"https://www.meetup.com/Data-Science-for-Non-Profits/",2019-06-15,23,0,"public",2021-01-13
-"216","Learn Data Science","Vancouver","Canada","US/Canada",5436,"https://www.meetup.com/LearnDataScience/",2015-04-04,345,5,"public",2021-03-25
-"217","Data Science Dojo – Seattle","Redmond","USA","US/Canada",3457,"https://www.meetup.com/data-science-dojo/",2013-11-09,64,2,"public",2021-03-24
+"216","Learn Data Science","Vancouver","Canada","US/Canada",5437,"https://www.meetup.com/LearnDataScience/",2015-04-04,345,7,"public",2021-03-25
+"217","Data Science Dojo – Seattle","Redmond","USA","US/Canada",3458,"https://www.meetup.com/data-science-dojo/",2013-11-09,64,2,"public",2021-03-24
 "218","Data Science Retreat","Berlin","Germany","Europe",2053,"https://www.meetup.com/Data-Science-Retreat/",2017-08-07,25,1,"public",2020-12-15
 "219","Data Science Festival - Dublin","Dublin","Ireland","Europe",2153,"https://www.meetup.com/Data-Science-Festival-Dublin/",2018-05-10,64,1,"public",2021-03-25
 "220","Data Science Lab","London","United Kingdom","Europe",3076,"https://www.meetup.com/data-science-lab/",2013-01-17,46,0,"public_limited",2021-03-18
@@ -224,7 +224,7 @@
 "223","Charlottesville Data Science","Charlottesville","USA","US/Canada",815,"https://www.meetup.com/CharlottesvilleDataScience/",2016-05-24,19,0,"public",2020-02-27
 "224","Southern Data Science (BBDS)","Atlanta","USA","US/Canada",2105,"https://www.meetup.com/Southern-Data-science/",2017-03-23,45,0,"public",2020-11-29
 "225","Westlake Village Data Science Meetup","Westlake Village","USA","US/Canada",1272,"https://www.meetup.com/Westlake-Village-Data-Science-Meetup/",2013-11-14,110,0,"public",2020-03-13
-"226","Data Science Johannesburg","Johannesburg","South Africa","Africa",1825,"https://www.meetup.com/Data-Science-Johannesburg/",2012-04-26,34,0,"public",2021-03-02
+"226","Data Science Johannesburg","Johannesburg","South Africa","Africa",1827,"https://www.meetup.com/Data-Science-Johannesburg/",2012-04-26,34,0,"public",2021-03-02
 "227","ROC Data Science","Rochester","USA","US/Canada",780,"https://www.meetup.com/ROC-Data-Science/",2015-03-11,17,0,"public",2021-03-12
 "228","Data Science Tbilisi","Tbilisi","Georgia","Asia",1520,"https://www.meetup.com/Data-Science-Tbilisi/",2016-09-05,48,0,"public",2021-03-02
 "229","Big Data Science","Fremont","USA","US/Canada",5163,"https://www.meetup.com/Big-Data-Science/",2012-01-25,120,27,"public",2020-02-14
@@ -233,11 +233,11 @@
 "232","Data Science & Machine Learning Wroclaw","Wroclaw","Poland","Europe",1830,"https://www.meetup.com/Data-Science-Wroclaw/",2015-03-16,23,0,"public",2019-04-25
 "233","Data Science Manchester","Sale","United Kingdom","Europe",362,"https://www.meetup.com/Data-Science-Manchester/",2015-11-28,0,0,"public",1970-01-01
 "234","Hyderabad BigData and Data Science Meetup","Hyderabad","India","Asia",520,"https://www.meetup.com/Hyderabad-BigData-and-Data-Science-Meetup/",2014-10-26,0,0,"public",1970-01-01
-"235","Data Science & Business Intelligence Society of Atlanta","Atlanta","USA","US/Canada",5050,"https://www.meetup.com/Atlanta-Society-for-Business-Intelligence/",2010-01-02,112,0,"public",2021-02-17
+"235","Data Science & Business Intelligence Society of Atlanta","Atlanta","USA","US/Canada",5049,"https://www.meetup.com/Atlanta-Society-for-Business-Intelligence/",2010-01-02,112,0,"public",2021-02-17
 "236","Data Science KC","Kansas City","USA","US/Canada",2162,"https://www.meetup.com/Data-Science-KC/",2013-06-21,54,0,"public",2020-11-05
 "237","Nara Data Science and Engineering","Jakarta","Indonesia","Asia",64,"https://www.meetup.com/Nara-Data-Science-and-Engineering/",2018-10-01,0,0,"public",1970-01-01
-"238","Data Science Breakfast Meetup","Sydney","Australia","Australia",1848,"https://www.meetup.com/The-Sydney-Data-Science-Breakfast-Meetup-Group/",2015-09-16,59,0,"public",2019-11-11
-"239","Data.Science.London","London","United Kingdom","Europe",1291,"https://www.meetup.com/DSLondon/",2016-02-06,10,3,"public",2021-03-08
+"238","Data Science Breakfast Meetup","Sydney","Australia","Australia",1847,"https://www.meetup.com/The-Sydney-Data-Science-Breakfast-Meetup-Group/",2015-09-16,59,0,"public",2019-11-11
+"239","Data.Science.London","London","United Kingdom","Europe",1292,"https://www.meetup.com/DSLondon/",2016-02-06,10,3,"public",2021-03-08
 "240","Data Science & Big Data - Izmir","Izmir","Turkey","Europe",2152,"https://www.meetup.com/Data-Science-Big-Data-Izmir/",2017-12-17,9,0,"public",2020-10-14
 "241","Data Science Łódź","Łódź","Poland","Europe",710,"https://www.meetup.com/data-science-lodz/",2015-10-04,18,0,"public",2020-01-13
 "242","Leeds Data Science Meetup","Leeds","United Kingdom","Europe",744,"https://www.meetup.com/Leeds-Data-Science-Meetup/",2018-04-09,14,0,"public",2020-01-28
@@ -245,22 +245,22 @@
 "244","Data Science Indy","Indianapolis","USA","US/Canada",1076,"https://www.meetup.com/dsindy/",2013-02-13,73,0,"public_limited",2020-02-13
 "245","Data Science Workshop","Chicago","USA","US/Canada",802,"https://www.meetup.com/Data-Science-Workshop/",2015-09-10,5,0,"public",2016-10-29
 "246","San Antonio Women in Machine Learning & Data Science","San Antonio","USA","US/Canada",185,"https://www.meetup.com/San-Antonio-Women-in-Machine-Learning-and-Data-Science/",2019-03-19,9,0,"public_limited",2020-02-26
-"247","Salt Lake City Data Science","Salt Lake City","USA","US/Canada",1423,"https://www.meetup.com/Salt-Lake-City-Data-Science/",2014-02-21,32,0,"public",2020-02-19
+"247","Salt Lake City Data Science","Salt Lake City","USA","US/Canada",1422,"https://www.meetup.com/Salt-Lake-City-Data-Science/",2014-02-21,32,0,"public",2020-02-19
 "248","San Diego Women in Data Science","San Diego","USA","US/Canada",383,"https://www.meetup.com/San-Diego-Women-in-Data-Science/",2016-05-12,57,0,"public_limited",2019-01-31
 "249","Silicon Valley Data Science Predictive Analytics Meetup","Santa Clara","USA","US/Canada",1316,"https://www.meetup.com/Silicon-Valley-Data-Science-Predictive-Analytics-Meetup/",2016-06-16,100,0,"public",2021-03-13
 "250","Palo Alto Data Science Association","Palo Alto","USA","US/Canada",3178,"https://www.meetup.com/Palo-Alto-Data-Science-Association/",2013-11-06,109,8,"public",2019-12-28
 "251","Honolulu Data Science Group","Honolulu","USA","US/Canada",135,"https://www.meetup.com/Honolulu-Data-Science-Group/",2015-01-30,39,0,"public_limited",2019-04-24
 "252","East Bay Data Science & Engineering","Oakland","USA","US/Canada",782,"https://www.meetup.com/East-Bay-Data-Science/",2016-05-13,8,0,"public",2019-01-31
 "253","PhillyTalent Evaluation@AI - Leverage for Data Science","Philadelphia","USA","US/Canada",389,"https://www.meetup.com/PhillyTalent/",2018-09-05,36,0,"public",2020-05-12
-"254","Skillspire - Bellevue Data Analytics Meetup","Bellevue","USA","US/Canada",496,"https://www.meetup.com/meetup-group-Skillspire-Bellevue-Data-Analytics-Meetup/",2017-06-27,5,1,"public",2019-09-20
-"255","Open Data New York ODSC","New York","USA","US/Canada",2861,"https://www.meetup.com/open-data-nyc-odsc/",2008-02-06,181,10,"public",2021-03-24
+"254","Skillspire - Bellevue Data Analytics Meetup","Bellevue","USA","US/Canada",498,"https://www.meetup.com/meetup-group-Skillspire-Bellevue-Data-Analytics-Meetup/",2017-06-27,5,1,"public",2019-09-20
+"255","Open Data New York ODSC","New York","USA","US/Canada",2862,"https://www.meetup.com/open-data-nyc-odsc/",2008-02-06,181,10,"public",2021-03-24
 "256","Barcelona Science, Machine Learning, and AI Meetup Group","Barcelona","Spain","Europe",118,"https://www.meetup.com/barcelona-science-machine-learning-and-ai-meetup-group/",2021-01-14,2,0,"public",2021-03-12
 "257","Women in Data Science, Power and Engineering. Nuevo León","Monterrey","Mexico","Latin America",461,"https://www.meetup.com/Women-inData-Women-in-Data-Science-Meetup/",2018-02-14,25,0,"public",2021-03-05
 "258","Data Analytics & Business Intelligence","Bangalore","India","Asia",259,"https://www.meetup.com/Data_Science_ATMinds/",2017-04-20,0,0,"public",1970-01-01
 "259","Computational Social Science  University of Maryland (CS2UM)","Laurel","USA","US/Canada",375,"https://www.meetup.com/Computational-Social-Science-University-of-Maryland-CS2UM/",2017-01-28,7,0,"public",2019-05-15
 "260","Diversity in Data","Gaithersburg","USA","US/Canada",321,"https://www.meetup.com/Diversity-in-data/",2017-02-08,7,0,"public",2019-01-10
 "261","NOVA Data School Meetup","Fairfax","USA","US/Canada",244,"https://www.meetup.com/NOVA-Data-School-Meetup/",2019-03-25,9,0,"public",2019-10-12
-"262","Saudi Data","Riyadh","Saudi Arabia","Asia",2470,"https://www.meetup.com/Saudi-Data-2030/",2019-01-03,23,0,"public",2020-11-23
+"262","Saudi Data","Riyadh","Saudi Arabia","Asia",2471,"https://www.meetup.com/Saudi-Data-2030/",2019-01-03,23,0,"public",2020-11-23
 "263","Data Science Silesia","Katowice","Poland","Europe",531,"https://www.meetup.com/Data-Science-Silesia/",2017-12-07,7,0,"public",2019-05-07
 "264","Big Data NL","Amsterdam","Netherlands","Europe",137,"https://www.meetup.com/Big-Data-NL/",2020-07-21,6,0,"public",2020-09-01
 "265","Data Scientists Ireland","Dublin","Ireland","Europe",4580,"https://www.meetup.com/DataScientistsIreland/",2014-02-19,215,3,"public",2021-03-24
@@ -269,22 +269,22 @@
 "268","Colorado Big Data Enthusiasts","Denver","USA","US/Canada",354,"https://www.meetup.com/Colorado-Big-Data-Enthusiasts/",2015-05-27,16,0,"public",2018-10-23
 "269","Waterloo Data Science and Data Engineering","Waterloo","Canada","US/Canada",1827,"https://www.meetup.com/Waterloo-Data-Science-and-Data-Engineering/",2015-10-15,28,0,"public",2021-03-09
 "270","Women in Data Calgary","Calgary","Canada","US/Canada",903,"https://www.meetup.com/Women-in-Data-Calgary/",2018-06-19,31,1,"public",2021-03-18
-"271","Seattle Data Geeks","Seattle","USA","US/Canada",2520,"https://www.meetup.com/seattle-data-geeks/",2013-06-24,43,0,"public",2021-03-26
+"271","Seattle Data Geeks","Seattle","USA","US/Canada",2522,"https://www.meetup.com/seattle-data-geeks/",2013-06-24,43,0,"public",2021-03-26
 "272","Ankara Data Science and Big Data Meetup","Ankara","Turkey","Europe",2165,"https://www.meetup.com/Ankara-Data-Science-and-Big-Data-Meetup/",2015-12-16,4,0,"public",2016-05-09
 "273","Bristol Data Scientists","Bristol","United Kingdom","Europe",1624,"https://www.meetup.com/Bristol-Data-Scientists/",2014-08-26,19,0,"public",2020-01-28
-"274","Bucks County Data Science (DataBucks)","Chalfont","USA","US/Canada",126,"https://www.meetup.com/DataBucks/",2013-10-05,3,0,"public",2014-11-06
-"275","Charleston Data Science","Charleston","USA","US/Canada",828,"https://www.meetup.com/Charleston-Data-Science/",2014-10-05,32,0,"public",2021-02-10
-"276","The Data Scientist-Chicago","Northbrook","USA","US/Canada",706,"https://www.meetup.com/The-Data-Scientist_Chicago/",2014-07-18,5,0,"public",2016-11-02
-"277","The Perth Data Science Meetup","Perth","Australia","Australia",657,"https://www.meetup.com/Perth-Data-Science/",2012-03-28,32,0,"public",2019-05-15
-"278","Big Data Gods","Sunnyvale","USA","US/Canada",1109,"https://www.meetup.com/Big-Data-Gods/",2013-04-08,40,1,"public",2021-03-05
-"279","Valence Data Science for Human Good","Valence","France","Europe",159,"https://www.meetup.com/Valence-DataScience-for-Human-Good/",2017-01-27,4,0,"public",2020-01-30
-"280","Data Science Applications in Supply Chain Management","Paris","France","Europe",208,"https://www.meetup.com/Data-Science-applications-in-Supply-Chain-Management/",2019-08-27,1,0,"public",2019-10-15
-"281","Moscow Data Fest","Moscow","Russia","Europe",1617,"https://www.meetup.com/Moscow-Data-Fest/",2015-08-24,5,0,"public",2018-04-28
+"274","Charleston Data Science","Charleston","USA","US/Canada",828,"https://www.meetup.com/Charleston-Data-Science/",2014-10-05,32,0,"public",2021-02-10
+"275","The Data Scientist-Chicago","Northbrook","USA","US/Canada",706,"https://www.meetup.com/The-Data-Scientist_Chicago/",2014-07-18,5,0,"public",2016-11-02
+"276","The Perth Data Science Meetup","Perth","Australia","Australia",658,"https://www.meetup.com/Perth-Data-Science/",2012-03-28,32,0,"public",2019-05-15
+"277","Big Data Gods","Sunnyvale","USA","US/Canada",1109,"https://www.meetup.com/Big-Data-Gods/",2013-04-08,40,1,"public",2021-03-05
+"278","Valence Data Science for Human Good","Valence","France","Europe",159,"https://www.meetup.com/Valence-DataScience-for-Human-Good/",2017-01-27,4,0,"public",2020-01-30
+"279","Data Science Applications in Supply Chain Management","Paris","France","Europe",208,"https://www.meetup.com/Data-Science-applications-in-Supply-Chain-Management/",2019-08-27,1,0,"public",2019-10-15
+"280","Moscow Data Fest","Moscow","Russia","Europe",1617,"https://www.meetup.com/Moscow-Data-Fest/",2015-08-24,5,0,"public",2018-04-28
+"281","Bucks County Data Science (DataBucks)","Chalfont","USA","US/Canada",126,"https://www.meetup.com/DataBucks/",2013-10-05,3,0,"public",2014-11-06
 "282","Chiang Mai Data Analytics Meetup","Chiang Mai","Thailand","Asia",56,"https://www.meetup.com/Chiang-Mai-Data-Analytics-Meetup/",2018-12-27,0,0,"public",1970-01-01
 "283","Open Data Science (Hosted by ODSC)","Cambridge","USA","US/Canada",5090,"https://www.meetup.com/open-data-odsc/",2013-03-20,211,10,"public",2021-03-24
 "284","Data Science & Business Analytics","Denver","USA","US/Canada",2302,"https://www.meetup.com/Data-Science-Business-Analytics/",2012-08-08,120,0,"public",2021-03-03
 "285","Santa Barbara Data Science","Santa Barbara","USA","US/Canada",308,"https://www.meetup.com/Santa-Barbara-Data-Science/",2012-05-23,12,0,"public",2019-04-17
-"286","Portland Data Science Group","Portland","USA","US/Canada",3692,"https://www.meetup.com/Portland-Data-Science-Group/",2013-11-10,298,1,"public",2020-02-23
+"286","Portland Data Science Group","Portland","USA","US/Canada",3691,"https://www.meetup.com/Portland-Data-Science-Group/",2013-11-10,298,1,"public",2020-02-23
 "287","Data Science - Abu Dhabi","Abu Dhabi","U.A.E.","Asia",255,"https://www.meetup.com/Data-Science-Abu-Dhabi/",2016-11-24,0,0,"public",1970-01-01
 "288","Eventos MBIT SCHOOL","Madrid","Spain","Europe",936,"https://www.meetup.com/mbitschool/",2018-02-02,75,0,"public",2021-03-02
 "289","PyData Cairo","Cairo","Egypt","Africa",2374,"https://www.meetup.com/PyData-Cairo/",2018-02-27,5,0,"public",2019-05-02
@@ -301,7 +301,7 @@
 "300","CH Kaggle Competitions","Basel","Switzerland","Europe",225,"https://www.meetup.com/CH-Kaggle-Competitions/",2018-02-22,7,0,"public",2019-04-26
 "301","Cluj Data Scientists & Machine Learners","Cluj-Napoca","Romania","Europe",247,"https://www.meetup.com/Cluj-Data-Scientists/",2017-01-27,1,0,"public_limited",2017-08-10
 "302","DataChangers - Open Your World With Data & AI","Amsterdam","Netherlands","Europe",1083,"https://www.meetup.com/datachangers/",2017-04-20,95,0,"public",2020-10-29
-"303","PyData Vilnius","Vilnius","Lithuania","Europe",124,"https://www.meetup.com/PyData-Vilnius/",2019-06-03,1,0,"public",2020-02-29
+"303","PyData Vilnius","Vilnius","Lithuania","Europe",125,"https://www.meetup.com/PyData-Vilnius/",2019-06-03,1,0,"public",2020-02-29
 "304","PyData Brasília","Brasília","Brazil","Latin America",2645,"https://www.meetup.com/PyData-Brasilia/",2017-11-03,23,0,"public",2019-11-05
 "305","DataGiri - Delhi NCR","Delhi","India","Asia",2745,"https://www.meetup.com/DataGiri-NCR/",2017-01-12,35,0,"public",2020-12-19
 "306","Washington D.C. Women in Data","Washington","USA","US/Canada",627,"https://www.meetup.com/Washington-DC-Women-In-Data/",2018-10-24,7,0,"public",2020-12-10
@@ -313,11 +313,11 @@
 "312","Bozeman Data & Analytics","Bozeman","USA","US/Canada",78,"https://www.meetup.com/meetup-group-oxiATbXu/",2018-04-28,0,0,"public",1970-01-01
 "313","PyData Spokane","Spokane","USA","US/Canada",190,"https://www.meetup.com/PyData-Spokane/",2018-02-27,15,0,"public",2020-03-20
 "314","#DataForGood - CorrelAid Berlin","Berlin","Germany","Europe",494,"https://www.meetup.com/CorrelAid/",2019-06-19,3,0,"public",2020-03-26
-"315","Lagos R User Group","Lagos","Nigeria","Africa",753,"https://www.meetup.com/LagosRUsers/",2019-03-10,10,0,"public",2020-11-28
-"316","HAN Data Driven","Nijmegen","Netherlands","Europe",3,"https://www.meetup.com/HAN-Data-Driven/",2020-05-12,1,0,"public_limited",2020-06-29
-"317","DataVis LA","Santa Monica","USA","US/Canada",911,"https://www.meetup.com/Data-Visualization-Los-Angeles-Data-Science/",2013-09-28,40,0,"public",2017-11-10
-"318","PyData Chicago","Chicago","USA","US/Canada",4523,"https://www.meetup.com/PyDataChi/",2016-01-04,65,0,"public",2021-03-25
-"319","Kaggle Paris Meetup","Paris","France","Europe",1171,"https://www.meetup.com/Kaggle-Paris-Meetup/",2014-03-07,24,1,"public",2021-03-25
+"315","Kaggle Paris Meetup","Paris","France","Europe",1171,"https://www.meetup.com/Kaggle-Paris-Meetup/",2014-03-07,24,1,"public",2021-03-25
+"316","Lagos R User Group","Lagos","Nigeria","Africa",753,"https://www.meetup.com/LagosRUsers/",2019-03-10,10,0,"public",2020-11-28
+"317","HAN Data Driven","Nijmegen","Netherlands","Europe",3,"https://www.meetup.com/HAN-Data-Driven/",2020-05-12,1,0,"public_limited",2020-06-29
+"318","DataVis LA","Santa Monica","USA","US/Canada",911,"https://www.meetup.com/Data-Visualization-Los-Angeles-Data-Science/",2013-09-28,40,0,"public",2017-11-10
+"319","PyData Chicago","Chicago","USA","US/Canada",4524,"https://www.meetup.com/PyDataChi/",2016-01-04,65,0,"public",2021-03-25
 "320","PyData Mallorca","Palma","Spain","Europe",978,"https://www.meetup.com/PyData-Mallorca/",2016-09-12,23,0,"public",2020-01-22
 "321","BelgradeR","Belgrade","Serbia","Europe",813,"https://www.meetup.com/BelgradeR/",2016-05-18,13,0,"public",2021-01-11
 "322","Veri Bilimi Okulu","Istanbul","Turkey","Europe",4394,"https://www.meetup.com/veribilimiokulu/",2016-12-04,16,0,"public",2020-05-22
@@ -325,15 +325,15 @@
 "324","AI + Marketing","Montréal","Canada","US/Canada",823,"https://www.meetup.com/MAIC-marketing/",2016-03-01,4,5,"public",2016-10-27
 "325","PyData Bogotá","Bogotá","Colombia","Latin America",624,"https://www.meetup.com/PyData-Bogota/",2016-02-05,5,0,"public",2020-11-11
 "326","Divergence Academy Meetup","Addison","USA","US/Canada",558,"https://www.meetup.com/Divergence-Academy-Meetup/",2015-01-22,80,0,"public",2019-08-15
-"327","Barcelona R User Group","Barcelona","Spain","Europe",1159,"https://www.meetup.com/BarcelonaR/",2013-10-01,53,1,"public",2021-03-25
-"328","Data Visualization in Munich Meetup","München","Germany","Europe",2859,"https://www.meetup.com/Data-Visualization-Meetup-Munich/",2016-04-09,17,0,"public",2021-03-23
+"327","Barcelona R User Group","Barcelona","Spain","Europe",1159,"https://www.meetup.com/BarcelonaR/",2013-10-01,53,3,"public",2021-03-25
+"328","Data Visualization in Munich Meetup","München","Germany","Europe",2861,"https://www.meetup.com/Data-Visualization-Meetup-Munich/",2016-04-09,17,0,"public",2021-03-23
 "329","Hacking Machine Learning","München","Germany","Europe",2226,"https://www.meetup.com/Hacking-Machine-Learning/",2017-02-23,38,0,"public",2021-03-16
-"330","Barcelona Data Science and Machine Learning Meetup","Barcelona","Spain","Europe",2207,"https://www.meetup.com/barcelona-data-science-machine-learning/",2014-04-11,56,0,"public",2021-03-24
+"330","Barcelona Data Science and Machine Learning Meetup","Barcelona","Spain","Europe",2208,"https://www.meetup.com/barcelona-data-science-machine-learning/",2014-04-11,56,0,"public",2021-03-24
 "331","R-Ladies Bari","Bari","Italy","Europe",124,"https://www.meetup.com/rladies-bari/",2018-05-17,18,0,"public",2021-03-10
-"332","Global R User Group","London","United Kingdom","Europe",70,"https://www.meetup.com/globalr/",2020-11-16,27,3,"public",2021-03-25
-"333","Analytics Vidhya Bangalore","Bangalore","India","Asia",5914,"https://www.meetup.com/analytics-vidhya-bangalore/",2016-11-03,47,0,"public",2021-03-10
+"332","Global R User Group","London","United Kingdom","Europe",72,"https://www.meetup.com/globalr/",2020-11-16,27,3,"public",2021-03-25
+"333","Analytics Vidhya Bangalore","Bangalore","India","Asia",5915,"https://www.meetup.com/analytics-vidhya-bangalore/",2016-11-03,47,0,"public",2021-03-10
 "334","Data, Cloud and AI in Zagreb","Zagreb","Croatia","Europe",709,"https://www.meetup.com/Big-Data-Developers-in-Zagreb/",2014-12-11,23,0,"public",2020-07-31
-"335","Budapest Data & Pizza","Budapest","Hungary","Europe",230,"https://www.meetup.com/Budapest-Data-Pizza/",2019-09-02,3,0,"public",2020-07-29
+"335","Budapest Data & Pizza","Budapest","Hungary","Europe",231,"https://www.meetup.com/Budapest-Data-Pizza/",2019-09-02,3,0,"public",2020-07-29
 "336","Data science & analytics Brno","Brno","Czech Republic","Europe",655,"https://www.meetup.com/dataheads/",2015-04-27,13,0,"public",2018-12-12
 "337","LondonR","London","United Kingdom","Europe",3384,"https://www.meetup.com/LondonR/",2010-02-05,83,0,"public",2021-03-23
 "338","Data Scientist","London","United Kingdom","Europe",733,"https://www.meetup.com/Data-Scientist/",2015-07-14,3,0,"public",2016-10-08
@@ -347,21 +347,21 @@
 "346","Data Viz Jam Sessions - MTL","Montréal","Canada","US/Canada",778,"https://www.meetup.com/Data-Viz-Jam-Sessions-MTL/",2017-08-02,32,0,"public",2020-02-29
 "347","NY Data Wizards","New York","USA","US/Canada",1787,"https://www.meetup.com/NYData/",2013-04-08,19,0,"public",2019-04-03
 "348","Data, Cloud and AI in Montreal","Montréal","Canada","US/Canada",3528,"https://www.meetup.com/Big-Data-Developers-in-Montreal/",2015-01-27,28,0,"public",2020-08-01
-"349","Data, Cloud and AI in Ottawa","Ottawa","Canada","US/Canada",1746,"https://www.meetup.com/Big-Data-Developers-in-Ottawa/",2014-11-28,34,0,"public",2020-08-01
+"349","Data, Cloud and AI in Ottawa","Ottawa","Canada","US/Canada",1745,"https://www.meetup.com/Big-Data-Developers-in-Ottawa/",2014-11-28,34,0,"public",2020-08-01
 "350","Mississauga Big Data Analytics Meetup","Mississauga","Canada","US/Canada",624,"https://www.meetup.com/Mississauga-Big-Data-Analytics-Meetup/",2014-02-12,31,0,"public",2019-12-13
 "351","Upstate Data Analytics","Spartanburg","USA","US/Canada",206,"https://www.meetup.com/Upstate-Data-Analytics/",2014-10-01,8,0,"public",2018-03-20
 "352","Data+Visualization Detroit","Detroit","USA","US/Canada",816,"https://www.meetup.com/Data-Visualization-Detroit/",2013-07-28,18,0,"public",2017-01-26
 "353","The Data Science Interview","México City","Mexico","Latin America",95,"https://www.meetup.com/The-Data-Science-Interview/",2016-06-09,0,0,"public",1970-01-01
 "354","Data, Cloud and AI in Tucson","Tucson","USA","US/Canada",378,"https://www.meetup.com/Big-Data-Developers-in-Tucson/",2015-01-27,26,0,"public",2020-08-01
-"355","Future Chief Data Scientists in Orange County, CA","Orange","USA","US/Canada",812,"https://www.meetup.com/Future-Chief-Data-Scientists-in-Orange-County-CA/",2013-02-03,32,0,"public",2018-01-21
+"355","Future Chief Data Scientists in Orange County, CA","Orange","USA","US/Canada",811,"https://www.meetup.com/Future-Chief-Data-Scientists-in-Orange-County-CA/",2013-02-03,32,0,"public",2018-01-21
 "356","Big Data Visualization Tokyo","Tokyo","Japan","Asia",325,"https://www.meetup.com/Big-Data-Visualization-Tokyo/",2014-02-21,1,0,"public",2016-01-20
-"357","Data, Cloud and AI in Tokyo","Tokyo","Japan","Asia",1657,"https://www.meetup.com/Big-Data-Developers-in-Tokyo/",2014-10-22,58,0,"public",2021-02-03
-"358","Data + AI Online Meetup","San Francisco","USA","US/Canada",5696,"https://www.meetup.com/data-ai-online/",2015-06-07,63,2,"public",2021-03-18
-"359","Data, Cloud and AI in Vienna","Vienna","Austria","Europe",1660,"https://www.meetup.com/Big-Data-Developers-in-Vienna/",2014-05-16,46,0,"public",2021-03-18
-"360","NYC Data Wranglers","New York","USA","US/Canada",2980,"https://www.meetup.com/NYC-Data-Wranglers/",2014-01-03,49,0,"public",2017-04-18
+"357","Data, Cloud and AI in Tokyo","Tokyo","Japan","Asia",1658,"https://www.meetup.com/Big-Data-Developers-in-Tokyo/",2014-10-22,58,0,"public",2021-02-03
+"358","Data + AI Online Meetup","San Francisco","USA","US/Canada",5701,"https://www.meetup.com/data-ai-online/",2015-06-07,63,3,"public",2021-03-18
+"359","Data, Cloud and AI in Vienna","Vienna","Austria","Europe",1662,"https://www.meetup.com/Big-Data-Developers-in-Vienna/",2014-05-16,46,0,"public",2021-03-18
+"360","NYC Data Wranglers","New York","USA","US/Canada",2981,"https://www.meetup.com/NYC-Data-Wranglers/",2014-01-03,49,0,"public",2017-04-18
 "361","R-Ladies Miami","Miami","USA","US/Canada",1109,"https://www.meetup.com/rladies-miami/",2017-06-03,31,0,"public",2020-12-10
 "362","The Data Scientist - San Francisco","San Francisco","USA","US/Canada",1018,"https://www.meetup.com/The-Data-Scientist_San-Francisco/",2014-07-22,6,0,"public",2018-11-16
-"363","Citizen Data Scientists - Melbourne","Melbourne","Australia","Australia",4676,"https://www.meetup.com/Citizen/",2015-08-29,30,0,"public",2020-11-26
+"363","Citizen Data Scientists - Melbourne","Melbourne","Australia","Australia",4675,"https://www.meetup.com/Citizen/",2015-08-29,30,0,"public",2020-11-26
 "364","Christchurch Big Data","Christchurch","New Zealand","Australia",376,"https://www.meetup.com/Christchurch-Big-Data-Meetup/",2016-02-28,18,0,"public",2018-02-19
 "365","Analytics Vidhya Delhi","Delhi","India","Asia",1918,"https://www.meetup.com/Analytics-Vidhya-Delhi/",2013-08-10,85,0,"public",2021-03-10
 "366","South Florida Business Intelligence Meetup Group","Miami","USA","US/Canada",37,"https://www.meetup.com/South-Florida-Business-Intelligence-Meetup-Group/",2019-07-23,0,0,"public",1970-01-01
@@ -370,26 +370,26 @@
 "369","FrenchData","Paris","France","Europe",3848,"https://www.meetup.com/FrenchData/",2016-01-31,11,0,"public",2019-12-17
 "370","Open Source Programming, Analytics, Automation, and More!","New York","USA","US/Canada",1119,"https://www.meetup.com/Open-Source-Programming-Analytics-Automation-and-More/",2018-10-16,7,0,"public",2020-08-19
 "371","HKBI - Hong Kong Business Intelligence Meetup","Hong Kong","Hong Kong","Asia",367,"https://www.meetup.com/HKBI-Hong-Kong-Business-Intelligence-Meetup/",2016-04-18,3,0,"public",2019-07-18
-"372","CalgaryR","Calgary","Canada","US/Canada",1154,"https://www.meetup.com/calgaryr/",2015-04-14,39,1,"public",2021-03-12
-"373","Life Sciences Data Scientists Meetup","Bangalore","India","Asia",185,"https://www.meetup.com/Life-Sciences-Data-Scientists-Meetup/",2014-11-15,1,0,"public",2015-02-28
-"374","R-Ladies Bariloche","San Carlos de Bariloche","Argentina","Latin America",280,"https://www.meetup.com/rladies-bariloche/",2018-05-10,13,0,"public",2020-10-26
-"375","New York Open Statistical Programming Meetup","New York","USA","US/Canada",12206,"https://www.meetup.com/nyhackr/",2009-03-12,130,1,"public",2021-03-11
-"376","Birmingham R User Group (R Programming Language)","Birmingham","United Kingdom","Europe",734,"https://www.meetup.com/BirminghamR/",2011-12-05,29,1,"public",2021-03-25
+"372","Life Sciences Data Scientists Meetup","Bangalore","India","Asia",185,"https://www.meetup.com/Life-Sciences-Data-Scientists-Meetup/",2014-11-15,1,0,"public",2015-02-28
+"373","R-Ladies Bariloche","San Carlos de Bariloche","Argentina","Latin America",280,"https://www.meetup.com/rladies-bariloche/",2018-05-10,13,0,"public",2020-10-26
+"374","New York Open Statistical Programming Meetup","New York","USA","US/Canada",12210,"https://www.meetup.com/nyhackr/",2009-03-12,130,1,"public",2021-03-11
+"375","Birmingham R User Group (R Programming Language)","Birmingham","United Kingdom","Europe",734,"https://www.meetup.com/BirminghamR/",2011-12-05,29,1,"public",2021-03-25
+"376","CalgaryR","Calgary","Canada","US/Canada",1156,"https://www.meetup.com/calgaryr/",2015-04-14,39,1,"public",2021-03-12
 "377","Istanbul KNIME Users","Istanbul","Turkey","Europe",766,"https://www.meetup.com/Istanbul-KNIME-Users/",2014-03-17,33,1,"public",2021-03-09
 "378","R-Ladies La Paz","La Paz","Bolivia","Latin America",292,"https://www.meetup.com/rladies-la-paz/",2018-10-23,26,4,"public",2021-03-27
 "379","Berlin KNIME Users","Berlin","Germany","Europe",492,"https://www.meetup.com/Berlin-KNIME-Users/",2013-10-04,43,1,"public",2021-03-24
-"380","Stuttgart Predictive Analytics, Predictive Maintenance, AI","Stuttgart","Germany","Europe",363,"https://www.meetup.com/Stuttgart-Predictive-Analytics-Predictive-Maintenance-AI/",2016-01-30,2,0,"public_limited",2016-11-08
-"381","EswatiniUseR Group","Manzini","Swaziland","Africa",64,"https://www.meetup.com/EswatiniUseR/",2019-08-11,3,0,"public",2020-07-23
-"382","rMoscow","Moscow","Russia","Europe",613,"https://www.meetup.com/rMoscow/",2014-06-16,7,0,"public",2020-01-16
-"383","R-Ladies Buenos Aires","Buenos Aires","Argentina","Latin America",1277,"https://www.meetup.com/rladies-buenos-aires/",2017-01-03,31,0,"public",2020-12-07
-"384","R-Ladies Santa Fe","Santa Fe","Argentina","Latin America",214,"https://www.meetup.com/rladies-santa-fe/",2018-05-08,14,0,"public",2020-07-24
-"385","Boston Predictive Analytics","Cambridge","USA","US/Canada",3383,"https://www.meetup.com/Boston-Predictive-Analytics/",2010-07-16,53,0,"public",2016-07-17
-"386","Barranquilla Analítica R","Barranquilla","Colombia","Latin America",401,"https://www.meetup.com/Barranquilla-Analitica-R/",2018-05-26,7,0,"public",2019-06-28
-"387","Idaho Business Analytics","Boise","USA","US/Canada",37,"https://www.meetup.com/Idaho-Business-Analytics/",2018-01-09,0,0,"public",1970-01-01
-"388","The Virtual Business Intelligence and Analytics User Group","Smithfield","USA","US/Canada",586,"https://www.meetup.com/The-RI-Microsoft-BIUG/",2012-05-03,151,0,"public",2021-03-24
-"389","Vienna<-R","Vienna","Austria","Europe",745,"https://www.meetup.com/ViennaR/",2011-10-29,68,0,"public",2021-03-25
-"390","DataViz Nantes","Nantes","France","Europe",962,"https://www.meetup.com/DataViz-Nantes/",2016-09-15,13,0,"public",2020-03-12
-"391","Mulhouse Machine Learning Meetup","Mulhouse","France","Europe",147,"https://www.meetup.com/Mulhouse-Machine-Learning-Meetup/",2014-07-25,4,0,"public",2017-04-26
+"380","Mulhouse Machine Learning Meetup","Mulhouse","France","Europe",147,"https://www.meetup.com/Mulhouse-Machine-Learning-Meetup/",2014-07-25,4,0,"public",2017-04-26
+"381","Stuttgart Predictive Analytics, Predictive Maintenance, AI","Stuttgart","Germany","Europe",363,"https://www.meetup.com/Stuttgart-Predictive-Analytics-Predictive-Maintenance-AI/",2016-01-30,2,0,"public_limited",2016-11-08
+"382","EswatiniUseR Group","Manzini","Swaziland","Africa",64,"https://www.meetup.com/EswatiniUseR/",2019-08-11,3,0,"public",2020-07-23
+"383","rMoscow","Moscow","Russia","Europe",613,"https://www.meetup.com/rMoscow/",2014-06-16,7,0,"public",2020-01-16
+"384","R-Ladies Buenos Aires","Buenos Aires","Argentina","Latin America",1278,"https://www.meetup.com/rladies-buenos-aires/",2017-01-03,31,0,"public",2020-12-07
+"385","R-Ladies Santa Fe","Santa Fe","Argentina","Latin America",214,"https://www.meetup.com/rladies-santa-fe/",2018-05-08,14,0,"public",2020-07-24
+"386","Boston Predictive Analytics","Cambridge","USA","US/Canada",3383,"https://www.meetup.com/Boston-Predictive-Analytics/",2010-07-16,53,0,"public",2016-07-17
+"387","Barranquilla Analítica R","Barranquilla","Colombia","Latin America",401,"https://www.meetup.com/Barranquilla-Analitica-R/",2018-05-26,7,0,"public",2019-06-28
+"388","Idaho Business Analytics","Boise","USA","US/Canada",37,"https://www.meetup.com/Idaho-Business-Analytics/",2018-01-09,0,0,"public",1970-01-01
+"389","The Virtual Business Intelligence and Analytics User Group","Smithfield","USA","US/Canada",586,"https://www.meetup.com/The-RI-Microsoft-BIUG/",2012-05-03,151,0,"public",2021-03-24
+"390","Vienna<-R","Vienna","Austria","Europe",745,"https://www.meetup.com/ViennaR/",2011-10-29,68,0,"public",2021-03-25
+"391","DataViz Nantes","Nantes","France","Europe",962,"https://www.meetup.com/DataViz-Nantes/",2016-09-15,13,0,"public",2020-03-12
 "392","Manchester R user Group","Manchester","United Kingdom","Europe",1022,"https://www.meetup.com/Manchester-R/",2013-01-07,29,0,"public",2020-02-12
 "393","Trojmiasto Spark Meetup","Gdansk","Poland","Europe",186,"https://www.meetup.com/Trojmiasto-Spark-Meetup/",2017-11-27,3,0,"public",2021-02-25
 "394","United Arab Emirates (UAE) Data Scientists Meetup","Abu Dhabi","U.A.E.","Asia",884,"https://www.meetup.com/United-Arab-Emirates-UAE-Data-Scientists-Meetup/",2015-06-13,18,1,"public_limited",2020-07-14
@@ -399,18 +399,18 @@
 "398","Greater Nashville Healthcare Analytics","Nashville","USA","US/Canada",1670,"https://www.meetup.com/Greater-Nashville-Healthcare-Analytics/",2015-12-17,44,0,"public",2020-11-17
 "399","Eugene R Users","Eugene","USA","US/Canada",119,"https://www.meetup.com/meetup-group-cwPiAlnB/",2017-12-13,12,0,"public",2020-01-23
 "400","R-Ladies Adelaide","Adelaide","Australia","Australia",313,"https://www.meetup.com/rladies-adelaide/",2017-02-02,9,0,"public",2019-10-02
-"401","R-Ladies Chicago","Chicago","USA","US/Canada",1278,"https://www.meetup.com/rladies-chicago/",2017-07-05,42,1,"public",2021-03-26
+"401","R-Ladies Chicago","Chicago","USA","US/Canada",1279,"https://www.meetup.com/rladies-chicago/",2017-07-05,42,1,"public",2021-03-26
 "402","Uppsala.R","Uppsala","Sweden","Europe",65,"https://www.meetup.com/Uppsala-R/",2020-01-11,9,1,"public",2021-03-25
 "403","sonRaí","Galway","Ireland","Europe",135,"https://www.meetup.com/sonRai/",2018-02-16,5,0,"public",2019-11-14
 "404","Campus useR Group Frankfurt","Frankfurt","Germany","Europe",220,"https://www.meetup.com/r-frankfurt/",2019-01-24,23,1,"public",2021-03-11
 "405","Buffalo R","Buffalo","USA","US/Canada",76,"https://www.meetup.com/Buffalo-R/",2019-06-27,4,0,"public",2020-04-01
 "406","Stamford BIT: Business Intelligence and Technologies Meetup","Stamford","USA","US/Canada",375,"https://www.meetup.com/Stamford-BIT-Business-Intelligence-Technologies/",2019-01-03,8,0,"public",2020-09-23
-"407","Statistical Society of Australia, Victorian Branch","Melbourne","Australia","Australia",2749,"https://www.meetup.com/Statistical-Society-of-Australia-Victorian-Branch/",2013-07-29,87,0,"public",2021-03-16
+"407","Statistical Society of Australia, Victorian Branch","Melbourne","Australia","Australia",2747,"https://www.meetup.com/Statistical-Society-of-Australia-Victorian-Branch/",2013-07-29,87,0,"public",2021-03-16
 "408","R-Ladies Vancouver","Vancouver","Canada","US/Canada",554,"https://www.meetup.com/rladies-vancouver/",2017-10-06,30,0,"public",2021-03-26
 "409","Poznański Horyzont Danych","Poznan","Poland","Europe",189,"https://www.meetup.com/Poznański-Horyzont-Danych/",2019-03-04,1,0,"public",2019-04-04
-"410","Analytics Para Todos - Argentina Group","Buenos Aires","Argentina","Latin America",53,"https://www.meetup.com/analytics-para-todos-argentina-group/",2021-02-02,2,0,"public",2021-02-18
+"410","Analytics Para Todos - Argentina Group","Buenos Aires","Argentina","Latin America",54,"https://www.meetup.com/analytics-para-todos-argentina-group/",2021-02-02,2,0,"public",2021-02-18
 "411","PyData Guatemala","Guatemala","Guatemala","Latin America",269,"https://www.meetup.com/PyData-Guatemala/",2018-03-13,1,0,"public",2018-04-21
-"412","Analytics Para Todos - Mexico Group","México City","Mexico","Latin America",98,"https://www.meetup.com/analytics-mexico-group/",2021-02-02,2,0,"public",2021-02-19
+"412","Analytics Para Todos - Mexico Group","México City","Mexico","Latin America",99,"https://www.meetup.com/analytics-mexico-group/",2021-02-02,2,0,"public",2021-02-19
 "413","AI & Machine Learning","Brussels","Belgium","Europe",616,"https://www.meetup.com/AI-Machine-Learning/",2018-01-05,4,0,"public",2020-04-24
 "414","R-Ladies Santiago","Santiago","Chile","Latin America",2300,"https://www.meetup.com/rladies-scl/",2017-07-18,45,0,"public",2021-03-19
 "415","R-Ladies Montpellier","Montpellier","France","Europe",134,"https://www.meetup.com/rladies-montpellier/",2018-10-17,8,1,"public",2020-12-01
@@ -418,11 +418,11 @@
 "417","UseRS","Porto Alegre","Brazil","Latin America",677,"https://www.meetup.com/UseRS_/",2015-12-22,12,0,"public",2019-11-13
 "418","R-Ladies Philly","Philadelphia","USA","US/Canada",1450,"https://www.meetup.com/rladies-philly/",2017-10-11,58,2,"public",2021-03-17
 "419","R-Ladies Goiânia","Goiania","Brazil","Latin America",374,"https://www.meetup.com/rladies-goiania/",2019-05-06,20,0,"public",2021-03-21
-"420","R-Ladies Brisbane","Brisbane","Australia","Australia",514,"https://www.meetup.com/rladies-brisbane/",2018-05-10,17,1,"public",2020-12-04
+"420","R-Ladies Brisbane","Brisbane","Australia","Australia",515,"https://www.meetup.com/rladies-brisbane/",2018-05-10,17,1,"public",2020-12-04
 "421","R-Ladies Xalapa","Xalapa","Mexico","Latin America",429,"https://www.meetup.com/rladies-xalapa/",2018-07-30,21,0,"public_limited",2021-03-20
-"422","R-Ladies Auckland","Auckland","New Zealand","Australia",739,"https://www.meetup.com/rladies-auckland/",2017-11-20,27,1,"public",2020-12-03
+"422","R-Ladies Auckland","Auckland","New Zealand","Australia",740,"https://www.meetup.com/rladies-auckland/",2017-11-20,27,1,"public",2020-12-03
 "423","R-Ladies Boulder","Boulder","USA","US/Canada",171,"https://www.meetup.com/rladies-boulder/",2018-06-11,10,1,"public",2020-11-11
-"424","R-Ladies Sydney","Sydney","Australia","Australia",809,"https://www.meetup.com/rladies-sydney/",2018-05-09,39,2,"public",2020-12-03
+"424","R-Ladies Sydney","Sydney","Australia","Australia",808,"https://www.meetup.com/rladies-sydney/",2018-05-09,39,2,"public",2020-12-03
 "425","UMUR: Usuarios Murcia R","Murcia","Spain","Europe",21,"https://www.meetup.com/UMUR-Usuarios-Murcia-R/",2020-04-01,1,0,"public",2020-04-21
 "426","Machine Learning Spain","Madrid","Spain","Europe",5071,"https://www.meetup.com/MachineLearningSpain/",2014-08-20,45,0,"public",2020-02-20
 "427","R-Ladies Novi Sad","Novi Sad","Serbia","Europe",139,"https://www.meetup.com/rladies-novi-sad/",2019-05-24,6,0,"public",2019-12-21
@@ -447,8 +447,8 @@
 "446","R-Ladies Bucharest","Bucharest","Romania","Europe",270,"https://www.meetup.com/rladies-bucharest/",2019-05-09,18,0,"public",2021-03-23
 "447","Machine Learning Milan","Milano","Italy","Europe",3205,"https://www.meetup.com/Machine-Learning-Milan/",2017-05-31,35,0,"public",2021-03-04
 "448","R-Ladies Utrecht","Utrecht","Netherlands","Europe",198,"https://www.meetup.com/rladies-utrecht/",2019-06-10,6,0,"public",2021-03-11
-"449","R-Ladies Irvine","Irvine","USA","US/Canada",471,"https://www.meetup.com/rladies-irvine/",2018-03-13,21,0,"public",2021-03-17
-"450","R-Ladies Columbus","Columbus","USA","US/Canada",908,"https://www.meetup.com/rladies-columbus/",2016-10-04,45,1,"public",2021-03-11
+"449","R-Ladies Irvine","Irvine","USA","US/Canada",472,"https://www.meetup.com/rladies-irvine/",2018-03-13,21,0,"public",2021-03-17
+"450","R-Ladies Columbus","Columbus","USA","US/Canada",909,"https://www.meetup.com/rladies-columbus/",2016-10-04,45,1,"public",2021-03-11
 "451","R-Ladies Twin Cities","Minneapolis","USA","US/Canada",415,"https://www.meetup.com/rladies-tc/",2015-04-01,45,1,"public",2021-03-18
 "452","R-Ladies Tucson AZ","Tucson","USA","US/Canada",362,"https://www.meetup.com/rladies-tucson-az/",2017-11-14,51,1,"public",2021-03-24
 "453","R@Minho","Braga","Portugal","Europe",46,"https://www.meetup.com/R-Minho/",2015-10-06,0,0,"public",1970-01-01
@@ -459,7 +459,7 @@
 "458","R-Ladies Kyiv","Kyiv","Ukraine","Europe",302,"https://www.meetup.com/rladies-kyiv/",2019-02-15,15,0,"public",2020-02-06
 "459","trigeR - Trójmiejska Grupa Entuzjastów R","Gdansk","Poland","Europe",342,"https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/",2016-12-14,19,0,"public",2020-09-24
 "460","R-Ladies Copenhagen","Copenhagen","Denmark","Europe",454,"https://www.meetup.com/rladies-copenhagen/",2017-11-20,10,0,"public",2019-12-05
-"461","R-Ladies Edinburgh","Edinburgh","United Kingdom","Europe",577,"https://www.meetup.com/rladies-edinburgh/",2018-07-27,16,0,"public",2021-02-17
+"461","R-Ladies Edinburgh","Edinburgh","United Kingdom","Europe",578,"https://www.meetup.com/rladies-edinburgh/",2018-07-27,16,0,"public",2021-02-17
 "462","R-Ladies Stockholm","Stockholm","Sweden","Europe",385,"https://www.meetup.com/rladies-stockholm/",2018-08-16,7,0,"public",2019-11-26
 "463","R-Ladies Niterói","Niterói","Brazil","Latin America",748,"https://www.meetup.com/rladies-niteroi/",2018-06-04,9,0,"public",2020-10-06
 "464","Campinas Julia Language Meetup","Campinas","Brazil","Latin America",115,"https://www.meetup.com/Campinas-Julia-Language-Meetup/",2014-11-06,0,0,"public",1970-01-01
@@ -467,21 +467,21 @@
 "466","NYC Deep Learning Research Meetup","New York","USA","US/Canada",307,"https://www.meetup.com/Deep-Learning-Research-NYC/",2018-05-08,2,0,"public",2018-05-24
 "467","NYC Stats Programming Master Classes","New York","USA","US/Canada",706,"https://www.meetup.com/datascienceclasses/",2013-01-25,5,0,"public",2014-02-24
 "468","R-Ladies Highland Park","Highland Park","USA","US/Canada",70,"https://www.meetup.com/rladies-highland-park/",2019-05-09,4,0,"public",2019-12-02
-"469","Manassas Machine Learning 101 and Beyond","Manassas","USA","US/Canada",82,"https://www.meetup.com/Manassas-Machine-Learning-101-and-Beyond-Meetup-Group/",2019-08-03,1,0,"public",2019-10-05
+"469","Manassas Machine Learning 101 and Beyond","Manassas","USA","US/Canada",81,"https://www.meetup.com/Manassas-Machine-Learning-101-and-Beyond-Meetup-Group/",2019-08-03,1,0,"public",2019-10-05
 "470","R-Ladies Kathmandu","Kathmandu","Nepal","Asia",80,"https://www.meetup.com/rladies-kathmandu/",2018-10-01,4,0,"public",2020-03-28
 "471","Learning Analytics Perú","Lima","Peru","Latin America",250,"https://www.meetup.com/Learning-Analytics-Peru/",2018-06-04,3,0,"public",2019-05-09
 "472","R-Ladies Iowa City","Iowa City","USA","US/Canada",110,"https://www.meetup.com/rladies-iowa-city/",2018-09-18,5,0,"public",2019-10-17
 "473","R-Ladies Des Moines","Des Moines","USA","US/Canada",26,"https://www.meetup.com/rladies-des-moines/",2018-09-23,4,0,"public",2019-05-20
 "474","R-Ladies Houston","Houston","USA","US/Canada",95,"https://www.meetup.com/rladies-houston/",2018-12-07,0,0,"public",1970-01-01
 "475","R-Ladies Riverside","Riverside","USA","US/Canada",353,"https://www.meetup.com/rladies-riverside/",2019-08-02,8,0,"public",2020-12-11
-"476","R-Ladies Perth","Perth","Australia","Australia",256,"https://www.meetup.com/rladies-perth/",2018-10-23,10,0,"public",2019-12-17
+"476","R-Ladies Perth","Perth","Australia","Australia",255,"https://www.meetup.com/rladies-perth/",2018-10-23,10,0,"public",2019-12-17
 "477","R-Ladies San Francisco","San Francisco","USA","US/Canada",1644,"https://www.meetup.com/rladies-san-francisco/",2012-10-01,60,0,"public",2020-09-10
 "478","R, ML and AI in Sydney","Sydney","Australia","Australia",194,"https://www.meetup.com/R-ML-and-AI-in-Sydney/",2019-01-12,0,0,"public",1970-01-01
-"479","R-Ladies Freiburg","Freiburg","Germany","Europe",499,"https://www.meetup.com/rladies-freiburg/",2019-01-23,36,4,"public",2021-03-17
-"480","R Lille","Lille","France","Europe",184,"https://www.meetup.com/R-Lille/",2020-02-05,9,2,"public",2021-03-25
+"479","R-Ladies Freiburg","Freiburg","Germany","Europe",501,"https://www.meetup.com/rladies-freiburg/",2019-01-23,36,4,"public",2021-03-17
+"480","R Lille","Lille","France","Europe",185,"https://www.meetup.com/R-Lille/",2020-02-05,9,2,"public",2021-03-25
 "481","AthensR","Athens","Greece","Europe",220,"https://www.meetup.com/AthensR/",2015-04-16,13,3,"public",2021-03-25
 "482","R-Ladies Melbourne","Melbourne","Australia","Australia",1769,"https://www.meetup.com/rladies-melbourne/",2016-09-02,63,0,"public",2021-03-11
-"483","R-Ladies Chennai","Chennai","India","Asia",338,"https://www.meetup.com/rladies-chennai/",2017-10-15,6,1,"public",2020-09-12
+"483","R-Ladies Chennai","Chennai","India","Asia",339,"https://www.meetup.com/rladies-chennai/",2017-10-15,6,1,"public",2020-09-12
 "484","R-Ladies Montreal","Montréal","Canada","US/Canada",524,"https://www.meetup.com/rladies-montreal/",2017-09-14,30,2,"public",2021-03-18
 "485","Spain Quantum Computing","Madrid","Spain","Europe",224,"https://www.meetup.com/Madrid-Quantum-Computing-Meetup/",2017-08-29,2,0,"public",2017-12-19
 "486","R-Ladies Lyon","Lyon","France","Europe",81,"https://www.meetup.com/rladies-lyon/",2018-10-29,4,0,"public",2019-11-04
@@ -503,18 +503,18 @@
 "502","MLGeek Brussels","Brussels","Belgium","Europe",700,"https://www.meetup.com/MLGeek-Brussels/",2013-03-14,24,0,"public",2017-05-09
 "503","Chicago Chapter American Statistical Association","Chicago","USA","US/Canada",578,"https://www.meetup.com/Chicago-Chapter-American-Statistical-Association/",2012-09-17,47,0,"public",2020-11-20
 "504","NYC Data Science, ML, AI Platform","New York","USA","US/Canada",605,"https://www.meetup.com/NYC-Data-Science-ML-AI-Platform/",2020-03-22,68,1,"public",2021-03-23
-"505","Data Science Alliance","Melbourne","Australia","Australia",151,"https://www.meetup.com/data-science-alliance/",2020-12-16,2,1,"public",2021-03-04
-"506","Ouagadougou Data Science Meetup Group","Ouagadougou","Burkina Faso","Africa",89,"https://www.meetup.com/ouagadougou-data-science/",2021-02-06,2,2,"public",2021-03-16
+"505","Data Science Alliance","Melbourne","Australia","Australia",154,"https://www.meetup.com/data-science-alliance/",2020-12-16,3,0,"public",2021-03-30
+"506","Ouagadougou Data Science Meetup Group","Ouagadougou","Burkina Faso","Africa",90,"https://www.meetup.com/ouagadougou-data-science/",2021-02-06,2,2,"public",2021-03-16
 "507","Chicago Data Science, ML, AI Platform","Chicago","USA","US/Canada",402,"https://www.meetup.com/Chicago-Data-Science-ML-AI-Platform/",2020-03-22,68,1,"public",2021-03-23
-"508","ODSC Lagos Data Science","Lagos","Nigeria","Africa",1194,"https://www.meetup.com/ODSC-Data-Science-Lagos/",2019-09-20,39,3,"public",2021-03-23
+"508","ODSC Lagos Data Science","Lagos","Nigeria","Africa",1195,"https://www.meetup.com/ODSC-Data-Science-Lagos/",2019-09-20,39,3,"public",2021-03-23
 "509","Los Angeles Data Science,Machine Learning, AI","Los Angeles","USA","US/Canada",298,"https://www.meetup.com/Los-Angeles-Data-Science-Machine-Learning-AI/",2020-04-20,50,1,"public",2021-03-23
 "510","ODSC Dallas Data Science","Dallas","USA","US/Canada",345,"https://www.meetup.com/ODSC-Dallas-Data-Science/",2019-11-22,42,8,"public",2021-03-24
-"511","ODSC Toronto Data Science","Toronto","Canada","US/Canada",580,"https://www.meetup.com/ODSC-Toronto-Data-Science/",2019-11-22,44,8,"public",2021-03-24
+"511","ODSC Toronto Data Science","Toronto","Canada","US/Canada",582,"https://www.meetup.com/ODSC-Toronto-Data-Science/",2019-11-22,44,8,"public",2021-03-24
 "512","ODSC Tel Aviv Data Science","Tel Aviv-Yafo","Israel","Asia",567,"https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/",2019-08-02,33,3,"public",2021-03-23
 "513","ODSC Montréal Data Science","Montréal","Canada","US/Canada",274,"https://www.meetup.com/ODSC-Montreal-Data-Science/",2019-11-28,41,8,"public",2021-03-24
-"514","ODSC Houston Data Science","Houston","USA","US/Canada",228,"https://www.meetup.com/ODSC-Houston-Data-Science/",2019-11-28,44,8,"public",2021-03-24
+"514","ODSC Houston Data Science","Houston","USA","US/Canada",229,"https://www.meetup.com/ODSC-Houston-Data-Science/",2019-11-28,44,8,"public",2021-03-24
 "515","ODSC Pune Data Science","Pune","India","Asia",422,"https://www.meetup.com/ODSC-Pune-Data-Science/",2020-02-14,23,1,"public",2020-12-19
-"516","ODSC Hyderabad Data Science","Hyderabad","India","Asia",1149,"https://www.meetup.com/ODSC-Hyderabad-Data-Science/",2019-08-19,29,1,"public",2020-12-19
+"516","ODSC Hyderabad Data Science","Hyderabad","India","Asia",1150,"https://www.meetup.com/ODSC-Hyderabad-Data-Science/",2019-08-19,29,1,"public",2020-12-19
 "517","Data Science Raleigh","Raleigh","USA","US/Canada",582,"https://www.meetup.com/Data-Science-NC/",2019-07-01,8,4,"public",2020-10-07
 "518","Data Science MIA","Miami","USA","US/Canada",194,"https://www.meetup.com/Miami-Artificial-Intelligence-Meetup-Group/",2019-10-13,7,4,"public",2020-10-07
 "519","Copenhagen Women in Machine Learning & Data Science","Copenhagen","Denmark","Europe",168,"https://www.meetup.com/Copenhagen-Women-in-Machine-Learning-and-Data-Science/",2019-06-26,1,0,"public",2019-12-16
@@ -522,52 +522,52 @@
 "521","ODSC Hong Kong Data Science","Hong Kong","Hong Kong","Asia",190,"https://www.meetup.com/ODSC-Hong-Kong-Data-Science/",2019-08-19,14,0,"public",2020-12-19
 "522","Data Science Philippines - Cebu Chapter","Cebu","Philippines","Asia",178,"https://www.meetup.com/Data-Science-Philippines-Cebu-Chapter/",2018-02-03,0,0,"public",1970-01-01
 "523","Data Science Festival - Melbourne","Melbourne","Australia","Australia",387,"https://www.meetup.com/Data-Science-Festival-Melbourne/",2020-06-22,37,0,"public",2020-12-18
-"524","European Data Science Community","Paris","France","Europe",910,"https://www.meetup.com/European-data-science-community/",2019-07-07,330,6,"public",2021-03-28
-"525","Orlando Machine Learning and Data Science","Orlando","USA","US/Canada",1437,"https://www.meetup.com/Orlando-MLDS/",2016-11-09,40,0,"public",2021-03-20
+"524","European Data Science Community","Paris","France","Europe",912,"https://www.meetup.com/European-data-science-community/",2019-07-07,331,6,"public",2021-03-29
+"525","Orlando Machine Learning and Data Science","Orlando","USA","US/Canada",1438,"https://www.meetup.com/Orlando-MLDS/",2016-11-09,40,0,"public",2021-03-20
 "526","The Assembly: Data Science","Dubai","U.A.E.","Asia",562,"https://www.meetup.com/The-Assembly-Data-Science/",2019-11-10,19,0,"public",2021-03-28
-"527","Spatial Data Science NYC","New York","USA","US/Canada",97,"https://www.meetup.com/Spatial-Data-Science-NYC/",2020-01-24,2,0,"public",2021-03-24
+"527","Spatial Data Science NYC","New York","USA","US/Canada",98,"https://www.meetup.com/Spatial-Data-Science-NYC/",2020-01-24,2,0,"public",2021-03-24
 "528","ODSC Kolkata Data Science","Kolkata","India","Asia",1174,"https://www.meetup.com/ODSC-Kolkata-Data-Science/",2019-08-19,31,1,"public",2020-12-19
 "529","Heilbronn Data Science Gruppe","Heilbronn","Germany","Europe",16,"https://www.meetup.com/Heilbronn-Data-Science-Gruppe/",2019-09-19,0,0,"public",1970-01-01
 "530","Aachen Data Science Meetup (OSTHUS)","Aachen","Germany","Europe",94,"https://www.meetup.com/Osthus-Data-Science-Meetup-Group/",2020-05-19,2,0,"public",2020-11-27
 "531","Psychology in Data Science","London","United Kingdom","Europe",109,"https://www.meetup.com/Psychology-in-Data-Science/",2020-03-07,0,0,"public",1970-01-01
 "532","Norrköping Data Science Community","Norrköping","Sweden","Europe",165,"https://www.meetup.com/Norrkoping-Data-Science-Community/",2019-05-03,6,0,"public",2020-11-03
 "533","BCG GAMMA Data Science Group","São Paulo","Brazil","Latin America",879,"https://www.meetup.com/BCG-GAMMA-Data-Science-Group/",2020-05-13,3,0,"public",2020-11-26
-"534","PR Data Science Community","San Juan","Puerto Rico","Latin America",345,"https://www.meetup.com/prdatascience/",2017-04-08,3,0,"public",2017-08-24
-"535","Learnbay : Data Science Meetup Bangalore","Bangalore","India","Asia",5385,"https://www.meetup.com/Bangalore-Data-Science-Meetup-Learnbay/",2017-06-19,39,0,"public",2020-11-07
-"536","Women in Data Science (WiDS) Cambridge","Cambridge","USA","US/Canada",104,"https://www.meetup.com/Women-in-Data-Science-WiDS-Cambridge/",2020-03-12,0,0,"public",1970-01-01
-"537","Data Science Learner Group","Chennai","India","Asia",50,"https://www.meetup.com/Data-Science-Learner-Group/",2018-09-02,0,0,"public",1970-01-01
-"538","Bronx Data Science Meetup","Bronx","USA","US/Canada",129,"https://www.meetup.com/Bronx-Big-Data-Meetup/",2017-11-07,1,0,"public",2018-03-05
-"539","Seattle Data Science in Action","Seattle","USA","US/Canada",1438,"https://www.meetup.com/meetup-datascience/",2017-10-12,14,0,"public",2019-08-21
-"540","Data Science and Analytics - Southern Oregon","Medford","USA","US/Canada",19,"https://www.meetup.com/meetup-group-dpxhbtmz/",2020-11-26,1,0,"public",2021-01-05
-"541","London Data Science, ML, AI Platform","London","United Kingdom","Europe",656,"https://www.meetup.com/London-Data-Science-ML-AI-Platform/",2020-09-14,26,1,"public",2021-03-23
-"542","Data Science Strasbourg","Strasbourg","France","Europe",830,"https://www.meetup.com/data-science-strasbourg/",2014-07-03,27,0,"public",2020-11-04
-"543","Nürnberg Data Science","Nürnberg","Germany","Europe",98,"https://www.meetup.com/Nuernberg-Data-Science/",2020-02-05,1,0,"public",2020-03-06
+"534","Learnbay : Data Science Meetup Bangalore","Bangalore","India","Asia",5385,"https://www.meetup.com/Bangalore-Data-Science-Meetup-Learnbay/",2017-06-19,39,0,"public",2020-11-07
+"535","Women in Data Science (WiDS) Cambridge","Cambridge","USA","US/Canada",104,"https://www.meetup.com/Women-in-Data-Science-WiDS-Cambridge/",2020-03-12,0,0,"public",1970-01-01
+"536","Data Science Learner Group","Chennai","India","Asia",50,"https://www.meetup.com/Data-Science-Learner-Group/",2018-09-02,0,0,"public",1970-01-01
+"537","Bronx Data Science Meetup","Bronx","USA","US/Canada",129,"https://www.meetup.com/Bronx-Big-Data-Meetup/",2017-11-07,1,0,"public",2018-03-05
+"538","Seattle Data Science in Action","Seattle","USA","US/Canada",1438,"https://www.meetup.com/meetup-datascience/",2017-10-12,14,0,"public",2019-08-21
+"539","Data Science and Analytics - Southern Oregon","Medford","USA","US/Canada",19,"https://www.meetup.com/meetup-group-dpxhbtmz/",2020-11-26,1,0,"public",2021-01-05
+"540","London Data Science, ML, AI Platform","London","United Kingdom","Europe",657,"https://www.meetup.com/London-Data-Science-ML-AI-Platform/",2020-09-14,26,1,"public",2021-03-23
+"541","Data Science Strasbourg","Strasbourg","France","Europe",830,"https://www.meetup.com/data-science-strasbourg/",2014-07-03,27,0,"public",2020-11-04
+"542","Nürnberg Data Science","Nürnberg","Germany","Europe",98,"https://www.meetup.com/Nuernberg-Data-Science/",2020-02-05,1,0,"public",2020-03-06
+"543","PR Data Science Community","San Juan","Puerto Rico","Latin America",345,"https://www.meetup.com/prdatascience/",2017-04-08,3,0,"public",2017-08-24
 "544","Southern California Data Science and Datapreneurship","Rancho Cucamonga","USA","US/Canada",188,"https://www.meetup.com/Southern-California-Data-Science-and-Datapreneurship/",2019-03-09,26,0,"public",2021-03-21
 "545","Istanbul - Quematics Data Science & Machine Learning","Istanbul","Turkey","Europe",385,"https://www.meetup.com/Istanbul-Quematics-Data-Science-Machine-Learning/",2020-03-04,6,0,"public",2020-12-07
 "546","Data Science Exeter","Exeter","United Kingdom","Europe",449,"https://www.meetup.com/Data-Science-Exeter/",2016-03-02,14,0,"public",2018-03-14
 "547","Data Science with R Meetup Group Bucharest","Bucharest","Romania","Europe",76,"https://www.meetup.com/meetup-group-vtQvWral/",2019-08-02,1,0,"public",2019-11-05
-"548","Data Science Minneapolis","Minneapolis","USA","US/Canada",1688,"https://www.meetup.com/Data-Science-Minneapolis/",2019-02-05,17,1,"public",2020-11-15
+"548","Data Science Minneapolis","Minneapolis","USA","US/Canada",1689,"https://www.meetup.com/Data-Science-Minneapolis/",2019-02-05,17,1,"public",2020-11-15
 "549","Data Science Malmö","Malmö","Sweden","Europe",327,"https://www.meetup.com/Data-Science-Malmo/",2018-05-21,13,0,"public",2019-09-10
 "550","Data Science Mumbai","Mumbai","India","Asia",1146,"https://www.meetup.com/ik2analytics/",2018-10-23,45,0,"public",2021-01-25
 "551","The Data Discussion","Hyderabad","India","Asia",28,"https://www.meetup.com/the-data-discussion/",2020-12-23,1,0,"public",2021-01-03
-"552","Data Council London Data Engineering & Science","London","United Kingdom","Europe",681,"https://www.meetup.com/DataCouncil-AI-London-Data-Engineering-and-Science/",2018-11-15,10,0,"public",2020-12-15
+"552","Data Council London Data Engineering & Science","London","United Kingdom","Europe",680,"https://www.meetup.com/DataCouncil-AI-London-Data-Engineering-and-Science/",2018-11-15,10,0,"public",2020-12-15
 "553","Los Angeles Data Career Coaching","Los Angeles","USA","US/Canada",183,"https://www.meetup.com/meetup-group-fmWRlnaK/",2018-09-29,4,0,"public",2018-11-21
 "554","Applied Data Science Sydney","Sydney","Australia","Australia",512,"https://www.meetup.com/Applied-Data-Science-Sydney/",2019-09-07,3,0,"public",2020-02-06
 "555","Eblocks Data Analytics Group (E-DAG)","Johannesburg","South Africa","Africa",68,"https://www.meetup.com/eblocks-data-science-group-e-dag/",2020-02-12,0,0,"public",1970-01-01
 "556","DFW Full Stack Data Science","Plano","USA","US/Canada",109,"https://www.meetup.com/DFW-Full-Stack-Data-Science/",2019-06-28,0,0,"public",1970-01-01
 "557","Talk Data to MX","México City","Mexico","Latin America",210,"https://www.meetup.com/Learn-Data-Science-Analyitics-ML-AI-and-talk-data-to-me/",2018-11-06,2,0,"public",2018-11-30
 "558","SF Data Meetup","San Francisco","USA","US/Canada",569,"https://www.meetup.com/SF-Data-Meetup/",2018-05-26,1,0,"public",2018-08-29
-"559","Early Career & Graduate Data Scientists","London","United Kingdom","Europe",50,"https://www.meetup.com/early-career-graduate-data-scientists/",2021-03-19,1,0,"public",2021-03-23
+"559","Early Career & Graduate Data Scientists","London","United Kingdom","Europe",52,"https://www.meetup.com/early-career-graduate-data-scientists/",2021-03-19,1,0,"public",2021-03-23
 "560","Decision Science","London","United Kingdom","Europe",103,"https://www.meetup.com/DecisionIntelligence/",2020-03-02,0,0,"public",1970-01-01
 "561","Data Umbrella India","Bangalore","India","Asia",33,"https://www.meetup.com/data-umbrella-india/",2020-12-01,0,0,"public",1970-01-01
 "562","PGH Data Science","Pittsburgh","USA","US/Canada",1924,"https://www.meetup.com/PGH-Data-Science/",2017-02-02,25,0,"public",2020-11-16
-"563","Silicon Valley Data Visualization Meetup","Palo Alto","USA","US/Canada",705,"https://www.meetup.com/SVDataVizMeetup/",2017-11-26,24,0,"public",2020-02-29
+"563","Silicon Valley Data Visualization Meetup","Palo Alto","USA","US/Canada",704,"https://www.meetup.com/SVDataVizMeetup/",2017-11-26,24,0,"public",2020-02-29
 "564","Boston Area Pharmaceutical Statistics and Data Science Group","Boston","USA","US/Canada",646,"https://www.meetup.com/Boston-Area-Pharmaceutical-Statistics-and-Data-Science-Group/",2019-05-09,4,0,"public",2020-02-25
 "565","NJ Data Science - Spark, TensorFlow","Princeton","USA","US/Canada",858,"https://www.meetup.com/nj-datascience/",2014-04-12,25,1,"public",2019-05-14
 "566","Moffitt Cancer Center Bio-Data Club","Tampa","USA","US/Canada",56,"https://www.meetup.com/biodataclub/",2019-05-30,7,0,"public",2020-02-21
 "567","DataSciMT","Cuiabá","Brazil","Latin America",331,"https://www.meetup.com/DataSciMT/",2019-09-30,7,0,"public",2020-08-20
 "568","CAAG: Charlotte Area Analytics Group","Charlotte","USA","US/Canada",188,"https://www.meetup.com/Charlotte-Area-Analytics-Group-CAAG-Meetup/",2019-06-17,6,0,"public",2020-12-03
-"569","Long Island Data Analytics Meetups","Old Westbury","USA","US/Canada",273,"https://www.meetup.com/Long-Island-Data-Analytics-Meetup-Group/",2019-06-20,9,2,"public",2021-03-04
+"569","Long Island Data Analytics Meetups","Old Westbury","USA","US/Canada",278,"https://www.meetup.com/Long-Island-Data-Analytics-Meetup-Group/",2019-06-20,9,2,"public",2021-03-04
 "570","BigNumber Copenhagen","Copenhagen","Denmark","Europe",142,"https://www.meetup.com/bignumber-copenhagen/",2020-08-14,11,0,"public",2021-03-05
 "571","PyData Kaduna","Kaduna","Nigeria","Africa",238,"https://www.meetup.com/PyData-Kaduna/",2019-03-01,2,0,"public",2019-12-22
 "572","Kaggle Days Meetup Sevilla","Sevilla","Spain","Europe",160,"https://www.meetup.com/Kaggle-Days-Meetup-Sevilla/",2019-09-20,1,0,"public",2019-11-23
@@ -583,31 +583,31 @@
 "582","Aspiring Data Scientist Community","Austin","USA","US/Canada",1245,"https://www.meetup.com/Aspiring-Data-Scientist-Community/",2017-06-30,26,0,"public",2020-03-10
 "583","QuantUniversity Meetup Group - London","London","United Kingdom","Europe",87,"https://www.meetup.com/QuantUniversity-Meetup-Group/",2020-07-21,20,7,"public",2021-03-24
 "584","BigNumber Stockholm","Stockholm","Sweden","Europe",192,"https://www.meetup.com/bignumber-stockholm/",2020-08-14,11,0,"public",2021-03-05
-"585","BigNumber Berlin","Berlin","Germany","Europe",190,"https://www.meetup.com/bignumber-berlin/",2020-08-11,11,0,"public",2021-03-05
+"585","BigNumber Berlin","Berlin","Germany","Europe",191,"https://www.meetup.com/bignumber-berlin/",2020-08-11,11,0,"public",2021-03-05
 "586","Datapanthy@DeveLearn","Mumbai","India","Asia",37,"https://www.meetup.com/Mumbai-Data-Science-Meetup-Group-Datapanthy-DeveLearn/",2020-01-30,0,0,"public",1970-01-01
 "587","VisionNLP","Pune","India","Asia",178,"https://www.meetup.com/VisionNLP/",2020-05-03,8,0,"public",2020-06-02
 "588","Kaggle Days Meetup Bengaluru - Beginner Track","Bangalore","India","Asia",681,"https://www.meetup.com/beginnerkaggle/",2019-09-07,5,0,"public",2020-10-30
-"589","R-Ladies Abuja","Abuja","Nigeria","Africa",202,"https://www.meetup.com/rladies-abuja/",2020-02-04,3,0,"public",2021-01-23
-"590","PyData Boston - Cambridge","Boston","USA","US/Canada",2169,"https://www.meetup.com/PyData-Boston-Cambridge/",2014-10-20,27,0,"public",2021-03-18
-"591","Kaggle Days Meetup Madrid","Madrid","Spain","Europe",903,"https://www.meetup.com/kaggle-days-meetup-madrid/",2018-10-13,5,0,"public",2021-03-04
-"592","Accenture Data Meetup","Warsaw","Poland","Europe",184,"https://www.meetup.com/meetup-group-GJrQIpUu/",2018-02-10,1,0,"public",2018-02-15
-"593","PyData Atlanta","Atlanta","USA","US/Canada",3538,"https://www.meetup.com/PyData-Atlanta/",2016-01-04,65,0,"public",2020-11-11
-"594","Hyderabad Machine Learning Foundation Meetup","Hyderabad","India","Asia",1100,"https://www.meetup.com/Hyderabad-Machine-Learning-Foundation-Meetup/",2018-10-02,26,0,"public",2021-03-13
-"595","Data Visualization RTP","Raleigh","USA","US/Canada",299,"https://www.meetup.com/Data-Visualization-RTP/",2019-08-04,8,4,"public",2020-10-07
+"589","R-Ladies Abuja","Abuja","Nigeria","Africa",203,"https://www.meetup.com/rladies-abuja/",2020-02-04,3,0,"public",2021-01-23
+"590","PyData Boston - Cambridge","Boston","USA","US/Canada",2170,"https://www.meetup.com/PyData-Boston-Cambridge/",2014-10-20,27,0,"public",2021-03-18
+"591","Kaggle Days Meetup Madrid","Madrid","Spain","Europe",902,"https://www.meetup.com/kaggle-days-meetup-madrid/",2018-10-13,5,0,"public",2021-03-04
+"592","Accenture Data Meetup","Warsaw","Poland","Europe",185,"https://www.meetup.com/meetup-group-GJrQIpUu/",2018-02-10,1,0,"public",2018-02-15
+"593","PyData Atlanta","Atlanta","USA","US/Canada",3537,"https://www.meetup.com/PyData-Atlanta/",2016-01-04,65,0,"public",2020-11-11
+"594","Data Visualization RTP","Raleigh","USA","US/Canada",300,"https://www.meetup.com/Data-Visualization-RTP/",2019-08-04,8,4,"public",2020-10-07
+"595","Hyderabad Machine Learning Foundation Meetup","Hyderabad","India","Asia",1104,"https://www.meetup.com/Hyderabad-Machine-Learning-Foundation-Meetup/",2018-10-02,26,0,"public",2021-03-13
 "596","GigBuzz Zürich","Zürich","Switzerland","Europe",461,"https://www.meetup.com/GigBuzz-Zurich/",2018-04-23,15,0,"public",2020-05-27
 "597","DataMeet Pune","Pune","India","Asia",861,"https://www.meetup.com/DataMeet-Pune/",2015-07-14,31,0,"public",2019-04-13
 "598","Boston Dataquest Group","Boston","USA","US/Canada",845,"https://www.meetup.com/Boston-Dataquest-Group/",2016-10-27,39,0,"public",2021-02-03
 "599","Arlington Statistical Computing Meetup","Arlington","USA","US/Canada",237,"https://www.meetup.com/Arlington-Statistical-Computing-Meetup/",2017-02-26,3,0,"public",2017-07-05
 "600","R-Ladies East Lansing","East Lansing","USA","US/Canada",566,"https://www.meetup.com/rladies-east-lansing/",2017-12-09,28,1,"public",2021-03-26
-"601","Data Viz Jam Sessions","Seattle","USA","US/Canada",1423,"https://www.meetup.com/Data-Viz-Jam-Sessions/",2016-06-25,64,0,"public",2020-02-22
+"601","Data Viz Jam Sessions","Seattle","USA","US/Canada",1424,"https://www.meetup.com/Data-Viz-Jam-Sessions/",2016-06-25,64,0,"public",2020-02-22
 "602","R-Ladies PDX","Portland","USA","US/Canada",248,"https://www.meetup.com/rladies-pdx/",2017-07-20,14,0,"public",2019-08-06
-"603","IndyML","Carmel","USA","US/Canada",302,"https://www.meetup.com/IndyML/",2015-07-30,19,0,"public",2020-05-12
+"603","IndyML","Carmel","USA","US/Canada",303,"https://www.meetup.com/IndyML/",2015-07-30,19,0,"public",2020-05-12
 "604","Matrixian Group","Amsterdam","Netherlands","Europe",25,"https://www.meetup.com/Matrixian-Group/",2018-10-15,1,0,"public",2018-10-20
 "605","Mu Sigma","Berlin","Germany","Europe",81,"https://www.meetup.com/Mu-Sigma/",2020-01-31,1,0,"public",2020-10-21
-"606","Informs DFW Chapter","Dallas","USA","US/Canada",96,"https://www.meetup.com/informs-dfw-chapter/",2021-01-11,1,1,"public",2021-03-17
-"607","Artificial Intelligence for Medical Technology","Amsterdam","Netherlands","Europe",1128,"https://www.meetup.com/Artificial-Intelligence-for-Medical-Technology/",2019-02-26,7,0,"public",2020-12-09
+"606","Artificial Intelligence for Medical Technology","Amsterdam","Netherlands","Europe",1128,"https://www.meetup.com/Artificial-Intelligence-for-Medical-Technology/",2019-02-26,7,0,"public",2020-12-09
+"607","Informs DFW Chapter","Dallas","USA","US/Canada",96,"https://www.meetup.com/informs-dfw-chapter/",2021-01-11,1,1,"public",2021-03-17
 "608","Angat Tech","Manila","Philippines","Asia",141,"https://www.meetup.com/Angat-Tech/",2020-01-30,2,0,"public",2020-03-19
-"609","Bioinformatics London","London","United Kingdom","Europe",767,"https://www.meetup.com/Bioinformatics-London/",2015-09-05,39,2,"public",2020-10-29
+"609","Bioinformatics London","London","United Kingdom","Europe",768,"https://www.meetup.com/Bioinformatics-London/",2015-09-05,39,2,"public",2020-10-29
 "610","New York City R/Bioconductor for Genomics","New York","USA","US/Canada",809,"https://www.meetup.com/BiocNYC/",2017-09-05,16,0,"public",2020-05-28
 "611","R-Ladies Lima","Lima","Peru","Latin America",1500,"https://www.meetup.com/rladies-lima/",2018-01-25,13,0,"public",2021-03-13
 "612","People Analytics Meetup: Stuttgart","Stuttgart","Germany","Europe",27,"https://www.meetup.com/People-Analytics-Meetup-Stuttgart/",2019-10-06,0,0,"public",1970-01-01
@@ -615,7 +615,7 @@
 "614","R-Ladies San Jose","San Jose","Costa Rica","Latin America",623,"https://www.meetup.com/rladies-san-jose/",2017-10-09,23,0,"public",2020-10-08
 "615","R-Ladies Barcelona","Barcelona","Spain","Europe",619,"https://www.meetup.com/rladies-barcelona/",2016-10-22,20,0,"public",2021-03-18
 "616","IBM Power Systems Users","Southfield","USA","US/Canada",130,"https://www.meetup.com/IBM-Power-Systems-Users/",2018-02-19,7,0,"public",2020-07-29
-"617","DataViz Wellington","Wellington","New Zealand","Australia",769,"https://www.meetup.com/DataViz-Wellington/",2018-08-30,19,0,"public",2020-11-25
+"617","DataViz Wellington","Wellington","New Zealand","Australia",770,"https://www.meetup.com/DataViz-Wellington/",2018-08-30,19,0,"public",2020-11-25
 "618","R-Ladies Madrid","Madrid","Spain","Europe",1699,"https://www.meetup.com/rladies-madrid/",2016-09-02,42,0,"public",2021-03-15
 "619","data neRds ES > Ciencia de Datos con R","Buenos Aires","Argentina","Latin America",1367,"https://www.meetup.com/meetup-group-ZtqriXwa/",2017-06-29,8,0,"public",2020-07-29
 "620","The East Bay R Language Enthusiasts Group","Oakland","USA","US/Canada",1739,"https://www.meetup.com/r-enthusiasts/",2012-01-28,92,0,"public",2020-02-12
@@ -626,12 +626,12 @@
 "625","RASA Community  Chapter Madrid - Spain","Madrid","Spain","Europe",59,"https://www.meetup.com/RASA-Chatbots-Community-Spain/",2020-03-02,2,0,"public",2020-10-21
 "626","Israel Tech Challenge","Tel Aviv-Yafo","Israel","Asia",155,"https://www.meetup.com/Itc-tech/",2018-07-16,15,0,"public",2020-01-14
 "627","Fairness in AI","Amsterdam","Netherlands","Europe",110,"https://www.meetup.com/Fairness-in-AI/",2020-02-19,0,0,"public",1970-01-01
-"628","R-Ladies Baltimore","Baltimore","USA","US/Canada",841,"https://www.meetup.com/rladies-baltimore/",2018-02-26,21,2,"public",2021-03-09
+"628","R-Ladies Baltimore","Baltimore","USA","US/Canada",845,"https://www.meetup.com/rladies-baltimore/",2018-02-26,21,2,"public",2021-03-09
 "629","R-Ladies Amsterdam","Amsterdam","Netherlands","Europe",995,"https://www.meetup.com/rladies-amsterdam/",2018-02-10,28,0,"public",2021-03-24
 "630","R-Ladies Frankfurt","Frankfurt","Germany","Europe",114,"https://www.meetup.com/rladies-frankfurt/",2019-02-27,9,0,"public",2020-02-20
 "631","R-Ladies Newcastle","Newcastle Upon Tyne","United Kingdom","Europe",262,"https://www.meetup.com/rladies-newcastle/",2019-02-27,10,0,"public",2020-04-03
 "632","Triangle Julia Users","Raleigh","USA","US/Canada",152,"https://www.meetup.com/Triangle-Julia-Users/",2014-01-26,14,0,"public",2016-12-13
-"633","R-Ladies Johannesburg","Johannesburg","South Africa","Africa",798,"https://www.meetup.com/rladies-johannesburg/",2018-02-26,29,1,"public",2021-02-25
+"633","R-Ladies Johannesburg","Johannesburg","South Africa","Africa",805,"https://www.meetup.com/rladies-johannesburg/",2018-02-26,29,1,"public",2021-02-25
 "634","R-Ladies Lausanne","Lausanne","Switzerland","Europe",320,"https://www.meetup.com/rladies-lausanne/",2017-12-02,12,0,"public",2019-12-03
 "635","R-Ladies Manchester","Manchester","United Kingdom","Europe",481,"https://www.meetup.com/rladies-manchester/",2016-11-29,20,0,"public",2020-04-07
 "636","R-Ladies Lancaster","Lancaster","United Kingdom","Europe",131,"https://www.meetup.com/rladies-lancaster/",2018-09-12,8,0,"public",2020-03-04
@@ -649,13 +649,13 @@
 "648","R-Ladies Cape Town","Cape Town","South Africa","Africa",719,"https://www.meetup.com/rladies-cape-town/",2017-03-06,30,0,"public",2020-10-28
 "649","Göttingen R User Group","Göttingen","Germany","Europe",48,"https://www.meetup.com/Gottingen-Software-Development-Meetup/",2019-02-05,2,0,"public",2019-12-04
 "650","Rock Solid Computer Programming","New York","USA","US/Canada",200,"https://www.meetup.com/Rock-Solid-Computer-Programming/",2020-07-02,16,0,"public",2020-09-24
-"651","R-Ladies Mendoza","Mendoza","Argentina","Latin America",294,"https://www.meetup.com/rladies-mendoza/",2018-02-26,12,0,"public_limited",2020-12-07
-"652","Michiana R Users Group","Granger","USA","US/Canada",34,"https://www.meetup.com/meetup-group-gLOzoDRd/",2020-02-24,3,0,"public",2020-11-20
-"653","R-Ladies Nashville","Nashville","USA","US/Canada",509,"https://www.meetup.com/rladies-nashville/",2016-09-28,18,0,"public",2020-03-09
-"654","Komunitas R Indonesia","Jakarta","Indonesia","Asia",1181,"https://www.meetup.com/r-indonesia/",2019-04-28,10,0,"public",2020-12-28
-"655","R-Ladies Santa Barbara","Santa Barbara","USA","US/Canada",472,"https://www.meetup.com/rladies-santa-barbara/",2018-01-26,15,0,"public",2021-02-25
-"656","EdinbR: The Edinburgh R Usergroup","Edinburgh","United Kingdom","Europe",503,"https://www.meetup.com/EdinbR/",2018-09-16,21,0,"public",2021-03-17
-"657","R-Ladies Paris","Paris","France","Europe",591,"https://www.meetup.com/rladies-paris/",2016-09-19,15,0,"public",2019-06-14
+"651","Michiana R Users Group","Granger","USA","US/Canada",34,"https://www.meetup.com/meetup-group-gLOzoDRd/",2020-02-24,3,0,"public",2020-11-20
+"652","R-Ladies Nashville","Nashville","USA","US/Canada",509,"https://www.meetup.com/rladies-nashville/",2016-09-28,18,0,"public",2020-03-09
+"653","Komunitas R Indonesia","Jakarta","Indonesia","Asia",1181,"https://www.meetup.com/r-indonesia/",2019-04-28,10,0,"public",2020-12-28
+"654","R-Ladies Santa Barbara","Santa Barbara","USA","US/Canada",472,"https://www.meetup.com/rladies-santa-barbara/",2018-01-26,15,0,"public",2021-02-25
+"655","EdinbR: The Edinburgh R Usergroup","Edinburgh","United Kingdom","Europe",504,"https://www.meetup.com/EdinbR/",2018-09-16,21,0,"public",2021-03-17
+"656","R-Ladies Paris","Paris","France","Europe",591,"https://www.meetup.com/rladies-paris/",2016-09-19,15,0,"public",2019-06-14
+"657","R-Ladies Mendoza","Mendoza","Argentina","Latin America",294,"https://www.meetup.com/rladies-mendoza/",2018-02-26,12,0,"public_limited",2020-12-07
 "658","R-Ladies Pasadena","Pasadena","USA","US/Canada",95,"https://www.meetup.com/rladies-pasadena/",2018-04-25,5,0,"public",2019-11-07
 "659","R-Ladies Bergen","Bergen","Norway","Europe",281,"https://www.meetup.com/rladies-bergen/",2019-10-28,12,0,"public",2021-03-22
 "660","adminR: R in Swiss Official Statistics","Bern","Switzerland","Europe",313,"https://www.meetup.com/adminR/",2018-08-19,4,0,"public",2021-03-18
@@ -665,7 +665,7 @@
 "664","R en Buenos Aires","Buenos Aires","Argentina","Latin America",675,"https://www.meetup.com/renbaires/",2018-10-04,11,0,"public",2020-07-14
 "665","Chicago Big Data Analytics Meetup","Chicago","USA","US/Canada",1529,"https://www.meetup.com/Chicago-Big-Data-Analytics-Meetup/",2013-10-13,102,6,"public",2017-11-29
 "666","Big Data Analytics: Mobile, Social and Web","San Jose","USA","US/Canada",3079,"https://www.meetup.com/Big-Data-Analytics-Mobile-Social-and-Web/",2011-06-21,59,0,"public",2017-06-22
-"667","Scotland Data Science & Technology Meetup","Edinburgh","United Kingdom","Europe",4766,"https://www.meetup.com/Scotland-Data-Science-Technology-Meetup/",2015-04-07,125,1,"public",2021-03-25
+"667","Scotland Data Science & Technology Meetup","Edinburgh","United Kingdom","Europe",4767,"https://www.meetup.com/Scotland-Data-Science-Technology-Meetup/",2015-04-07,125,1,"public",2021-03-25
 "668","Digital Marketing + Data Science -Ateliers Q/R Gratuits Lyon","Lyon","France","Europe",592,"https://www.meetup.com/Digital-Marketing-Data-Science-Ateliers-Q-R-Gratuits/",2018-06-25,18,0,"public",2020-05-28
 "669","Predictive Analytics and Data Science using Spark, R, Python","Los Angeles","USA","US/Canada",745,"https://www.meetup.com/Predictive-Analytics-and-Data-Science-using-Spark-R-Python/",2016-06-23,46,0,"public",2021-03-21
 "670","MünsteR (R Users Group)","Münster","Germany","Europe",568,"https://www.meetup.com/Munster-R-Users-Group/",2017-05-16,29,1,"public_limited",2021-03-25
@@ -693,24 +693,24 @@
 "692","Dubai Computer programming Meetup Group","Dubai","U.A.E.","Asia",18,"https://www.meetup.com/Dubai-Computer-programming-Meetup-Group/",2020-06-05,1,0,"public",2020-07-08
 "693","Salt Lake City R Language Study Group","Salt Lake City","USA","US/Canada",283,"https://www.meetup.com/Salt-Lake-City-R-Language-Study-Group/",2018-04-05,34,0,"public",2020-07-12
 "694","Wroclaw R user Group - WRUG","Wroclaw","Poland","Europe",38,"https://www.meetup.com/Wroclaw-R-user-Group-WRUG/",2013-04-14,1,0,"public",2013-06-20
-"695","R-Ladies Washington D.C.","Washington","USA","US/Canada",2161,"https://www.meetup.com/rladies-dc/",2016-12-07,100,3,"public",2021-03-26
-"696","Dublin R","Dublin","Ireland","Europe",2309,"https://www.meetup.com/DublinR/",2011-11-04,202,2,"public",2021-03-25
+"695","R-Ladies Washington D.C.","Washington","USA","US/Canada",2166,"https://www.meetup.com/rladies-dc/",2016-12-07,100,4,"public",2021-03-26
+"696","Dublin R","Dublin","Ireland","Europe",2310,"https://www.meetup.com/DublinR/",2011-11-04,202,2,"public",2021-03-25
 "697","Bogotá R Users Group","Bogotá","Colombia","Latin America",1582,"https://www.meetup.com/Bogota-R-Users-Group/",2013-09-18,29,1,"public",2021-03-18
 "698","R Users Group Kenya (RUGK)","Nairobi","Kenya","Africa",89,"https://www.meetup.com/R-Users-Group-Kenya-RUGK/",2014-08-29,0,0,"public",1970-01-01
 "699","MadR - Madison R Programming UseRs Group","Madison","USA","US/Canada",632,"https://www.meetup.com/MadR-Madison-R-Programming-UseRs-Group/",2014-01-10,47,0,"public",2020-02-28
 "700","R-Ladies Buffalo","Buffalo","USA","US/Canada",28,"https://www.meetup.com/rladies-buffalo/",2017-05-28,4,0,"public",2019-11-21
-"701","Seattle useR Group (R Programming Language)","Seattle","USA","US/Canada",2848,"https://www.meetup.com/Seattle-useR/",2009-12-12,84,0,"public",2021-01-28
+"701","Seattle useR Group (R Programming Language)","Seattle","USA","US/Canada",2847,"https://www.meetup.com/Seattle-useR/",2009-12-12,84,0,"public",2021-01-28
 "702","Houston R Users Group","Houston","USA","US/Canada",1411,"https://www.meetup.com/houstonr/",2010-11-01,80,0,"public",2019-12-04
 "703","Canberra R Users Group","Canberra","Australia","Australia",326,"https://www.meetup.com/Canberra-R-Users-Group/",2010-07-19,34,1,"public",2019-11-28
 "704","R-Ladies RTP","Durham","USA","US/Canada",822,"https://www.meetup.com/rladies-rtp/",2016-08-15,54,2,"public",2021-03-22
-"705","Statistical Seminars DC","Washington","USA","US/Canada",1785,"https://www.meetup.com/Statistical-Seminars-DC/",2018-07-07,97,3,"public",2021-03-24
+"705","Statistical Seminars DC","Washington","USA","US/Canada",1787,"https://www.meetup.com/Statistical-Seminars-DC/",2018-07-07,97,3,"public",2021-03-24
 "706","Applied Math and Statistics","New York","USA","US/Canada",305,"https://www.meetup.com/applied-math-and-statistics/",2020-02-06,3,1,"public",2021-03-13
 "707","Statistics Meet n’ Greet","New York","USA","US/Canada",69,"https://www.meetup.com/New-York-Applied-Statistics-Meetup-Group/",2020-03-14,0,0,"public",1970-01-01
 "708","A-State R User Group","Jonesboro","USA","US/Canada",27,"https://www.meetup.com/meetup-group-SPnWerAb/",2020-04-01,3,0,"public",2020-09-21
 "709","Hamburg R User Group","Hamburg","Germany","Europe",797,"https://www.meetup.com/Hamburg-R-User-Group/",2014-09-20,20,0,"public",2020-01-24
 "710","R Users Group Hyderabad(RUGH)","Hyderabad","India","Asia",503,"https://www.meetup.com/R-Users-Group-Hyderabad/",2013-09-15,5,0,"public",2018-01-27
 "711","XMU-R","Xiamen","China","Asia",242,"https://www.meetup.com/RGROUP/",2014-09-11,22,0,"public",2015-01-12
-"712","R-Ladies Los Angeles","Los Angeles","USA","US/Canada",621,"https://www.meetup.com/rladies-la/",2016-09-02,32,0,"public",2020-07-29
+"712","R-Ladies Los Angeles","Los Angeles","USA","US/Canada",622,"https://www.meetup.com/rladies-la/",2016-09-02,32,0,"public",2020-07-29
 "713","Botswana R Users","Gaborone","Botswana","Africa",65,"https://www.meetup.com/Botswana-R-Users/",2020-02-04,3,0,"public",2021-03-12
 "714","EPIC Centre for Quantum Computing","Kozhikode","India","Asia",678,"https://www.meetup.com/EPICCenterforQuantumComputing/",2017-11-29,51,1,"public",2021-03-11
 "715","Köln R User Group","Köln","Germany","Europe",1009,"https://www.meetup.com/KoelnRUG/",2012-03-30,31,0,"public",2020-11-19
@@ -718,13 +718,13 @@
 "717","R-Ladies Rio de Janeiro","Rio de Janeiro","Brazil","Latin America",603,"https://www.meetup.com/rladies-rio/",2017-02-27,11,0,"public_limited",2020-09-30
 "718","R-Ladies Madison","Madison","USA","US/Canada",124,"https://www.meetup.com/R-Ladies-Madison/",2019-04-30,10,0,"public",2021-01-22
 "719","R-Ladies CDMX","México City","Mexico","Latin America",1901,"https://www.meetup.com/rladies-cdmx/",2017-07-04,16,0,"public",2021-02-19
-"720","R-Ladies St. Louis","Saint Louis","USA","US/Canada",781,"https://www.meetup.com/rladies-st-louis/",2017-08-28,21,1,"public",2021-03-10
+"720","R-Ladies St. Louis","Saint Louis","USA","US/Canada",782,"https://www.meetup.com/rladies-st-louis/",2017-08-28,21,1,"public",2021-03-10
 "721","R-Ladies Tbilisi","Tbilisi","Georgia","Asia",303,"https://www.meetup.com/rladies-tbilisi/",2016-11-29,63,1,"public",2021-03-28
 "722","Lads and Lasses Who R","Merrifield","USA","US/Canada",233,"https://www.meetup.com/Lads-and-Lasses-Who-R/",2018-07-16,17,0,"public_limited",2019-12-17
 "723","R-Ladies Yaoundé","Yaoundé","Cameroon","Africa",54,"https://www.meetup.com/rladies-yaounde/",2020-01-05,0,0,"public",1970-01-01
-"724","Pune  R users Meetup","Pune","India","Asia",215,"https://www.meetup.com/Pune-R-junkies-Meetup/",2014-11-30,0,1,"public",1970-01-01
+"724","Pune  R users Meetup","Pune","India","Asia",214,"https://www.meetup.com/Pune-R-junkies-Meetup/",2014-11-30,0,1,"public",1970-01-01
 "725","R-Ladies Fayetteville","Fayetteville","USA","US/Canada",124,"https://www.meetup.com/rladies-fayetteville/",2019-07-27,11,0,"public",2021-01-27
-"726","R-Ladies Seattle","Seattle","USA","US/Canada",939,"https://www.meetup.com/rladies-seattle/",2017-11-08,36,5,"public",2021-03-17
+"726","R-Ladies Seattle","Seattle","USA","US/Canada",941,"https://www.meetup.com/rladies-seattle/",2017-11-08,36,5,"public",2021-03-17
 "727","Taiwan R User Group / MLDM Monday","Taipei","Taiwan","Asia",7265,"https://www.meetup.com/Taiwan-R/",2012-09-28,359,2,"public",2021-03-29
 "728","R-Ladies Manaus","Manaus","Brazil","Latin America",30,"https://www.meetup.com/R-Ladies-Manaus/",2019-09-11,0,0,"public",1970-01-01
 "729","CinDay RUG","Dayton","USA","US/Canada",301,"https://www.meetup.com/CinDay-RUG/",2010-11-10,47,0,"public",2021-02-16
@@ -739,12 +739,12 @@
 "738","Brooklyn Advanced Marketing Methods","Brooklyn","USA","US/Canada",16,"https://www.meetup.com/Brooklyn-Advanced-Marketing-Methods/",2019-02-12,0,0,"public",1970-01-01
 "739","Ha Noi R Users Group Meetup","Ha Noi","Vietnam","Asia",369,"https://www.meetup.com/Ha-Noi-R-Users-Group-Meetup/",2014-11-13,0,0,"public",1970-01-01
 "740","Nijmegen eveRybody","Nijmegen","Netherlands","Europe",255,"https://www.meetup.com/Nijmegen-eveRybody/",2015-04-11,6,0,"public",2017-01-25
-"741","St. Louis Machine Learning & Data Science","Saint Louis","USA","US/Canada",2344,"https://www.meetup.com/St-Louis-Machine-Learning/",2012-07-17,91,1,"public",2021-03-10
+"741","St. Louis Machine Learning & Data Science","Saint Louis","USA","US/Canada",2346,"https://www.meetup.com/St-Louis-Machine-Learning/",2012-07-17,91,1,"public",2021-03-10
 "742","France KNIME Users","Paris","France","Europe",334,"https://www.meetup.com/Paris-KNIME-Users/",2015-04-27,28,1,"public",2021-03-09
 "743","Meetup: Bayesian Econometrics","Medellín","Colombia","Latin America",49,"https://www.meetup.com/Meetup-Bayesian-Econometrics/",2016-06-23,0,0,"public",1970-01-01
-"744","ODSC London Data Science","London","United Kingdom","Europe",6618,"https://www.meetup.com/London-Data-Science-ODSC/",2015-06-29,125,7,"public",2021-03-23
+"744","ODSC London Data Science","London","United Kingdom","Europe",6619,"https://www.meetup.com/London-Data-Science-ODSC/",2015-06-29,125,7,"public",2021-03-23
 "745","ODSC Data Science Boston","Cambridge","USA","US/Canada",2827,"https://www.meetup.com/odsc-open-source-data-science/",2013-09-09,181,10,"public",2021-03-24
-"746","San Francisco Data Science ODSC","San Francisco","USA","US/Canada",4076,"https://www.meetup.com/San-Francisco-ODSC/",2015-06-26,155,10,"public",2021-03-24
+"746","San Francisco Data Science ODSC","San Francisco","USA","US/Canada",4078,"https://www.meetup.com/San-Francisco-ODSC/",2015-06-26,155,10,"public",2021-03-24
 "747","useR Group in San Luis Obispo County","San Luis Obispo","USA","US/Canada",270,"https://www.meetup.com/useR-Group-in-San-Luis-Obispo-County/",2019-03-18,31,0,"public",2021-03-20
 "748","RLyon","Lyon","France","Europe",129,"https://www.meetup.com/R-Lyon/",2013-11-19,6,0,"public",2016-03-18
 "749","DataGiri - Bengaluru","Bangalore","India","Asia",2570,"https://www.meetup.com/DataGiri-Bengaluru/",2017-01-12,35,0,"public",2020-12-19
@@ -758,16 +758,16 @@
 "757","MiraiLabs | Data Science Workshops","Zürich","Switzerland","Europe",170,"https://www.meetup.com/MiraiLabs-Data-Science-Workshops/",2019-06-24,1,0,"public",2019-09-24
 "758","PyData Cardiff Meetup","Cardiff","United Kingdom","Europe",939,"https://www.meetup.com/PyData-Cardiff-Meetup/",2018-02-06,12,0,"public",2020-02-11
 "759","Data Science Floripa","Florianópolis","Brazil","Latin America",1933,"https://www.meetup.com/dsfloripa/",2015-04-16,17,0,"public",2020-02-18
-"760","Colchester Scientific Programming Meetup Group","Colchester","United Kingdom","Europe",25,"https://www.meetup.com/colchester-scientific-programming-meetup-group/",2021-03-08,5,0,"public",2021-03-25
+"760","Colchester Scientific Programming Meetup Group","Colchester","United Kingdom","Europe",25,"https://www.meetup.com/colchester-scientific-programming-meetup-group/",2021-03-08,5,1,"public",2021-03-25
 "761","Alpine Data Lovers","Garmisch-Partenkirchen","Germany","Europe",61,"https://www.meetup.com/alpine-data-lovers/",2019-12-18,8,0,"public",2021-02-09
-"762","Toronto - Cognitive, AI & Data Science Meetup","Toronto","Canada","US/Canada",12699,"https://www.meetup.com/Cognitive-Toronto/",2014-03-17,133,0,"public",2021-02-25
+"762","Toronto - Cognitive, AI & Data Science Meetup","Toronto","Canada","US/Canada",12700,"https://www.meetup.com/Cognitive-Toronto/",2014-03-17,133,0,"public",2021-02-25
 "763","Datascience in Finance, Paris","Paris","France","Europe",556,"https://www.meetup.com/Datascience-in-Finance-Paris/",2015-06-23,4,0,"public",2017-07-12
 "764","Find a Tech Job","London","United Kingdom","Europe",4924,"https://www.meetup.com/Find-A-tech-Job-In-London/",2012-05-24,53,0,"public",2020-11-03
 "765","Bath Machine Learning Meetup","Bath","United Kingdom","Europe",726,"https://www.meetup.com/BathML/",2016-10-03,34,0,"public",2020-04-23
 "766","Seacoast (ME/NH) Data Science Meetup","Portsmouth","USA","US/Canada",129,"https://www.meetup.com/Seacoast-ME-NH-Data-Science-Meetup/",2016-01-15,1,0,"public",2016-02-09
 "767","NYCFinance","New York","USA","US/Canada",286,"https://www.meetup.com/NYCFinance/",2018-02-17,160,3,"public",2021-03-27
 "768","Chicago Indie Hackers","Chicago","USA","US/Canada",355,"https://www.meetup.com/Chicago-Indie-Hackers/",2018-03-28,13,0,"public",2020-07-29
-"769","LABDATA - FIA","São Paulo","Brazil","Latin America",1321,"https://www.meetup.com/labdata-fia/",2020-02-05,15,2,"public",2021-03-25
+"769","LABDATA - FIA","São Paulo","Brazil","Latin America",1323,"https://www.meetup.com/labdata-fia/",2020-02-05,16,1,"public",2021-03-29
 "770","Dutch Data Science Meetup Group","Delft","Netherlands","Europe",1094,"https://www.meetup.com/Dutch-Data-Science-Meetup-Group/",2015-03-09,6,0,"public",2018-05-25
 "771","Timeseries Forecasting and Event Analytics Melbourne Meetup","Melbourne","Australia","Australia",1164,"https://www.meetup.com/Timeseries-Forecasting-and-Event-Analytics-Melbourne-Meetup/",2018-05-23,14,0,"public",2020-11-05
 "772","ODSC New York Accelerate AI (AIx)","New York","USA","US/Canada",3101,"https://www.meetup.com/New-York-ODSC/",2015-06-29,149,10,"public",2021-03-24
@@ -780,42 +780,42 @@
 "779","Applied Machine Learning by Cubonacci","Amsterdam","Netherlands","Europe",309,"https://www.meetup.com/Applied-Machine-Learning-by-Cubonacci/",2019-11-18,3,0,"public",2020-05-21
 "780","Chicago Cloud Foundry User Group","Chicago","USA","US/Canada",1534,"https://www.meetup.com/Chicago-Cloud-Foundry-User-Group/",2014-06-30,17,0,"public",2019-05-07
 "781","Scala for Startups is merged into SF Scala","San Francisco","USA","US/Canada",249,"https://www.meetup.com/Scala-for-Startups/",2011-09-10,18,0,"public",2013-03-28
-"782","Bay Area Chromatin and Epigenomics Group","San Francisco","USA","US/Canada",410,"https://www.meetup.com/Bay-Area-Chromatin-and-Epigenomics-Meetup-Group/",2019-12-21,13,0,"public",2021-03-17
+"782","Bay Area Chromatin and Epigenomics Group","San Francisco","USA","US/Canada",410,"https://www.meetup.com/bay-area-chromatin-and-epigenomics-group/",2019-12-21,13,0,"public",2021-03-17
 "783","Bay Area Apache Druid® Meetup by Imply","Burlingame","USA","US/Canada",1964,"https://www.meetup.com/druidio/",2013-03-05,42,0,"public",2021-03-23
-"784","Pune Big Data Analytics Meetup","Pune","India","Asia",5730,"https://www.meetup.com/meetup-group-mBrnrixQ/",2017-03-22,305,0,"public",2020-04-28
-"785","BASE (Birmingham Area Software Enthusiasts)","Birmingham","USA","US/Canada",2031,"https://www.meetup.com/base205/",2010-06-15,352,2,"public",2021-03-23
+"784","Pune Big Data Analytics Meetup","Pune","India","Asia",5728,"https://www.meetup.com/meetup-group-mBrnrixQ/",2017-03-22,305,0,"public",2020-04-28
+"785","BASE (Birmingham Area Software Enthusiasts)","Birmingham","USA","US/Canada",2030,"https://www.meetup.com/base205/",2010-06-15,352,2,"public",2021-03-23
 "786","SwissAI Geneva Meetup","Genève","Switzerland","Europe",504,"https://www.meetup.com/SwissAI-Geneva/",2011-01-12,9,0,"public",2020-09-23
 "787","Open Cities Lab","Durban","South Africa","Africa",568,"https://www.meetup.com/Open-Cities-Lab/",2015-05-18,56,0,"public",2018-03-03
 "788","Greenville Data Science & Analytics Meetup","Greenville","USA","US/Canada",554,"https://www.meetup.com/Greenville-Data-Science-Analytics-Meetup/",2015-09-16,23,0,"public_limited",2019-12-03
 "789","ATLytiCS: Analytics For Good","Atlanta","USA","US/Canada",1766,"https://www.meetup.com/ATLytiCS-Analytics-For-Good/",2018-06-23,17,0,"public",2021-01-19
-"790","Chicago Big Data","Chicago","USA","US/Canada",3215,"https://www.meetup.com/Chicago-Big-Data/",2011-01-31,92,0,"public",2017-11-02
+"790","Chicago Big Data","Chicago","USA","US/Canada",3214,"https://www.meetup.com/Chicago-Big-Data/",2011-01-31,92,0,"public",2017-11-02
 "791","Kaohsiung Python Meetup","Kaohsiung","Taiwan","Asia",656,"https://www.meetup.com/Kaohsiung-Python-Meetup/",2015-10-09,48,0,"public",2020-01-03
 "792","Data Science Brest","Brest","France","Europe",672,"https://www.meetup.com/Data-Science-Brest/",2016-11-10,36,0,"public",2020-11-04
-"793","Data Visualization Group in the Bay Area","San Francisco","USA","US/Canada",8082,"https://www.meetup.com/visualizemydata/",2010-08-16,93,0,"public",2018-10-02
+"793","Data Visualization Group in the Bay Area","San Francisco","USA","US/Canada",8081,"https://www.meetup.com/visualizemydata/",2010-08-16,93,0,"public",2018-10-02
 "794","R-Ladies Ribeirão Preto","Ribeirão Preto","Brazil","Latin America",114,"https://www.meetup.com/rladies-ribeirao-preto/",2020-03-06,2,0,"public",2020-11-30
 "795","Midwest Julia Users","Chicago","USA","US/Canada",146,"https://www.meetup.com/Midwest-Julia-Users/",2016-10-13,3,1,"public",2020-07-24
 "796","Julia User Group Munich","München","Germany","Europe",222,"https://www.meetup.com/Julia-User-Group-Munich/",2020-01-08,12,1,"public",2021-03-01
 "797","Milwaukee Data Science","Milwaukee","USA","US/Canada",515,"https://www.meetup.com/Milwaukee-Data-Science/",2013-10-30,12,0,"public",2019-10-10
 "798","Data Science Women","Denver","USA","US/Canada",663,"https://www.meetup.com/data-science-women/",2018-11-03,7,0,"public",2020-02-01
-"799","AI in Financial Services","Frankfurt","Germany","Europe",292,"https://www.meetup.com/AI-Big-Data-and-Network-Analysis-in-Financial-Services/",2018-01-26,3,0,"public",2021-02-03
-"800","Newbury AI Meetup","Newbury","United Kingdom","Europe",400,"https://www.meetup.com/Newbury-AI-Meetup/",2018-08-24,33,0,"public_limited",2021-03-04
+"799","AI in Financial Services","Frankfurt","Germany","Europe",293,"https://www.meetup.com/AI-Big-Data-and-Network-Analysis-in-Financial-Services/",2018-01-26,3,0,"public",2021-02-03
+"800","Newbury AI Meetup","Newbury","United Kingdom","Europe",401,"https://www.meetup.com/Newbury-AI-Meetup/",2018-08-24,33,0,"public_limited",2021-03-04
 "801","Argentina Data Science Meetup","Buenos Aires","Argentina","Latin America",4046,"https://www.meetup.com/Argentina-Data-Science-Meetup/",2016-01-26,11,0,"public",2019-10-03
 "802","R-Ladies Quito","Quito","Ecuador","Latin America",814,"https://www.meetup.com/rladies-quito/",2017-07-18,10,0,"public",2020-07-01
-"803","R-Ladies Puebla","Puebla","Mexico","Latin America",608,"https://www.meetup.com/rladies-puebla/",2019-07-19,7,1,"public",2021-03-26
+"803","R-Ladies Puebla","Puebla","Mexico","Latin America",622,"https://www.meetup.com/rladies-puebla/",2019-07-19,7,1,"public",2021-03-26
 "804","R-Ladies Athens","Athens","USA","US/Canada",50,"https://www.meetup.com/rladies-athens-ga/",2019-08-31,4,0,"public",2021-03-03
 "805","R-Ladies Salvador","Salvador","Brazil","Latin America",233,"https://www.meetup.com/rladies-salvador/",2018-07-23,6,0,"public",2020-12-12
 "806","R-Ladies New Delhi","Delhi","India","Asia",335,"https://www.meetup.com/rladies-new-delhi/",2019-09-01,9,0,"public",2020-09-06
 "807","R-Ladies Denver","Denver","USA","US/Canada",93,"https://www.meetup.com/rladies-denver/",2019-07-02,4,0,"public",2020-01-24
 "808","R-Ladies Jakarta","Jakarta","Indonesia","Asia",549,"https://www.meetup.com/rladies-jakarta/",2019-07-06,12,0,"public",2020-10-24
-"809","R-Ladies Helsinki","Helsinki","Finland","Europe",405,"https://www.meetup.com/rladies-helsinki/",2018-09-07,15,0,"public",2021-03-10
-"810","R-Ladies Cotonou","Cotonou","Benin","Africa",35,"https://www.meetup.com/rladies-cotonou/",2018-03-29,2,0,"public",2020-02-08
-"811","R-Ladies Addis Ababa","Addis Abeba","Ethiopia","Africa",527,"https://www.meetup.com/rladies-addis-ababa/",2018-03-21,26,0,"public",2021-03-09
-"812","R-Ladies Göteborg","Göteborg","Sweden","Europe",159,"https://www.meetup.com/rladies-goteborg/",2019-11-23,5,0,"public",2020-11-03
-"813","R-Ladies Lavras","Lavras","Brazil","Latin America",47,"https://www.meetup.com/rladies-lavras/",2019-04-16,2,0,"public",2020-06-15
-"814","R-Ladies Mumbai","Mumbai","India","Asia",96,"https://www.meetup.com/rladies-mumbai/",2019-11-23,2,0,"public",2021-02-27
-"815","R-Ladies Gainesville","Gainesville","USA","US/Canada",350,"https://www.meetup.com/rladies-gainesville/",2018-07-04,31,0,"public",2020-11-10
-"816","R-Ladies Atlanta","Atlanta","USA","US/Canada",275,"https://www.meetup.com/rladies-atlanta/",2017-12-14,6,0,"public",2019-11-15
-"817","R-Ladies Dallas","Dallas","USA","US/Canada",611,"https://www.meetup.com/rladies-dallas/",2018-03-04,31,3,"public",2021-03-16
+"809","R-Ladies Addis Ababa","Addis Abeba","Ethiopia","Africa",527,"https://www.meetup.com/rladies-addis-ababa/",2018-03-21,26,0,"public",2021-03-09
+"810","R-Ladies Göteborg","Göteborg","Sweden","Europe",159,"https://www.meetup.com/rladies-goteborg/",2019-11-23,5,0,"public",2020-11-03
+"811","R-Ladies Lavras","Lavras","Brazil","Latin America",47,"https://www.meetup.com/rladies-lavras/",2019-04-16,2,0,"public",2020-06-15
+"812","R-Ladies Mumbai","Mumbai","India","Asia",96,"https://www.meetup.com/rladies-mumbai/",2019-11-23,2,0,"public",2021-02-27
+"813","R-Ladies Gainesville","Gainesville","USA","US/Canada",350,"https://www.meetup.com/rladies-gainesville/",2018-07-04,31,0,"public",2020-11-10
+"814","R-Ladies Atlanta","Atlanta","USA","US/Canada",275,"https://www.meetup.com/rladies-atlanta/",2017-12-14,6,0,"public",2019-11-15
+"815","R-Ladies Dallas","Dallas","USA","US/Canada",611,"https://www.meetup.com/rladies-dallas/",2018-03-04,31,3,"public",2021-03-16
+"816","R-Ladies Helsinki","Helsinki","Finland","Europe",405,"https://www.meetup.com/rladies-helsinki/",2018-09-07,15,0,"public",2021-03-10
+"817","R-Ladies Cotonou","Cotonou","Benin","Africa",35,"https://www.meetup.com/rladies-cotonou/",2018-03-29,2,0,"public",2020-02-08
 "818","R-Ladies Oxford","Oxford","United Kingdom","Europe",32,"https://www.meetup.com/rladies-oxford/",2020-01-12,0,0,"public",1970-01-01
 "819","R-Ladies Niš","Niš","Serbia","Europe",12,"https://www.meetup.com/rladies-nis/",2020-02-22,0,0,"public",1970-01-01
 "820","R-Ladies Boston","Boston","USA","US/Canada",962,"https://www.meetup.com/rladies-boston/",2016-09-16,42,0,"public",2021-01-12
@@ -827,36 +827,36 @@
 "826","R-Ladies Syracuse","Syracuse","USA","US/Canada",8,"https://www.meetup.com/rladies-syracuse/",2019-11-30,0,0,"public",1970-01-01
 "827","R-Ladies Kingston","Kingston","Canada","US/Canada",2,"https://www.meetup.com/rladies-kingston/",2021-03-21,0,0,"public",1970-01-01
 "828","R-Ladies New Orleans","New Orleans","USA","US/Canada",39,"https://www.meetup.com/rladies-new-orleans/",2019-11-30,1,0,"public",2020-02-11
-"829","R-Ladies Nairobi","Nairobi","Kenya","Africa",544,"https://www.meetup.com/rladies-nairobi/",2020-06-13,6,1,"public",2021-03-13
+"829","R-Ladies Nairobi","Nairobi","Kenya","Africa",545,"https://www.meetup.com/rladies-nairobi/",2020-06-13,6,1,"public",2021-03-13
 "830","R-Ladies Monterrey","Monterrey","Mexico","Latin America",337,"https://www.meetup.com/rladies-monterrey/",2020-01-12,8,0,"public",2021-03-05
 "831","R-Ladies Darwin","Darwin","Australia","Australia",3,"https://www.meetup.com/rladies-darwin/",2021-03-21,0,0,"public",1970-01-01
 "832","R-Ladies Mid-Mo","Columbia","USA","US/Canada",106,"https://www.meetup.com/rladies-mid-mo/",2019-12-15,14,1,"public",2021-03-23
 "833","R-Ladies Dublin","Dublin","Ireland","Europe",849,"https://www.meetup.com/rladies-dublin/",2016-11-12,25,0,"public",2021-02-15
 "834","R-Ladies Vitória","Vitória","Brazil","Latin America",191,"https://www.meetup.com/rladies-vitoria/",2019-09-29,3,0,"public",2020-11-28
 "835","R-Ladies Belo Horizonte","Belo Horizonte","Brazil","Latin America",852,"https://www.meetup.com/rladies-belo-horizonte/",2018-04-20,17,0,"public",2021-02-17
-"836","R-Ladies Milan","Milano","Italy","Europe",1015,"https://www.meetup.com/rladies-milan/",2017-06-29,27,0,"public",2021-03-10
-"837","R-Ladies New York","New York","USA","US/Canada",1999,"https://www.meetup.com/rladies-newyork/",2016-08-23,57,0,"public",2021-03-24
+"836","R-Ladies Milan","Milano","Italy","Europe",1014,"https://www.meetup.com/rladies-milan/",2017-06-29,27,0,"public",2021-03-10
+"837","R-Ladies New York","New York","USA","US/Canada",1998,"https://www.meetup.com/rladies-newyork/",2016-08-23,57,0,"public",2021-03-24
 "838","R-Ladies Lexington Park","Lexington Park","USA","US/Canada",37,"https://www.meetup.com/rladies-lexington-park/",2019-08-16,2,0,"public",2020-12-15
 "839","R-Ladies Cuernavaca","Cuernavaca","Mexico","Latin America",492,"https://www.meetup.com/rladies-cuernavaca/",2019-08-15,10,0,"public",2021-03-24
 "840","R Ladies Aarhus","Aarhus","Denmark","Europe",10,"https://www.meetup.com/rladies-aarhus/",2020-11-20,0,0,"public",1970-01-01
 "841","R-Ladies Cochabamba","Cochabamba","Bolivia","Latin America",12,"https://www.meetup.com/rladies-cochabamba/",2020-06-12,0,0,"public",1970-01-01
 "842","R-Ladies Jujuy","Jujuy","Argentina","Latin America",124,"https://www.meetup.com/rladies-jujuy/",2020-11-20,1,0,"public",2020-12-21
 "843","R-Ladies Austin","Austin","USA","US/Canada",631,"https://www.meetup.com/rladies-austin/",2017-01-31,45,0,"public",2020-01-22
-"844","R-Ladies Ankara","Ankara","Turkey","Europe",581,"https://www.meetup.com/rladies-ankara/",2019-07-01,16,0,"public",2021-03-23
+"844","R-Ladies Ankara","Ankara","Turkey","Europe",582,"https://www.meetup.com/rladies-ankara/",2019-07-01,16,0,"public",2021-03-23
 "845","R-Ladies Den Bosch","Den Bosch","Netherlands","Europe",112,"https://www.meetup.com/rladies-den-bosch/",2019-03-23,6,0,"public",2020-11-24
 "846","R-Ladies Ushuaia","Ushuaia","Argentina","Latin America",29,"https://www.meetup.com/rladies-ushuaia/",2020-05-16,3,0,"public",2020-12-07
-"847","R-Ladies Bogor","Bogor","Indonesia","Asia",278,"https://www.meetup.com/rladies-bogor/",2019-04-07,8,0,"public",2020-02-29
-"848","R-Ladies Calgary","Calgary","Canada","US/Canada",115,"https://www.meetup.com/rladies-calgary/",2019-09-14,2,0,"public",2021-03-26
-"849","R-Ladies Oxford Ohio","Oxford","USA","US/Canada",55,"https://www.meetup.com/rladies-oxford-ohio/",2019-11-23,4,0,"public",2021-03-03
-"850","R-Ladies Podgorica","Podgorica","Montenegro","Europe",27,"https://www.meetup.com/rladies-podgorica/",2019-09-18,1,0,"public",2019-10-03
-"851","R-Ladies Al-Khartum","al-Khartum","Sudan","Africa",42,"https://www.meetup.com/rladies-al-khartum/",2019-11-23,0,0,"public",1970-01-01
-"852","R-Ladies Masqat","Muscat","Oman","Asia",123,"https://www.meetup.com/rladies-masqat/",2019-10-31,1,0,"public",2020-02-08
-"853","R-Ladies Beijing","Beijing","China","Asia",55,"https://www.meetup.com/rladies-beijing/",2019-11-13,3,0,"public",2020-07-09
+"847","R-Ladies Calgary","Calgary","Canada","US/Canada",114,"https://www.meetup.com/rladies-calgary/",2019-09-14,2,0,"public",2021-03-26
+"848","R-Ladies Oxford Ohio","Oxford","USA","US/Canada",55,"https://www.meetup.com/rladies-oxford-ohio/",2019-11-23,4,0,"public",2021-03-03
+"849","R-Ladies Podgorica","Podgorica","Montenegro","Europe",27,"https://www.meetup.com/rladies-podgorica/",2019-09-18,1,0,"public",2019-10-03
+"850","R-Ladies Al-Khartum","al-Khartum","Sudan","Africa",42,"https://www.meetup.com/rladies-al-khartum/",2019-11-23,0,0,"public",1970-01-01
+"851","R-Ladies Masqat","Muscat","Oman","Asia",123,"https://www.meetup.com/rladies-masqat/",2019-10-31,1,0,"public",2020-02-08
+"852","R-Ladies Beijing","Beijing","China","Asia",55,"https://www.meetup.com/rladies-beijing/",2019-11-13,3,0,"public",2020-07-09
+"853","R-Ladies Bogor","Bogor","Indonesia","Asia",278,"https://www.meetup.com/rladies-bogor/",2019-04-07,8,0,"public",2020-02-29
 "854","R-Ladies Queretaro","Querétaro","Mexico","Latin America",589,"https://www.meetup.com/rladies-queretaro/",2019-03-30,14,0,"public",2021-03-11
 "855","R-Ladies Eskisehir","Eskisehir","Turkey","Europe",168,"https://www.meetup.com/rladies-eskisehir/",2019-11-13,12,0,"public",2021-03-25
 "856","R-Ladies Lagos","Lagos","Nigeria","Africa",297,"https://www.meetup.com/rladies-lagos/",2019-08-16,3,0,"public",2020-02-22
 "857","R-Ladies Nelson","Nelson","New Zealand","Australia",16,"https://www.meetup.com/rladies-nelson/",2019-03-23,0,0,"public",1970-01-01
-"858","R-Ladies Medellín","Medellín","Colombia","Latin America",516,"https://www.meetup.com/rladies-medellin/",2019-09-28,6,0,"public",2021-03-24
+"858","R-Ladies Medellín","Medellín","Colombia","Latin America",517,"https://www.meetup.com/rladies-medellin/",2019-09-28,6,0,"public",2021-03-24
 "859","R-Ladies Floripa","Florianópolis","Brazil","Latin America",446,"https://www.meetup.com/rladies-florianopolis/",2019-04-07,8,0,"public",2020-02-19
 "860","R-Ladies Galapagos Islands","Puerto Ayora","Ecuador","Pacific/Galapagos",240,"https://www.meetup.com/rladies-galapagos-islands/",2020-01-12,12,0,"public",2021-02-19
 "861","R-Ladies Pachuca","Pachuca","Mexico","Latin America",15,"https://www.meetup.com/rladies-pachuca/",2019-09-15,0,0,"public",1970-01-01
@@ -864,11 +864,11 @@
 "863","R-Ladies Athens Greece","Athens","Greece","Europe",7,"https://www.meetup.com/rladies-athens-gr/",2021-03-21,0,0,"public",1970-01-01
 "864","R-Ladies Thessaloníki","Thessaloníki","Greece","Europe",7,"https://www.meetup.com/rladies-thessaloniki/",2021-03-21,0,0,"public",1970-01-01
 "865","R-Ladies Izmir","Izmir","Turkey","Europe",6,"https://www.meetup.com/rladies-izmir/",2021-02-12,0,0,"public",1970-01-01
-"866","R-Ladies Göttingen","Göttingen","Germany","Europe",2,"https://www.meetup.com/rladies-gottingen/",2021-03-27,0,0,"public",1970-01-01
+"866","R-Ladies Göttingen","Göttingen","Germany","Europe",3,"https://www.meetup.com/rladies-gottingen/",2021-03-27,0,0,"public",1970-01-01
 "867","R-Ladies Asunción","Asunción","Paraguay","Latin America",73,"https://www.meetup.com/rladies-asuncion/",2020-07-03,1,0,"public",2020-07-11
-"868","R-Ladies Bangalore","Bangalore","India","Asia",122,"https://www.meetup.com/rladies-bangalore/",2020-08-12,7,0,"public",2021-02-20
+"868","R-Ladies Bangalore","Bangalore","India","Asia",123,"https://www.meetup.com/rladies-bangalore/",2020-08-12,7,0,"public",2021-02-20
 "869","R-Ladies Barranquilla","Barranquilla","Colombia","Latin America",217,"https://www.meetup.com/rladies-barranquilla/",2020-05-02,5,0,"public",2020-11-14
-"870","R-Ladies Tunis","Tunis","Tunisia","Africa",733,"https://www.meetup.com/rladies-tunis/",2020-05-15,29,2,"public",2021-03-26
+"870","R-Ladies Tunis","Tunis","Tunisia","Africa",735,"https://www.meetup.com/rladies-tunis/",2020-05-15,29,2,"public",2021-03-26
 "871","R-Ladies Algiers","al-Jaza´ir","Algeria","Africa",152,"https://www.meetup.com/rladies-algiers/",2020-05-02,3,0,"public",2020-11-24
 "872","R-Ladies Natal","Natal","Brazil","Latin America",349,"https://www.meetup.com/rladies-natal/",2020-06-07,6,0,"public",2020-10-09
 "873","R-Ladies Curitiba","Curitiba","Brazil","Latin America",54,"https://www.meetup.com/rladies-curitiba/",2020-06-12,3,0,"public",2020-12-01
@@ -877,15 +877,14 @@
 "876","R-Ladies Kuala Lumpur","Kuala Lumpur","Malaysia","Asia",12,"https://www.meetup.com/rladies-kuala-lumpur/",2020-11-23,0,0,"public",1970-01-01
 "877","R-Ladies Ha Noi","Ha Noi","Vietnam","Asia",42,"https://www.meetup.com/rladies-ha-noi/",2020-02-16,0,0,"public",1970-01-01
 "878","R-Ladies Aguascalientes","Aguascalientes","Mexico","Latin America",316,"https://www.meetup.com/rladies-aguascalientes/",2020-02-22,5,0,"public",2020-11-24
-"879","R-Ladies Glasgow","Glasgow","United Kingdom","Europe",51,"https://www.meetup.com/rladies-glasgow/",2020-06-24,2,0,"public",2021-03-12
+"879","R-Ladies Glasgow","Glasgow","United Kingdom","Europe",52,"https://www.meetup.com/rladies-glasgow/",2020-06-24,2,0,"public",2021-03-12
 "880","R-Ladies Fortaleza","Fortaleza","Brazil","Latin America",106,"https://www.meetup.com/rladies-fortaleza/",2020-06-09,2,0,"public",2020-12-12
-"881","R-Ladies Saudi Arabia (Dammam)","Dammam","Saudi Arabia","Asia",200,"https://www.meetup.com/rladies-dammam/",2020-11-20,3,0,"public",2021-02-13
+"881","R-Ladies Saudi Arabia (Dammam)","Dammam","Saudi Arabia","Asia",202,"https://www.meetup.com/rladies-dammam/",2020-11-20,3,0,"public",2021-02-13
 "882","R-Ladies Brasília","Brasília","Brazil","Latin America",7,"https://www.meetup.com/rladies-brasilia/",2021-03-21,0,0,"public",1970-01-01
 "883","R-Ladies Cordoba","Córdoba","Argentina","Latin America",32,"https://www.meetup.com/rladies-cordoba/",2020-05-14,3,0,"public",2020-12-07
 "884","R-Ladies General Pico","General Pico","Argentina","Latin America",63,"https://www.meetup.com/rladies-general-pico/",2020-03-14,5,0,"public",2020-10-03
 "885","R-Ladies Tijuana","Tijuana","Mexico","Latin America",48,"https://www.meetup.com/rladies-tijuana/",2020-08-24,2,0,"public",2020-09-25
-"886","R-Ladies Concepción","Concepción","Chile","Latin America",518,"https://www.meetup.com/rladies-concepcion/",2019-04-16,32,0,"public",2021-03-19
+"886","R-Ladies Concepción","Concepción","Chile","Latin America",519,"https://www.meetup.com/rladies-concepcion/",2019-04-16,32,0,"public",2021-03-19
 "887","R-Ladies Guadalajara","Guadalajara","Mexico","Latin America",651,"https://www.meetup.com/rladies-guadalajara/",2020-08-15,5,0,"public",2021-03-26
 "888","R-Ladies Talca","Talca","Chile","Latin America",157,"https://www.meetup.com/rladies-talca/",2020-05-14,7,0,"public",2021-03-19
 "889","R-Ladies Bogotá","Bogotá","Colombia","Latin America",296,"https://www.meetup.com/rladies-bogota/",2017-09-22,8,0,"public",2021-03-17
-"890","Deadly Divas-Bend's True Crime Book Club for Ladies","Bend","USA","US/Canada",125,"https://www.meetup.com/Deadly-Divas-Bends-True-Crime-Book-Club-for-Ladies/",2019-08-11,23,1,"public_limited",2021-03-16
